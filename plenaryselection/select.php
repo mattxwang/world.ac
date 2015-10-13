@@ -1,0 +1,1 @@
+WAC plenary selections are now closed.

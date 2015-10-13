@@ -1,0 +1,164 @@
+/* WOOT CSS */
+
+@font-face{
+	font-family:DIN;
+	src:url(DIN/DIN-Regular.ttf);
+}
+@font-face{
+	font-family:DIN;
+	font-weight:bold;
+	src:url(DIN/DIN-Bold.ttf);
+}
+@font-face{
+	font-family:DIN;
+	font-weight:lighter;
+	src:url(DIN/DIN-Light.ttf);
+}
+
+@font-face{
+	font-family:Blanch;
+	font-weight:bold;
+	src:url(blanch/BLANCH_CAPS.otf);
+}
+@font-face{
+	font-family:Blanch;
+	src:url(blanch/BLANCH_CAPS_LIGHT.otf);
+}
+
+html{
+	min-height:100%;
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+body{
+	font-family:DIN;
+	min-height:100%;
+	margin:0px;
+	background-color:#2a262a;
+}
+input{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+span{
+	display:inline-block;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#bg_stars, #bg_earth{
+	position:absolute;
+	overflow:hidden;
+	left:0px; top:0px;
+	width:100%;
+	height:100%;
+}
+#bg_stars {
+	position:fixed;
+}
+#bg_stars>div{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+    background-size:cover;
+	background-repeat:repeat-y !important;
+	background-image:url(../img/stars.png);
+}
+#bg_earth{
+	background-image:url(../img/earth.png);
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+.menu_button_box{
+	text-align: center;
+	white-space:nowrap;
+	padding:20px;
+	font-weight:lighter;
+	font-size:14px;
+	position:relative;
+	border-left:#CCC solid 1px;
+}
+.menu_button_box>span{
+	-webkit-transition:all 0.1s ease-out;
+	-moz-transition:all 0.1s ease-out;
+	-o-transition:all 0.1s ease-out;
+	transition:all 0.1s ease-out;
+	opacity:0;
+}
+.menu_button_box:hover>span{
+	opacity:1;
+}
+.menu_button_box:hover>.menu_button_link{
+	color:#333;
+}
+.menu_button_link{
+	text-decoration: none;
+	color: #808080;
+	text-align: center;
+    /* Fade In Button Effects */
+    -o-transition:color .2s ease-out;
+    -ms-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -webkit-transition:color .2s ease-out;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out;
+}
+/*.menu_button_link:hover{
+	color: #B9C4C4;
+}*/
+.button_top{
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+	cursor:pointer;
+}
+.button_top:hover{
+	top:-2px;
+}
+.button_top:active{
+	top:3px;
+}
+.footer{
+	display:table-cell;
+	border-left:#333 solid 1px;
+	padding:30px;
+}
+.footer>a{
+	-webkit-transition:0.2s all ease-in-out;
+	-moz-transition:0.2s all ease-in-out;
+	-o-transition:0.2s all ease-in-out;
+	transition:0.2s all ease-in-out;
+	opacity:0.4;
+}
+.footer:hover>a{
+	opacity:1;
+}
+
+.left_speech_bubble_triangle{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #ffffff transparent transparent;
+	line-height: 0px;
+	_border-color: #000000 #ffffff #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.right_speech_bubble_triangle{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #2bb3b2;
+	line-height: 0px;
+	_border-color: #000000 #000000 #000000 #2bb3b2;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
