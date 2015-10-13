@@ -113,7 +113,7 @@ hr {
 		<td class="menu_button_box" style="color:#808080; font-weight:bold;">FAQ<span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#53b5b4; height:3px; opacity:1;" class="border_bottom"></span>
 		</td>
 		<td style="width:100%;"></td>
-		<td class="menu_button_box"><img height=40px src="img/ucc.png" /></td>
+		<td class="menu_button_box"><a href="http://www.ucc.on.ca"><img height=40px src="img/ucc.png" /></a><a href="http://www.branksome.on.ca/"><img height=40px src="img/bh.png" /></a></td>
 		<td class="menu_button_box">
 			<span style="position:relative; opacity:1;">
 				<span style="position:absolute; bottom:-3px; left:0px; height:10px; background-color:#4c9190; width:100%;"></span>

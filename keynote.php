@@ -50,7 +50,7 @@ include_once("../includes/sql.php");
 		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">SCHEDULE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>	
 		<td class="menu_button_box"><a class="menu_button_link" href="faq.php">FAQ</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
 		<td style="width:100%;"></td>
-		<td class="menu_button_box"><img height=40px src="img/ucc.png" /></td>
+		<td class="menu_button_box"><a href="http://www.ucc.on.ca"><img height=40px src="img/ucc.png" /></a><a href="http://www.branksome.on.ca/"><img height=40px src="img/bh.png" /></a></td>
 		<td class="menu_button_box">
 			<span style="position:relative; opacity:1;">
 				<span style="position:absolute; bottom:-3px; left:0px; height:10px; background-color:#4c9190; width:100%;"></span>
