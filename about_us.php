@@ -13,9 +13,13 @@ include_once("../includes/sql.php");
 <!-- || Page Head || -->
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-	<title>Page Under Construction</title>
-	<link rel="stylesheet" href="css/base.css" />
+	<title>About Us</title>
 	<link rel="icon" href="css/favicon.ico" />
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" />
+	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript">
 	window.onload=function() {
@@ -58,46 +62,45 @@ include_once("../includes/sql.php");
 	</tr>
 </table> 
 
-<!-- | Page Content | -->
 
-<!-- Page Title Section -->
-<center>
-<table style="width:100%; margin-top:10px; border-collapse:collapse; width:70%; margin-top:15px;" cellpadding="0" cellspacing="0">
-<tr><!-- Main Page Title Ribbon Row -->
-<td style="background-image:url(img/left_edge.png); background-repeat:y-repeat; width:10px;"></td><!-- Left Nub -->
-<td style="text-align:center;font-size:42px; color:#ffffff; font-weight:bold; background-color:#43b4b3; padding:10px 0 10px 0;">THIS PAGE IS STILL UNDER CONSTRUCTION</td><!-- Title Content Nub/Section -->
-<td style="background-image:url(img/right_edge.png); background-repeat:y-repeat; width:10px;"></td><!-- Right Nub -->
-</tr>
-<tr><!-- Date Info Row -->
-<td></td>
-<!--
-<td style="text-align:center;">
-	<span style="position:relative;">
-		<div style="width:100%; background-color:rgba(0,0,0,0.2); height:4px; position:absolute; top:0px; left:0px;"></div>
-		<span style="text-align:center;color:#ffffff; background-color:#43908f; padding:10px;">
-			Please check back later!
-		</span>
-		<div style="background-image:url(img/ribbon_tail_dark.png); height:10px;">&nbsp;</div>
-	</span>
-</td>
--->
-<td></td>
-</tr>
-</table>
-</center>
-<br />
-
-<div style="text-align: center"><img src="/img/construction-sign.png" width="165" /></div>
-
-<!-- Big Test Info Section -->
-<div style="text-align:center;font-size:24px;color:#ffffff;padding:35px;">
-Hello there. We're still in the process of developing and creating the World Affairs Conference, and its website. Check back in a few weeks, and we'll have more content.
+<!-- Content -->
+<div style="padding:35px; text-align:center; color:#ffffff;">
+WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. Our goal is to provide over eight hundred students with current affairs knowledge, and a positive experience.
+</br>
+This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 </div>
-<br />
+<div style="font-family:Nexa Bold; text-align:center; color:#ffffff;">
+<h2>Meet the WAC Team</h2>
+</div>
+</br>
+<div id="carousel-example-generic" class="carousel-mod carousel slide" data-ride="carousel">
+	        <ol class="carousel-indicators">
+	          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	        </ol>
+	        <div class="carousel-mod carousel-inner" role="listbox">
+	          <div class="carousel-mod item active">
+	            <img src="/img/bio/mwang.png" alt="Matthew Wang">
+	          </div>
+	          <div class="carousel-mod item">
+	            <img src="slide2.png" alt="Second slide">
+	          </div>
+	          <div class="carousel-mod item">
+	            <img src="slide3.png" alt="Third slide">
+	          </div>
+	        </div>
+	        <a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	          <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="carousel-mod right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	          <span class="sr-only">Next</span>
+	        </a>
+	      </div>
+</br>
 
-<!-- Info to Come -->
-<!-- <center><span style="text-align:CENTER;font-size:30px;color:#ffffff;padding:35px;background-color:#6CCA67; margin-bottom:100px;">MORE INFORMATION TO COME</span></center>
--->
 </br>
 </br>
 </br>
