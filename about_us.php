@@ -73,7 +73,8 @@ This kind of work doesn't appear out of thin air: we have many students working 
 <h2>Meet the WAC Team</h2>
 </div>
 </br>
-<div id="carousel-example-generic" class="carousel-mod carousel slide" data-ride="carousel">
+<div align="middle">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	        <ol class="carousel-indicators">
 	          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 	          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -84,10 +85,10 @@ This kind of work doesn't appear out of thin air: we have many students working 
 	            <img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
 	          <div class="carousel-mod item">
-	            <img src="slide2.png" alt="Second slide">
+	            <img src="/img/bio/mwang.png" alt="Second slide">
 	          </div>
 	          <div class="carousel-mod item">
-	            <img src="slide3.png" alt="Third slide">
+	            <img src="/img/bio/mwang.png" alt="Third slide">
 	          </div>
 	        </div>
 	        <a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -99,6 +100,7 @@ This kind of work doesn't appear out of thin air: we have many students working 
 	          <span class="sr-only">Next</span>
 	        </a>
 	      </div>
+	  </div>
 </br>
 
 </br>
