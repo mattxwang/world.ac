@@ -13,6 +13,8 @@ include_once("../includes/sql.php");
 <!-- || Page Head || -->
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Upper Canada Robotics Club">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 	<title>About Us</title>
 	<link rel="icon" href="css/favicon.ico" />
