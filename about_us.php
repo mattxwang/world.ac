@@ -19,6 +19,7 @@ include_once("../includes/sql.php");
 	<title>About Us</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
+	<link href="css/glyphicons/glyphicons-halflings-regular.ttf" rel="font">
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
