@@ -166,12 +166,12 @@ elseif($rando == 2){
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">WAC Team</a></li>
-        <li><a href="#">Plenaries</a></li>
-        <li><a href="#">Registration</a></li>
+        <li><a href="#">WAC TEAM</a></li>
+        <li><a href="#">PLENARIES</a></li>
+        <li><a href="#">REGISTER</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <p class="navbar-text">WAC TEAM</p>
+        <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></p>
       </ul>
      </div>
  </div>
