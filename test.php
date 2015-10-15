@@ -70,7 +70,7 @@ include_once("../includes/sql.php");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="img/logo_bg.png" alt = "World Affairs Conference" height="40px"></img></a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo_bg.png" alt = "World Affairs Conference" height="30px"></img></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
