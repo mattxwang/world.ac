@@ -131,7 +131,6 @@ WAC is a student-run organisation that spans two schools, one hundred students, 
 This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 
 <h2>We'd Like to Thank:</h2>
-</br>
 <h3>Last Year's Website Team</h3>
 Nick Elder, Derek Lam, Kinton Cheung
 </br>
