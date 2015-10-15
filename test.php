@@ -35,6 +35,10 @@ include_once("../includes/sql.php");
 	.body { 
 		padding-bottom: 70px; 
 	}
+	.navbar-footer{
+		color: #1D1A1D;
+		background-color: transparent;
+	}
 	</style>
 </head>
 
