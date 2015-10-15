@@ -76,7 +76,7 @@ include_once("../includes/sql.php");
   </div>
 </nav>
 
-<div class="starter-template">
+<div style="padding:35px; text-align:center; color:#ffffff;">
 				<h1>Contact Us</h1>
 				<p class="lead">
 					<b>Website Design:</b></br>
