@@ -153,7 +153,7 @@ elseif($rando == 2){
 		
 		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
 </div>
-<nav class="navbar navbar-default navbar-fixed-bottom">
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -168,6 +168,10 @@ elseif($rando == 2){
       <ul class="nav navbar-nav">
         <li><a href="#">WAC Team</a></li>
         <li><a href="#">Plenaries</a></li>
+        <li><a href="#">Registration</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <p class="navbar-text">WAC TEAM</p>
       </ul>
      </div>
  </div>
