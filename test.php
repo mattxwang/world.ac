@@ -38,6 +38,9 @@ include_once("../includes/sql.php");
 	.navbar-footer{
 		color: #1D1A1D;
 		background-color: transparent;
+		background-color:rgba(0,0,0,0.3); 
+		color:#FFF; 
+		white-space:nowrap;
 	}
 	</style>
 </head>
