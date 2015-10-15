@@ -68,7 +68,7 @@ include_once("../includes/sql.php");
           <ul class="dropdown-menu">
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="about_us.php">Meet the Team</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
             <!--
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>

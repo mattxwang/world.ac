@@ -79,6 +79,9 @@ include_once("../includes/sql.php");
 <div style="padding:35px; text-align:center; color:#ffffff;">
 				<h1>Contact Us</h1>
 				<p class="lead">
+					<b>Conference Chairs:</b></br>
+					Logan Ye (Head of Registration, UCC, <a href="mailto:logan.ye@ucc.on.ca">logan.ye@ucc.on.ca</a>)</br>
+					Nikhil Kassum (Head of Registration, UCC, <a href="mailto:nikhil.kassume@ucc.on.ca">nikhil.kassum@ucc.on.ca</a>)</br>
 					<b>Registration:</b></br>
 					Emmanuel Wong (Head of Registration, UCC, <a href="mailto:emmanuel.wong@ucc.on.ca">emmanuel.wong@ucc.on.ca</a>)</br>
 					<b>Operations:</b></br>
