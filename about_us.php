@@ -90,9 +90,6 @@ include_once("../includes/sql.php");
   </div>
 </nav>
 
-</br>
-</br>
-
 
 <!-- Content -->
 <div style="padding:35px; text-align:center; color:#ffffff;">
