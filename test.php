@@ -70,7 +70,7 @@ include_once("../includes/sql.php");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="img/logo_bg.png" alt = "World Affairs Conference" height="30px"></img></a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="30px"></img></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -111,6 +111,23 @@ include_once("../includes/sql.php");
 </br>
 </br>
 
+<div>&nbsp;</div>
+<div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
+		<span class="footer" style="border-left:none;">
+			<a href="about_us.php>
+				ABOUT US
+			</a>
+		</span>
+		<span class="footer">
+			<a href="construction.php">
+				PLENARIES
+			</a>
+		</span>
+		<span class="footer">
+			<a href="construction.php">
+				REGISTER
+			</a>
+		</span>
 
 
 <?php include_once("tracking.php") ?>
@@ -147,7 +164,7 @@ elseif($rando == 2){
 ?>
 		
 		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
-
+</div>
 
 <!-- Bootstrap core JavaScript
 		================================================== -->
