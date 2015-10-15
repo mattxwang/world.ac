@@ -77,6 +77,7 @@ include_once("../includes/sql.php");
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Registration</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -84,6 +85,7 @@ include_once("../includes/sql.php");
             <li><a href="#">Morning Panel</a></li>
             <li><a href="#">Plenaries</a></li>
             <li><a href="#">Closing Panel</a></li>
+            <li><a href="#">Schedule</a></li>
             <!--
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -93,12 +95,13 @@ include_once("../includes/sql.php");
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About WAC <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Keynote Address</a></li>
+            <li><a href="#">FAQ</a></li>
             <li><a href="#">Morning Panel</a></li>
             <li><a href="#">Plenaries</a></li>
             <li><a href="#">Closing Panel</a></li>
+            <li><a href="#">Schedule</a></li>
             <!--
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
