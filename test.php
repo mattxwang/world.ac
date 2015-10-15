@@ -35,31 +35,6 @@ include_once("../includes/sql.php");
 
 <!-- || Main Page Content || -->
 <body style="position:relative;">
-	<!--
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-			
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.php"><img src="img/logo_bg.png"></img></a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.php">Home</a></li>
-						<li><a href="about.html">Keynote</a></li>
-						<li><a href="workshops.html">Workshops</a></li>
-						<li><a href="resources.html">Resources</a></li>
-						<li><a href="contactus.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	-->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -70,13 +45,13 @@ include_once("../includes/sql.php");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="30px"></img></a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Registration</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
@@ -92,7 +67,7 @@ include_once("../includes/sql.php");
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About WAC <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="faq.php">FAQ</a></li>
-            <li><a href="#">Meet the Team</a></li>
+            <li><a href="about_us.php">Meet the Team</a></li>
             <li><a href="#">Contact Us</a></li>
             <!--
             <li role="separator" class="divider"></li>
@@ -103,8 +78,8 @@ include_once("../includes/sql.php");
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 
 </br>
