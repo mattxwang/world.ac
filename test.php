@@ -82,7 +82,7 @@ include_once("../includes/sql.php");
   </div>
 </nav>
 
-
+<div style"padding:35px; text-align:center; color:#ffffff;">
 <ul class="nav nav-pills nav-stacked">
   <li role="presentation" class="active"><a href="#">FAQ Home</a></li>
   <li role="presentation"><a href="#">General</a></li>
@@ -93,7 +93,7 @@ include_once("../includes/sql.php");
 </br>
 </br>
 </br>
-
+</div>
 <div>&nbsp;</div>
 <div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
 		<span class="footer" style="border-left:none;">
