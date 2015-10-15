@@ -139,11 +139,11 @@ This kind of work doesn't appear out of thin air: we have many students working 
 <h2>We'd Like to Thank:</h2>
 </br>
 <h3>Last Year's Website Team</h3>
-</br>
 Nick Elder, Derek Lam, Kinton Cheung
 </br>
 <h3>Website Consultants</h3>
-Alex Roberts, John Mace, Camran Hansen, Kevin Olds, Evan Boeckh, Aidan Harradence
+Evan Boeckh, Camran Hansen, Aidan Harradence, John Mace, Zack Nathan, Kevin Olds, Alex Roberts
+
 </br>
 </br>
 </br>
