@@ -89,7 +89,7 @@ This kind of work doesn't appear out of thin air: we have many students working 
 	            <img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
 	          <div class="carousel-mod item">
-	            <img src="/img/bio/mwang.png" alt="Second slide">
+	            <img src="/img/bio/jsarick.png" alt="Second slide">
 	          </div>
 	          <div class="carousel-mod item">
 	            <img src="/img/bio/mwang.png" alt="Third slide">
