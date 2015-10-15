@@ -226,7 +226,7 @@ hr {
 	</div><br />
 	<div id = "media">
 		<span class="header">Media information</span><br>
-		<span class="text">For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmaneul Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a></span>
+		<span class="text">For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmanuel Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a></span>
 	</div>
 
 <br><br><div class = "sectionhead">Registration</div><hr>
