@@ -157,7 +157,7 @@ elseif($rando == 2){
 		
 		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
 </div>
-<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
