@@ -16,7 +16,7 @@ include_once("../includes/sql.php");
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Upper Canada Robotics Club">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-	<title>About Us</title>
+	<title>Meet the WAC Team</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
 	<link href="css/glyphicons/glyphicons-halflings-regular.ttf" rel="font">
@@ -43,28 +43,55 @@ include_once("../includes/sql.php");
 <?php include_once("tracking.php") ?>
 <!-- | Menu Bar (Construction) | -->
 
-<table style="background-color:#fff; border-collapse:collapse;" cellpadding="0" cellspacing="0">
-	<tr>
-		<td class="menu_button_box" width=200px style="width:15%;padding:10px;padding-right:6px;">
-			<a href="./"><img src="img/logo.png" height="50"/></a>
-		</td>
-		<td class="menu_button_box"><a class="menu_button_link" href="index.php">HOME</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="keynote.php">KEYNOTE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">MORNING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">CLOSING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">PLENARIES</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">SCHEDULE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>	
-		<td class="menu_button_box"><a class="menu_button_link" href="faq.php">FAQ</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td style="width:100%;"></td>
-		<td class="menu_button_box"><a href="http://www.ucc.on.ca"><img height=40px src="img/ucc.png" /></a><a href="http://www.branksome.on.ca/"><img height=40px src="img/bh.png" /></a></td>
-		<td class="menu_button_box">
-			<span style="position:relative; opacity:1;">
-				<span style="position:absolute; bottom:-3px; left:0px; height:10px; background-color:#4c9190; width:100%;"></span>
-				<a href="construction.php"><span style="background-color:#53b5b4; padding:10px; color:#FFF; position:relative;" class="button_top">REGISTER</span></a>
-			</span>
-		</td>
-	</tr>
-</table> 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Registration</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="keynote.php">Keynote Address</a></li>
+            <li><a href="#">Morning Panel</a></li>
+            <li><a href="#">Plenaries</a></li>
+            <li><a href="#">Closing Panel</a></li>
+            <li><a href="#">Schedule</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About WAC <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="about_us.php">Meet the Team</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!--
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+        	-->
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</br>
+</br>
 
 
 <!-- Content -->
@@ -107,6 +134,16 @@ This kind of work doesn't appear out of thin air: we have many students working 
 	  </div>
 </br>
 
+<div style="padding:35px; text-align:center; color:#ffffff;">
+
+<h2>We'd Like to Thank:</h2>
+</br>
+<h3>Last Year's Website Team</h3>
+</br>
+Nick Elder, Derek Lam, Kinton Cheung
+</br>
+<h3>Website Consultants</h3>
+Alex Roberts, John Mace, Camran Hansen, Kevin Olds, Evan Boeckh, Aidan Harradence
 </br>
 </br>
 </br>
