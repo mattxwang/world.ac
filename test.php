@@ -93,7 +93,7 @@ include_once("../includes/sql.php");
     </div>
   </div>
 </nav>
-
+<!--
 <div style"padding:35px; text-align:center; color:#ffffff;">
 <ul class="nav nav-pills nav-stacked">
   <li role="presentation" class="active"><a href="#">FAQ Home</a></li>
@@ -124,7 +124,7 @@ include_once("../includes/sql.php");
 			</a>
 		</span>
 
-
+-->
 <?php include_once("tracking.php") ?>
 <!-- | Menu Bar (Construction) | -->
 
@@ -158,10 +158,12 @@ elseif($rando == 2){
 
 ?>
 		
+<!--		
 		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
 </div>
+-->
 <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer">
-  <div class="container-fluid">
+  <div class="container-fluid navbar-footer">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
