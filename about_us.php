@@ -92,11 +92,6 @@ include_once("../includes/sql.php");
 
 
 <!-- Content -->
-<div style="padding:35px; text-align:center; color:#ffffff;">
-WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. Our goal is to provide over eight hundred students with current affairs knowledge, and a positive experience.
-</br>
-This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
-</div>
 <div style="font-family:Nexa Bold; text-align:center; color:#ffffff;">
 <h2>Meet the WAC Team</h2>
 </div>
@@ -130,8 +125,10 @@ This kind of work doesn't appear out of thin air: we have many students working 
 	      </div>
 	  </div>
 </br>
-
 <div style="padding:35px; text-align:center; color:#ffffff;">
+WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. Our goal is to provide over eight hundred students with current affairs knowledge, and a positive experience.
+</br>
+This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 
 <h2>We'd Like to Thank:</h2>
 </br>
