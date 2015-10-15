@@ -171,7 +171,7 @@ elseif($rando == 2){
         <li><a href="#">REGISTER</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></p>
+        <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team: <?php echo $teamNames; ?></br>With help from last year's team: <?php echo $lteamNames; ?></p>
       </ul>
      </div>
  </div>
