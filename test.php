@@ -83,10 +83,12 @@ include_once("../includes/sql.php");
 </nav>
 
 
-<ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
-  <li role="presentation"><a href="#">Messages</a></li>
+<ul class="nav nav-pills nav-stacked">
+  <li role="presentation" class="active"><a href="#">FAQ Home</a></li>
+  <li role="presentation"><a href="#">General</a></li>
+  <li role="presentation"><a href="#">Registration</a></li>
+  <li role="presentation"><a href="#">Conference Day</a></li>
+  <li role="presentation"><a href="#">Contact</a></li>
 </ul>
 </br>
 </br>
