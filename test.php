@@ -31,6 +31,11 @@ include_once("../includes/sql.php");
 		})
 	}
 	</script>
+	<style>
+	.body { 
+		padding-bottom: 70px; 
+	}
+	</style>
 </head>
 
 <!-- || Main Page Content || -->
@@ -98,7 +103,7 @@ include_once("../includes/sql.php");
 <div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
 		<span class="footer" style="border-left:none;">
 			<a href="about_us.php">
-				ABOUT US
+				WAC TEAM
 			</a>
 		</span>
 		<span class="footer">
@@ -148,6 +153,25 @@ elseif($rando == 2){
 		
 		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
 </div>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">WAC Team</a></li>
+        <li><a href="#">Plenaries</a></li>
+      </ul>
+     </div>
+ </div>
+</nav>
 
 <!-- Bootstrap core JavaScript
 		================================================== -->

@@ -102,7 +102,7 @@ include_once("../includes/sql.php");
 <div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
 		<span class="footer" style="border-left:none;">
 			<a href="about_us.php">
-				ABOUT US
+				WAC TEAM
 			</a>
 		</span>
 		<span class="footer">
