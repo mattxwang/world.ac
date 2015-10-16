@@ -37,16 +37,20 @@ include_once("../includes/sql.php");
 	}
 	.a:link {
 	    color: #FFFFFF;
+	    text-decoration: none;
 	}
 	.a:visited {
 	    color: #FFFFFF;
+	    text-decoration: none;
 	}
 
 	.a:hover {
 	    color: #FFFFFF;
+	    text-decoration: none;
 	}
 	.a:active {
 	    color: #FFFFFF;
+	    text-decoration: none;
 	}
 	
 	.navbar-footer{
@@ -95,7 +99,7 @@ include_once("../includes/sql.php");
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      	<li><button type="button" class="btn btn-primary navbar-btn"><a href="#">Registration</a></button></li>
+      	<li><button type="button" class="a btn btn-primary navbar-btn"><a href="#">Registration</a></button></li>
       </ul>
     </div>
   </div>
