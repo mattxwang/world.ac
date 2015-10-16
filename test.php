@@ -35,9 +35,10 @@ include_once("../includes/sql.php");
 	.body { 
 		padding-bottom: 70px; 
 	}
+	.a{
+		color:#FFFFFF;
+	}
 	.navbar-footer{
-		color: #1D1A1D;
-		background-color: transparent;
 		background-color:rgba(0,0,0,0.3); 
 		color:#FFF; 
 		white-space:nowrap;
@@ -81,14 +82,11 @@ include_once("../includes/sql.php");
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="about_us.php">Meet the Team</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
-            <!--
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-        	-->
           </ul>
         </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      	<li><button type="button" class="btn btn-default navbar-btn"><a href="#">Registration</a></button></li>
       </ul>
     </div>
   </div>
