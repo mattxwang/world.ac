@@ -37,6 +37,20 @@ include_once("../includes/sql.php");
 	}
 	.a{
 		color:#FFFFFF;
+
+	}
+	.a:link {
+    color: #FFFFFF;
+	}
+	.a:visited {
+	    color: #FFFFFF;
+	}
+
+	.a:hover {
+	    color: #FFFFFF;
+	}
+	.a:active {
+	    color: #FFFFFF;
 	}
 	.navbar-footer{
 		background-color:rgba(0,0,0,0.3); 
