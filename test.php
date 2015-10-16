@@ -50,7 +50,6 @@ include_once("../includes/sql.php");
 <body style="position:relative;">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -61,7 +60,6 @@ include_once("../includes/sql.php");
       <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
@@ -91,36 +89,6 @@ include_once("../includes/sql.php");
     </div>
   </div>
 </nav>
-<!--
-<div style"padding:35px; text-align:center; color:#ffffff;">
-<ul class="nav nav-pills nav-stacked">
-  <li role="presentation" class="active"><a href="#">FAQ Home</a></li>
-  <li role="presentation"><a href="#">General</a></li>
-  <li role="presentation"><a href="#">Registration</a></li>
-  <li role="presentation"><a href="#">Conference Day</a></li>
-  <li role="presentation"><a href="#">Contact</a></li>
-</ul>
-</br>
-</br>
-</br>
-</div>
-<div>&nbsp;</div>
-<div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
-		<span class="footer" style="border-left:none;">
-			<a href="about_us.php">
-				WAC TEAM
-			</a>
-		</span>
-		<span class="footer">
-			<a href="construction.php">
-				PLENARIES
-			</a>
-		</span>
-		<span class="footer">
-			<a href="construction.php">
-				REGISTER
-			</a>
-		</span>
 
 -->
 <?php include_once("tracking.php") ?>
@@ -155,13 +123,9 @@ elseif($rando == 2){
 }
 
 ?>
-		
-<!--		
-		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
-</div>
--->
+
 <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer">
-  <div class="container-fluid navbar-footer">
+  <div class="container-fluid navbar-footer" style ="text-algin:center;">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -174,7 +138,7 @@ elseif($rando == 2){
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">WAC TEAM</a></li>
+        <li><a href="about_us.php">WAC TEAM</a></li>
         <li><a href="#">PLENARIES</a></li>
         <li><a href="#">REGISTER</a></li>
       </ul>
@@ -185,7 +149,7 @@ elseif($rando == 2){
  </div>
 </nav>
 
-<!-- Bootstrap core JavaScript
+		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
