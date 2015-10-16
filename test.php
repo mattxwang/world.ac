@@ -35,21 +35,20 @@ include_once("../includes/sql.php");
 	.body { 
 		padding-bottom: 70px; 
 	}
-	.a{
-		.a:link {
-		    color: #FFFFFF;
-		}
-		.a:visited {
-		    color: #FFFFFF;
-		}
-
-		.a:hover {
-		    color: #FFFFFF;
-		}
-		.a:active {
-		    color: #FFFFFF;
-		}
+	.a:link {
+	    color: #FFFFFF;
 	}
+	.a:visited {
+	    color: #FFFFFF;
+	}
+
+	.a:hover {
+	    color: #FFFFFF;
+	}
+	.a:active {
+	    color: #FFFFFF;
+	}
+	
 	.navbar-footer{
 		background-color:rgba(0,0,0,0.3); 
 		color:#FFF; 
