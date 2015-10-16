@@ -92,7 +92,7 @@ include_once("../includes/sql.php");
 
 
 <!-- Content -->
-<div style="font-family:Nexa Bold; text-align:center; color:#ffffff;">
+<div style="text-align:center; color:#ffffff;">
 <h2>Meet the WAC Team</h2>
 </div>
 </br>
@@ -108,7 +108,7 @@ include_once("../includes/sql.php");
 	            <img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
 	          <div class="carousel-mod item">
-	            <img src="/img/bio/jsarick.png" alt="Second slide">
+	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
 	          </div>
 	          <div class="carousel-mod item">
 	            <img src="/img/bio/mwang.png" alt="Third slide">
