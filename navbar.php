@@ -1,3 +1,6 @@
+<!-- underline code
+<span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:2px; opacity:1;" class="hidden-xs"></span>
+-->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -16,10 +19,9 @@
         <li><a href="#">Registration</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
-          <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:2px; opacity:1;" class="hidden-xs"></span>
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
-            <li class ="drp-active"><a href="#">Morning Panel</a></li>
+            <li><a href="#">Morning Panel</a></li>
             <li><a href="#">Plenaries</a></li>
             <li><a href="#">Closing Panel</a></li>
             <li><a href="#">Schedule</a></li>

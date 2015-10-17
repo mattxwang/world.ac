@@ -109,6 +109,11 @@ include_once("../includes/sql.php");
 <?php
 include_once('navbar.php');
 ?>
+
+<?php
+include_once("footer.php");
+?>
+<!--
 <?php
 $rando = rand(1,2);
 $randa = rand(1,3);
@@ -141,7 +146,7 @@ elseif($rando == 2){
 
 <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer">
   <div class="container-fluid navbar-footer" style ="text-algin:center;">
-    <!-- Brand and toggle get grouped for better mobile display -->
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -163,7 +168,7 @@ elseif($rando == 2){
      </div>
  </div>
 </nav>
-
+-->
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
