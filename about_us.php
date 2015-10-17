@@ -25,7 +25,7 @@ include_once("../includes/sql.php");
 	<link href="css/custom.css" rel="stylesheet">
 	<style>
 	.bg-web{
-		background-color:#DB0C0A;
+		background-color:#DB0C09;
 	}
 	.bg-chairs{
 		background-color:#2A99D6;

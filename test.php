@@ -50,6 +50,11 @@ include_once("../includes/sql.php");
 		color:#FFF; 
 		white-space:nowrap;
 	}
+	.reg-button{
+		color: #fff;
+		background-color: #53b5b4;
+		border-color: #53b5b4;
+	}
 	</style>
 </head>
 
