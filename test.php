@@ -55,6 +55,9 @@ include_once("../includes/sql.php");
 		background-color: #53b5b4;
 		border-color: #53b5b4;
 	}
+	.drp-active{
+		background-color:#53b5b4;
+	}
 	</style>
 </head>
 
@@ -81,7 +84,7 @@ include_once("../includes/sql.php");
           <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:2px; opacity:1;" class="hidden-xs"></span>
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
-            <li class ="active"><a href="#">Morning Panel</a></li>
+            <li class ="drp-active"><a href="#">Morning Panel</a></li>
             <li><a href="#">Plenaries</a></li>
             <li><a href="#">Closing Panel</a></li>
             <li><a href="#">Schedule</a></li>
