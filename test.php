@@ -71,7 +71,7 @@ include_once("../includes/sql.php");
         <li><a href="#">Registration</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
-          <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:4px; opacity:1;" class="hidden-xs"></span>
+          <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#49596A; height:4px; opacity:1;" class="hidden-xs"></span> <!-- #53b5b4 -->
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
             <li class ="active"><a href="#">Morning Panel</a></li>
