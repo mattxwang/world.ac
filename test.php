@@ -20,17 +20,7 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript">
-	window.onload=function() {
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$(".border_bottom").remove();
-		}
-		$(".fit_me_height").each(function() {
-			$(this).height($(this.parentNode).innerHeight());
-		})
-	}
-	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<style>
 	.body { 
 		padding-bottom: 70px; 
@@ -99,7 +89,7 @@ include_once("../includes/sql.php");
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      	<li><button type="button" class="btn btn-primary navbar-btn"><a href="#">Registration</a></button></li>
+      	<li><button type="button" class="btn btn-primary navbar-btn"><a href="#">Register</a></button></li>
       </ul>
     </div>
   </div>
@@ -167,7 +157,7 @@ elseif($rando == 2){
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
