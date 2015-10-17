@@ -61,8 +61,8 @@ include_once("../includes/sql.php");
 	</style>
 </head>
 
-<!-- || Main Page Content || -->
 <body style="position:relative;">
+<!--
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -105,7 +105,10 @@ include_once("../includes/sql.php");
     </div>
   </div>
 </nav>
-
+-->
+<?php
+include_once('navbar.php');
+?>
 <?php
 $rando = rand(1,2);
 $randa = rand(1,3);
