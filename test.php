@@ -83,7 +83,7 @@ include_once("../includes/sql.php");
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
-            <li><a href="#">Morning Panel</a></li>
+            <li class ="active"><a href="#">Morning Panel</a></li>
             <li><a href="#">Plenaries</a></li>
             <li><a href="#">Closing Panel</a></li>
             <li><a href="#">Schedule</a></li>
