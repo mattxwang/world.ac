@@ -97,7 +97,7 @@ include_once("../includes/sql.php");
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right hidden-xs">
-      	<li><button type="button" class="btn btn-primary navbar-btn"><a href="#">Register</a></button></li>
+      	<li><button type="button" class="btn navbar-btn reg-button"><a href="#">Register</a></button></li>
       </ul>
     </div>
   </div>
