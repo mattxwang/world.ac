@@ -24,17 +24,12 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript">
-	window.onload=function() {
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$(".border_bottom").remove();
-		}
-		$(".fit_me_height").each(function() {
-			$(this).height($(this.parentNode).innerHeight());
-		})
+	<style>
+	.bg_web{
+		background-color:#DB0C0A;
 	}
-	</script>
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <!-- || Main Page Content || -->
@@ -97,7 +92,7 @@ include_once("../includes/sql.php");
 	        <div class="carousel-mod carousel-inner" role="listbox">
 	          <div class="carousel-mod item active">
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
-	           	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span>
+	           <!--	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span> -->
 	          </div>
 	          <div class="carousel-mod item">
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
