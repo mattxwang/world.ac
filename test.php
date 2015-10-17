@@ -88,7 +88,7 @@ include_once("../includes/sql.php");
           </ul>
         </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right hidden-xs">
       	<li><button type="button" class="btn btn-primary navbar-btn"><a href="#">Register</a></button></li>
       </ul>
     </div>
@@ -141,7 +141,7 @@ elseif($rando == 2){
       </button>
       <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
       <ul class="nav navbar-nav">
         <li><a href="about_us.php">WAC TEAM</a></li>
         <li><a href="#">PLENARIES</a></li>
