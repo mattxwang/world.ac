@@ -79,8 +79,8 @@ include_once("../includes/sql.php");
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Registration</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
+        <li class="dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
             <li><a href="#">Morning Panel</a></li>
