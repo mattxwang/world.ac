@@ -49,6 +49,30 @@ include_once("../includes/sql.php");
 		white-space:nowrap;
 	}
 	</style>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+		if (!window.jQuery) {
+		    document.write('<script src="js/jquery.js"><\/script>');
+		}
+		</script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+		window.onresize = function() {
+			$("#bg_stars").height($(window).outerHeight(true)+$("#second").outerHeight(true));
+				document.getElementById("bg_earth").style.top = (-($(document).scrollTop()/($("body").height()-$(window).height()))*$("#bg_earth").height()*0.08)+"px";
+				//$("#bg_stars>div").css("top", (-($(document).scrollTop()/($("body").height()-$(window).height()))*$("#bg_stars").height()*0.09));
+		}
+		window.onload=function() {
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				$(".navbar_active").remove();
+			}
+			$("#bg_stars").height($(window).outerHeight(true)+$("#second").outerHeight(true));
+			window.onscroll = function() {
+				document.getElementById("bg_earth").style.top = (-($(document).scrollTop()/($(window).height()-$(document).height()))*$("#bg_earth").height()*0.35)+"px";
+				//console.log($("body").height()+"|"+$(document).height());
+				//$("#bg_stars>div").css("top", (-($(document).scrollTop()/($(window).height()-$(document).height()))*$("#bg_stars").height()*0.4));
+			}
+	</script>
 </head>
 
 <!-- || Main Page Content || -->
@@ -71,7 +95,7 @@ include_once("../includes/sql.php");
         <li><a href="#">Registration</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
-          <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:4px; opacity:1;"></span>
+          <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:4px; opacity:1;" class="navbar_active"></span>
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
             <li class ="active"><a href="#">Morning Panel</a></li>
