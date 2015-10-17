@@ -25,7 +25,7 @@ include_once("../includes/sql.php");
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
 	<style>
-	.bg_web{
+	.bg-web{
 		background-color:#DB0C0A;
 	}
 	</style>
@@ -91,7 +91,7 @@ include_once("../includes/sql.php");
 	        </ol>
 	        <div class="carousel-mod carousel-inner" role="listbox">
 	          <div class="carousel-mod item active">
-	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
+	          	<img src="/img/bio/mwang.png" alt="Matthew Wang" class="bg-web">
 	           <!--	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span> -->
 	          </div>
 	          <div class="carousel-mod item">
