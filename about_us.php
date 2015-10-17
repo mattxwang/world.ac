@@ -89,11 +89,6 @@ include_once("../includes/sql.php");
 </br>
 <div align="middle">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	        <ol class="carousel-indicators">
-	          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	        </ol>
 	        <div class="carousel-mod carousel-inner" role="listbox">
 	          <div class="carousel-mod item active bg-web">
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
