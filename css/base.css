@@ -25,6 +25,16 @@
 	src:url(blanch/BLANCH_CAPS_LIGHT.otf);
 }
 
+@font-face{
+	font-family:Nexa;
+	src:url(nexa/nexa_light.otf);
+}
+@font-face{
+	font-family:Nexa;
+	font-weight:bold;
+	src:url(nexa/nexa_bold.otf);
+}
+
 html{
 	min-height:100%;
 }
