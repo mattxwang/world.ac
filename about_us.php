@@ -90,8 +90,8 @@ include_once("../includes/sql.php");
 	          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 	        </ol>
 	        <div class="carousel-mod carousel-inner" role="listbox">
-	          <div class="carousel-mod item active">
-	          	<img src="/img/bio/mwang.png" alt="Matthew Wang" class="bg-web">
+	          <div class="carousel-mod item active bg-web">
+	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
 	           <!--	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span> -->
 	          </div>
 	          <div class="carousel-mod item">
