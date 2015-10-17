@@ -45,7 +45,6 @@ include_once("../includes/sql.php");
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -55,8 +54,6 @@ include_once("../includes/sql.php");
       </button>
       <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
@@ -77,12 +74,6 @@ include_once("../includes/sql.php");
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="about_us.php">Meet the Team</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
-            <!--
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-        	-->
           </ul>
         </li>
       </ul>
@@ -105,6 +96,7 @@ include_once("../includes/sql.php");
 	        </ol>
 	        <div class="carousel-mod carousel-inner" role="listbox">
 	          <div class="carousel-mod item active">
+	           	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span>
 	            <img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
 	          <div class="carousel-mod item">
