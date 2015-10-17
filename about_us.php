@@ -129,49 +129,6 @@ Nick Elder, Derek Lam, Kinton Cheung
 <h3>Website Consultants</h3>
 Aidan Harradence, Alex Roberts, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<div>&nbsp;</div>
-<div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
-		<span class="footer" style="border-left:none;">
-			<a href="http://www.ucc.on.ca">
-				UPPER CANADA COLLEGE
-			</a>
-		</span>
-		<span class="footer">
-			<a href="construction.php">
-				PLENARIES
-			</a>
-		</span>
-		<span class="footer">
-			<a href="construction.php">
-				REGISTER
-			</a>
-		</span>
-
-
 <?php
 $rando = rand(1,2);
 $randa = rand(1,3);
@@ -201,9 +158,31 @@ elseif($rando == 2){
 }
 
 ?>
-		
-		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
-</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer">
+  <div class="container-fluid navbar-footer" style ="text-algin:center;">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
+      <ul class="nav navbar-nav">
+        <li><a href="about_us.php">WAC TEAM</a></li>
+        <li><a href="#">PLENARIES</a></li>
+        <li><a href="#">REGISTER</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team: <?php echo $teamNames; ?></br>With help from last year's team: <?php echo $lteamNames; ?></p>
+      </ul>
+     </div>
+ </div>
+</nav>
 <!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->

@@ -106,10 +106,6 @@ include_once("../includes/sql.php");
   </div>
 </nav>
 
--->
-<?php include_once("tracking.php") ?>
-<!-- | Menu Bar (Construction) | -->
-
 <?php
 $rando = rand(1,2);
 $randa = rand(1,3);
