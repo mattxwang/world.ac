@@ -12,6 +12,9 @@ include_once("../includes/sql.php");
 <html>
 <!-- || Page Head || -->
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 	<title>Page Under Construction</title>
 	<link rel="icon" href="css/favicon.ico" />
@@ -20,7 +23,6 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<style>
 	.body { 
 		padding-bottom: 70px; 

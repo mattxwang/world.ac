@@ -13,13 +13,12 @@ include_once("../includes/sql.php");
 <!-- || Page Head || -->
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Upper Canada Robotics Club">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 	<title>Meet the WAC Team</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
-	<link href="css/glyphicons/glyphicons-halflings-regular.ttf" rel="font">
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -27,6 +26,12 @@ include_once("../includes/sql.php");
 	<style>
 	.bg-web{
 		background-color:#DB0C0A;
+	}
+	.bg-chairs{
+		background-color:#2A99D6;
+	}
+	.bg-heads{
+		background-color:#36CC79;
 	}
 	</style>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -94,7 +99,7 @@ include_once("../includes/sql.php");
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
 	           <!--	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span> -->
 	          </div>
-	          <div class="carousel-mod item">
+	          <div class="carousel-mod item bg-web">
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
 	          </div>
 	          <div class="carousel-mod item">
