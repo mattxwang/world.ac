@@ -12,51 +12,24 @@ include_once("../includes/sql.php");
 <html>
 <!-- || Page Head || -->
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
 	<title>Page Under Construction</title>
-	<link rel="stylesheet" href="css/base.css" />
 	<link rel="icon" href="css/favicon.ico" />
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" />
+	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript">
-	window.onload=function() {
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$(".border_bottom").remove();
-		}
-		$(".fit_me_height").each(function() {
-			$(this).height($(this.parentNode).innerHeight());
-		})
-	}
-	</script>
 </head>
 
 <!-- || Main Page Content || -->
 <body style="position:relative;">
 
 <?php include_once("tracking.php") ?>
-<!-- | Menu Bar (Construction) | -->
-
-<table style="background-color:#fff; border-collapse:collapse;" cellpadding="0" cellspacing="0">
-	<tr>
-		<td class="menu_button_box" width=200px style="width:15%;padding:10px;padding-right:6px;">
-			<a href="./"><img src="img/logo.png" height="50"/></a>
-		</td>
-		<td class="menu_button_box"><a class="menu_button_link" href="index.php">HOME</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="keynote.php">KEYNOTE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">MORNING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">CLOSING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">PLENARIES</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">SCHEDULE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>	
-		<td class="menu_button_box"><a class="menu_button_link" href="faq.php">FAQ</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td style="width:100%;"></td>
-		<td class="menu_button_box"><a href="http://www.ucc.on.ca"><img height=40px src="img/ucc.png" /></a><a href="http://www.branksome.on.ca/"><img height=40px src="img/bh.png" /></a></td>
-		<td class="menu_button_box">
-			<span style="position:relative; opacity:1;">
-				<span style="position:absolute; bottom:-3px; left:0px; height:10px; background-color:#4c9190; width:100%;"></span>
-				<a href="construction.php"><span style="background-color:#53b5b4; padding:10px; color:#FFF; position:relative;" class="button_top">REGISTER</span></a>
-			</span>
-		</td>
-	</tr>
-</table> 
+<?php include_once("navbar.php") ?>
 
 <!-- | Page Content | -->
 
@@ -93,87 +66,16 @@ include_once("../includes/sql.php");
 <div style="text-align:center;font-size:24px;color:#ffffff;padding:35px;">
 Hello there. We're still in the process of developing and creating the World Affairs Conference, and its website. Check back in a few weeks, and we'll have more content.
 </div>
-<br />
-
-<!-- Info to Come -->
-<!-- <center><span style="text-align:CENTER;font-size:30px;color:#ffffff;padding:35px;background-color:#6CCA67; margin-bottom:100px;">MORE INFORMATION TO COME</span></center>
--->
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<div>&nbsp;</div>
-<div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
-		<span class="footer" style="border-left:none;">
-			<a href="http://www.ucc.on.ca">
-				UPPER CANADA COLLEGE
-			</a>
-		</span>
-		<span class="footer">
-			<a href="construction.php">
-				PLENARIES
-			</a>
-		</span>
-		<span class="footer">
-			<a href="construction.php">
-				REGISTER
-			</a>
-		</span>
 
 
 <?php
-$rando = rand(1,2);
-$randa = rand(1,3);
-if($rando == 1){
-	$teamNames = "Jack Sarick, and Matthew Wang";
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-}
-elseif($rando == 2){
-	$teamNames = "Matthew Wang, and Jack Sarick";
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-}
-
+include_once("footer.php")
 ?>
-		
-		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
-</div>
 
-
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
