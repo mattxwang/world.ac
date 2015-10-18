@@ -23,7 +23,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
-	<title>Page Under Construction</title>
+	<title>Home</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
