@@ -465,10 +465,9 @@ include_once("navbar.php")  ?>
 			<div style="border-top:#FFF solid 13px; width:30%; margin:5px 0 9px 0;"></div>
 			-->
 			<div style="text-align:justify; color:#FFF; line-height:180%; font-size:15px; font-weight:300;">The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference. </div>
-			<a href="https://en.wikipedia.org/wiki/World_Affairs_Conference" target="_blank"><span style="position:relative; margin-top:20px; line-height:16px; vertical-align:middle; cursor:pointer;">
-				<span style="background-color:#DEDEDE;" class="under_button round"></span>
-				<span style="background-color:#FFF; color:#53b5b4; font-weight:bold;" class="button round">Learn more about our history</span>
-			</span></a>
+			<a href="https://en.wikipedia.org/wiki/World_Affairs_Conference" target="_blank">
+				<button type="button" class="btn btn-info">Learn more about our history</button>
+			</a>
 		</td>
 		<td style="width:10%; box-sizing:inherit;"></td>
 		<td style="width:40%; text-align:center; box-sizing:inherit;">
@@ -480,55 +479,9 @@ include_once("navbar.php")  ?>
 			</span>
 		</td></tr></table>
 	</div>
-	<div style="background-color:rgba(0,0,0,0.6); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; white-space:nowrap;">
-			<span class="footer" style="border-left:none;">
-				<a href="http://www.ucc.on.ca">
-					UPPER CANADA COLLEGE
-				</a>
-			</span>
-			<span class="footer">
-				<a href="construction.php">
-					PLENARIES
-				</a>
-			</span>
-			<span class="footer">
-				<a href="construction.php">
-					REGISTER
-				</a>
-			</span>
-
 <?php
-$rando = rand(1,2);
-$randa = rand(1,3);
-if($rando == 1){
-	$teamNames = "Jack Sarick, and Matthew Wang";
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-}
-elseif($rando == 2){
-	$teamNames = "Matthew Wang, and Jack Sarick";
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-}
-
+include_once("footer.php")
 ?>
-		
-		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
-	</div>
 </div>
 
 
