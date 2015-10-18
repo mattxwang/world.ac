@@ -479,13 +479,10 @@ include_once("navbar.php")  ?>
 			</span>
 		</td></tr></table>
 	</div>
+	</div>
 <?php
 include_once("footer.php")
 ?>
-</div>
-
-
-
 
 </body>
 </html>
