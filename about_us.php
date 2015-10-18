@@ -53,7 +53,6 @@ include_once("../includes/sql.php");
 	        <div class="carousel-mod carousel-inner" role="listbox">
 	          <div class="carousel-mod item active bg-web">
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
-	           <!--	<span style="position:absolute; bottom:0px; left:0px; width:100%; height:100%; background-color:#DB0C0A; opacity:1;" class="hidden-xs"></span> -->
 	          </div>
 	          <div class="carousel-mod item bg-web">
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">

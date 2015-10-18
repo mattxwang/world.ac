@@ -93,7 +93,7 @@ include_once("../includes/sql.php");
 
 <span style="padding:10px; margin-bottom:100px;">
 
-	<span style="color:#ffffff;font-size:30px;alight:left;padding-bottom:15px;"><b>Have a question about WAC?</b></span><br>
+	<span style="color:#ffffff;font-size:30px;alight:left;padding-bottom:15px;"><b>Have a question about WAC?</b></span></br>
 <div>
 	<table class="tablecontent" style="float:left;">
 		<tr>
@@ -160,72 +160,72 @@ include_once("../includes/sql.php");
 		</tr>
 	</table>
 
-<br><br><br><br><br><br><br><br>
+</br></br></br></br></br></br></br></br>
 
 </div>
 
 
 <div class = "sectionhead">General</div><hr>
 	<div id = "gen_what">
-		<span class="header">What is WAC?</span><br>
+		<span class="header">What is WAC?</span></br>
 		<span class="text"> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 50 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</span>
 	</div>
 	<div id = "gen_date">
-		<span class="header">2016 dates</span><br>
+		<span class="header">2016 dates</span></br>
 		<span class+"text"> We haven't quite decided the exact date of WAC. More information will be known as registration packages get sent out. </span></br>
 		<!--
 		<span class="text"> The 2015 World Affairs Conference (WAC) will be held from <strong>February 2-3 2015 </strong> at Upper Canada College in Toronto, Canada.</span>
 		-->
 	<!--
 	<div id = "gen_hours">
-		<span class="header">Conference hours</span><br>
+		<span class="header">Conference hours</span></br>
 		<span class="text"> Please refer to the <a href="schedule.php">schedule</a> page. </span>
 	</div>
 	-->
 	<div id = "gen_days">
-		<span class="header">Do students attend both days?</span><br>
+		<span class="header">Do students attend both days?</span></br>
 		<span class="text">The first day of the conference consists just of the Lionel Gelber Keynote Address which is hosted in the evening. This event is open to the Toronto community, and anyone is welcome to attend. The second day of the conference begins at 8AM and is attended by only registered student delegates and their faculty supervisors. We do encourage students to attend the Keynote Address if it is of interest to them. It tends to feature a well know speaker of great importance to current affairs.</span>
 	</div><br />
 	<div id = "media">
-		<span class="header">Media information</span><br>
+		<span class="header">Media information</span></br>
 		<span class="text">For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmanuel Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a></span>
 	</div>
 
-<br><br><div class = "sectionhead">Registration</div><hr>
-	<span id="reg_student_cost" style="font-size:20px;font-weight:bold;"><!--Registration for WAC 2016 is now open at $50 (USD or CAD) per person.-->Registration for WAC 2016 is being organized right now. Updates will be sent out shortly.</span><br><br>
+</br></br><div class = "sectionhead">Registration</div><hr>
+	<span id="reg_student_cost" style="font-size:20px;font-weight:bold;"><!--Registration for WAC 2016 is now open at $50 (USD or CAD) per person.-->Registration for WAC 2016 is being organized right now. Updates will be sent out shortly.</span></br></br>
 	<div id = "how_to_reg">
-		<span class="header">How can I register my school?</span><br>
+		<span class="header">How can I register my school?</span></br>
 		<span class="text">To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. <!-- The registration information package, as well as the forms required to register are available for download, please click the blue 'register' button at the top right of the page to view the PDF file. Please note the forms are located at the end of this file, which also includes the registration information package.--></span>
 	</div><br />
 	<div id = "reg_who">
-		<span class="header">Who can attend WAC?</span><br>
+		<span class="header">Who can attend WAC?</span></br>
 		<span class="text">WAC is open to anyone is currently in grades 9 to 12 with an interest in politics or current affairs. </span>
 	</div>
 	<div id = "reg_due">
-		<span class="header">When is the registration due?</span><br>
+		<span class="header">When is the registration due?</span></br>
 		<span class="text">This, along with other information, will be sent out as we finish the registration package. </span>
 		<!--
 		<span class="text">The registration is due by mail on December 16th 2014. We may not be able to accept late registrants so please ensure your forms are submitted promptly. </span>
 		-->
 	</div>
 
-<br><br><div class = "sectionhead">Conference Day</div><hr>
+</br></br><div class = "sectionhead">Conference Day</div><hr>
 	<div id = "theday">
-		<span class="header">What can I expect on the day of WAC?</span><br>
+		<span class="header">What can I expect on the day of WAC?</span></br>
 		<span class="text">School supervisors and their students are encouraged to arrive at or before 8AM for the registration check in process. Each student will receive their personal package with their name tag. The conference will then be kicked off with our morning panel. The closing ceremonies typically end at around 4:40PM</span>
 	</div><br />
 	<div id = "lunch">
-		<span class="header">Are students provided lunch?</span><br>
+		<span class="header">Are students provided lunch?</span></br>
 		<span class="text">Yes students are provided lunch free of charge on the day of the conference.</span>
 	</div><br />
 	<div id = "allergy">
-		<span class="header">How do I notify WAC of allergies?</span><br>
+		<span class="header">How do I notify WAC of allergies?</span></br>
 		<span class="text">If you would like to notify us of a food allergy that we should be aware of, please include any details we will need on a separate piece of paper within your return envelope.</span>
 	</div>
 
 
 
-<br><br><br><br><div class = "sectionhead">Contact</div><hr>
+</br></br></br></br><div class = "sectionhead">Contact</div><hr>
 	<div id = "contactinfo">
 		<table class="tablecontent2" style="float:left;">
 			<tr><td>Emmanuel Wong</td></tr>
