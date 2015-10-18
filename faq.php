@@ -172,7 +172,7 @@ include_once("../includes/sql.php");
 	</div>
 	<div id = "gen_date">
 		<span class="header">2016 dates</span><br>
-		<span class+"text"> We haven't quite decided the exact date of WAC. More information will be known as registration packages get sent out. </span>
+		<span class+"text"> We haven't quite decided the exact date of WAC. More information will be known as registration packages get sent out. </span></br>
 		<!--
 		<span class="text"> The 2015 World Affairs Conference (WAC) will be held from <strong>February 2-3 2015 </strong> at Upper Canada College in Toronto, Canada.</span>
 		-->
