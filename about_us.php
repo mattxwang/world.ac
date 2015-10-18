@@ -22,6 +22,7 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
 	.bg-web{
 		background-color:#DB0C09;
@@ -33,7 +34,6 @@ include_once("../includes/sql.php");
 		background-color:#36CC79;
 	}
 	</style>
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <!-- || Main Page Content || -->
