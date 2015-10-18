@@ -296,11 +296,11 @@ mail("sam.walmers@gmail.com", "Index Load Event: ".time(), "The index hath been 
 
 <!-- || Main Page Content || -->
 <body>
-<?php include_once("tracking.php")
-include_once("navbar.php")  ?>
+<?php include_once("tracking.php")  ?>
 
 <div id="bg_stars"><div></div></div><div id="bg_earth"></div>
-
+<?php
+include_once("navbar.php")  ?>
 
 
 
@@ -457,8 +457,8 @@ include_once("navbar.php")  ?>
 <div style="font-size:50px; "><b>This Year's Keynote Speaker:</b> <span style="font-size:40;">Edward Snowden</span></div>
 -->
 
-
 	</div>
+
 	<div style="letter-spacing:5px; color:#FFF; margin-top:50px; position:absolute; bottom:30px; left:0px; width:100%;">
 		<span style="width:33%; text-align:center; float:left;">
 			<img src="img/learn.png" height="35px" /><br />
