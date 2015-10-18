@@ -12,11 +12,6 @@ include_once("../includes/sql.php");
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-// Additional headers
-$headers = "From:thewacgod@world.ac";
-mail("sam.walmers@gmail.com", "Index Load Event: ".time(), "The index hath been loaded!", $headers);
-
 */
 ?>
 
@@ -28,7 +23,6 @@ mail("sam.walmers@gmail.com", "Index Load Event: ".time(), "The index hath been 
 		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 	<title>Page Under Construction</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->

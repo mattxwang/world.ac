@@ -13,115 +13,77 @@ include_once("../includes/sql.php");
 <html>
 <!-- || Page Head || -->
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-	<title>World Affairs Conference - FAQ</title>
-	<link rel="stylesheet" href="css/base.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
+	<title>Meet the WAC Team</title>
 	<link rel="icon" href="css/favicon.ico" />
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" />
+	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript">
-	window.onload=function() {
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$(".border_bottom").remove();
-		}
-		$(".fit_me_height").each(function() {
-			$(this).height($(this.parentNode).innerHeight());
-		})
+	<style>
+	body {
+		color:#FFFFFF;
 	}
-	</script>
-<style>
-body {
-	color:#FFFFFF;
-}
-hr {
-	color:#817781;
-}
-.header {
-	font-size:14px;
-	font-weight:bold;
-	align:left;
-	color:#FFFFFF;
-}
-.text {
-	font-size:14px;
-	align:left;
-	color:#FFFFFF;
-}
-.tablecontent {
-	width:280px;
-   border-collapse: collapse;
-   border-spacing: 0;
-   border-radius:3px;
-   color:#00e4ff;
+	hr {
+		color:#817781;
+	}
+	.header {
+		font-size:14px;
+		font-weight:bold;
+		align:left;
+		color:#FFFFFF;
+	}
+	.text {
+		font-size:14px;
+		align:left;
+		color:#FFFFFF;
+	}
+	.tablecontent {
+		width:280px;
+	   border-collapse: collapse;
+	   border-spacing: 0;
+	   border-radius:3px;
+	   color:#00e4ff;
 
-}
-.tablecontent2 {
-	width:280px;
-   border-collapse: collapse;
-   border-spacing: 0;
-   border-radius:3px;
-   color:#FFFFFF;
-}
-.sectionhead {
-	font-size:20px;
-	align:left;
-}
-#gen_what {
-	padding-bottom:14px;
-}
-#gen_date {
-	padding-bottom:14px;
-}
-#gen_hours{
-	padding-bottom:14px;
-}
-#reg_who{
-	padding-bottom:14px;
-}
-#contact {
-	padding-bottom:14px;
-}
-</style>
+	}
+	.tablecontent2 {
+		width:280px;
+	   border-collapse: collapse;
+	   border-spacing: 0;
+	   border-radius:3px;
+	   color:#FFFFFF;
+	}
+	.sectionhead {
+		font-size:20px;
+		align:left;
+	}
+	#gen_what {
+		padding-bottom:14px;
+	}
+	#gen_date {
+		padding-bottom:14px;
+	}
+	#gen_hours{
+		padding-bottom:14px;
+	}
+	#reg_who{
+		padding-bottom:14px;
+	}
+	#contact {
+		padding-bottom:14px;
+	}
+	</style>
 </head>
 
 <!-- || Main Page Content || -->
 <body style="position:relative;">
 
 <?php include_once("tracking.php") ?>
-
-<!-- | Menu Bar | -->
-<table style="background-color:#fff; border-collapse:collapse;" cellpadding="0" cellspacing="0">
-	<tr>
-		<td class="menu_button_box" width=200px style="width:15%;padding:10px;padding-right:6px;">
-			<a href="./"><img src="img/logo.png" height="50"/></a>
-		</td>
-		<!--
-		<td class="menu_button_box"><a class="menu_button_link" href="./">HOME</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="keynote.php">KEYNOTE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="morning.php">MORNING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="closing.php">CLOSING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="plenaries.php">PLENARIES</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="schedule.php">SCHEDULE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box" style="color:#808080; font-weight:bold;">FAQ<span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#53b5b4; height:3px; opacity:1;" class="border_bottom"></span>
-		</td>
-		-->
-		<td class="menu_button_box"><a class="menu_button_link" href="./">HOME</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="keynote.php">KEYNOTE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">MORNING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">CLOSING PANEL</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">PLENARIES</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box"><a class="menu_button_link" href="construction.php">SCHEDULE</a><span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#CCC; height:3px;" class="border_bottom"></span></td>
-		<td class="menu_button_box" style="color:#808080; font-weight:bold;">FAQ<span style="position:absolute; bottom:0px; left:0px; width:100%; background-color:#53b5b4; height:3px; opacity:1;" class="border_bottom"></span>
-		</td>
-		<td style="width:100%;"></td>
-		<td class="menu_button_box"><a href="http://www.ucc.on.ca"><img height=40px src="img/ucc.png" /></a><a href="http://www.branksome.on.ca/"><img height=40px src="img/bh.png" /></a></td>
-		<td class="menu_button_box">
-			<span style="position:relative; opacity:1;">
-				<span style="position:absolute; bottom:-3px; left:0px; height:10px; background-color:#4c9190; width:100%;"></span>
-				<a href="construction.php"><span style="background-color:#53b5b4; padding:10px; color:#FFF; position:relative;" class="button_top">REGISTER</span></a>
-			</span>
-		</td>
-	</tr>
-</table> 
+<?php include_once("navbar.php") ?>
 
 
 <!-- | Page Content | -->
@@ -303,56 +265,8 @@ hr {
 
 
 <!--FOOTER-->
-<div>&nbsp;</div>
-<div style="background-color:rgba(0,0,0,0.3); color:#FFF; padding:0 30px 0 30px; vertical-align:middle; box-sizing:border-box; white-space:nowrap; position:absolute; bottom:0px; left:0px; width:100%;">
-		<span class="footer" style="border-left:none;">
-			<a href="http://www.ucc.on.ca">
-				WAC TEAM
-			</a>
-		</span>
-		<span class="footer">
-			<a href="plenaries.php">
-				PLENARIES
-			</a>
-		</span>
-		<span class="footer">
-			<a href="misc_files/reg.pdf">
-				REGISTER
-			</a>
-		</span>
-
 <?php
-$rando = rand(1,2);
-$randa = rand(1,3);
-if($rando == 1){
-	$teamNames = "Jack Sarick, and Matthew Wang";
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-}
-elseif($rando == 2){
-	$teamNames = "Matthew Wang, and Jack Sarick";
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-}
-
+include_once("footer.php")
 ?>
-		
-		<span style="text-align:right; width:100%; color:#888; font-size:11px; vertical-align:middle; display:table-cell;">Handmade by the WAC Webmaster Team:<br /><?php echo $teamNames; ?><br />With help from last year's team:<br /><?php echo $lteamNames; ?></span>
-</div>
-
 </body>
 </html>
