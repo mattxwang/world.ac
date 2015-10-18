@@ -25,56 +25,33 @@ mail("sam.walmers@gmail.com", "Index Load Event: ".time(), "The index hath been 
 	<!-- || Page Head || -->
 	<head>
 
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-		<title>World Affairs Conference - Home</title>
-		<style type="text/css">
-		span.under_button{
-			position:absolute;
-			bottom:-2px; 
-			height:15px; 
-			z-index:1; 
-			border-radius:3px; 
-			width:100%;
-		}
-
-		span.button, span.inactive_button{
-			vertical-align:middle; 
-			font-size:11px; 
-			z-index:2; 
-			position:relative; 
-			color:#FFF; 
-			padding:10px;
-		}
-		span.button{
-			top:-1px;
-			-webkit-transition:all 0.2s ease-in-out;
-			-moz-transition:all 0.2s ease-in-out;
-			-o-transition:all 0.2s ease-in-out;
-			transition:all 0.2s ease-in-out;
-		}
-		span.button:hover{
-			top:-3px;
-		}
-		span.button:active{
-			top:2px;
-		}
-		.round{
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+	<title>Page Under Construction</title>
+	<link rel="icon" href="css/favicon.ico" />
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" />
+	<link href="css/custom.css" rel="stylesheet">
+	<style>
+	.round{
 			border-radius:2px;
 			-webkit-border-radius:2px;
 			-khtml-border-radius:2px;
 			-moz-border-radius:2px;
 			-ms-border-radius:2px;
 		}
-		.more_round{
-			border-radius:4px;
-			-webkit-border-radius:4px;
-			-khtml-border-radius:4px;
-			-moz-border-radius:4px;
-			-ms-border-radius:4px;
-		}
-		</style>
-		<link rel="stylesheet" href="css/base.css" />
-		<link rel="icon" href="css/favicon.ico" />
+	.more_round{
+		border-radius:4px;
+		-webkit-border-radius:4px;
+		-khtml-border-radius:4px;
+		-moz-border-radius:4px;
+		-ms-border-radius:4px;
+	}
+	</style>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script>
 		if (!window.jQuery) {
@@ -89,9 +66,6 @@ mail("sam.walmers@gmail.com", "Index Load Event: ".time(), "The index hath been 
 				//$("#bg_stars>div").css("top", (-($(document).scrollTop()/($("body").height()-$(window).height()))*$("#bg_stars").height()*0.09));
 		}
 		window.onload=function() {
-			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-				$(".border_bottom").remove();
-			}
 			$("#bg_stars").height($(window).outerHeight(true)+$("#second").outerHeight(true));
 			window.onscroll = function() {
 				document.getElementById("bg_earth").style.top = (-($(document).scrollTop()/($(window).height()-$(document).height()))*$("#bg_earth").height()*0.35)+"px";

@@ -23,42 +23,6 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
-	<style>
-	.body { 
-		padding-bottom: 70px; 
-	}
-	.a:link {
-	    color: #FFFFFF;
-	    text-decoration: none;
-	}
-	.a:visited {
-	    color: #FFFFFF;
-	    text-decoration: none;
-	}
-
-	.a:hover {
-	    color: #FFFFFF;
-	    text-decoration: none;
-	}
-	.a:active {
-	    color: #FFFFFF;
-	    text-decoration: none;
-	}
-	
-	.navbar-footer{
-		background-color:rgba(0,0,0,0.3); 
-		color:#FFF; 
-		white-space:nowrap;
-	}
-	.reg-button{
-		color: #fff;
-		background-color: #53b5b4;
-		border-color: #53b5b4;
-	}
-	.drp-active{
-		background-color:#53b5b4;
-	}
-	</style>
 </head>
 
 <body style="position:relative;">
