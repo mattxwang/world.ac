@@ -448,14 +448,8 @@ include_once("navbar.php")  ?>
 		</span>
 	</div>
 
-<!-- | Page Content | -->
-<!-- <div style="border:solid;border-color:#BFBFBF;background-color:#ffffff;height:700px;width:95%;margin-left:auto;margin-right:auto;"> -->
-
-
-
-<!-- </div> -->
 <div style="position:absolute; top:100%; left:0px; width:100%; " id="second">
-	<div style="background-color:rgba(0,0,0,0.4); padding-left:30px; padding-right:30px; box-sizing:border-box;">
+	<div style="background-color:rgba(0,0,0,0.4); padding-left:30px; padding-right:30px; padding-bottom:70px; box-sizing:border-box;">
 		<table><tr>
 		<td style="width:50%; padding:30px 0 30px 0; box-sizing:inherit;">
 			<div style="text-align:left; color:#53b5b4; font-family:Blanch; font-size:70px; font-weight:bold;">
