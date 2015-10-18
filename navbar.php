@@ -15,7 +15,14 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="index.php">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Registration Package</a></li>
+            <li><a href="#">How to Register</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -35,9 +42,11 @@
           </ul>
         </li>
       </ul>
+      <!--
       <ul class="nav navbar-nav navbar-right hidden-xs">
       	<li><button type="button" class="btn navbar-btn coloured-button"><a href="#">Register</a></button></li>
       </ul>
+      -->
     </div>
   </div>
 </nav>

@@ -41,7 +41,7 @@ include_once("../includes/sql.php");
 			Jack Sarick (Web Design Lead, UCC, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a>)</br>
 			Matthew Wang (Web Design Lead, UCC, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a>)</br>
 			</br></br><b>Faculty:</b></br>
-			Gregory McDonald (UCC Factuly Lead, UCC <a href="mailto:gmcdonald@ucc.on.ca">gmcdonald@ucc.on.ca</a>)</br>
+			Gregory McDonald (UCC Faculty Lead, UCC <a href="mailto:gmcdonald@ucc.on.ca">gmcdonald@ucc.on.ca</a>)</br>
 			</br></br>
 		</p>
 	</div>
