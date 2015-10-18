@@ -415,7 +415,7 @@ include_once("navbar.php")  ?>
 	</span>
 </div>
 
-<div style="font-family:nexa; position:absolute; top:100%; left:0px; width:100%; " id="second">
+<div style="position:absolute; top:100%; left:0px; width:100%; " id="second">
 	<div style="background-color:rgba(0,0,0,0.4); padding-left:30px; padding-right:30px; padding-bottom:70px; box-sizing:border-box;">
 		<table><tr>
 		<td style="width:50%; padding:30px 0 30px 0; box-sizing:inherit;">
