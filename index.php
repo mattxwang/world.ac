@@ -425,7 +425,7 @@ include_once("navbar.php")  ?>
 	<div style="background-color:rgba(0,0,0,0.4); padding-left:30px; padding-right:30px; padding-bottom:70px; box-sizing:border-box;">
 		<table><tr>
 		<td style="width:50%; padding:30px 0 30px 0; box-sizing:inherit;">
-			<div style="text-align:left; color:#53b5b4; font-family:Blanch; font-size:70px; font-weight:bold;">
+			<div style="text-align:left; color:#53b5b4; font-family:nexa; font-size:70px; font-weight:bold;">
 				ABOUT WAC
 			</div>
 			<!--
