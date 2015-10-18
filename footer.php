@@ -44,14 +44,14 @@ elseif($rando == 2){
       </button>
       <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
     </div>
-    <div class="collapse navbar-collapse hidden-xs" id="bs-example-navbar-collapse-2" >
-      <ul class="nav navbar-nav">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
+      <ul class="nav navbar-nav hidden-xs">
         <li><a href="about_us.php">WAC TEAM</a></li>
         <li><a href="#">PLENARIES</a></li>
         <li><a href="#">REGISTER</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Developed by this year's WAC web design team <?php echo $teamNames; ?>
+        <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Developed by this year's WAC web design team, <?php echo $teamNames; ?>
         <!--</br>
         With help from last year's team: <?php echo $lteamNames; ?></p>-->
       </ul>
