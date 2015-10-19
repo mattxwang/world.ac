@@ -23,39 +23,6 @@ include_once("../includes/sql.php");
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script>
-	// set the date we're counting down to
-	var target_date = new Date("Aug 15, 2019").getTime();
-	 
-	// variables for time units
-	var days, hours, minutes, seconds;
-	 
-	// get tag element
-	var countdown = document.getElementById("countdown");
-	 
-	// update the tag with id "countdown" every 1 second
-	setInterval(function () {
-	 
-	    // find the amount of "seconds" between now and target
-	    var current_date = new Date().getTime();
-	    var seconds_left = (target_date - current_date) / 1000;
-	 
-	    // do some time calculations
-	    days = parseInt(seconds_left / 86400);
-	    seconds_left = seconds_left % 86400;
-	     
-	    hours = parseInt(seconds_left / 3600);
-	    seconds_left = seconds_left % 3600;
-	     
-	    minutes = parseInt(seconds_left / 60);
-	    seconds = parseInt(seconds_left % 60);
-	     
-	    // format countdown string + set tag value
-	    countdown.innerHTML = days + "d, " + hours + "h, "
-	    + minutes + "m, " + seconds + "s";  
-	 
-	}, 1000);
-	</script>
 </head>
 
 <body style="position:relative;">
@@ -63,7 +30,38 @@ include_once("../includes/sql.php");
 include_once('navbar.php');
 ?>
 
-<span id="countdown"> until swiggity swoogity</span>
+<div style="margin:50px;"> WAC <div id="timeLeft"></div></div>
+	<script type="text/javascript">
+		// I tried to make it as simple as possible
+		var deadLine = 'December 25 2015';
+
+		function getTimeRemaining(endtime){
+			var t = Date.parse(endtime) - Date.parse(new Date());
+			var seconds = Math.floor( (t/1000) % 60 );
+			var minutes = Math.floor( (t/1000/60) % 60 );
+			var hours = Math.floor( (t/(1000*60*60)) % 24 );
+			var days = Math.floor( t/(1000*60*60*24) );
+			// return {
+			// 	'total': t,
+			// 	'days': days,
+			// 	'hours': hours,
+			// 	'minutes': minutes,
+			// 	'seconds': seconds
+			// };
+
+			if (t > 0){
+				return days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds until World Affairs Conference starts!";
+			}
+			else {
+				return "World Affairs Conference 2016 is in motion!"
+			}
+		}
+
+		window.setInterval(function(){
+  			// console.log(getTimeRemaining(deadLine));
+  			$("#timeLeft").html(getTimeRemaining(deadLine));
+		}, 1000);
+	</script>
 <?php
 include_once("footer.php");
 ?>
