@@ -30,7 +30,7 @@ include_once("../includes/sql.php");
 include_once('navbar.php');
 ?>
 
-<div style="margin:50px; font-family:Nexa; letter-spacing:5px; color:#FFF; position:absolute; bottom:30px; left:0px; width:100%; "> Time left: <div id="timeLeft"></div></div>
+<div style="margin:50px; font-family:Nexa; letter-spacing:5px; color:#FFF; position:absolute; bottom:30px; left:0px; width:100%; "> Time left: <div id="timeLeft">00:00:00 until WAC starts!</div></div>
 	<script type="text/javascript">
 		// I tried to make it as simple as possible
 		var deadLine = 'December 25 2015';
@@ -50,7 +50,7 @@ include_once('navbar.php');
 			// };
 
 			if (t > 0){
-				return days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds until World Affairs Conference starts!";
+				return days + " Days " + hours + ":" + minutes + ":" + seconds;
 			}
 			else {
 				return "World Affairs Conference 2016 is in motion!"
