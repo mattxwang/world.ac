@@ -50,7 +50,7 @@ include_once("navbar.php")  ?>
 
 <div style="font-family:Nexa; line-height:80%; color:#FFF; font-size:70px; margin:0 10px 0 10px; margin-top:50px; position:relative"><!-- to be replaced with a jQuery automated solution -->
 	WELCOME TO THE 2016<div style="font-weight:bold;">WORLD AFFAIRS CONFERENCE.</div>
-	<div style="margin:50px; font-size:48px"> World Affairs Conference </br>Starts in: <div id="timeLeft">00:00:00:00</div></div>
+	<div style="margin:50px; font-size:48px"> World Affairs Conference </br>Starts in: <div id="timeLeft">00 Days 00:00:00</div></div>
 	<script type="text/javascript">
 		// I tried to make it as simple as possible
 		var deadLine = 'December 25 2015';
@@ -70,7 +70,7 @@ include_once("navbar.php")  ?>
 			// };
 
 			if (t > 0){
-				return days + ":" + hours + ":" + minutes + ":" + seconds;
+				return days + " Days " + hours + ":" + minutes + ":" + seconds;
 			}
 			else {
 				return "Worlds Affairs Conference is in motion!"
