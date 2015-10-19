@@ -54,7 +54,7 @@ include_once("navbar.php")  ?>
 	</br>
 	<div style="font-weight:bold; margin-top:70px;">WORLD AFFAIRS CONFERENCE.</div>
 	</div>
-	<div style="margin:50px; font-size:48px; text-align:right"> WAC Starts in: <div id="timeLeft" style="48px">00 Days 00:00:00</div></div>
+	<div style="margin:50px; font-size:48px; text-align:right"> WAC Starts in: <div id="timeLeft" style="padding:48px;">00 Days 00:00:00</div></div>
 	<script type="text/javascript">
 		// I tried to make it as simple as possible
 		var deadLine = 'December 25 2015';
