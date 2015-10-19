@@ -32,8 +32,8 @@ elseif($rando == 2){
 
 ?>
 
-<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer hidden-xs">
-  <div class="container-fluid navbar-footer" style ="text-algin:center;background-color:rgba(0,0,0,0.4)">
+<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer hidden-xs" style="background-color:transparent; ">
+  <div class="container-fluid navbar-footer" style ="text-algin:center">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
