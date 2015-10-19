@@ -48,9 +48,11 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <?php
 include_once("navbar.php")  ?>
 
-<div style="font-family:Nexa; line-height:80%; color:#FFF; font-size:70px; margin:0 10px 0 10px; margin-top:50px; position:relative"><!-- to be replaced with a jQuery automated solution -->
+<div style="font-family:Nexa; line-height:80%; color:#FFF; margin:0 10px 0 10px; margin-top:50px; position:relative">
+	<div style="font-size:70px">
 	WELCOME TO THE 2016<div style="font-weight:bold;">WORLD AFFAIRS CONFERENCE.</div>
-	<div style="margin:50px; font-size:48px"> World Affairs Conference </br>Starts in: <div id="timeLeft">00 Days 00:00:00</div></div>
+	</div>
+	<div style="margin:50px; font-size:48px; text-align:right"> World Affairs Conference </br>Starts in: <div id="timeLeft">00 Days 00:00:00</div></div>
 	<script type="text/javascript">
 		// I tried to make it as simple as possible
 		var deadLine = 'December 25 2015';
@@ -88,7 +90,7 @@ include_once("navbar.php")  ?>
 <div style="font-family:nexa;text-align:left; color:#53b5b4;">
 	<div style="background-color:rgba(0,0,0,0.4); padding-left:30px; padding-right:30px; padding-bottom:70px; box-sizing:border-box;">
 		<div style="font-weight:bold; font-size:70px;color:#53b5b4;">
-			About the World Affairs Conference
+			About WAC
 		</div>
 		</br>
 		<div style="color:#FFFFFF;">
