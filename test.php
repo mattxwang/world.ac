@@ -27,7 +27,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap/bootstrap-theme.cs" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
