@@ -39,6 +39,9 @@ include_once("../includes/sql.php");
 	.bg-darkerblue{
 		background-color:#5E7794;
 	}
+	.carousel-control.left, .carousel-control.right {
+    background-image: none
+	}
 	</style>
 </head>
 
