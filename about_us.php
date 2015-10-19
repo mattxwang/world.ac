@@ -70,7 +70,7 @@ include_once("../includes/sql.php");
 	            <img src="/img/bio/jsarick.png" alt="Fourth slide">
 	          </div>
 	        </div>
-	        <!--
+	        
 	        <a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 	          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 	          <span class="sr-only">Previous</span>
@@ -79,7 +79,7 @@ include_once("../includes/sql.php");
 	          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	          <span class="sr-only">Next</span>
 	        </a>
-	        -->
+	        
 	      </div>
 	  </div>
 </br>
