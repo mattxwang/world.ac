@@ -37,22 +37,6 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	}
 	</script>
 	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-	window.onresize = function() {
-		$("#bg_stars").height($(window).outerHeight(true)+$("#second").outerHeight(true));
-			document.getElementById("bg_earth").style.top = (-($(document).scrollTop()/($("body").height()-$(window).height()))*$("#bg_earth").height()*0.08)+"px";
-			//$("#bg_stars>div").css("top", (-($(document).scrollTop()/($("body").height()-$(window).height()))*$("#bg_stars").height()*0.09));
-	}
-	window.onload=function() {
-		$("#bg_stars").height($(window).outerHeight(true)+$("#second").outerHeight(true));
-		window.onscroll = function() {
-			document.getElementById("bg_earth").style.top = (-($(document).scrollTop()/($(window).height()-$(document).height()))*$("#bg_earth").height()*0.35)+"px";
-			//console.log($("body").height()+"|"+$(document).height());
-			//$("#bg_stars>div").css("top", (-($(document).scrollTop()/($(window).height()-$(document).height()))*$("#bg_stars").height()*0.4));
-		}
-
-	}
-	</script>
 </head>
 
 <!-- || Main Page Content || -->
