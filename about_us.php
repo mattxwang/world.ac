@@ -33,6 +33,9 @@ include_once("../includes/sql.php");
 	.bg-heads{
 		background-color:#36CC79;
 	}
+	.bg-dblue{
+		background-color:#617CA4;
+	}
 	</style>
 </head>
 
@@ -51,10 +54,10 @@ include_once("../includes/sql.php");
 <div align="middle">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	        <div class="carousel-mod carousel-inner" role="listbox">
-	          <div class="carousel-mod item active bg-web">
+	          <div class="carousel-mod item active bg-dblue">
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
-	          <div class="carousel-mod item bg-web">
+	          <div class="carousel-mod item bg-dblue">
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
 	          </div>
 	          <div class="carousel-mod item">
