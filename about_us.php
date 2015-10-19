@@ -36,6 +36,9 @@ include_once("../includes/sql.php");
 	.bg-dblue{
 		background-color:#617CA4;
 	}
+	.bg-darkerblue{
+		background-color:#5E7794;
+	}
 	</style>
 </head>
 
