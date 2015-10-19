@@ -95,6 +95,9 @@ Nick Elder, Derek Lam, Kinton Cheung
 <h3>Website Consultants</h3>
 Aidan Harradence, Alex Roberts, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 
+
+</br>
+</br>
 <?php
 include_once("footer.php")
 ?>
