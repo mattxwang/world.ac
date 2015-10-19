@@ -50,7 +50,7 @@ include_once("../includes/sql.php");
 
 
 <!-- Content -->
-<div style="text-align:center; color:#ffffff;">
+<div style="text-align:center;font-family:nexa; color:#ffffff;">
 <h2>Meet the WAC Team</h2>
 </div>
 </br>
