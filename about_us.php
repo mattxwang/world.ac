@@ -57,10 +57,10 @@ include_once("../includes/sql.php");
 <div align="middle">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	        <div class="carousel-mod carousel-inner" role="listbox">
-	          <div class="carousel-mod item active bg-dblue">
+	          <div class="carousel-mod item active bg-darkerblue">
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
-	          <div class="carousel-mod item bg-dblue">
+	          <div class="carousel-mod item bg-darkerblue">
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
 	          </div>
 	          <div class="carousel-mod item">
