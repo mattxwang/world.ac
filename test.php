@@ -48,7 +48,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <?php
 include_once("navbar.php")  ?>
 
-<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:0 10px 0 10px; position:relative">
+<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:0 10px 0 10px; padding-top:50px; position:relative">
 	<div style="font-size:70px;">
 	WELCOME TO THE 2016 <div style="font-weight:bold; padding-top:70px;">WORLD AFFAIRS CONFERENCE.</div>
 	</div>
