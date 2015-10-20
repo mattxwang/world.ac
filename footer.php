@@ -59,8 +59,9 @@ elseif($rando == 2){
  </div>
 </nav>
 
+<!-- disabled for now
 <div class ="visible-xs vertical-align:bottom">
 <p style ="font-size:11px; text-align:left;color:#FFFFFF">Developed by this year's WAC web design team, <?php echo $teamNames; ?></p>
 </div>
-
+-->
 </div>
