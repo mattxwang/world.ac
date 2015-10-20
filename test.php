@@ -50,9 +50,7 @@ include_once("navbar.php")  ?>
 
 <div style="font-family:Nexa; line-height:80%; color:#FFF; padding:0 10px 0 10px; padding-top:50px; position:relative">
 	<div style="font-size:70px;">
-	WELCOME TO THE 2016 
-	</br>
-	<div style="font-weight:bold; padding-top:70px;">WORLD AFFAIRS CONFERENCE.</div>
+	WELCOME TO THE 2016 <b>WORLD AFFAIRS CONFERENCE</b>
 	</div>
 	<div style="padding:0 10px 0 10px; padding-top:100px; font-size:48px; text-align:right"> WAC Starts in: <div id="timeLeft" style="padding-top:48px;">00 Days 00:00:00</div></div>
 	<script type="text/javascript">
