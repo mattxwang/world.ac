@@ -31,7 +31,7 @@ elseif($rando == 2){
 }
 
 ?>
-
+<div>
 <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer hidden-xs" style="background-color:transparent; ">
   <div class="container-fluid navbar-footer" style ="text-algin:center">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,6 +59,8 @@ elseif($rando == 2){
  </div>
 </nav>
 
-<div class ="visible-xs">
+<div class ="visible-xs vertical-align:bottom">
 <p style ="font-size:11px; text-align:left;color:#FFFFFF">Developed by this year's WAC web design team, <?php echo $teamNames; ?></p>
+</div>
+
 </div>
