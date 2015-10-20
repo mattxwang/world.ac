@@ -102,6 +102,9 @@ include_once("../includes/sql.php");
 		<tr>
 			<td><a href="#gen_what">What is WAC?</a></td>
 		</tr>
+		<tr>
+			<td><a href="about_us.php">Who is WAC?</a></td>
+		</tr>
 		<!--
 		<tr>
 			<td><a href="#gen_date">2016 dates</a></td>

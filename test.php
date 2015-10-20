@@ -74,7 +74,7 @@ include_once("navbar.php")  ?>
 			// };
 
 			if (t > 0){
-				return days + " Days " + hours + ":" + minutes + ":" + seconds;
+				return days + " Days " + hours + " Hours " + minutes + " Minutes and " + seconds + " Seconds";
 			}
 			else {
 				return "Worlds Affairs Conference is in motion!"
