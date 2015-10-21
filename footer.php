@@ -31,7 +31,7 @@ elseif($rando == 2){
 }
 
 ?>
-<div style="position:relative;">
+
   <nav class="navbar navbar-default bottom-fixed navbar-inverse navbar-footer hidden-xs" style="background-color:transparent; ">
     <div class="container-fluid navbar-footer" style ="text-algin:center">
       <div class="navbar-header">
@@ -63,4 +63,3 @@ elseif($rando == 2){
 <p style ="font-size:11px; text-align:left;color:#FFFFFF">Developed by this year's WAC web design team, <?php echo $teamNames; ?></p>
 </div>
 -->
-</div>
