@@ -32,7 +32,7 @@ elseif($rando == 2){
 
 ?>
 <div>
-<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer hidden-xs" style="background-color:transparent; ">
+<nav class="navbar navbar-default bottom-fixed navbar-inverse navbar-footer hidden-xs" style="background-color:transparent; ">
   <div class="container-fluid navbar-footer" style ="text-algin:center">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

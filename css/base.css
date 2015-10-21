@@ -173,7 +173,6 @@ ul{
 }
 }
 .body { 
-	}
 	.a:link {
 	    color: #FFFFFF;
 	    text-decoration: none;
@@ -205,3 +204,8 @@ ul{
 	.drp-active{
 		background-color:#53b5b4;
 	}
+}
+.bottom-fixed{
+	position: absolute;
+	bottom: 0;
+}
