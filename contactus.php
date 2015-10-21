@@ -27,6 +27,25 @@ include_once("../includes/sql.php");
 <?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
 <body style="position:relative;">
+	<div style="width:30%; color:#ffffff;">
+		<h1>Contact Us</h1>
+		<p>
+			<b>Conference Chairs:</b></br>
+			Logan Ye (Head of Registration, UCC, <a href="mailto:logan.ye@ucc.on.ca">logan.ye@ucc.on.ca</a>)</br>
+			Nikhil Kassum (Head of Registration, UCC, <a href="mailto:nikhil.kassume@ucc.on.ca">nikhil.kassum@ucc.on.ca</a>)</br>
+			<b>Registration:</b></br>
+			Emmanuel Wong (Head of Registration, UCC, <a href="mailto:emmanuel.wong@ucc.on.ca">emmanuel.wong@ucc.on.ca</a>)</br>
+			<b>Operations:</b></br>
+			Ernest Leung (Head of Operations, UCC, <a href="mailto:ernest.leung@ucc.on.ca">ernest.leung@ucc.on.ca</a>)</br>
+			<b>Website Design:</b></br>
+			Jack Sarick (Web Design Lead, UCC, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a>)</br>
+			Matthew Wang (Web Design Lead, UCC, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a>)</br>
+			</br></br><b>Faculty:</b></br>
+			Gregory McDonald (UCC Faculty Lead, UCC <a href="mailto:gmcdonald@ucc.on.ca">gmcdonald@ucc.on.ca</a>)</br>
+			</br></br>
+		</p>
+
+	</div>
 	<div style="padding:35px; text-align:center; color:#ffffff;">
 		<h1>Contact Us</h1>
 		<p class="lead">
