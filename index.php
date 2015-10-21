@@ -248,6 +248,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <!-- || Main Page Content || -->
 <body>
 <?php include_once("tracking.php")  ?>
+<div id="container">
 
 <div id="bg_stars"><div></div></div><div id="bg_earth"></div>
 
@@ -443,6 +444,7 @@ include_once("navbar.php")  ?>
 <?php
 include_once("footer.php")
 ?>
+</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
