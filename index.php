@@ -250,7 +250,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <?php include_once("tracking.php")  ?>
 <div id="container">
 
-<div id="bg_stars"><div></div></div><div id="bg_earth"></div>
+<div id="bg_stars"></div><div id="bg_earth"></div>
 
 <?php
 include_once("navbar.php")  ?>
@@ -259,127 +259,6 @@ include_once("navbar.php")  ?>
 	WELCOME TO THE 2016<div style="font-weight:bold;">WORLD AFFAIRS CONFERENCE.</div>
 	<!--
 	<div style="position:absolute; right:0px; top:0px;">
-	
-		<table>
-		
-			<tr style="font-family:DIN; font-size:12px; text-align:center;">
-				<td>
-					DAYS
-				</td>
-				<td>
-				</td>
-				<td>
-					HOURS
-				</td>
-				<td>
-				</td>
-				<td>
-					MINUTES
-				</td>
-				<td>
-				</td>
-				<td>
-					SECONDS
-				</td>
-
-			</tr>
-			
-			<tr style="text-align:center;">
-				<td>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="day_0"><span style="position:relative;">
-						<div>0</div>
-						<div>9</div>
-						<div>8</div>
-						<div>7</div>
-						<div>6</div>
-						<div>5</div>
-						<div>4</div>
-						<div>3</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-				</td>
-				<td>
-					:
-				</td>
-				<td>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="hour_1"><span style="position:relative;">
-						<div>0</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="hour_0"><span style="position:relative;">
-						<div>0</div>
-						<div>9</div>
-						<div>8</div>
-						<div>7</div>
-						<div>6</div>
-						<div>5</div>
-						<div>4</div>
-						<div>3</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-				</td>
-				<td>
-					:
-				</td>
-				<td>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="minute_1"><span style="position:relative;">
-						<div>0</div>
-						<div>5</div>
-						<div>4</div>
-						<div>3</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="minute_0"><span style="position:relative;">
-						<div>0</div>
-						<div>9</div>
-						<div>8</div>
-						<div>7</div>
-						<div>6</div>
-						<div>5</div>
-						<div>4</div>
-						<div>3</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-				</td>
-				<td>
-					:
-				</td>
-				<td>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="second_1"><span style="position:relative;">
-						<div>0</div>
-						<div>5</div>
-						<div>4</div>
-						<div>3</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-					<span style="height:90px; overflow:hidden;" class="size_me_to_child" id="second_0"><span style="position:relative;">
-						<div>0</div>
-						<div>9</div>
-						<div>8</div>
-						<div>7</div>
-						<div>6</div>
-						<div>5</div>
-						<div>4</div>
-						<div>3</div>
-						<div>2</div>
-						<div>1</div>
-						<div>0</div>
-					</span></span>
-				</td>
-			</tr>
-		</table>
 		
 		<span style="font-family:DIN; font-size:12px; float:right;">
 			<a href="/live/" target="_blank"><span style="position:relative; line-height:16px; vertical-align:middle; cursor:pointer;">
@@ -423,9 +302,6 @@ include_once("navbar.php")  ?>
 			<div style="text-align:left; color:#53b5b4; font-family:nexa; font-size:70px; font-weight:bold;">
 				ABOUT WAC
 			</div>
-			<!--
-			<div style="border-top:#FFF solid 13px; width:30%; margin:5px 0 9px 0;"></div>
-			-->
 			<div style="text-align:justify; color:#FFF; line-height:180%; font-size:15px; font-weight:300;">The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference. </div>
 			</br>
 			<a href="https://en.wikipedia.org/wiki/World_Affairs_Conference" target="_blank">
@@ -440,7 +316,7 @@ include_once("navbar.php")  ?>
 			</span>
 		</td></tr></table>
 	</div>
-	</div>
+</div>
 <?php
 include_once("footer.php")
 ?>
