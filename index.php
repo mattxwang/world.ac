@@ -248,7 +248,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <!-- || Main Page Content || -->
 <body>
 <?php include_once("tracking.php")  ?>
-<div id="container">
+<div class="container-fluid">
 
 <div id="bg_stars"></div><div id="bg_earth"></div>
 
