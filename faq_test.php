@@ -37,7 +37,7 @@ include_once("../includes/sql.php");
 
 <div class = "row">
 
-<div class = "col-md-4" style = "color:#2A99D6"> 
+<div class = "col-md-2" style = "color:#2A99D6"> 
 	<ul class="nav nav-pills nav-stacked bg-white" style="position:fixed;">
 	  <li role="presentation"><a href="#general">General</a></li>
 	  <li role="presentation"><a href="#reg">Registration</a></li>
@@ -45,7 +45,7 @@ include_once("../includes/sql.php");
 	</ul>
 </div>
 
-<div class = "col-md-8" style ="color:#FFFFFF"> 
+<div class = "col-md-10" style ="color:#FFFFFF"> 
 	<div id = "general">
 	<h2>General</h2>
 	</div>
