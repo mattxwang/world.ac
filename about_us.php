@@ -64,7 +64,7 @@ include_once("../includes/sql.php");
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
 	          </div>
 	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/mwang.png" alt="Third slide">
+	            <img src="/img/bio/ndhingra.png" alt="Third slide">
 	          </div>
 	          <div class="carousel-mod item bg-uccblue">
 	            <img src="/img/bio/jsarick.png" alt="Fourth slide">
