@@ -173,6 +173,7 @@ ul{
 }
 }
 .body { 
+	color:#FFFFFF;
 	.a:link {
 	    color: #FFFFFF;
 	    text-decoration: none;
