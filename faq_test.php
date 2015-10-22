@@ -69,7 +69,8 @@ include_once("../includes/sql.php");
 	<div id = "reg">
 	<h2>Registration</h2>
 	</div>
-	<div id="reg_student_cost" style="font-size:20px;font-weight:bold;">
+	<div id="reg_student_cost">
+	<h3>Registration Price</h3>
 	<p>Registration for WAC 2016 is being organized right now. Updates will be sent out shortly.</p>
 	</div>
 	<div id = "how_to_reg">
