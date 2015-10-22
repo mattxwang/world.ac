@@ -30,7 +30,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<link href="css/custom.css" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/countdown.js"></script>
 	<script>
 	if (!window.jQuery) {
 	    document.write('<script src="js/jquery.js"><\/script>');
@@ -56,29 +56,6 @@ include_once("navbar.php")  ?>
 	<script type="text/javascript">
 		// I tried to make it as simple as possible
 		var deadLine = 'December 25 2015';
-
-		function getTimeRemaining(endtime){
-			var t = Date.parse(endtime) - Date.parse(new Date());
-			var seconds = Math.floor( (t/1000) % 60 );
-			var minutes = Math.floor( (t/1000/60) % 60 );
-			var hours = Math.floor( (t/(1000*60*60)) % 24 );
-			var days = Math.floor( t/(1000*60*60*24) );
-			// return {
-			// 	'total': t,
-			// 	'days': days,
-			// 	'hours': hours,
-			// 	'minutes': minutes,
-			// 	'seconds': seconds
-			// };
-
-			if (t > 0){
-				return days + " Days " + hours + " Hours " + minutes + " Minutes and " + seconds + " Seconds";
-			}
-			else {
-				return "Worlds Affairs Conference is in motion!"
-			}
-		}
-
 		window.setInterval(function(){
   			// console.log(getTimeRemaining(deadLine));
   			$("#timeLeft").html(getTimeRemaining(deadLine));
