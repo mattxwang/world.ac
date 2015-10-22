@@ -28,16 +28,15 @@ include_once("../includes/sql.php");
 <?php include_once("navbar.php") ?>
 <body style="position:relative;">
 <div class="container-fluid">
-<div class="row">
+<div class="row" style="color:#ffffff;">
 	<div class="col-md-4">
-		<div style="color:#ffffff;padding:2%">
 		<h1>Contact Us</h1>
 		<p>
-		<h2>Conference Organisation</h2>
+		<h3>Conference Organisation</h3>
 		<b>Logan Ye</b>, Conference Chair, <a href="mailto:logan.ye@ucc.on.ca">logan.ye@ucc.on.ca</a></br>
 		
 		</br>
-		<h2>Website Design</h2>
+		<h3>Website Design</h3>
 		<b>Matthew Wang</b>, Website Design, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></br>
 		<b>Jack Sarick</b>, Website Design, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></br>
 
@@ -61,12 +60,15 @@ include_once("../includes/sql.php");
 			-->
 		</p>
 	</div>
-	</div>
-	<div class="col-md-4">
+	<div class="col-md-2">
 		<h1>Social Media</h1>
+		<h3>Facebook Page</h3>
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive"></img>
 		</a>
+	</div>
+	<div class="col-md-2">
+		
 	</div>
 	<div class="col-md-4">
 		
