@@ -59,7 +59,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <?php include_once("tracking.php")  ?>
 <div class="container-fluid">
 
-<div id="bg_stars"></div><div id="bg_earth"></div>
+<div id="bg_stars"></div><div></div><div id="bg_earth"></div>
 
 <?php
 include_once("navbar.php")  ?>
