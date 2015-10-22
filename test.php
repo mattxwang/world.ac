@@ -63,9 +63,9 @@ include_once("navbar.php")  ?>
 
 </div>
 <div class = "row" style = "padding:80px">
-	<div class = "col-md-8">
+	<div class = "col-md-8" style = "background-color:rgba(0,0,0,0.4);">
 		<div style="font-family:nexa;text-align:left; color:#53b5b4;">
-			<div style="background-color:rgba(0,0,0,0.4); padding:30px;box-sizing:border-box;">
+			<div style="box-sizing:border-box;">
 				<div style="font-weight:bold; font-size:30px;color:#53b5b4;">
 					About WAC
 				</div>
