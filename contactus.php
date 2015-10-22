@@ -65,9 +65,9 @@ include_once("../includes/sql.php");
 		<div style="width:30%">
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive"></img>
-		</a>
 		<p style="vertical-align:middle;">Facebook Page</p>
 		</div>
+		</a>
 	</div>
 	<div class="col-md-2">
 		
