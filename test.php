@@ -75,10 +75,12 @@ include_once("navbar.php")  ?>
 			</div>
 		</div>
 	</div>
-	<div class = "cold-md-4">
+	<div class = "col-md-3">
 		<div class="embed-responsive embed-responsive-4by3">
 		<iframe class = "embed-responsive-item" style ="height:50%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.9638959151!2d-79.40659468535445!3d43.69051397912007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b33684057775d%3A0x3dd2a9840eeeced9!2sUpper+Canada+College!5e0!3m2!1sen!2sca!4v1445541610829"></iframe>
+		</div>
 	</div>
+	<div class = "col-md-1">
 	</div>
 </div>
 <!--
