@@ -173,6 +173,7 @@ ul{
 }
 }
 .body { 
+	padding:1%;
 	.a:link {
 	    color: #FFFFFF;
 	    text-decoration: none;
