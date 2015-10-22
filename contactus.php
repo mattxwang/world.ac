@@ -66,7 +66,7 @@ include_once("../includes/sql.php");
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive"></img>
 		</a>
-		<h3 style="vertical-align:middle;">Facebook Page</h3>
+		<p style="vertical-align:middle;">Facebook Page</p>
 		</div>
 	</div>
 	<div class="col-md-2">
