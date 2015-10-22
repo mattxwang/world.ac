@@ -27,7 +27,10 @@ include_once("../includes/sql.php");
 <?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
 <body style="position:relative;">
-	<div style="width:30%; color:#ffffff;padding:2%">
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-4">
+		<div style="color:#ffffff;padding:2%">
 		<h1>Contact Us</h1>
 		<p>
 		<h2>Conference Organisation</h2>
@@ -58,18 +61,63 @@ include_once("../includes/sql.php");
 			-->
 		</p>
 	</div>
+	</div>
+	<div class="col-md-4">
+		<h1>Social Media</h1>
+		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
+		<img src="img/facebook.png" class="img-responsive"></img>
+		</a>
+	</div>
+	<div class="col-md-4">
+		
+	</div>
+	<!-- REMOVE THIS
+	<div style="width:30%; color:#ffffff;padding:2%">
+		<h1>Contact Us</h1>
+		<p>
+		<h2>Conference Organisation</h2>
+		<b>Logan Ye</b>, Conference Chair, <a href="mailto:logan.ye@ucc.on.ca">logan.ye@ucc.on.ca</a></br>
+		
+		</br>
+		<h2>Website Design</h2>
+		<b>Matthew Wang</b>, Website Design, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></br>
+		<b>Jack Sarick</b>, Website Design, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></br>
 
+		<!--
+			<h3>Conference Chairs:</h3></br>
+			Logan Ye (Conference Chair, UCC, <a href="mailto:logan.ye@ucc.on.ca">logan.ye@ucc.on.ca</a>)</br>
+			Nikhil Kassum (Head of Registration, UCC, <a href="mailto:nikhil.kassume@ucc.on.ca">nikhil.kassum@ucc.on.ca</a>)</br>
+			</br>
+			<h3>Registration:</h3></br>
+			Emmanuel Wong (Head of Registration, UCC, <a href="mailto:emmanuel.wong@ucc.on.ca">emmanuel.wong@ucc.on.ca</a>)</br>
+			</br>
+			<h3>Operations:</h3></br>
+			Ernest Leung (Head of Operations, UCC, <a href="mailto:ernest.leung@ucc.on.ca">ernest.leung@ucc.on.ca</a>)</br>
+			</br>
+			<h3>Website Design:</h3></br>
+			Matthew Wang (Web Design, UCC, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a>)</br>
+			Jack Sarick (Web Design, UCC, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a>)</br>]
+			</br></br><h3>Faculty:</h3></br>
+			Gregory McDonald (UCC Faculty Lead, UCC <a href="mailto:gmcdonald@ucc.on.ca">gmcdonald@ucc.on.ca</a>)</br>
+			</br></br>
+
+			SECOND COMMENT WAS HERE
+			
+		</p>
+	</div> -->
+	<!--
 	<div style="width:30%; color:#ffffff;padding:2%">
 		<h1>Social Media</h1>
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
-		<img src="img/facebook" class="img-responsive"></img>
+		<img src="img/facebook.png" class="img-responsive"></img>
 		</a>
 	</div>
-
+	-->
+</div>
 <?php
 include_once("footer.php")
 ?>
-
+</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
