@@ -113,9 +113,6 @@ include_once("navbar.php")  ?>
 			</div>
 			<div style="text-align:justify; color:#FFF; line-height:180%; font-size:15px; font-weight:300;">The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference. </div>
 			</br>
-			<a href="https://en.wikipedia.org/wiki/World_Affairs_Conference" target="_blank">
-				<button type="button" class="btn coloured-button">Learn more about our history</button>
-			</a>
 		</td>
 		<td style="width:10%; box-sizing:inherit;"></td>
 		<td style="width:40%; text-align:center; box-sizing:inherit;">
