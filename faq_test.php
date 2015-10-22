@@ -37,7 +37,7 @@ include_once("../includes/sql.php");
 
 <div class = "row">
 
-<div class = "col-md-4" style = "color:#2A99D6"> 
+<div class = "col-md-4" style = "color:#2A99D6;position:fixed;"> 
 	<ul class="nav nav-pills nav-stacked">
 	  <li role="presentation"><a href="#general">General</a></li>
 	  <li role="presentation"><a href="#reg">Registration</a></li>
@@ -50,7 +50,7 @@ include_once("../includes/sql.php");
 	<h2>General</h2>
 	</div>
 	<div id = "gen_what">
-		<h3>What is WAC></h3>
+		<h3>What is WAC?</h3>
 		<p> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 50 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</p>
 	</div>
 	<div id = "gen_date">
