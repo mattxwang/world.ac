@@ -202,10 +202,11 @@ ul{
 		background-color: #53b5b4;
 		border-color: #53b5b4;
 	}
-	.drp-active{
-		background-color:#53b5b4;
-	}
 }
+.drp-active{
+	background-color:#53b5b4;
+}
+
 .bottom-fixed{
 	position: absolute;
 	bottom: 0;
@@ -213,6 +214,6 @@ ul{
 .bg-white{
 	background-color:#FFFFFF;
 }
- .nav-rounded {
-    border-radius: 8px;    
-    }
+.nav-rounded {
+	border-radius: 8px;    
+}
