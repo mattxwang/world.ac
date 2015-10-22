@@ -27,7 +27,7 @@ include_once("../includes/sql.php");
 <?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
 <body style="position:relative;">
-	<div style="width:30%; color:#ffffff;">
+	<div style="width:30%; color:#ffffff;padding:5%">
 		<h1>Contact Us</h1>
 		<p>
 			<b>Conference Chairs:</b></br>
