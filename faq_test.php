@@ -38,7 +38,7 @@ include_once("../includes/sql.php");
 <div class = "row">
 
 <div class = "col-md-2" style = "color:#2A99D6"> 
-	<ul class="nav nav-pills nav-stacked bg-white" style="position:fixed;">
+	<ul class="nav nav-pills nav-stacked bg-white nav-rounded" style="position:fixed;">
 	  <li role="presentation"><a href="#general">General</a></li>
 	  <li role="presentation"><a href="#reg">Registration</a></li>
 	  <li role="presentation"><a href="#cday">Conference Day</a></li>

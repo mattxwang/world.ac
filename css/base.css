@@ -213,3 +213,6 @@ ul{
 .bg-white{
 	background-color:#FFFFFF;
 }
+ .nav-rounded {
+    border-radius: 2px;    
+    }
