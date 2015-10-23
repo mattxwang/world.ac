@@ -42,10 +42,12 @@
           </ul>
         </li>
       </ul>
+      <!--
       <ul class = "nav navbar-nav navbar-right" style = "padding:0px;">
         <li><a href="http://www.ucc.on.ca/"><img height="25px" src="img/ucc_n.png"></img></a></li>
         <li><a href="http://www.branksome.on.ca/Pages/default.aspx"><img height="25px" src="img/bh_n.png"></img></a></li>
       </ul>
+      -->
       <!--
       <ul class="nav navbar-nav navbar-right hidden-xs">
       	<li><button type="button" class="btn navbar-btn coloured-button"><a href="#">Register</a></button></li>
