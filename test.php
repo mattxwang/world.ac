@@ -62,7 +62,7 @@ include_once("navbar.php")  ?>
 	</script>
 
 </div>
-<div class = "row" style = "padding:4%">
+<div class = "row" style = "padding:4%;background-color:rgba(0,0,0,0.4);">
 	<div class = "col-md-8" style = "background-color:rgba(0,0,0,0.4);">
 		<div style="font-family:nexa;text-align:left; color:#53b5b4;">
 			<div style="box-sizing:border-box;">
