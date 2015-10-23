@@ -43,8 +43,8 @@
         </li>
       </ul>
       <ul class = "nav navbar-nav navbar-right">
-        <li><a href="http://www.ucc.on.ca/"><img src="img/ucc.png"></img></a></li>
-        <li><a href="http://www.branksome.on.ca/Pages/default.aspx"><img src="img/bh.png"></img></a></li>
+        <li><a href="http://www.ucc.on.ca/"><img height="50px" src="img/ucc.png"></img></a></li>
+        <li><a href="http://www.branksome.on.ca/Pages/default.aspx"><img height="50px" src="img/bh.png"></img></a></li>
       </ul>
       <!--
       <ul class="nav navbar-nav navbar-right hidden-xs">
