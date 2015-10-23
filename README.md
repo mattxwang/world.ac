@@ -1,9 +1,10 @@
 # world.ac
-Here's the repository for the world.ac website.
+Here's the repository for the world.ac website. </br>
 
-We use the Bootstrap framework (getbootstrap.com) for a lot of the site. 
+We use the Bootstrap framework (getbootstrap.com) for a lot of the site. </br>
 
 Quick tips:
+</br>
 1. Test code should either be in a separate branch or done on a test (with an _ for non index pages) page instead of being directly pushed </br>
 2. Please put all images in the /img directory </br>
 3. Please put all js and css in their respective directories </br>
