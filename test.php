@@ -47,11 +47,11 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <?php
 include_once("navbar.php")  ?>
 
-<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%;; padding-top:50px; position:relative">
+<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:10%; position:relative">
 	<div style="font-size:5vw;">
-	WELCOME TO THE 2016 <div style="font-weight:bold; padding-top:70px;">WORLD AFFAIRS CONFERENCE.</div>
+	WELCOME TO THE 2016 <div style="font-weight:bold;">WORLD AFFAIRS CONFERENCE.</div>
 	</div>
-	<div style="padding:0 10px 0 10px; padding-top:100px; font-size:3vw; text-align:right"> WAC Starts in: <div id="timeLeft" style="padding-top:48px;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
+	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> WAC Starts in: <div id="timeLeft" style="padding-top:48px;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
 	<script type="text/javascript">
 		// I tried to make it as simple as possible
 		var deadLine = 'December 25 2015';
