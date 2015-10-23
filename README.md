@@ -5,6 +5,7 @@ We use the Bootstrap framework (getbootstrap.com) for a lot of the site.
 
 Quick tips:
 1. Test code should either be in a separate branch or done on a test (with an _ for non index pages) page instead of being directly pushed
+
 2. Please put all images in the /img directory
 3. Please put all js and css in their respective directories
 4. All viewable pages should be .php files
