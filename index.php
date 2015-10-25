@@ -19,8 +19,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 <html>
 	<!-- || Page Head || -->
 	<head>
-
-		<meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
 	<title>Home</title>
