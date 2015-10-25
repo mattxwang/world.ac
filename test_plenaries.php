@@ -21,6 +21,11 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
+	<style>
+	.img{
+		vertical-align: text-top;
+	}
+	</style>
 </head>
 
 <!-- || Main Page Content || -->
@@ -55,14 +60,14 @@ include_once("../includes/sql.php");
 					<div class = "cold-md-6">
 					<h4>Sample Speaker</h4>
 					<img src="img/avatar.png" width = "10%"></img>
-					<p style="vertical-align:top">
+					<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
 					</div>
 					<div class = "cold-md-6">
 					<h4>Sample Speaker</h4>
 					<img src="img/avatar.png" width = "10%"></img>
-					<p style="vertical-align:top">
+					<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
 					</div>
