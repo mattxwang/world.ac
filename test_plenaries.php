@@ -36,9 +36,8 @@ include_once("../includes/sql.php");
 	</p>
 </div>
 <div>
-
-	<ul class="nav nav-tabs" role="tablist">
-	<li role="presentation" class="active"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Plenary Heading</a></li>
+	<ul class="nav nav-tabs nav-justified" role="tablist">
+	<li role="presentation" class="active"><a href="#plenary1" aria-controls="plenary1" role="tab" data-toggle="tab">Plenary Heading</a></li>
 	<li role="presentation"><a href="#plenary2" aria-controls="plenary2" role="tab" data-toggle="tab">Other Plenary Heading</a></li>
 	<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Random Plenary Heading</a></li>
 	<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Plenary Name</a></li>
@@ -85,60 +84,10 @@ include_once("../includes/sql.php");
 		<div role="tabpanel" class="tab-pane" id="plenary6">
 		...
 		</div>
-	</div>
 
 	</div>
+</div>
 
-	<div class = "row">
-		<div class = "col-md-6">
-			<h2>Plenary Heading</h2>
-			<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-			</p>
-			<div class = "row">
-				<div class = "cold-md-6">
-				<h4>Sample Speaker</h4>
-				<img src="img/avatar.png" width = "10%"></img>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-				</p>
-				</div>
-				<div class = "cold-md-6">
-				<h4>Sample Speaker</h4>
-				<img src="img/avatar.png" width = "10%"></img>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-				</p>
-				</div>
-
-			</div>
-		</div>
-
-		<div class = "col-md-6">
-			<h2>Plenary Heading</h2>
-			<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-			</p>
-				<div class = "row">
-				<div class = "cold-md-3">
-				<h4>Sample Speaker</h4>
-				<img src="img/avatar.png" width = "10%"></img>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-				</p>
-				</div>
-				<div class = "cold-md-3">
-				<h4>Sample Speaker</h4>
-				<img src="img/avatar.png" width = "10%"></img>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-				</p>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
 </div>
 
 <?php
