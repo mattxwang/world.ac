@@ -15,7 +15,7 @@ include_once("../includes/sql.php");
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
-	<title>Meet the WAC Team</title>
+	<title>Plenaries</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
@@ -76,24 +76,24 @@ include_once("../includes/sql.php");
 		</div>
 		<div role="tabpanel" class="tab-pane" id="plenary2">
 			<h2>Plenary Heading</h2>
-				<p> 
+			<p> 
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+			</p>
+			<div class = "row">
+				<div class = "col-md-6">
+				<h4>Sample Speaker</h4>
+				<img src="img/avatar.png" width = "10%"></img>
+				<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 				</p>
-				<div class = "row">
-					<div class = "col-md-6">
-					<h4>Sample Speaker</h4>
-					<img src="img/avatar.png" width = "10%"></img>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-					</p>
-					</div>
-					<div class = "col-md-6">
-					<h4>Sample Speaker</h4>
-					<img src="img/avatar.png" width = "10%"></img>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-					</p>
-					</div>
+				</div>
+				<div class = "col-md-6">
+				<h4>Sample Speaker</h4>
+				<img src="img/avatar.png" width = "10%"></img>
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+				</p>
+				</div>
 
 		</div>
 		<div role="tabpanel" class="tab-pane" id="plenary3">
