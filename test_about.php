@@ -49,7 +49,7 @@ include_once("../includes/sql.php");
 </br>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	<div class="carousel-mod carousel-inner" role="listbox">
-		<div class="carousel-mod item active bg-ucc">
+		<div class="carousel-mod item active bg-ucc" style ="height:50%">
 			<div class = "row">
 				<div class = "col-md-1">
 				</div>
@@ -73,7 +73,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div class="carousel-mod item bg-bh">
+		<div class="carousel-mod item bg-bh" style ="height:50%">
 			<div class = "row">
 				<div class = "col-md-1">
 				</div>
