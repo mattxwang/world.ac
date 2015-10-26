@@ -60,8 +60,9 @@ include_once("../includes/sql.php");
 				</div>
 				<div class = "col-md-6">
 					<p>
-					<span style="size:5vw">
-					Matthew Wang
+					<span style="font-size:5vw">
+					<b>Matthew Wang</b>
+					</br>
 					Web Designer/Media
 					</span>
 					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
