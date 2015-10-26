@@ -47,9 +47,9 @@ include_once("../includes/sql.php");
 <h2>Meet the WAC Team</h2>
 </div>
 </br>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style ="height:50%">
 	<div class="carousel-mod carousel-inner" role="listbox">
-		<div class="carousel-mod item active bg-ucc" style ="height:50%">
+		<div class="carousel-mod item active bg-ucc">
 			<div class = "row">
 				<div class = "col-md-1">
 				</div>
@@ -73,7 +73,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div class="carousel-mod item bg-bh" style ="height:50%">
+		<div class="carousel-mod item bg-bh">
 			<div class = "row">
 				<div class = "col-md-1">
 				</div>
