@@ -50,16 +50,16 @@ include_once("../includes/sql.php");
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	<div class="carousel-mod carousel-inner" role="listbox" style ="height:50%">
 		<div class="carousel-mod item active bg-ucc">
-			<div class = "row">
+			<div class = "row" style = "padding-top:10%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
-					<img src = "img/bio/headshots/matt.png" style = "height:80%;padding:10%;"></img>
+					<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
 				</div>
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding-top:10%;">
+					<p>
 					<span style="font-size:4vw"><b>Matthew Wang</b></span>
 					</br>
 					<span style="font-size:2.5vw">Web Design/Media</span>
@@ -74,16 +74,16 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-			<div class = "row">
+			<div class = "row" style = "padding-top:10%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
-					<img src = "img/bio/headshots/logan.png" style = "height:80%;padding:10%;"></img>
+					<img src = "img/bio/headshots/logan.png" style = "height:80%;"></img>
 				</div>
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding-top:10%;">
+					<p>
 					<span style="font-size:4vw"><b>Logan Ye</b></span>
 					</br>
 					<span style="font-size:2.5vw">Conference Chair</span>
@@ -98,16 +98,16 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-			<div class = "row">
+			<div class = "row" style = "padding-top:10%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
-					<img src = "img/bio/headshots/jack.png" style = "height:80%;padding:10%;"></img>
+					<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
 				</div>
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding-top:10%;">
+					<p>
 					<span style="font-size:4vw"><b>Jack Sarick</b></span>
 					</br>
 					<span style="font-size:2.5vw">Web Design</span>
@@ -122,16 +122,16 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-			<div class = "row">
+			<div class = "row" style = "padding-top:10%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
-					<img src = "img/bio/headshots/nitish.png" style = "height:80%;padding:10%;"></img>
+					<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
 				</div>
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding-top:10%;">
+					<p>
 					<span style="font-size:4vw"><b>Nitish Dhingra</b></span>
 					</br>
 					<span style="font-size:2.5vw">Secretary/Treasurer</span>
