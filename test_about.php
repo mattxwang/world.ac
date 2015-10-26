@@ -62,7 +62,7 @@ include_once("../includes/sql.php");
 					<p style="padding-top:10%;">
 					<span style="font-size:4vw"><b>Matthew Wang</b></span>
 					</br>
-					<span style="font-size:2.5vw">Web Designer/Media</span>
+					<span style="font-size:2.5vw">Web Design/Media</span>
 					</br>
 					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
 					</br>
@@ -73,7 +73,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div class="carousel-mod item bg-bh">
+		<div class="carousel-mod item bg-ucc">
 			<div class = "row">
 				<div class = "col-md-1">
 				</div>
@@ -102,43 +102,43 @@ include_once("../includes/sql.php");
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
-					<img src = "img/bio/headshots/matt.png" style = "height:80%;padding:10%;"></img>
+					<img src = "img/bio/headshots/jack.png" style = "height:80%;padding:10%;"></img>
 				</div>
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
 					<p style="padding-top:10%;">
-					<span style="font-size:4vw"><b>Matthew Wang</b></span>
+					<span style="font-size:4vw"><b>Jack Sarick</b></span>
 					</br>
-					<span style="font-size:2.5vw">Web Designer/Media</span>
+					<span style="font-size:2.5vw">Web Design</span>
 					</br>
-					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
 					</br>
-					I’m excited to make WAC as awesome as it was last year. See you there!
+					I’m happy to be part of the team. See you there!
 					</p>
 				</div>
 				<div class = "col-md-1">
 				</div>
 			</div>
 		</div>
-		<div class="carousel-mod item bg-bh">
+		<div class="carousel-mod item bg-ucc">
 			<div class = "row">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
-					<img src = "img/bio/headshots/matt.png" style = "height:80%;padding:10%;"></img>
+					<img src = "img/bio/headshots/nitish.png" style = "height:80%;padding:10%;"></img>
 				</div>
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
 					<p style="padding-top:10%;">
-					<span style="font-size:4vw"><b>Matthew Wang</b></span>
+					<span style="font-size:4vw"><b>Nitish Dhingra</b></span>
 					</br>
-					<span style="font-size:2.5vw">Web Designer/Media</span>
+					<span style="font-size:2.5vw">Secretary/Treasurer</span>
 					</br>
-					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
 					</br>
-					I’m excited to make WAC as awesome as it was last year. See you there!
+					I am looking forward to seeing you this February at UCC! 
 					</p>
 				</div>
 				<div class = "col-md-1">
