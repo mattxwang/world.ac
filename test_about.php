@@ -59,7 +59,7 @@ include_once("../includes/sql.php");
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding:10%;">
+					<p style="padding-top:10%;">
 					<span style="font-size:4vw"><b>Matthew Wang</b></span>
 					</br>
 					<span style="font-size:2.5vw">Web Designer/Media</span>
@@ -83,7 +83,7 @@ include_once("../includes/sql.php");
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding:10%;">
+					<p style="padding-top:10%;">
 					<span style="font-size:4vw"><b>Logan Ye</b></span>
 					</br>
 					<span style="font-size:2.5vw">Conference Chair</span>
@@ -107,7 +107,7 @@ include_once("../includes/sql.php");
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding:10%;">
+					<p style="padding-top:10%;">
 					<span style="font-size:4vw"><b>Matthew Wang</b></span>
 					</br>
 					<span style="font-size:2.5vw">Web Designer/Media</span>
@@ -131,7 +131,7 @@ include_once("../includes/sql.php");
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-6">
-					<p style="padding:10%;">
+					<p style="padding-top:10%;">
 					<span style="font-size:4vw"><b>Matthew Wang</b></span>
 					</br>
 					<span style="font-size:2.5vw">Web Designer/Media</span>
