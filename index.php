@@ -51,7 +51,7 @@ include_once("navbar.php")  ?>
 	</div>
 	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> More Information In: <div id="timeLeft" style="padding-top:3vw;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
 	<script type="text/javascript">
-		var deadLine = 'December 25 2015';
+		var deadLine = 1454353200;
 		window.setInterval(function(){
   			// console.log(getTimeRemaining(deadLine));
   			$("#timeLeft").html(getTimeRemaining(deadLine));
