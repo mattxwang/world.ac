@@ -60,8 +60,8 @@ include_once("../includes/sql.php");
 				</div>
 				<div class = "col-md-6">
 					<div style = "padding:10%;">
-						<h1><b>Matthew Wang</b></h1>
-						<h3>Web Designer/Media</h3>
+						<h3><b>Matthew Wang</b></br>
+						Web Designer/Media</h3>
 						<p>Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
 						</br>
 						I’m excited to make WAC as awesome as it was last year. See you there!
