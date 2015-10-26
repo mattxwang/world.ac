@@ -49,7 +49,7 @@ include_once("navbar.php")  ?>
 	<div style="font-size:5vw;">
 	WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 	</div>
-	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> More Information In: <div id="timeLeft" style="padding-top:3vw;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
+	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts On: <div id="timeLeft" style="padding-top:3vw;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
 	<script type="text/javascript">
 		var deadLine = 1454353200;
 		window.setInterval(function(){

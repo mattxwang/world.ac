@@ -10,6 +10,6 @@ function getTimeRemaining(endtime){
 		return days + " Days " + hours + " Hours " + minutes + " Minutes and " + seconds + " Seconds";
 	}
 	else {
-		return "Worlds Affairs Conference is in motion!"
+		return "February 1st 2016"
 	}
 }
