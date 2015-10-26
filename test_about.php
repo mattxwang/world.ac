@@ -58,7 +58,7 @@ include_once("../includes/sql.php");
 				</div>
 				<div class = "col-md-1">
 				</div>
-				<div class = "col-md-6" style ="vertical-align:middle">
+				<div class = "col-md-6" style ="padding:10%">
 					
 					<h1><b>Matthew Wang</b></h1>
 					<h3>Web Designer/Media</h3>
