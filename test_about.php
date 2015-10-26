@@ -74,7 +74,7 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-			<div class = "row" style = "padding-top:10%;">
+			<div class = "row" style = "padding:5%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
@@ -98,7 +98,7 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-			<div class = "row" style = "padding-top:10%;">
+			<div class = "row" style = "padding:5%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
@@ -122,7 +122,7 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-			<div class = "row" style = "padding-top:10%;">
+			<div class = "row" style = "padding:5%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
