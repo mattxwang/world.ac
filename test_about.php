@@ -50,7 +50,7 @@ include_once("../includes/sql.php");
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	<div class="carousel-mod carousel-inner" role="listbox" style ="height:50%">
 		<div class="carousel-mod item active bg-ucc">
-			<div class = "row" style = "padding-top:10%;">
+			<div class = "row" style = "padding:5%;">
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
