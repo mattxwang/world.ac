@@ -74,13 +74,76 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 		<div class="carousel-mod item bg-bh">
-		<img src="/img/bio/jsarick.png" alt="Jack Sarick">
+			<div class = "row">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/logan.png" style = "height:80%;padding:10%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p style="padding:10%;">
+					<span style="font-size:4vw"><b>Logan Ye</b></span>
+					</br>
+					<span style="font-size:2.5vw">Conference Chair</span>
+					</br>
+					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks, as well as coordinate with the faculty advisors.
+					</br>
+					See you at WAC!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
-		<img src="/img/bio/ndhingra.png" alt="Third slide">
+			<div class = "row">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/matt.png" style = "height:80%;padding:10%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p style="padding:10%;">
+					<span style="font-size:4vw"><b>Matthew Wang</b></span>
+					</br>
+					<span style="font-size:2.5vw">Web Designer/Media</span>
+					</br>
+					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					</br>
+					I’m excited to make WAC as awesome as it was last year. See you there!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
 		</div>
 		<div class="carousel-mod item bg-bh">
-		<img src="/img/bio/lye.png" alt="Fourth slide">
+			<div class = "row">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/matt.png" style = "height:80%;padding:10%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p style="padding:10%;">
+					<span style="font-size:4vw"><b>Matthew Wang</b></span>
+					</br>
+					<span style="font-size:2.5vw">Web Designer/Media</span>
+					</br>
+					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					</br>
+					I’m excited to make WAC as awesome as it was last year. See you there!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
 		</div>
 	</div>
 
