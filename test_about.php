@@ -55,9 +55,7 @@ include_once("../includes/sql.php");
 	          		<div class = "col-md-1">
 	          		</div>
 	          		<div class = "col-md-3">
-	          			</br>
-	          			<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
-	          			</br>
+	          			<img src = "img/bio/headshots/matt.png" style = "height:80%;padding:10%;"></img>
 	          		</div>
 	          		<div class = "col-md-1">
 	          		</div>
