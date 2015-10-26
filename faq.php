@@ -56,7 +56,7 @@ include_once("../includes/sql.php");
 	</div>
 	<div id = "gen_date">
 		<h3>2016 dates</h3>
-		<p> We haven't quite decided the exact date of WAC. More information will be known as registration packages get sent out. </p>
+		<p> There are two parts to WAC: the Keynote Address, which will be held on the night of February 1st, and the conference day, which is on the day of February 2nd.  </p>
 	</div>
 	<div id = "gen_days">
 		<h3>Do students attend both days?</h3>
