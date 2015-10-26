@@ -51,10 +51,14 @@ include_once("../includes/sql.php");
 	<div class="carousel-mod carousel-inner" role="listbox" style ="height:50%">
 		<div class="carousel-mod item active bg-ucc">
 			<div class = "row" style = "padding-top:10%;">
-				<div class = "col-md-5">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-3">
 					<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
 				</div>
-				<div class = "col-md-7">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-6">
 					<p>
 					<span style="font-size:4vw"><b>Matthew Wang</b></span>
 					</br>
@@ -65,14 +69,20 @@ include_once("../includes/sql.php");
 					I’m excited to make WAC as awesome as it was last year. See you there!
 					</p>
 				</div>
+				<div class = "col-md-1 visible-lg">
+				</div>
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
 			<div class = "row" style = "padding-top:10%;">
-				<div class = "col-md-5">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-3">
 					<img src = "img/bio/headshots/logan.png" style = "height:80%;"></img>
 				</div>
-				<div class = "col-md-7">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-6">
 					<p>
 					<span style="font-size:4vw"><b>Logan Ye</b></span>
 					</br>
@@ -83,14 +93,20 @@ include_once("../includes/sql.php");
 					See you at WAC!
 					</p>
 				</div>
+				<div class = "col-md-1 visible-lg">
+				</div>
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
 			<div class = "row" style = "padding-top:10%;">
-				<div class = "col-md-5">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-3">
 					<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
 				</div>
-				<div class = "col-md-7">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-6">
 					<p>
 					<span style="font-size:4vw"><b>Jack Sarick</b></span>
 					</br>
@@ -101,14 +117,20 @@ include_once("../includes/sql.php");
 					I’m happy to be part of the team. See you there!
 					</p>
 				</div>
+				<div class = "col-md-1 visible-lg">
+				</div>
 			</div>
 		</div>
 		<div class="carousel-mod item bg-ucc">
 			<div class = "row" style = "padding-top:10%;">
-				<div class = "col-md-5">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-3">
 					<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
 				</div>
-				<div class = "col-md-7">
+				<div class = "col-md-1 visible-lg">
+				</div>
+				<div class = "col-md-6">
 					<p>
 					<span style="font-size:4vw"><b>Nitish Dhingra</b></span>
 					</br>
@@ -118,6 +140,8 @@ include_once("../includes/sql.php");
 					</br>
 					I am looking forward to seeing you this February at UCC! 
 					</p>
+				</div>
+				<div class = "col-md-1 visible-lg">
 				</div>
 			</div>
 		</div>
