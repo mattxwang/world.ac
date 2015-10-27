@@ -224,3 +224,8 @@ ul{
   overflow: hidden;
   background-color: #2A99D6;
 }
+.divider-black {
+  height: 1px;
+  overflow: hidden;
+  background-color: #000000;
+}
