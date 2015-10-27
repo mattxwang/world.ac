@@ -28,7 +28,7 @@ include_once("../includes/sql.php");
 <body style="position:relative;">
 <div class="container-fluid">
 <div class="row" style="color:#ffffff;">
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<h1>Contact Us</h1>
 		<p>
 		<h3>Conference Organisation</h3>
@@ -52,9 +52,6 @@ include_once("../includes/sql.php");
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive" style="width:30%;"></img>
 		</a>
-	</div>
-	<div class="col-md-2">
-		
 	</div>
 	<div class="col-md-4">
 		
