@@ -76,6 +76,9 @@ body{
 		background-color: #53b5b4;
 		border-color: #53b5b4;
 	}
+	.justify-text{
+		text-align:justify;
+	}
 }
 input{
 	box-sizing:border-box;
