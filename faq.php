@@ -36,7 +36,7 @@ include_once("../includes/sql.php");
 
 <div class = "row">
 
-<div class = "col-md-2 hidden-xs" style = "color:#2A99D6"> 
+<div class = "col-md-2 hidden-xs" style = "color:#000000"> 
 	<ul class="nav nav-pills nav-stacked bg-white nav-rounded" style="position:fixed;">
 	  <li role="presentation"><a href="#general">General</a></li>
 	  <li role="separator" class="divider-black"></li>
