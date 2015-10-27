@@ -33,9 +33,9 @@ include_once("../includes/sql.php");
 		<p>
 		<h3>Conference Organisation</h3>
 		<b>Logan Ye</b>, Conference Chair, <a href="mailto:logan.ye@ucc.on.ca">logan.ye@ucc.on.ca</a></br>
-		<b>Nikhil Kassum</b>, Conference Chair, <a href="mailto:nikhil.kassume@ucc.on.ca">nikhil.kassum@ucc.on.ca</a></br>
 		<b>Naz Gocek</b>, Conference Chair, <a href="mailto:ngocek@branksome.on.ca">ngocek@branksome.on.ca</a></br>
 		<b>Blaise O'Malley</b>, Conference Chair, <a href="mailto:bomalley@branksome.on.ca">bomalley@branksome.on.ca</a></br>
+		<b>Nikhil Kassum</b>, Head of Programs, <a href="mailto:nikhil.kassume@ucc.on.ca">nikhil.kassum@ucc.on.ca</a></br>
 		<b>Ernest Leung</b>, Head of Operations, <a href="mailto:ernest.leung@ucc.on.ca">ernest.leung@ucc.on.ca</a></br>
 		<b>Emmanuel Wong</b>, Head of Registration, <a href="mailto:emmanuel.wong@ucc.on.ca">emmanuel.wong@ucc.on.ca</a></br>
 		<b>Nitish Dhingra</b>, Secretary, <a href="mailto:nitish.dhingra@ucc.on.ca">nitish.dhingra@ucc.on.ca</a></br>
@@ -50,7 +50,7 @@ include_once("../includes/sql.php");
 	<div class="col-md-4">
 		
 	</div>
-	<div class="col-md-2" style ="align:right">
+	<div class="col-md-2">
 		<h1>Social Media</h1>
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive" style="width:30%;"></img>
