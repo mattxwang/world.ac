@@ -55,7 +55,7 @@ include_once("../includes/sql.php");
 </br>
 <div align="middle">
 <script type="text/javascript">
-	var random = return Math.random() * 4;
+	var random = Math.random() * 4;
 	$(".carousel-mod.item").eq(random).addClass(active);
 </script>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
