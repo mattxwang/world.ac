@@ -54,13 +54,15 @@ include_once("../includes/sql.php");
 </div>
 </br>
 <div align="middle">
+<!--
 <script type="text/javascript">
 	var random = Math.random() * 4;
 	$(".carousel-mod.item").eq(random).addClass("active");
 </script>
+-->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	        <div class="carousel-mod carousel-inner" role="listbox">
-	          <div class="carousel-mod item bg-uccblue">
+	          <div class="carousel-mod item bg-uccblue active">
 	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
 	          </div>
 	          <div class="carousel-mod item bg-uccblue">
