@@ -22,65 +22,11 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
-	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<style>
-	body {
-		color:#FFFFFF;
-	}
-	hr {
-		color:#817781;
-	}
-	.header {
-		font-size:14px;
-		font-weight:bold;
-		align:left;
-		color:#FFFFFF;
-	}
-	.text {
-		font-size:14px;
-		align:left;
-		color:#FFFFFF;
-	}
-	.tablecontent {
-		width:280px;
-	   border-collapse: collapse;
-	   border-spacing: 0;
-	   border-radius:3px;
-	   color:#00e4ff;
-
-	}
-	.tablecontent2 {
-		width:280px;
-	   border-collapse: collapse;
-	   border-spacing: 0;
-	   border-radius:3px;
-	   color:#FFFFFF;
-	}
-	.sectionhead {
-		font-size:20px;
-		align:left;
-	}
-	#gen_what {
-		padding-bottom:14px;
-	}
-	#gen_date {
-		padding-bottom:14px;
-	}
-	#gen_hours{
-		padding-bottom:14px;
-	}
-	#reg_who{
-		padding-bottom:14px;
-	}
-	#contact {
-		padding-bottom:14px;
-	}
-	</style>
 </head>
 
-<!-- || Main Page Content || -->
 <body style="position:relative;">
+<div class="container">
 
 <?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
@@ -88,189 +34,88 @@ include_once("../includes/sql.php");
 
 <!-- | Page Content | -->
 
-<div style="padding-left:200px;padding-right:200px;">
+<div class = "row">
 
-
-<span style="padding:10px; margin-bottom:100px;">
-
-	<span style="color:#ffffff;font-size:30px;alight:left;padding-bottom:15px;"><b>Have a question about WAC?</b></span></br>
-<div>
-	<table class="tablecontent" style="float:left;">
-		<tr>
-			<td style="font-weight:bold;color:#FFF;">General</td>
-		</tr>
-		<tr>
-			<td><a href="#gen_what">What is WAC?</a></td>
-		</tr>
-		<tr>
-			<td><a href="about_us.php">Who is WAC?</a></td>
-		</tr>
-		<!--
-		<tr>
-			<td><a href="#gen_date">2016 dates</a></td>
-		</tr>
-		<tr>
-			<td><a href="#gen_hours">Conference hours</a></td>
-		</tr>
-		-->
-		<tr>
-			<td><a href="#gen_days">Do students attend both days?</a></td>
-		</tr>
-		<tr>
-			<td><a href="#media">Media information</a></td>
-		</tr>
-	</table>
-	<table class="tablecontent" style="float:left;">
-		<tr>
-			<td style="font-weight:bold;color:#FFF;">Registration</td>
-		</tr>
-		<tr>
-			<td><a href="#how_to_reg">How can I register my school?</a></td>
-		</tr>
-		<tr>
-			<td><a href="#reg_student_cost">What is the cost per student?</a></td>
-		</tr>
-		<tr>
-			<td><a href="#reg_who">Who can attend WAC?</a></td>
-		</tr>
-		<!--
-		<tr>
-			<td><a href="#reg_due">When is the registration due?</a></td>
-		</tr>
-		-->
-
-	</table>
-	<table class="tablecontent" style="float:left;">
-		<tr>
-			<td style="font-weight:bold;color:#FFF;">Conference Day</td>
-		</tr>
-		<tr>
-			<td><a href="#theday">What can I expect on the day of WAC?</a></td>
-		</tr>
-		<tr>
-			<td><a href="#lunch">Are students provided lunch?</a></td>
-		</tr>
-		<tr>
-			<td><a href="#allergy">How do I notify WAC of allergies?</a></td>
-		</tr>
-	</table>
-	<table class="tablecontent" style="float:left;">
-		<tr>
-			<td style="font-weight:bold;color:#FFF;">Contact</td>
-		</tr>
-		<tr>
-			<td><a href="#contactinfo">Contact info</a></td>
-		</tr>
-	</table>
-
-</br></br></br></br></br></br></br></br>
-
+<div class = "col-md-2 hidden-xs" style = "color:#000000"> 
+	<ul class="nav nav-pills nav-stacked bg-white nav-rounded" style="position:fixed;">
+	  <li role="presentation"><a href="#general">General</a></li>
+	  <li role="separator" class="divider-black"></li>
+	  <li role="presentation"><a href="#reg">Registration</a></li>
+	  <li role="separator" class="divider-black"></li>
+	  <li role="presentation"><a href="#cday">Conference Day</a></li>
+	</ul>
 </div>
 
-
-<div class = "sectionhead">General</div><hr>
+<div class = "col-md-10" style ="color:#FFFFFF"> 
+	<div id = "general">
+	<h2>General</h2>
+	</div>
 	<div id = "gen_what">
-		<span class="header">What is WAC?</span></br>
-		<span class="text"> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 50 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</span>
+		<h3>What is WAC?</h3>
+		<p class = "text-justify"> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 50 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</p>
 	</div>
 	<div id = "gen_date">
-		<span class="header">2016 dates</span></br>
-		<span class+"text"> We haven't quite decided the exact date of WAC. More information will be known as registration packages get sent out. </span></br>
-		<!--
-		<span class="text"> The 2015 World Affairs Conference (WAC) will be held from <strong>February 2-3 2015 </strong> at Upper Canada College in Toronto, Canada.</span>
-		-->
-	<!--
-	<div id = "gen_hours">
-		<span class="header">Conference hours</span></br>
-		<span class="text"> Please refer to the <a href="schedule.php">schedule</a> page. </span>
+		<h3>2016 dates</h3>
+		<p class = "text-justify"> There are two parts to WAC: the Keynote Address, which will be held on the night of February 1st, and the conference day, which is on the day of February 2nd.  </p>
 	</div>
-	-->
 	<div id = "gen_days">
-		<span class="header">Do students attend both days?</span></br>
-		<span class="text">The first day of the conference consists just of the Lionel Gelber Keynote Address which is hosted in the evening. This event is open to the Toronto community, and anyone is welcome to attend. The second day of the conference begins at 8AM and is attended by only registered student delegates and their faculty supervisors. We do encourage students to attend the Keynote Address if it is of interest to them. It tends to feature a well know speaker of great importance to current affairs.</span>
-	</div><br />
+		<h3>Do students attend both days?</h3>
+		<p class = "text-justify">The first day of the conference consists just of the Lionel Gelber Keynote Address which is hosted in the evening. This event is open to the Toronto community, and anyone is welcome to attend. The second day of the conference begins at 8AM and is attended by only registered student delegates and their faculty supervisors. We do encourage students to attend the Keynote Address if it is of interest to them. It tends to feature a well know speaker of great importance to current affairs.</p>
+	</div>
 	<div id = "media">
-		<span class="header">Media information</span></br>
-		<span class="text">For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmanuel Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a></span>
+		<h3>Media information</h3>
+		<p class = "text-justify">For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmanuel Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a></p>
 	</div>
 
-</br></br><div class = "sectionhead">Registration</div><hr>
-	<span id="reg_student_cost" style="font-size:20px;font-weight:bold;"><!--Registration for WAC 2016 is now open at $50 (USD or CAD) per person.-->Registration for WAC 2016 is being organized right now. Updates will be sent out shortly.</span></br></br>
+	<div id = "reg">
+	<h2>Registration</h2>
+	</div>
+	<div id="reg_student_cost">
+	<h3>Registration Price</h3>
+	<p class = "text-justify">Registration for WAC 2016 is being organized right now. Updates will be sent out shortly.</p>
+	</div>
 	<div id = "how_to_reg">
-		<span class="header">How can I register my school?</span></br>
-		<span class="text">To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. <!-- The registration information package, as well as the forms required to register are available for download, please click the blue 'register' button at the top right of the page to view the PDF file. Please note the forms are located at the end of this file, which also includes the registration information package.--></span>
-	</div><br />
+		<h3>How can I register my school?</h3>
+		<p class = "text-justify">To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. <!-- The registration information package, as well as the forms required to register are available for download, please click the blue 'register' button at the top right of the page to view the PDF file. Please note the forms are located at the end of this file, which also includes the registration information package.--></p>
+	</div>
 	<div id = "reg_who">
-		<span class="header">Who can attend WAC?</span></br>
-		<span class="text">WAC is open to anyone is currently in grades 9 to 12 with an interest in politics or current affairs. </span>
+		<h3>Who can attend WAC?</h3>
+		<p class = "text-justify">WAC is open to anyone is currently in grades 9 to 12 with an interest in politics or current affairs. </p>
 	</div>
 	<div id = "reg_due">
-		<span class="header">When is the registration due?</span></br>
-		<span class="text">This, along with other information, will be sent out as we finish the registration package. </span>
+		<h3>When is the registration due?</h3>
+		<p class = "text-justify">This, along with other information, will be sent out as we finish the registration package. </p>
 		<!--
-		<span class="text">The registration is due by mail on December 16th 2014. We may not be able to accept late registrants so please ensure your forms are submitted promptly. </span>
+		<p class = "text-justify">The registration is due by mail on December 16th 2014. We may not be able to accept late registrants so please ensure your forms are submitted promptly. </h3>
 		-->
 	</div>
 
-</br></br><div class = "sectionhead">Conference Day</div><hr>
+	<div id = "cday">
+	<h2>Conference Day</h2>
+	</div>
 	<div id = "theday">
-		<span class="header">What can I expect on the day of WAC?</span></br>
-		<span class="text">School supervisors and their students are encouraged to arrive at or before 8AM for the registration check in process. Each student will receive their personal package with their name tag. The conference will then be kicked off with our morning panel. The closing ceremonies typically end at around 4:40PM</span>
-	</div><br />
+		<h3>What can I expect on the day of WAC?</h3>
+		<p class = "text-justify">School supervisors and their students are encouraged to arrive at or before 8AM for the registration check in process. Each student will receive their personal package with their name tag. The conference will then be kicked off with our morning panel. The closing ceremonies typically end at around 4:40PM</p>
+	</div>
 	<div id = "lunch">
-		<span class="header">Are students provided lunch?</span></br>
-		<span class="text">Yes students are provided lunch free of charge on the day of the conference.</span>
-	</div><br />
+		<h3>Are students provided lunch?</h3>
+		<p class = "text-justify">Yes students are provided lunch free of charge on the day of the conference.</p>
+	</div>
 	<div id = "allergy">
-		<span class="header">How do I notify WAC of allergies?</span></br>
-		<span class="text">If you would like to notify us of a food allergy that we should be aware of, please include any details we will need on a separate piece of paper within your return envelope.</span>
+		<h3>How do I notify WAC of allergies?</h3>
+		<p class = "text-justify">If you would like to notify us of a food allergy that we should be aware of, please include any details we will need on a separate piece of paper within your return envelope.</p>
 	</div>
-
-
-
-</br></br></br></br><div class = "sectionhead">Contact</div><hr>
-	<div id = "contactinfo">
-		<table class="tablecontent2" style="float:left;">
-			<tr><td>Emmanuel Wong</td></tr>
-			<tr><td>Registration Correspondent</td></tr>
-			<tr><td>Upper Canada College</td></tr>
-			<tr><td>emmanuel.wong@ucc.on.ca</td></tr>
-		</table>
-		<table class="tablecontent2" style="float:left;">
-			<tr><td>Gregory McDonald</td></tr>
-			<tr><td>Faculty Advisor</td></tr>
-			<tr><td>Upper Canada College</td></tr>
-			<tr><td>416-488-1125 ext. 3330</td></tr>
-			<tr><td>gmcdonald@ucc.on.ca</td></tr>
-		</table>
-		<table class="tablecontent2" style="float:left;">
-			<tr><td>Jarrod Baker</td></tr>
-			<tr><td>Faculty Advisor</td></tr>
-			<tr><td>Branksome Hall School</td></tr>
-			<tr><td>416-920-6625 ext. 267</td></tr>
-			<tr><td>jbaker1@branksome.on.ca</td></tr>
-		</table>
-		<!--
-		<table class="tablecontent2" style="float:left;">
-			<tr><td>Tracy Dalglish</td></tr>
-			<tr><td>Faculty Advisor</td></tr>
-			<tr><td>Branksome Hall School</td></tr>
-			<tr><td>416-920-6625 ext. 280</td></tr>
-			<tr><td>tdalglish@branksome.on.ca</td></tr>
-		</table>
-		-->
-	</div>
+</div>
 
 </div>
 
-</span>
-</div>
 
 
 <!--FOOTER-->
 <?php
 include_once("footer.php")
 ?>
+</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

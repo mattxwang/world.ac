@@ -25,7 +25,6 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
-	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
@@ -34,34 +33,11 @@ include_once("../includes/sql.php");
 <?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
 
-
-
-<!-- | Page Content | -->
-
-<!-- Page Title Section -->
-<center>
-<table style="width:100%; margin-top:10px; border-collapse:collapse; width:70%; margin-top:15px;" cellpadding="0" cellspacing="0">
-<tr><!-- Main Page Title Ribbon Row -->
-<td style="background-image:url(img/left_edge.png); background-repeat:y-repeat; width:10px;"></td><!-- Left Nub -->
-<td style="text-align:center;font-size:45px; color:#ffffff; font-weight:bold; background-color:#43b4b3; padding:10px 0 10px 0;">LAST YEAR'S KEYNOTE ADDRESS<br /><spans style="font-size:35px;font-weight:normal;">Edward Snowden</span></td><!-- Title Content Nub/Section -->
-<td style="background-image:url(img/right_edge.png); background-repeat:y-repeat; width:10px;"></td><!-- Right Nub -->
-</tr>
-<tr><!-- Date Info Row -->
-<td></td>
-<td style="text-align:center;">
-	<span style="position:relative;">
-		<div style="width:100%; background-color:rgba(0,0,0,0.2); height:4px; position:absolute; top:0px; left:0px;"></div>
-		<span style="text-align:center;color:#ffffff; background-color:#43908f; padding:10px;">
-			"The Whistleblower of the Decade"
-		</span>
-		<div style="background-image:url(img/ribbon_tail_dark.png); height:10px;">&nbsp;</div>
-	</span>
-</td>
-<td></td>
-</tr>
-</table>
-</center>
-<br />
+<div style ="text-align:center">
+<h2>Last Year's Keynote Address</h2>
+<h1>Edward Snowden</h1>
+<h3>The Whistleblower of the Decade</h3>
+</div>
 <!-- The Speaker Section -->
 <table style="padding-left:40px;padding-right:40px;width:70%; border-collapse:collapse; margin:0 auto;" cellspacing="0" cellpadding="0">
 <tr>

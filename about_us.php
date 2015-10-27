@@ -21,7 +21,6 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
-	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
 	.bg-web{
@@ -64,10 +63,10 @@ include_once("../includes/sql.php");
 	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
 	          </div>
 	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/mwang.png" alt="Third slide">
+	            <img src="/img/bio/ndhingra.png" alt="Third slide">
 	          </div>
 	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/jsarick.png" alt="Fourth slide">
+	            <img src="/img/bio/lye.png" alt="Fourth slide">
 	          </div>
 	        </div>
 	        
