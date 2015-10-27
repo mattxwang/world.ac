@@ -50,7 +50,7 @@ include_once("../includes/sql.php");
 	<div class="col-md-4">
 		
 	</div>
-	<div class="col-md-2" style ="text-align:right">
+	<div class="col-md-2" style ="align:right">
 		<h1>Social Media</h1>
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive" style="width:30%;"></img>
