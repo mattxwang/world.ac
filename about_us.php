@@ -74,6 +74,9 @@ include_once("../includes/sql.php");
 	          <div class="carousel-mod item bg-uccblue">
 	            <img src="/img/bio/lye.png" alt="Fourth slide">
 	          </div>
+	          <div class="carousel-mod item bg-uccblue">
+	            <img src="/img/bio/eleung.png" alt="Fifth slide">
+	          </div>
 	        </div>
 	        
 	        <a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
