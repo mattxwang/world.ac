@@ -55,6 +55,9 @@ include_once("../includes/sql.php");
 		<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 		<img src="img/facebook.png" class="img-responsive" style="width:30%;"></img>
 		</a>
+		<a href="https://twitter.com/WAC_UCC">
+		<img src="img/twitter.png" class="img-responsive" style="width:30%;"></img>
+		</a>
 	</div>
 </div>
 <?php
