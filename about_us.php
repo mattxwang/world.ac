@@ -23,16 +23,10 @@ include_once("../includes/sql.php");
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
-	.bg-web{
-		background-color:#DB0C09;
-	}
-	.bg-chairs{
-		background-color:#2A99D6;
-	}
-	.bg-heads{
+	.bg-bh{
 		background-color:#36CC79;
 	}
-	.bg-uccblue{
+	.bg-ucc{
 		background-color:#5E7794;
 	}
 	.carousel-control.left, .carousel-control.right {
@@ -53,43 +47,140 @@ include_once("../includes/sql.php");
 <h2>Meet the WAC Team</h2>
 </div>
 </br>
-<div align="middle">
-<!--
-<script type="text/javascript">
-	var random = Math.random() * 4;
-	$(".carousel-mod.item").eq(random).addClass("active");
-</script>
--->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	        <div class="carousel-mod carousel-inner" role="listbox">
-	          <div class="carousel-mod item bg-uccblue active">
-	          	<img src="/img/bio/mwang.png" alt="Matthew Wang">
-	          </div>
-	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/jsarick.png" alt="Jack Sarick">
-	          </div>
-	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/ndhingra.png" alt="Third slide">
-	          </div>
-	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/lye.png" alt="Fourth slide">
-	          </div>
-	          <div class="carousel-mod item bg-uccblue">
-	            <img src="/img/bio/eleung.png" alt="Fifth slide">
-	          </div>
-	        </div>
-	        
-	        <a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	          <span class="sr-only">Previous</span>
-	        </a>
-	        <a class="carousel-mod right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	          <span class="sr-only">Next</span>
-	        </a>
-	        
-	      </div>
-	  </div>
+	<div class="carousel-mod carousel-inner" role="listbox" style ="height:50%">
+		<div class="carousel-mod item active bg-ucc">
+			<div class = "row" style = "padding:5%;">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p>
+					<span style="font-size:4vw"><b>Matthew Wang</b></span>
+					</br>
+					<span style="font-size:2.5vw">Web Design/Media</span>
+					</br>
+					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					</br>
+					I’m excited to make WAC as awesome as it was last year. See you there!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
+		</div>
+		<div class="carousel-mod item bg-ucc">
+			<div class = "row" style = "padding:5%;">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/logan.png" style = "height:80%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p>
+					<span style="font-size:4vw"><b>Logan Ye</b></span>
+					</br>
+					<span style="font-size:2.5vw">Conference Chair</span>
+					</br>
+					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks, as well as coordinate with the faculty advisors.
+					</br>
+					See you at WAC!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
+		</div>
+		<div class="carousel-mod item bg-ucc">
+			<div class = "row" style = "padding:5%;">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p>
+					<span style="font-size:4vw"><b>Jack Sarick</b></span>
+					</br>
+					<span style="font-size:2.5vw">Web Design</span>
+					</br>
+					I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
+					</br>
+					I’m happy to be part of the team. See you there!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
+		</div>
+		<div class="carousel-mod item bg-ucc">
+			<div class = "row" style = "padding:5%;">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p>
+					<span style="font-size:4vw"><b>Nitish Dhingra</b></span>
+					</br>
+					<span style="font-size:2.5vw">Secretary/Treasurer</span>
+					</br>
+					Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+					</br>
+					I am looking forward to seeing you this February at UCC! 
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
+		</div>
+		<div class="carousel-mod item bg-ucc">
+			<div class = "row" style = "padding:5%;">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
+					<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p>
+					<span style="font-size:4vw"><b>Ernest Leung</b></span>
+					</br>
+					<span style="font-size:2.5vw">Head of Operations</span>
+					</br>
+					Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
+					</br>
+					I’m super excited for WAC this February! See you all there!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-mod right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+
+</div>
 </br>
 <div style="padding:35px;font-family:nexa; text-align:center; color:#ffffff;">
 WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. Our goal is to provide over eight hundred students with current affairs knowledge, and a positive experience.
