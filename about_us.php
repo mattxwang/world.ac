@@ -88,7 +88,7 @@ include_once("../includes/sql.php");
 					</br>
 					<span style="font-size:2.5vw">Conference Chair</span>
 					</br>
-					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks, as well as coordinate with the faculty advisors.
+					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
 					</br>
 					See you at WAC!
 					</p>
