@@ -102,6 +102,30 @@ include_once("../includes/sql.php");
 				<div class = "col-md-1">
 				</div>
 				<div class = "col-md-3">
+					<img src = "img/bio/headshots/naz.png" style = "height:80%;"></img>
+				</div>
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-6">
+					<p>
+					<span style="font-size:4vw"><b>Naz Gocek</b></span>
+					</br>
+					<span style="font-size:2.5vw">Conference Chair</span>
+					</br>
+					I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
+					</br>
+					Hope to see you at WAC!
+					</p>
+				</div>
+				<div class = "col-md-1">
+				</div>
+			</div>
+		</div>
+		<div class="carousel-mod item bg-ucc">
+			<div class = "row" style = "padding:5%;">
+				<div class = "col-md-1">
+				</div>
+				<div class = "col-md-3">
 					<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
 				</div>
 				<div class = "col-md-1">
