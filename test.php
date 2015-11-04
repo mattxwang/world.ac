@@ -31,8 +31,8 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	<script src="js/countdown.js"></script>
 	<style>
 		.body {
-    		background-image: url("img/stars_tam");
-    		background-image: url("img/earth_moon");
+    		background-image: url("img/stars_tam.png");
+    		background-image: url("img/earth_moon.png");
 		}
 	</style>
 </head>
