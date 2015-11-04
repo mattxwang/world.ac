@@ -64,7 +64,7 @@ include_once("../includes/sql.php");
 					</br>
 					<span style="font-size:2.5vw">Web Design/Media</span>
 					</br>
-					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website.Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
 					</br>
 					I’m excited to make WAC as awesome as it was last year. See you there!
 					</p>
