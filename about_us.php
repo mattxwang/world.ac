@@ -216,7 +216,9 @@ This kind of work doesn't appear out of thin air: we have many students working 
 Nick Elder, Derek Lam, Kinton Cheung
 </br>
 <h3>Website Consultants</h3>
-Aidan Harradence, Alex Roberts, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
+Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
+</br>
+And to a bunch of other people who've made WAC awesome!
 
 </div>
 </br>
