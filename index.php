@@ -2,17 +2,11 @@
 //Start the PHP session
 session_start();
 
-//Calls to base hit counter with unique visitors IP tracking.
-include_once("hit_counter.php");
+//Calls to base hit counter
+include_once("hitcounter.php");
 
 //Connect to SQL Database and include custom sqlQuerry function.
 include_once("../includes/sql.php");
-
-/* the literal worst tracking system in the history of like ever
-// To send HTML mail, the Content-type header must be set
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-*/
 ?>
 
 <!DOCTYPE html>
@@ -49,12 +43,12 @@ include_once("navbar.php")  ?>
 	<div style="font-size:5vw;">
 	WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 	</div>
-	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts On: <div id="timeLeft" style="padding-top:3vw;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
+	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts In: <div id="timeLeft" style="padding-top:3vw;">February 1st 2016</div></div>
 	<script type="text/javascript">
-		var deadLine = 1454353200;
+		var deadLine = "2/1/2016";
 		window.setInterval(function(){
-  			// console.log(getTimeRemaining(deadLine));
-  			$("#timeLeft").html(getTimeRemaining(deadLine));
+			// console.log(getTimeRemaining(deadLine));
+			$("#timeLeft").html(getTimeRemaining(deadLine));
 		}, 1000);
 	</script>
 

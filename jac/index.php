@@ -35,13 +35,19 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 				color: white;
 			}
 
+			.page-container {
+				height: 150%;
+				position: relative;
+			}
+
 			.main-jumbo {
 				position: relative;
 				color: #FBFBFB;
-				/*background-color: #2C2D32;*/
+				background-color: blue;
 				text-align: left;
 				font-size: 5vw;
 				padding: 2%;
+				display: inline-block;
 			}
 
 			.countdown {
@@ -64,7 +70,8 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 				position:absolute;
 				bottom:0;
 				background-color: red;
-				/*padding: 2%;*/
+				padding: 2%;
+				height: 50%;
 			}
 
 			.about-div {
@@ -72,7 +79,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 				position: relative;
 				text-align: left;
 				font-size: 1vw;
-				width: 50%
+				width: 50%;
 			}
 		</style>
 	</head>
@@ -83,34 +90,33 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		<?php include_once("navbar.php")  ?>
 
 		<!-- Here thar be magik! -->
+		<div class="page-container">
+			<div class="main-jumbo">
+				WELCOME TO THE 2016</br>
+				<b>WORLD AFFAIRS CONFERENCE.</b>
+				<!-- countdown bit -->
+				<div class="countdown">
+					WAC Starts in: <div id="timeLeft"></div>
+					<script type="text/javascript">
+						// So easy to change the date, a WAC exec can do it!
+						var deadLine = 'December 25 2015';
+						window.setInterval(function(){
+								$("#timeLeft").html(getTimeRemaining(deadLine));
+						}, 1000);
+					</script>
+				</div>
 
-		<div class="main-jumbo">
-			WELCOME TO THE 2016</br>
-			<b>WORLD AFFAIRS CONFERENCE.</b>
-			<!-- countdown bit -->
-			<div class="countdown">
-				WAC Starts in: <div id="timeLeft"></div>
-				<script type="text/javascript">
-					// So easy to change the date, a WAC exec can do it!
-					var deadLine = 'December 25 2015';
-					window.setInterval(function(){
-							$("#timeLeft").html(getTimeRemaining(deadLine));
-					}, 1000);
-				</script>
+				<!-- Put whatever in this div -->
+				<div class="media-pane">
+					<img style="max-width:100%; max-height:100%;" src="earth.png">
+				</div>
+
 			</div>
 
-			<!-- Put whatever in this div -->
-			<div class="media-pane">
-				<img style="max-width:100%; max-height:100%;" src="earth.png">
-			</div>
-
-		</div>
-
-		<div style="height:3%"></div>
-
-		<div class="main-info">
-			<div class="about-div">
-				The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference.
+			<div class="main-info">
+				<div class="about-div">
+					The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference.
+				</div>
 			</div>
 		</div>
 

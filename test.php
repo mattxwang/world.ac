@@ -28,7 +28,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
-	<script src="js/countdown.js"></script>
+	<script src="countdown.js"></script>
 	<style>
 		.body {
     		background-image: url("img/stars_tam.png");
@@ -49,7 +49,7 @@ include_once("navbar.php")  ?>
 	</div>
 	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts On: <div id="timeLeft" style="padding-top:3vw;">00 Days 00 Hours 00 Minutes and 00 Seconds</div></div>
 	<script type="text/javascript">
-		var deadLine = 1454353200;
+		var deadLine = "2/16/2016";
 		window.setInterval(function(){
   			// console.log(getTimeRemaining(deadLine));
   			$("#timeLeft").html(getTimeRemaining(deadLine));
