@@ -10,7 +10,7 @@ Quick tips:
 3. Please put all js and css in their respective directories </br>
 4. All viewable pages should be .php files </br>
 5. Please import navbar.php and footer.php for the nav and footer for every page </br>
-6. Remember to import all the css required (custom.css + both bootstrap files)  </br>
+6. Remember to import all the css required (base.css + both bootstrap files)  </br>
 7. Reference base.css if you can, especially for styles across multiple pages </br>
 8. Please keep mobile design in mind, try to use bootstrap's responsive utilities.  </br>
 9. Optimally use php scripts, as they load quicker on mobile and desktop viewports. Js is fine if its neeeded. </br>
