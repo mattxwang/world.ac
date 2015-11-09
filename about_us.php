@@ -132,7 +132,7 @@ include_once("../includes/sql.php");
 				</div>
 				<div class = "col-md-6">
 					<p>
-					<span style="font-size:4vw"><b>Jack Sarick</b></span>
+					<span style="font-size:4vw"><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></span>
 					</br>
 					<span style="font-size:2.5vw">Web Design</span>
 					</br>
