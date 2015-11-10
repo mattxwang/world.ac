@@ -1,6 +1,11 @@
 <!-- underline code
 <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:2px; opacity:1;" class="hidden-xs"></span>
 -->
+<?php 
+	// You'll need these
+	require("login.php"); 
+	require("common.php");
+?>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -44,17 +49,8 @@
 			</ul>
 			
 			<ul class = "nav navbar-nav navbar-right" style = "padding:0px;">
-				<!-- You exist -->
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mah Name!!!!<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><b>Welcome</b> Dinkleberg</li>
-						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
-						<li><a href="account.php">acCoUNT Settings</a></li>
-						<li><a href="logout.php">Logout</a></li>
-					</ul>
-				</li>
-
+				<?php
+					if(empty($_SESSION['user'])) { ?>
 				<!-- You don't exist -->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
@@ -69,6 +65,21 @@
 						<li><a href="registerpage.php">Register</a></li>
 					</ul>
 				</li>
+
+				<?php } else { ?>
+				<!-- You exist -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mah Name!!!!<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><b>Welcome</b> Dinkleberg</li>
+						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
+						<li><a href="account.php">acCoUNT Settings</a></li>
+						<li><a href="logout.php">Logout</a></li>
+					</ul>
+				</li>
+				}?>
+
+
 
 			</ul>
 			
