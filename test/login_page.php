@@ -18,7 +18,7 @@
 		<h2>WAC 2016 Account Login</h2>
 		<div class = "row">
 			<div class = "col-md-6">
-				<form class="form-signin" action="loginpage.php" method="post">
+				<form class="form-signin" action="login_page.php" method="post">
 					<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 						<strong>Warning!</strong> Incorrect username/password combination. 
 					</div>
