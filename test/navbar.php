@@ -56,7 +56,19 @@
 				</li>
 
 				<!-- You don't exist -->
-				<li><a href="registerpage.php">Register Here</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li>
+							<form class="form-signin" action="loginpage.php" method="post">
+								<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
+								<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+								<button class="btn btn-small btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
+							</form>
+						</li>
+						<li><a href="registerpage.php">Logout</a></li>
+					</ul>
+				</li>
 
 			</ul>
 			
@@ -68,3 +80,6 @@
 		</div>
 	</div>
 </nav>
+<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
+	<strong>Warning!</strong> Incorrect username/password
+</div>
