@@ -34,14 +34,14 @@
 				<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 					<strong>Warning!</strong> Incorrect username/password
 				</div>
-				<label for="username" class="sr-only">Username</label>
-				<input type="text" id="username" class="form-control" placeholder="Username" name="username" required="" autofocus="">
+				<label for="email" class="sr-only">Email</label>
+				<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
 				<label for="inputPassword" class="sr-only">Password</label>
 				<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 				<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
 				<div style="text-align: center;">
 					<h3 class="form-signin-heading">Welcome To WAC</h3>
-					Jack SUX at design
+					Becuz Jack SUX @ web D351GN!!!!1!!!! LOLKATZ
 				</div>
 			</form>
 		</div>
