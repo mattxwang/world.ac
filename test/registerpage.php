@@ -18,36 +18,51 @@
 		<div class="container">
 			<div style = "text-align:left;">
 				<h2>Please Register</h2>
-				<form class="form-signin" action="register.php" method="post">
-					<div class = "row">
-						<div class = "col-md-3">
-							<input type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" required="" autofocus="">
+			</div>
+			<div class ="row">
+				<div class = "col-md-6">
+					<form class="form-signin" action="register.php" method="post">
+						<div class = "row">
+							<div class = "col-md-6">
+								<input type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" required="" autofocus="">
+							</div>
+							<div class = "col-md-6">
+								<input type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" required="" autofocus="">
+							</div>
 						</div>
-						<div class = "col-md-3">
-							<input type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" required="" autofocus="">
+						<div class = "row">
+							<div class = "col-md-12">
+								<input type="email" id="email" class="form-control" placeholder="user@email.com" name="email" required="" autofocus="">
+							</div>
 						</div>
-					</div>
-					<div class = "row">
-						<div class = "col-md-6">
-							<input type="email" id="email" class="form-control" placeholder="user@email.com" name="email" required="" autofocus="">
+						<div class = "row">
+							<div class = "col-md-12">
+								<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+							</div>
 						</div>
-					</div>
-					<div class = "row">
-						<div class = "col-md-6">
-							<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+						<div class = "row">
+							<div class = "col-md-12">
+								<input type="password" id="password2" name="password2" class="form-control" placeholder="Re-Type Password" required="">
+							</div>
 						</div>
-					</div>
-					<div class = "row">
-						<div class = "col-md-6">
-							<input type="password" id="password2" name="password2" class="form-control" placeholder="Re-Type Password" required="">
+						<div class = "row">
+							<div class = "col-md-12">
+								<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
+							</div>
 						</div>
-					</div>
-					<div class = "row">
-						<div class = "col-md-6">
-							<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
-						</div>
-					</div>
-				</form>
+					</form>
+				</div>
+				<div class = "col-md-6" style = "text-align: justify;">
+					<h3 class="form-signin-heading">Why register for a WAC 2016 account?</h3>
+					<p>
+					The WAC 2016 account does a few things for you! First of all, it allows us to check whether or not you've been correctly registered for WAC!
+					</br>
+					It also lets you check up on your plenaries, whether or not your payment has been accepted, and to make sure that all of your delegate information is correct.
+					</br>
+					You can only sign up for a WAC 2016 account if you have already been registered as a delegate. If you're getting a registration error, feel free to <a href ="contact_us.php">contact us</a>.
+					</p>
+				</div>
+			</div>
 				<!--
 				<form class="form-signin" action="register.php" method="post">
 					<h2 class="form-signin-heading">Please Register</h2>
@@ -62,7 +77,7 @@
 
 					<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 				</form>
-				-->
+		
 			</div>
 			<div style = "text-align: justify;">
 				<h3 class="form-signin-heading">Why register for a WAC 2016 account?</h3>
@@ -74,6 +89,7 @@
 				You can only sign up for a WAC 2016 account if you have already been registered as a delegate. If you're getting a registration error, feel free to <a href ="contact_us.php">contact us</a>.
 				</p>
 			</div>
+			-->
 			<?php
 			include_once("footer.php")
 			?>
