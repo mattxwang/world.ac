@@ -67,13 +67,25 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
-							<form class="form-signin" action="login.php" method="post" style="padding:10px;">
-								<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
-								<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+							<div class = "row">
+								<form class="form-signin" action="login.php" method="post" style="padding:10px;">
+								<div class = "col-md-6">
+									<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
+								</div>
+								<div class = "col-md-6">
+									<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+								</div>
 								<button class="btn btn-small btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
 							</form>
+							</div>
+
+							<div class = "row">
+								<div class = "col-md-12">
+									Don't have an account? <a href="registerpage.php">Register</a>
+								</div>
+							</div>
+
 						</li>
-						<li>Don't have an account?<a href="registerpage.php">Register</a></li>
 					</ul>
 				</li>
 
