@@ -67,8 +67,8 @@
 				</li>
 
 				<?php } else { 
-					$firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
-					$lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
+					// $firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
+					// $lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
 				?>
 				<!-- You exist -->
 				<li class="dropdown">
