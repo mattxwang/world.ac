@@ -38,7 +38,7 @@
           <ul class="dropdown-menu">
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="about_us.php">Meet the Team</a></li>
-            <li><a href="contactus.php">Contact Us</a></li>
+            <li><a href="contact_us.php">Contact Us</a></li>
           </ul>
         </li>
       </ul>

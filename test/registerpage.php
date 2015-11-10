@@ -1,12 +1,15 @@
 <?php require("register.php"); ?> 
 <head>
-	<title>Register</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
+	<title>WAC 2016 Account Registration</title>
+	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
-	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom styles for this template -->
-	<link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <?php include_once("navbar.php") ?>
@@ -24,10 +27,16 @@
 				<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 				<input type="password" id="password2" name="password2" class="form-control" placeholder="Re-Type Password" required="">
 
-				<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Sign in</button>
-				<div style="text-align: center;">
-					<h3 class="form-signin-heading">Welcome To WAC</h3>
-					Becuz Jack SUX @ web D351GN!!!!1!!!! LOLKATZ
+				<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
+				<div style="text-align: justify;">
+					<h3 class="form-signin-heading">Why register a WAC 2016 account?</h3>
+					<p>
+					The WAC 2016 account does a few things for you! First of all, it allows us to check whether or not you've been correctly registered for WAC!
+					</br>
+					It also lets you check up on your plenaries, whether or not your payment has been accepted, and to make sure that all of your delegate information is correct.
+					</br>
+					You can only sign up for a WAC 2016 account if you have already been registered as a delegate. If you're getting a registration error, feel free to <a href ="contact_us.php">contact us</a>.
+					</p>
 				</div>
 			</form>
 			<?php
