@@ -82,7 +82,7 @@
 
 							<div class = "row">
 								<div class = "col-md-12">
-									<span style = "color:#000000;font-size:10px;">Don't have an account?</span> <a href="registerpage.php" style = "font-size:10px;">Register</a>
+									<span style = "color:#000000;font-size:10px;">Don't have an account? <a href="registerpage.php" style = "text-decoration: underline;">Register</a></span>
 								</div>
 							</div>
 
