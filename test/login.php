@@ -1,19 +1,19 @@
 <?php 
 	require("common.php"); 
 	 
-	$submitted_username = ''; 
+	$submitted_email = ''; 
 	$correction = 'none';
 	 
 	if(!empty($_POST)) 
 	{ 
 		$query = " 
 			SELECT * 
-			FROM users 
+			FROM email 
 			WHERE 
-				username = :username"; 
+				email = :email"; 
 		 
 		$query_params = array( 
-			':username' => $_POST['username'] 
+			':email' => $_POST['email'] 
 		); 
 		 
 		try 
@@ -57,7 +57,7 @@
 		{ 
 			$correction = 'block'; 
 			 
-			$submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8'); 
+			$submitted_email = htmlentities($_POST['email'], ENT_QUOTES, 'UTF-8'); 
 		} 
 	} 
 	 
