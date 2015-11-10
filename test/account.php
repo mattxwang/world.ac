@@ -33,13 +33,35 @@
 			</div>
 			<div class = "col-md-9">
 				<div id = "notif">
+					notif
 					Lorem Ipsum Kappa Pride.
+					Lorem Ipsum Kappa Pride.
+					Lorem Ipsum Kappa Pride.
+					Lorem Ipsum Kappa Pride.
+					Lorem Ipsum Kappa Pride.
+					Lorem Ipsum Kappa Pride.
+					Lorem Ipsum Kappa Pride.
+
 				</div>
 				<div id = "info">
-					Lorem Ipsum Kappa Pride.
+					info
+					Joys of KappaRoss.
+					Joys of KappaRoss.
+					Joys of KappaRoss.
+					Joys of KappaRoss.
+					Joys of KappaRoss.
+					Joys of KappaRoss.
+					
 				</div>
 				<div id = "settings">
-					Lorem Ipsum Kappa Pride.
+					settings
+					PogChamp pls watch my stream PogChamp
+					PogChamp pls watch my stream PogChamp
+					PogChamp pls watch my stream PogChamp
+					PogChamp pls watch my stream PogChamp
+					PogChamp pls watch my stream PogChamp
+					PogChamp pls watch my stream PogChamp
+
 				</div>
 			</div>
 		</div>
