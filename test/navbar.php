@@ -99,11 +99,11 @@
 				?>
 				<!-- You exist -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TESTING<span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hi Matt!<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><h1><b>Welcome</b> </h1></li>
-						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
-						<li><a href="account.php">acCoUNT Settings</a></li>
+						<li><a href="account.php">View Account</a></li>
+						<li><a href="account.php#info">Delegate Info
 						<li><a href="logout.php">Logout</a></li>
 					</ul>
 				</li>

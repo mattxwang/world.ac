@@ -10,12 +10,40 @@
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style>
+		.body{
+			position:relative;
+		}
+	</style>
 </head>
 
 <?php include_once("navbar.php") ?>
 
-<body>
-		<div class="container">
+<body data-spy="scroll" data-target="#acc-navbar">
+		<div class= "container">
+		<div class = "row">
+			<div class = "col-md-3 hidden-xs">
+				<div id = "acc-navbar">
+					<ul class="nav nav-pills nav-stacked">
+						<li role="presentation" class = "active"><a href="#notif">Notifications</a></li>
+						<li role="presentation"><a href="#info">Delegate Info</a></li>
+						<li role="presentation"><a href="#settings">Account Settings</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class = "col-md-9">
+				<div id = "notif">
+					Lorem Ipsum Kappa Pride.
+				</div>
+				<div id = "info">
+					Lorem Ipsum Kappa Pride.
+				</div>
+				<div id = "settings">
+					Lorem Ipsum Kappa Pride.
+				</div>
+			</div>
+		</div>
+
 			
 			<?php
 			include_once("footer.php")
