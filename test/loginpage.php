@@ -1,49 +1,51 @@
 <?php require("login.php"); ?> 
-<!-- Bootstrap core CSS -->
-<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="World Affairs Conference">
+	<title>WAC 2016 Account Registration</title>
+	<link rel="icon" href="css/favicon.ico" />
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
 
-<!-- Custom styles for this template -->
-<link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
-
-<title>Login</title>
-
-<!-- Nav bar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<?php include_once("navbar.php") ?>
+<body style="zoom: 1;">
 	<div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="loginpage.php"><img src="images/boxIcon.png" style="height:100%;"/></a>
+		<div class = "row">
+			<div class = "col-md-6">
+				<form class="form-signin" action="loginpage.php" method="post">
+					<h2>Please Sign In</h2>
+					<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
+						<strong>Warning!</strong> Incorrect username/password combination. 
+					</div>
+					<label for="email" class="sr-only">Email</label>
+					<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
+					<label for="inputPassword" class="sr-only">Password</label>
+					<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+					<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
+				</form>
+			</div>
+			<div class = "col-md-6">
+			<p>
+			Please use your email that you've registered for WAC 2016 with. 
+			</br>
+			</br>
+			If you've forgotten your password, send us an <a href = "mailto:matthew.wang@ucc.on.ca">email! We'll see what we can do for you.
+			</p>
+			</div>
 		</div>
-		<div class="navbar-collapse collapse">
-		  <ul class="nav navbar-nav">
-			<li><a href="registerpage.php">Register</a></li>
-		  </ul>
-		</div><!--/.nav-collapse -->
-	  </div>
+		<?php
+			include_once("footer.php")
+			?>
+			<!-- Bootstrap core JavaScript
+			================================================== -->
+			<!-- Placed at the end of the document so the pages load faster -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
 	</div>
-</div>
-	<body style="zoom: 1;">
-		<div class="container">
-			<form class="form-signin" action="loginpage.php" method="post">
-				<h2 class="form-signin-heading">Please Sign In</h2>
-				<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
-					<strong>Warning!</strong> Incorrect username/password
-				</div>
-				<label for="email" class="sr-only">Email</label>
-				<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
-				<label for="inputPassword" class="sr-only">Password</label>
-				<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
-				<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
-				<div style="text-align: center;">
-					<h3 class="form-signin-heading">Welcome To WAC</h3>
-					Becuz Jack SUX @ web D351GN!!!!1!!!! LOLKATZ
-				</div>
-			</form>
-		</div>
-	</body>
+</body>
 </html>
