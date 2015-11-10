@@ -2,9 +2,6 @@
 //Start the PHP session
 session_start();
 
-//Calls to base hit counter with unique visitors IP tracking.
-include_once("hit_counter.php");
-
 //Connect to SQL Database and include custom sqlQuerry function.
 include_once("../includes/sql.php");
 ?>
