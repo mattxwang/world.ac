@@ -73,7 +73,7 @@
 								<button class="btn btn-small btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
 							</form>
 						</li>
-						<li><a href="registerpage.php">Register</a></li>
+						<li><p>Don't have an account?<a href="registerpage.php">Register</a></p></li>
 					</ul>
 				</li>
 
