@@ -6,19 +6,6 @@
 		header("Location: loginpage.php"); 
 		 
 		die("Redirecting to loginpage.php"); 
-	} 
-	
-	$query = "SELECT imgname FROM `images` WHERE isprofile = 'T' AND username = '" . $_SESSION['user']['username'] . "';";
-	 
-	try 
-	{ 
-		$stmt = $db->prepare($query); 
-		$stmt->execute();
-		$rows = $stmt->fetchAll(); 
-	} 
-	catch(PDOException $ex) 
-	{ 
-		die("Failed to run query: " . $ex->getMessage()); 
 	}  
 ?> 
 
