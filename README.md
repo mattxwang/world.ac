@@ -9,9 +9,11 @@ The main project is the current big undertaking. Please work on this project in 
 </br>
 Account System. This includes:
 </br>
-1. <a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Posibility of editing said information). </br>
-2. <a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page) </br>
-3. 
+<a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Allow user to edit spreadsheet info)
+</br>
+<a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page. Changes whether or not the user is logged in) 
+</br>
+
 <h3>Side Projects</h3>
 Side projects. Please do not work on these projects in the /test directory. 
 </br>
