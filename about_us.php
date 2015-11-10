@@ -34,19 +34,18 @@ include_once("../includes/sql.php");
 
 <!-- || Main Page Content || -->
 <body style="position:relative;">
-<div class = "container">
 	<?php include_once("tracking.php") ?>
 	<?php include_once("navbar.php") ?>
 	<h2 style="text-align:center;font-family:nexa; color:#ffffff;">Meet the WAC Team</h2>
 	</br>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style ="height:50%">
 		<div class="carousel-mod carousel-inner" role="listbox">
 			<div class="carousel-mod item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/matt.png"></img>
+						<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -70,7 +69,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/logan.png"></img>
+						<img src = "img/bio/headshots/logan.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -94,7 +93,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/naz.png"></img>
+						<img src = "img/bio/headshots/naz.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -118,7 +117,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/jack.png"></img>
+						<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -142,7 +141,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/nitish.png"></img>
+						<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -166,7 +165,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/ernest.png"></img>
+						<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -226,6 +225,5 @@ include_once("../includes/sql.php");
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
-</div>
 </body>
 </html>
