@@ -66,12 +66,15 @@
 					</ul>
 				</li>
 
-				<?php } else { ?>
+				<?php } else { 
+					$firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
+					$lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
+				?>
 				<!-- You exist -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mah Name!!!!<span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $firstname; ?><span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><b>Welcome</b> Dinkleberg</li>
+						<li><h1><b>Welcome</b> <?php echo $firstname . " " . $lastname; ?></h1></li>
 						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
 						<li><a href="account.php">acCoUNT Settings</a></li>
 						<li><a href="logout.php">Logout</a></li>
