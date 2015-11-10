@@ -76,6 +76,9 @@
 								</div>
 								<div class = "col-md-4">
 									<button class="btn btn-small btn-success btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
+									<div style = "text-align:right;padding-right:20px;">
+										<span style = "color:#000000;font-size:10px">Don't have an account? <a href="registerpage.php" style = "text-decoration: underline;">Register</a></span>
+									</div>
 								</div>
 							</form>
 							</div>
