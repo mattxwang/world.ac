@@ -67,7 +67,7 @@
 					<ul class="dropdown-menu">
 						<li>
 							<div class = "row">
-								<form class="form-signin" action="login.php" method="post">
+								<form class="form-signin" action="login.php" method="post" style="padding:5%px;">
 								<div class = "col-md-4">
 									<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
 								</div>
@@ -81,8 +81,8 @@
 							</div>
 
 							<div class = "row">
-								<div class = "col-md-12">
-									<span style = "color:#000000;font-size:10px;text-align:right">Don't have an account? <a href="registerpage.php" style = "text-decoration: underline;">Register</a></span>
+								<div class = "col-md-12" style = "text-align:right;">
+									<span style = "color:#000000;font-size:10px">Don't have an account? <a href="registerpage.php" style = "text-decoration: underline;">Register</a></span>
 								</div>
 							</div>
 
