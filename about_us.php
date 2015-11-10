@@ -46,7 +46,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/matt.png"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -70,7 +70,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/logan.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/logan.png"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -94,7 +94,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/naz.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/naz.png"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -118,7 +118,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/jack.png"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -142,7 +142,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/nitish.png"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
@@ -166,7 +166,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/ernest.png"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>
