@@ -16,7 +16,7 @@
 
 <body style="zoom: 1;">
 		<div class="container">
-			<div style = "text-align:center;">
+			<div style = "text-align:left;">
 				<h2>Please Register</h2>
 				<form class="form-signin" action="register.php" method="post">
 					<div class = "row">
