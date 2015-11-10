@@ -67,7 +67,7 @@
 				</li>
 
 				<?php } else { 
-					$firstname = $_SESSION['user']['username'];
+					$firstname = var_dump($_SESSION['user']['username']);
 					// $firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
 					// $lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
 				?>
@@ -75,7 +75,7 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TESTING<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<!-- <li><h1><b>Welcome</b> <?php echo $firstname . " " . $lastname; ?></h1></li> -->
+						<li><h1><b>Welcome</b> <?php echo $firstname; ?></h1></li>
 						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
 						<li><a href="account.php">acCoUNT Settings</a></li>
 						<li><a href="logout.php">Logout</a></li>
