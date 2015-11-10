@@ -43,8 +43,8 @@
 						</div>
 					</div>
 					<div class = "row">
-						<div class = "col-md-12">
-							<button style = "padding:25%" class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
+						<div class = "col-md-12" style = "padding:25%">
+							<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 						</div>
 					</div>
 				</form>
