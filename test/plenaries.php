@@ -51,7 +51,7 @@ include_once("../includes/sql.php");
 	</ul>
 
 	<div class="tab-content">
-		<div role="tabpanel" class="tab-pane active" id="plenary1">
+		<div role="tabpanel" class="tab-pane fade in active" id="plenary1">
 			<h2>Plenary Heading</h2>
 			<p> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
@@ -74,7 +74,7 @@ include_once("../includes/sql.php");
 
 			</div>
 		</div>
-		<div role="tabpanel" class="tab-pane" id="plenary2">
+		<div role="tabpanel" class="tab-pane fade" id="plenary2">
 			<h2>Plenary Heading</h2>
 			<p> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
@@ -96,7 +96,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div role="tabpanel" class="tab-pane" id="plenary3">
+		<div role="tabpanel" class="tab-pane fade" id="plenary3">
 			<h2>Plenary Heading</h2>
 			<p> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
@@ -118,7 +118,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div role="tabpanel" class="tab-pane" id="plenary4">
+		<div role="tabpanel" class="tab-pane fade" id="plenary4">
 			<h2>Plenary Heading</h2>
 			<p> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
@@ -140,7 +140,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div role="tabpanel" class="tab-pane" id="plenary5">
+		<div role="tabpanel" class="tab-pane fade" id="plenary5">
 			<h2>Plenary Heading</h2>
 			<p> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
@@ -162,7 +162,7 @@ include_once("../includes/sql.php");
 				</div>
 			</div>
 		</div>
-		<div role="tabpanel" class="tab-pane" id="plenary6">
+		<div role="tabpanel" class="tab-pane fade" id="plenary6">
 			<h2>Plenary Heading</h2>
 			<p> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.

@@ -21,11 +21,7 @@
 
 <body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">
 		<div class= "container">
-			<script>
-				$('body').scrollspy({ target: '#acc-navbar' })
-			</script>
 			<div class = "row">
-
 				<div class = "col-md-3 hidden-xs">
 					<div id = "acc-navbar">
 						<ul class="nav nav-pills nav-stacked" style = "position:fixed;">
