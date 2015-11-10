@@ -59,7 +59,7 @@
 				</li>
 			</ul>
 			
-			<ul class = "nav navbar-nav navbar-right" style = "padding:0px;width:15%">
+			<ul class = "nav navbar-nav navbar-right" style = "padding:0px">
 				<?php
 					if(empty($_SESSION['user'])) { ?>
 				<li class="dropdown">
@@ -80,7 +80,7 @@
 
 							<div class = "row">
 								<div class = "col-md-12">
-									Don't have an account? <a href="registerpage.php">Register</a>
+									<span style = "color:#000000">Don't have an account? <a href="registerpage.php">Register</a></span>
 								</div>
 							</div>
 
