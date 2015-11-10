@@ -47,7 +47,7 @@ elseif($rando == 2){
         <ul class="nav navbar-nav">
            <li><a href="#">REGISTER</a></li>
           <li><a href="about_us.php">WAC TEAM</a></li>
-          <li><a href="contactus.php">CONTACT US</a></li>
+          <li><a href="contact_us.php">CONTACT US</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Developed by this year's WAC web design team, <?php echo $teamNames; ?>
