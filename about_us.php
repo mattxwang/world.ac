@@ -39,7 +39,7 @@ include_once("../includes/sql.php");
 	<?php include_once("navbar.php") ?>
 	<h2 style="text-align:center;font-family:nexa; color:#ffffff;">Meet the WAC Team</h2>
 	</br>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style ="height:50%">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style ="width:100%">
 		<div class="carousel-mod carousel-inner" role="listbox">
 			<div class="carousel-mod item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
