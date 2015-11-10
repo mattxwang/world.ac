@@ -63,18 +63,21 @@
 				<?php
 					if(empty($_SESSION['user'])) { ?>
 				<li class="dropdown">
+					<div style = "width:150px;">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class = "row">
 								<form class="form-signin" action="login.php" method="post" style="padding:10px;">
-								<div class = "col-md-6">
+								<div class = "col-md-4">
 									<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
 								</div>
-								<div class = "col-md-6">
+								<div class = "col-md-4">
 									<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 								</div>
-								<button class="btn btn-small btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
+								<div class = "col-md-4">
+									<button class="btn btn-small btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
+								</div>
 							</form>
 							</div>
 
@@ -86,6 +89,7 @@
 
 						</li>
 					</ul>
+					</div>
 				</li>
 
 				<?php } else { 
