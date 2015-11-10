@@ -22,11 +22,12 @@
 				<input type="email" id="email" class="form-control" placeholder="user@email.com" name="email" required="" autofocus="">
 
 				<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+				<input type="password" id="password2" name="password2" class="form-control" placeholder="Re-Type Password" required="">
 
 				<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Sign in</button>
 				<div style="text-align: center;">
-					<h3 class="form-signin-heading">Welcome To BOXY</h3>
-					Welcome to the only social media platform around developing the important moments in <b>YOUR</b> life.
+					<h3 class="form-signin-heading">Welcome To WAC</h3>
+					Becuz Jack SUX @ web D351GN!!!!1!!!! LOLKATZ
 				</div>
 			</form>
 			<?php
