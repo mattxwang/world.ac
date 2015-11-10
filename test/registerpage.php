@@ -1,7 +1,5 @@
 <?php require("register.php"); ?> 
 <head>
-	<link rel="icon" href="../../favicon.ico">
-
 	<title>Register</title>
 
 	<!-- Bootstrap core CSS -->
@@ -18,7 +16,8 @@
 			<form class="form-signin" action="register.php" method="post">
 				<h2 class="form-signin-heading">Please Register</h2>
 
-				<input type="text" id="username" class="form-control" placeholder="Username" name="username" required="" autofocus="">
+				<input style="width:50%;" type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" required="" autofocus="">
+				<input style="width:50%;" type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" required="" autofocus="">
 
 				<input type="email" id="email" class="form-control" placeholder="user@email.com" name="email" required="" autofocus="">
 
