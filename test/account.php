@@ -34,33 +34,20 @@
 			<div class = "col-md-9">
 				<div id = "notif">
 					notif
-					Lorem Ipsum Kappa Pride.
-					Lorem Ipsum Kappa Pride.
-					Lorem Ipsum Kappa Pride.
-					Lorem Ipsum Kappa Pride.
-					Lorem Ipsum Kappa Pride.
-					Lorem Ipsum Kappa Pride.
-					Lorem Ipsum Kappa Pride.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+			
 
 				</div>
 				<div id = "info">
 					info
-					Joys of KappaRoss.
-					Joys of KappaRoss.
-					Joys of KappaRoss.
-					Joys of KappaRoss.
-					Joys of KappaRoss.
-					Joys of KappaRoss.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+			
 					
 				</div>
 				<div id = "settings">
 					settings
-					PogChamp pls watch my stream PogChamp
-					PogChamp pls watch my stream PogChamp
-					PogChamp pls watch my stream PogChamp
-					PogChamp pls watch my stream PogChamp
-					PogChamp pls watch my stream PogChamp
-					PogChamp pls watch my stream PogChamp
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+			
 
 				</div>
 			</div>
