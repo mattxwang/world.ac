@@ -78,7 +78,7 @@
 				</li>
 
 				<?php } else { 
-					debug_to_console(var_dump($_SESSION['user']['username']));
+					debug_to_console($_SESSION['user']['username']);
 					// $firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
 					// $lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
 				?>
