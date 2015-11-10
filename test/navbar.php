@@ -5,6 +5,17 @@
 	// You'll need these
 	require("login.php"); 
 	require("common.php");
+	function debug_to_console( $data ) {
+
+		if ( is_array( $data ) ){
+			$output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
+		}
+
+		else {
+			$output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
+			echo $output;
+		}
+	}
 ?>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
@@ -67,7 +78,7 @@
 				</li>
 
 				<?php } else { 
-					$firstname = var_dump($_SESSION['user']['username']);
+					debug_to_console(var_dump($_SESSION['user']['username']));
 					// $firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
 					// $lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
 				?>
@@ -75,7 +86,7 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TESTING<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><h1><b>Welcome</b> <?php echo $firstname; ?></h1></li>
+						<li><h1><b>Welcome</b> </h1></li>
 						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
 						<li><a href="account.php">acCoUNT Settings</a></li>
 						<li><a href="logout.php">Logout</a></li>
