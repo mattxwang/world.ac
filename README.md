@@ -3,6 +3,31 @@ Here's the repository for the world.ac website. </br>
 
 We use the <a href = "http://getbootstrap.com">Bootstrap Framework</a> for a lot of the site.
 
+<h2>To-Do:</h2>
+<h3>Main Project</h3>
+The main project is the current big undertaking. Please work on this project in the /test directory.
+</br>
+Account System. This includes:
+</br>
+1. <a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Posibility of editing said information). </br>
+2. <a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page) </br>
+3. 
+<h3>Side Projects</h3>
+Side projects. Please do not work on these projects in the /test directory. 
+</br>
+Create bootstrap compatible pages for <a href = "http://world.ac/keynote.php">Keynote Speaker</a>, Opening/Closing Panels, and Schedule 
+</br>
+Fix <a href = "http://world.ac/faq">FAQ Page</a> (mobile compat + div links not working correctly) + implement <a href = "http://getbootstrap.com/javascript/#scrollspy">scrollspy</a> 
+</br>
+Plenary Selection Mechansim (for UCC, select plenaries) 
+</br>
+Static footer 
+</br>
+Headshot images! (and maybe format fixing for mobile devices) 
+</br>
+
+
+
 <h2>Etiquette</h2>
 <h3>Files</h3>
 Please put all files in their respective folders (i.e. images in /img). 
@@ -25,12 +50,3 @@ Please sync/pull the latest changes BEFORE starting coding. In addition, please 
 </br>
 After a completely new functionality is fully implemented and added, please do not destabilize it. Wait for a release to be published before moving onto the next project.
 
-<h2>To-Do:</h2>
-</br>
-1. <a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Posibility of editing said information). </br>
-2. <a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page) </br>
-3. Create bootstrap compatible pages for <a href = "http://world.ac/keynote.php">Keynote Speaker</a>, Opening/Closing Panels, and Schedule </br>
-4. Fix <a href = "http://world.ac/faq">FAQ Page</a> (mobile compat + div links not working correctly) + implement <a href = "http://getbootstrap.com/javascript/#scrollspy">scrollspy</a> </br>
-5. Plenary Selection Mechansim (for UCC, select plenaries) </br>
-6. Static footer </br>
-7. Headshot images! (and maybe format fixing for mobile devices) </br>
