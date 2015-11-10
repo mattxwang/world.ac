@@ -67,7 +67,7 @@
 				</li>
 
 				<?php } else { 
-					$firstname = $_SESSION['user']['username']);
+					$firstname = $_SESSION['user']['username'];
 					// $firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
 					// $lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
 				?>
