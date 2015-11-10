@@ -60,7 +60,6 @@
 			</ul>
 			
 			<ul class = "nav navbar-nav navbar-right" style = "padding:0px">
-				<div style = "width:150px;">
 				<?php
 					if(empty($_SESSION['user'])) { ?>
 				<li class="dropdown">
@@ -110,7 +109,6 @@
 				</li>
 				<?php } ?>
 
-				</div>
 
 			</ul>
 			
