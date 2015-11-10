@@ -62,12 +62,12 @@
 			<ul class = "nav navbar-nav navbar-right" style = "padding:0px">
 				<?php
 					if(empty($_SESSION['user'])) { ?>
-				<li class="dropdown" style = "width:30vw;text-align:right;">
+				<li class="dropdown" style = "width:40vw;text-align:right;">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class = "row">
-								<form class="form-signin" action="login.php" method="post" style="padding:10px;">
+								<form class="form-signin" action="login.php" method="post">
 								<div class = "col-md-4">
 									<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
 								</div>
