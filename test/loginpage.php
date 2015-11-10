@@ -21,7 +21,7 @@
 		</div>
 		<div class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
-			<li><a href="register.php">Register</a></li>
+			<li><a href="registerpage.php">Register</a></li>
 		  </ul>
 		</div><!--/.nav-collapse -->
 	  </div>
