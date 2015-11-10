@@ -29,7 +29,7 @@
 					<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
 				</form>
 			</div>
-			<div class = "col-md-6">
+			<div class = "col-md-6" style = "text-align:justify">
 			<p>
 			Please use your email that you've registered for WAC 2016 with. 
 			</br>
