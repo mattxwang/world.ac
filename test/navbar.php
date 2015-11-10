@@ -62,7 +62,7 @@
 			<ul class = "nav navbar-nav navbar-right" style = "padding:0px">
 				<?php
 					if(empty($_SESSION['user'])) { ?>
-				<li class="dropdown" style = "width:35vw;text-align:right;">
+				<li class="dropdown" style = "width:30vw;text-align:right;">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
@@ -82,7 +82,7 @@
 
 							<div class = "row">
 								<div class = "col-md-12">
-									<span style = "color:#000000;font-size:10px;">Don't have an account? <a href="registerpage.php" style = "text-decoration: underline;">Register</a></span>
+									<span style = "color:#000000;font-size:10px;text-align:right">Don't have an account? <a href="registerpage.php" style = "text-decoration: underline;">Register</a></span>
 								</div>
 							</div>
 
