@@ -104,9 +104,9 @@
 			die("Failed to run query: " . $ex->getMessage()); 
 		} 
 		 
-		header("Location: loginpage.php"); 
+		header("Location: login_page.php"); 
 		 
-		die("Redirecting to loginpage.php"); 
+		die("Redirecting to login_page.php"); 
 	} 
 	 
 ?> 
