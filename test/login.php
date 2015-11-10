@@ -8,7 +8,7 @@
 	{ 
 		$query = " 
 			SELECT * 
-			FROM email 
+			FROM users 
 			WHERE 
 				email = :email"; 
 		 
