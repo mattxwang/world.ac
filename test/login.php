@@ -50,8 +50,8 @@
 			 
 			$_SESSION['user'] = $row; 
 			 
-			header("Location: private.php"); 
-			die("Redirecting to: private.php"); 
+			header("Location: index.php"); 
+			die("Redirecting to: index.php"); 
 		} 
 		else 
 		{ 
