@@ -43,12 +43,16 @@
 				</li>
 			</ul>
 			
-			<ul class = "nav navbar-nav navbar-right" style = "padding:0px;">
-				<li><b>Welcome</b> Dinkleberg</li>
-				<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
-				<li><a href="account.php">acCoUNT Settings</a></li>
-				<li><a href="logout.php">Logout</a></li>
-
+			<ul class = "nav navbar-nav navbar-right dropdown" style = "padding:0px;">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&#8802;<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><b>Welcome</b> Dinkleberg</li>
+						<li><a href="mah_plernerees.php">Mah Plernerees</a></li>
+						<li><a href="account.php">acCoUNT Settings</a></li>
+						<li><a href="logout.php">Logout</a></li>
+					</ul>
+				</li>
 			</ul>
 			
 			<!--
