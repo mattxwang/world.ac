@@ -75,7 +75,7 @@
 									<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 								</div>
 								<div class = "col-md-4">
-									<button class="btn btn-small btn-success" id="submitbutton" type="submit" value="Login">Sign in</button>
+									<button class="btn btn-small btn-success btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
 								</div>
 							</form>
 							</div>
