@@ -62,7 +62,7 @@
 			<ul class = "nav navbar-nav navbar-right" style = "padding:0px">
 				<?php
 					if(empty($_SESSION['user'])) { ?>
-				<li class="dropdown">
+				<li class="dropdown" style = "width:300px;">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
