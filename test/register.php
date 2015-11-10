@@ -2,24 +2,20 @@
 
 	require("common.php"); 
 	 
-	if(!empty($_POST)) 
-	{ 
-		if(empty($_POST['username'])) 
-		{ 
-					die("Please enter a username."); 
+	if(!empty($_POST)) { 
+		if(empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['password']) ||empty($_POST['password2'])) { 
+			die("You missed a field"); 
 		} 
 		 
-		if(empty($_POST['password'])) 
-		{ 
-			die("Please enter a password."); 
-		} 
+		if($_POST['password'] != $_POST['password2']) { 
+			die("Password Mismatch"); 
+		}
 		 
-		if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) 
-		{ 
+		if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) { 
 			die("Invalid E-Mail Address"); 
 		} 
 		 
-				 $query = " 
+		$query = " 
 			SELECT 
 				1 
 			FROM users 
@@ -27,28 +23,25 @@
 				username = :username 
 		"; 
 		 
-				 $query_params = array( 
-			':username' => $_POST['username'] 
+		$query_params = array( 
+			':username' => $_POST['firstname'] . "," . $_POST['lastname'] 
 		); 
 		 
-		try 
-		{ 
-					$stmt = $db->prepare($query); 
+		try { 
+			$stmt = $db->prepare($query); 
 			$result = $stmt->execute($query_params); 
 		} 
-		catch(PDOException $ex) 
-		{ 
-					die("Failed to run query: " . $ex->getMessage()); 
+		catch(PDOException $ex) { 
+			die("Failed to run query: " . $ex->getMessage()); 
 		} 
 		 
-				 $row = $stmt->fetch(); 
+		$row = $stmt->fetch(); 
 		 
-				 if($row) 
-		{ 
+		if($row) { 
 			die("This username is already in use"); 
 		} 
 		 
-				 $query = " 
+		$query = " 
 			SELECT 
 				1 
 			FROM users 
@@ -60,24 +53,21 @@
 			':email' => $_POST['email'] 
 		); 
 		 
-		try 
-		{ 
+		try { 
 			$stmt = $db->prepare($query); 
 			$result = $stmt->execute($query_params); 
 		} 
-		catch(PDOException $ex) 
-		{ 
+		catch(PDOException $ex) { 
 			die("Failed to run query: " . $ex->getMessage()); 
 		} 
 		 
 		$row = $stmt->fetch(); 
 		 
-		if($row) 
-		{ 
+		if($row) { 
 			die("This email address is already registered"); 
 		} 
 		 
-				 $query = " 
+		$query = " 
 			INSERT INTO users ( 
 				username, 
 				password, 
@@ -91,36 +81,32 @@
 			);
 		"; 
 		 
-				 $salt = dechex(mt_rand(0, 2147483647)) . dechex(mt_rand(0, 2147483647)); 
+		$salt = dechex(mt_rand(0, 2147483647)) . dechex(mt_rand(0, 2147483647)); 
 		 
-				 $password = hash('sha256', $_POST['password'] . $salt); 
+		$password = hash('sha256', $_POST['password'] . $salt); 
 		 
-				 for($round = 0; $round < 65536; $round++) 
-		{ 
+		for($round = 0; $round < 65536; $round++) { 
 			$password = hash('sha256', $password . $salt); 
 		} 
 		 
-				 $query_params = array( 
-			':username' => $_POST['username'], 
+		$query_params = array( 
+			':username' => $_POST['firstname'] . "," . $_POST['lastname'], 
 			':password' => $password, 
 			':salt' => $salt, 
 			':email' => $_POST['email'] 
 		); 
 		 
-		try 
-		{ 
+		try { 
 			$stmt = $db->prepare($query); 
 			$result = $stmt->execute($query_params);
-			mkdir("/var/www/boxy/u/" . $_POST['username'], 0777);
 		} 
-		catch(PDOException $ex) 
-		{ 
-					die("Failed to run query: " . $ex->getMessage()); 
+		catch(PDOException $ex) { 
+			die("Failed to run query: " . $ex->getMessage()); 
 		} 
 		 
-				 header("Location: loginpage.php"); 
+		header("Location: loginpage.php"); 
 		 
-				 die("Redirecting to loginpage.php"); 
+		die("Redirecting to loginpage.php"); 
 	} 
 	 
 ?> 
