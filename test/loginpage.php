@@ -14,7 +14,7 @@
 
 <?php include_once("navbar.php") ?>
 <body style="zoom: 1;">
-	<div class="container">
+	<div class="container" style = "vertical-align:middle">
 		<h2>WAC 2016 Account Login</h2>
 		<div class = "row">
 			<div class = "col-md-6">
@@ -27,7 +27,7 @@
 					<label for="inputPassword" class="sr-only">Password</label>
 					<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 					<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Log in</button>
-				</form>s
+				</form>
 			</div>
 			<div class = "col-md-6" style = "text-align:justify">
 			<p>
