@@ -22,7 +22,7 @@ To Do:
 1. Account Page. (Ability to Log in, and display info from a spreadsheet. Posibility of editing said information). </br>
 2. Account Navbar functionality (log in from navbar, quick avatar, display link to acc page) </br>
 3. Create bootstrap compatible pages for Keynote Speaker, Opening/Closing Panels, and Schedule </br>
-4. Fix FAQ Page (mobile compat + div links not working correctly) </br>
+4. Fix FAQ Page (mobile compat + div links not working correctly) + implement <a href = "http://getbootstrap.com/javascript/#scrollspy">scrollspy</a> </br>
 5. Plenary Selection Mechansim (for UCC, select plenaries) </br>
 6. Static footer </br>
 7. Headshot images! (and maybe format fixing for mobile devices) </br>
