@@ -60,10 +60,11 @@
 			</ul>
 			
 			<ul class = "nav navbar-nav navbar-right" style = "padding:0px">
+				<div style = "width:150px;">
 				<?php
 					if(empty($_SESSION['user'])) { ?>
 				<li class="dropdown">
-					<div style = "width:150px;">
+
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login/Register<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
@@ -89,7 +90,7 @@
 
 						</li>
 					</ul>
-					</div>
+
 				</li>
 
 				<?php } else { 
@@ -109,7 +110,7 @@
 				</li>
 				<?php } ?>
 
-
+				</div>
 
 			</ul>
 			
