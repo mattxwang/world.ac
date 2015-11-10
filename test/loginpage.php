@@ -15,10 +15,10 @@
 <?php include_once("navbar.php") ?>
 <body style="zoom: 1;">
 	<div class="container">
+		<h2>WAC 2016 Account Login</h2>
 		<div class = "row">
 			<div class = "col-md-6">
 				<form class="form-signin" action="loginpage.php" method="post">
-					<h2>Please Sign In</h2>
 					<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 						<strong>Warning!</strong> Incorrect username/password combination. 
 					</div>
@@ -26,8 +26,8 @@
 					<input type="email" id="email" class="form-control" placeholder="email@user.com" name="email" required="" autofocus="">
 					<label for="inputPassword" class="sr-only">Password</label>
 					<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
-					<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
-				</form>
+					<button class="btn btn-lg btn-primary btn-block" id="submitbutton" type="submit" value="Login">Log in</button>
+				</form>s
 			</div>
 			<div class = "col-md-6" style = "text-align:justify">
 			<p>
