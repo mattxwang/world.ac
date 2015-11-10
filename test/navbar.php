@@ -75,14 +75,14 @@
 									<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 								</div>
 								<div class = "col-md-4">
-									<button class="btn btn-small btn-primary btn-block" id="submitbutton" type="submit" value="Login">Sign in</button>
+									<button class="btn btn-small btn-primary" id="submitbutton" type="submit" value="Login">Sign in</button>
 								</div>
 							</form>
 							</div>
 
 							<div class = "row">
 								<div class = "col-md-12">
-									<span style = "color:#000000">Don't have an account? <a href="registerpage.php">Register</a></span>
+									<span style = "color:#000000;font-size:10px;">Don't have an account? <a href="registerpage.php">Register</a></span>
 								</div>
 							</div>
 
