@@ -20,30 +20,30 @@
 				<h2>Please Register</h2>
 				<form class="form-signin" action="register.php" method="post">
 					<div class = "row">
-						<div class = "col-md-6">
+						<div class = "col-md-3">
 							<input type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" required="" autofocus="">
 						</div>
-						<div class = "col-md-6">
+						<div class = "col-md-3">
 							<input type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" required="" autofocus="">
 						</div>
 					</div>
 					<div class = "row">
-						<div class = "col-md-12">
+						<div class = "col-md-6">
 							<input type="email" id="email" class="form-control" placeholder="user@email.com" name="email" required="" autofocus="">
 						</div>
 					</div>
 					<div class = "row">
-						<div class = "col-md-12">
+						<div class = "col-md-6">
 							<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 						</div>
 					</div>
 					<div class = "row">
-						<div class = "col-md-12">
+						<div class = "col-md-6">
 							<input type="password" id="password2" name="password2" class="form-control" placeholder="Re-Type Password" required="">
 						</div>
 					</div>
 					<div class = "row">
-						<div class = "col-md-12" style = "padding:25%">
+						<div class = "col-md-6">
 							<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 						</div>
 					</div>
