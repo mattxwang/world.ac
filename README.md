@@ -1,9 +1,9 @@
-# world.ac
+<h1>world.ac</h1>
 Here's the repository for the world.ac website. </br>
 
-We use the Bootstrap framework (getbootstrap.com) for a lot of the site. </br>
+We use the <a href = "http://getbootstrap.com">Bootstrap Framework</a> for a lot of the site. </br>
 
-Quick tips:
+<h2>Etiquette</h2>
 </br>
 1. Test code should either be in a separate branch or done on a test (with an _ for non index pages) page instead of being directly pushed </br>
 2. Please put all images in the /img directory </br>
@@ -17,12 +17,12 @@ Quick tips:
 10. Before making any major changes (typically pushing any changes to the live site), please contact Matthew Wang. </br>
 
 
-To Do:
+<h2>To-Do:</h2>
 </br>
-1. Account Page. (Ability to Log in, and display info from a spreadsheet. Posibility of editing said information). </br>
-2. Account Navbar functionality (log in from navbar, quick avatar, display link to acc page) </br>
-3. Create bootstrap compatible pages for Keynote Speaker, Opening/Closing Panels, and Schedule </br>
-4. Fix FAQ Page (mobile compat + div links not working correctly) + implement <a href = "http://getbootstrap.com/javascript/#scrollspy">scrollspy</a> </br>
+1. <a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Posibility of editing said information). </br>
+2. <a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page) </br>
+3. Create bootstrap compatible pages for <a href = "http://world.ac/keynote.php">Keynote Speaker</a>, Opening/Closing Panels, and Schedule </br>
+4. Fix <a href = "http://world.ac/faq">FAQ Page</a> (mobile compat + div links not working correctly) + implement <a href = "http://getbootstrap.com/javascript/#scrollspy">scrollspy</a> </br>
 5. Plenary Selection Mechansim (for UCC, select plenaries) </br>
 6. Static footer </br>
 7. Headshot images! (and maybe format fixing for mobile devices) </br>
