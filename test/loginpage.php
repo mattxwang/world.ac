@@ -34,7 +34,7 @@
 			Please use your email that you've registered for WAC 2016 with. 
 			</br>
 			</br>
-			If you've forgotten your password, send us an <a href = "mailto:matthew.wang@ucc.on.ca">email! We'll see what we can do for you.
+			If you've forgotten your password, send us an <a href = "mailto:matthew.wang@ucc.on.ca">email</a>! We'll see what we can do for you.
 			</p>
 			</div>
 		</div>
