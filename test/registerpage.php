@@ -20,11 +20,11 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="login.php"><img src="images/boxIcon.png" style="height:100%;"/></a>
+		  <a class="navbar-brand" href="loginpage.php"><img src="images/boxIcon.png" style="height:100%;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
-			<li><a href="login.php">Login</a></li>
+			<li><a href="loginpage.php">Login</a></li>
 		  </ul>
 		</div><!--/.nav-collapse -->
 	  </div>

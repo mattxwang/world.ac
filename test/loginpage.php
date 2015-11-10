@@ -1,4 +1,4 @@
-<?php require("register.php"); ?> 
+<?php require("login.php"); ?> 
 <!-- Bootstrap core CSS -->
 <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,7 +17,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="login.php"><img src="images/boxIcon.png" style="height:100%;"/></a>
+		  <a class="navbar-brand" href="loginpage.php"><img src="images/boxIcon.png" style="height:100%;"/></a>
 		</div>
 		<div class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
@@ -29,7 +29,7 @@
 </div>
 	<body style="zoom: 1;">
 		<div class="container">
-			<form class="form-signin" action="login.php" method="post">
+			<form class="form-signin" action="loginpage.php" method="post">
 				<h2 class="form-signin-heading">Please Sign In</h2>
 				<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 					<strong>Warning!</strong> Incorrect username/password

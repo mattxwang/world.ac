@@ -7,7 +7,7 @@
 	unset($_SESSION['user']); 
 	 
 	// We redirect them to the login page 
-	header("Location: login.php"); 
-	die("Redirecting to: login.php");
+	header("Location: loginpage.php"); 
+	die("Redirecting to: loginpage.php");
 	
 ?>
