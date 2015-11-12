@@ -76,6 +76,11 @@
 						</div>
 					</div>
 					<div id = "notif">
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+								You've completed 50% of the registration process.
+							</div>
+						</div>
 						<div class="alert alert-success" role="alert">You've been registered correctly!</div>
 						<div class="alert alert-info" role="alert">We haven't assigned plenaries yet; check back soon!</div>
 						<div class="alert alert-warning" role="alert">You haven't confirmed your email yet!</div>
