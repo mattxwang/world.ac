@@ -81,10 +81,18 @@
 								You've completed 50% of the registration process.
 							</div>
 						</div>
-						<div class="alert alert-success" role="alert">You've been registered correctly!</div>
-						<div class="alert alert-info" role="alert">We haven't assigned plenaries yet; check back soon!</div>
-						<div class="alert alert-warning" role="alert">You haven't confirmed your email yet!</div>
-						<div class="alert alert-danger" role="alert">Your payment method was declined!</div>
+
+						<div class="alert alert-dismissible alert-warning" role="alert">You have not been successfuly registered.</div>
+						<div class="alert alert-dismissible alert-success" role="alert">You have been successfuly registered.</div>
+
+						<div class="alert alert-dismissible alert-info" role="alert">Plenaries haven't been assigned yet. Check back soon.</div>
+						<div class="alert alert-dismissible alert-success" role="alert">Plenaries have been assigned. Check them out below.</div>
+
+						<div class="alert alert-dismissible alert-warning" role="alert">Your email hasn't been confirmed yet.</div>
+						<div class="alert alert-dismissible alert-success" role="alert">Your email has been confirmed.</div>
+
+						<div class="alert alert-dismissible alert-danger" role="alert">We haven't received your payment yet.</div>
+						<div class="alert alert-dismissible alert-success" role="alert">We've received your payment.</div>
 
 					</div>
 					<div id = "info">
