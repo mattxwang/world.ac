@@ -8,3 +8,5 @@ Change Plenary page styling to tab-system
 Reworks Keynote page to mobile-compat carousel
 
 Removes unused CSS
+
+Added more headshots.
