@@ -45,17 +45,20 @@
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
+											<h4>Old Password</h4>
 											<label for="inputPassword" class="sr-only">Old Password</label>
-											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+											<input type="password" id="password" name="password" class="form-control" placeholder="Old Password" required="">
+											<h4>New Password</h4>
 											<label for="inputPassword" class="sr-only">New Password</label>
-											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="" autofocus = "">
+											<input type="password" id="password" name="password" class="form-control" placeholder="New Password" required="" autofocus = "">
+											<h4>Confirm New Password</h4>
 											<label for="inputPassword" class="sr-only">Confirm New Password</label>
-											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+											<input type="password" id="password" name="password" class="form-control" placeholder="Confirm New Password" required="">
 							
 								
 									</div>
 									<div class="modal-footer">
-										<button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
 										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
 										</form>
 									</div>
