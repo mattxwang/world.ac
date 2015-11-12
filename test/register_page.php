@@ -45,11 +45,13 @@
 								<input type="password" id="password2" name="password2" class="form-control" placeholder="Re-Type Password" required="">
 							</div>
 						</div>
+						</br>
 						<div class = "row">
 							<div class = "col-md-12">
 								<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 							</div>
 						</div>
+						Already registered? Log in <a href ="login_page.php">here</a>.
 					</form>
 				</div>
 				<div class = "col-md-6" style = "text-align: justify;">
