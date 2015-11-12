@@ -76,7 +76,7 @@
 						</div>
 					</div>
 					<div id = "notif">
-						<div class="progress" style = "height:75px;">
+						<div class="progress" style = "height:36px;">
 							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
 								You've completed 50% of the registration process.
 							</div>
