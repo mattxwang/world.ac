@@ -235,3 +235,6 @@ ul{
 	height:100px; /* fixed header height*/
 	margin:-100px 0 0; /* negative fixed header height */
 }
+.carousel-control.left, .carousel-control.right {
+	background-image: none
+}
