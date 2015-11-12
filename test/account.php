@@ -50,10 +50,10 @@
 					<div id = "settings">
 						<div class="well">
 							<div class = "row">
-								<div class = "col-md-8" style = "color:#000000;">
+								<div class = "col-md-8" style = "color:#000000;vertical-align:middle;">
 									Your Email: template@ucc.on.ca
 								</div>
-								<div class = "col-md-4">
+								<div class = "col-md-4" style = "text-align:right;">
 									<button type="button" class="btn btn-primary">Change Email</button>
 								</div>
 							</div>
