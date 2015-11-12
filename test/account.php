@@ -32,6 +32,23 @@
 					</div>
 				</div>
 				<div class = "col-md-9">
+				<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 					<div id = "notif">
 						<div class="alert alert-success" role="alert">You've been registered correctly!</div>
 						<div class="alert alert-info" role="alert">We haven't assigned plenaries yet; check back soon!</div>
@@ -107,7 +124,7 @@
 											Your Password: ************
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
-											<button type="button" class="btn btn-primary btn-block">Change Password</button>
+											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changePassword">Change Password</button>
 										</div>
 									</div>
 								</li>
