@@ -9,9 +9,9 @@ The main project is the current big undertaking. Please work on this project in 
 </br>
 Account System. This includes:
 </br>
-<a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Allow user to edit spreadsheet info)
+<a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Allow user to edit spreadsheet info) [Skeleton Formatting Done]
 </br>
-<a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page. Changes whether or not the user is logged in) 
+<a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page. Changes whether or not the user is logged in)  [Skeleton Formatting Done]
 </br>
 
 <h3>Side Projects</h3>
