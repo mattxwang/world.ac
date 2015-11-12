@@ -16,7 +16,16 @@
 		}
 	</style>
 </head>
-
+<?php 
+	require("common.php"); 
+	 
+	if(empty($_SESSION['user'])) 
+	{ 
+		header("Location: loginpage.php"); 
+		 
+		die("Redirecting to loginpage.php"); 
+	}  
+?> 
 <?php include_once("navbar.php") ?>
 
 <body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">
