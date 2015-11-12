@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
-		.body{
+		body{
 			position:relative;
 		}
 	</style>
