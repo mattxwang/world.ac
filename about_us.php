@@ -12,7 +12,7 @@ include_once("../includes/sql.php");
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
-	<title>Meet the WAC Team</title>
+	<title>Meet the WAC Team - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
