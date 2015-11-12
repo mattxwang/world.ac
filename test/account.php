@@ -53,29 +53,32 @@
 							<ul class="list-group">
 								<li class="list-group-item">
 									<div class = "row">
-									<div class = "col-md-8" style = "color:#000000;">
-										Your Email: template@ucc.on.ca
+										<div class = "col-md-8" style = "color:#000000;">
+											Your Email: template@ucc.on.ca
+										</div>
+										<div class = "col-md-4" style = "text-align:right;">
+											<button type="button" class="btn btn-primary btn-block">Change Email</button>
+										</div>
 									</div>
-									<div class = "col-md-4" style = "text-align:right;">
-										<button type="button" class="btn btn-primary btn-block">Change Email</button>
+									<div class = "row">
+										<div class = "col-md-8" style = "color:#000000;">
+											Haven't received your confirmation email?
+										</div>
+										<div class = "col-md-4" style = "text-align:right;">
+											<button type="button" class="btn btn-primary btn-block">Resend Email Confirmation</button>
+										</div>
 									</div>
-								</div>
 								</li>
-								<li class="list-group-item">Dapibus ac facilisis in</li>
-								<li class="list-group-item">Morbi leo risus</li>
-								<li class="list-group-item">Porta ac consectetur ac</li>
-								<li class="list-group-item">Vestibulum at eros</li>
-							</ul>
-							<div class="panel-body">
-								<div class = "row">
-									<div class = "col-md-8" style = "color:#000000;">
-										Your Email: template@ucc.on.ca
+								<li class="list-group-item">
+									<div class = "row">
+										<div class = "col-md-8" style = "color:#000000;">
+											Your Password: ************
+										</div>
+										<div class = "col-md-4" style = "text-align:right;">
+											<button type="button" class="btn btn-primary btn-block">Change Password</button>
+										</div>
 									</div>
-									<div class = "col-md-4" style = "text-align:right;">
-										<button type="button" class="btn btn-primary btn-block">Change Email</button>
-									</div>
-								</div>
-							</div>
+								</li>
 						</div>
 
 					</div>
