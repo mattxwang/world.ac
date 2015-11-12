@@ -203,6 +203,14 @@
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changePassword">Change Password</button>
 										</div>
 									</div>
+									<div class = "row">
+										<div class = "col-md-8">
+											Forgot your password?
+										</div>
+										<div class = "col-md-4" style = "text-align:right;">
+											<button type="button" class="btn btn-primary btn-block">Reset Password</button>
+										</div>
+									</div>
 								</li>
 						</div>
 
