@@ -21,9 +21,9 @@
 	 
 	if(empty($_SESSION['user'])) 
 	{ 
-		header("Location: loginpage.php"); 
+		header("Location: login_page.php"); 
 		 
-		die("Redirecting to loginpage.php"); 
+		die("Redirecting to login_page.php"); 
 	}  
 ?> 
 <?php include_once("navbar.php") ?>

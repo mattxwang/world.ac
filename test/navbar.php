@@ -94,8 +94,8 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome Matthew Wang<span class="caret"></span></a>
 					<ul class="dropdown-menu">
+						<li><a href="account.php#notif">Notifications</a></li>
 						<li><a href="account.php">View Account</a></li>
-						<li><a href="account.php#info">Delegate Info
 						<li><a href="logout.php">Logout</a></li>
 					</ul>
 				</li>
