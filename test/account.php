@@ -65,11 +65,12 @@
 											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
 										</div>
 									</div>
+									</br>
 									<div class = "row">
-										<div class = "col-md-6" style = "color:#000000;">
+										<div class = "col-md-8" style = "color:#000000;">
 											Incorrect information here?
 										</div>
-										<div class = "col-md-6" style = "text-align:right;">
+										<div class = "col-md-4" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block">Edit Special Notes</button>
 										</div>
 									</div>
