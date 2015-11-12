@@ -49,9 +49,14 @@
 					</div>
 					<div id = "settings">
 						<div class="well">
-							Your Email: template@ucc.on.ca
-							<button type="button" class="btn btn-primary">Change Email</button>
-
+							<div class = "row">
+								<div class = "col-md-8" style = "color:#000000;">
+									Your Email: template@ucc.on.ca
+								</div>
+								<div class = "col-md-4">
+									<button type="button" class="btn btn-primary">Change Email</button>
+								</div>
+							</div>
 						</div>
 
 					</div>
