@@ -41,7 +41,7 @@
 					</div>
 				</div>
 				<div class = "col-md-9">
-					<div style = "color:#000000">
+					<div style = "color:black">
 						<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
 							<div class="modal-dialog" role="document">
 								<div class="modal-content">
@@ -83,30 +83,18 @@
 
 					</div>
 					<div id = "info">
-						<div class="panel panel-info">
+						<div class="panel panel-info" style = "color:black;">
 							<div class="panel-heading">Delegate Information</div>
 							<ul class="list-group">
 								<li class="list-group-item">
-									<div class = "row">
-										<div class = "col-md-4" style = "color:#000000;">
-											Delegate Name:
-										</div>
-										<div class = "col-md-8" style = "color:#000000;">
-											Matthew Wang
-										</div>
-									</div>
+									<div>
+									Delegate Name: Matthew Wang
 									</br>
-									<div class = "row">
-										<div class = "col-md-4" style = "color:#000000;">
-											School:
-										</div>
-										<div class = "col-md-8" style = "color:#000000;">
-											Upper Canada College
-										</div>
-									</div>
 									</br>
+									School: Upper Canada College
+									</div>
 									<div class = "row">
-										<div class = "col-md-8" style = "color:#000000;">
+										<div class = "col-md-8">
 											Incorrect information here?
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
@@ -116,11 +104,11 @@
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-6" style = "color:#000000;">
+										<div class = "col-md-6">
 											<h2>Plenary 1: First Plenary</h2>
 											This is the first plenary! Here's information about the plenary! Here's the link to the plenary info page!
 										</div>
-										<div class = "col-md-6" style = "color:#000000;">
+										<div class = "col-md-6">
 											<h2>Plenary 2: Second Plenary</h2>
 											This is the second plenary! Here's information about the plenary! Here's the link to the plenary info page!
 										</div>
@@ -129,16 +117,16 @@
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-6" style = "color:#000000;">
+										<div class = "col-md-6">
 											Special Notes. These are typically for food allergies, or other health concerns.
 										</div>
-										<div class = "col-md-6" style = "color:#000000;">
+										<div class = "col-md-6">
 											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
 										</div>
 									</div>
 									</br>
 									<div class = "row">
-										<div class = "col-md-8" style = "color:#000000;">
+										<div class = "col-md-8">
 											Incorrect information here?
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
@@ -155,7 +143,7 @@
 							<ul class="list-group">
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-8" style = "color:#000000;">
+										<div class = "col-md-8">
 											Your Email: template@ucc.on.ca
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
@@ -164,7 +152,7 @@
 									</div>
 									</br>
 									<div class = "row">
-										<div class = "col-md-8" style = "color:#000000;">
+										<div class = "col-md-8">
 											Haven't received your confirmation email?
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
@@ -174,7 +162,7 @@
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-8" style = "color:#000000;">
+										<div class = "col-md-8">
 											Your Password: ************
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
