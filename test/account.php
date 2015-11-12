@@ -88,6 +88,34 @@
 							<ul class="list-group">
 								<li class="list-group-item">
 									<div class = "row">
+										<div class = "col-md-4" style = "color:#000000;">
+											Delegate Name:
+										</div>
+										<div class = "col-md-8" style = "color:#000000;">
+											Matthew Wang
+										</div>
+									</div>
+									</br>
+									<div class = "row">
+										<div class = "col-md-4" style = "color:#000000;">
+											School:
+										</div>
+										<div class = "col-md-8" style = "color:#000000;">
+											Upper Canada College
+										</div>
+									</div>
+									</br>
+									<div class = "row">
+										<div class = "col-md-8" style = "color:#000000;">
+											Incorrect information here?
+										</div>
+										<div class = "col-md-4" style = "text-align:right;">
+											<button type="button" class="btn btn-primary btn-block">Student Information</button>
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class = "row">
 										<div class = "col-md-6" style = "color:#000000;">
 											<h2>Plenary 1: First Plenary</h2>
 											This is the first plenary! Here's information about the plenary! Here's the link to the plenary info page!

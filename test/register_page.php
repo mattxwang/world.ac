@@ -51,6 +51,7 @@
 								<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 							</div>
 						</div>
+						</br>
 						Already registered? Log in <a href ="login_page.php">here</a>.
 					</form>
 				</div>
