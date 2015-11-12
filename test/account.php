@@ -60,6 +60,7 @@
 											<button type="button" class="btn btn-primary btn-block">Change Email</button>
 										</div>
 									</div>
+									</br>
 									<div class = "row">
 										<div class = "col-md-8" style = "color:#000000;">
 											Haven't received your confirmation email?
