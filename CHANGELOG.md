@@ -10,3 +10,5 @@ Reworks Keynote page to mobile-compat carousel
 Removes unused CSS
 
 Added more headshots.
+
+Change title page naming convention
