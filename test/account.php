@@ -84,14 +84,14 @@
 					</div>
 					<div id = "info">
 						<div class="panel panel-info" style = "color:black;">
-							<div class="panel-heading">Delegate Information</div>
+							<div class="panel-heading"><h2>Delegate Information</h2></div>
 							<ul class="list-group">
 								<li class="list-group-item">
 									<div>
-									Delegate Name: Matthew Wang
+									<b>Delegate Name:</b> Matthew Wang
 									</br>
 									</br>
-									School: Upper Canada College
+									<b>School:</b> Upper Canada College
 									</div>
 									</br>
 									<div class = "row">
@@ -119,7 +119,7 @@
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
-											Special Notes. These are typically for food allergies, or other health concerns.
+											<b>Special Notes:</b> These are typically for food allergies, or other health concerns.
 										</div>
 										<div class = "col-md-6">
 											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
@@ -140,12 +140,12 @@
 					</div>
 					<div id = "settings">
 						<div class="panel panel-info" style = "color:black;">
-							<div class="panel-heading">Account Settings</div>
+							<div class="panel-heading"><h2>Account Settings</h2></div>
 							<ul class="list-group">
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-8">
-											Your Email: template@ucc.on.ca
+											<b>Your Email:</b> template@ucc.on.ca
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block">Change Email</button>
@@ -164,7 +164,7 @@
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-8">
-											Your Password: ************
+											<b>Your Password:</b> ************
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changePassword">Change Password</button>
