@@ -25,6 +25,9 @@ include_once("../includes/sql.php");
 	.img{
 		vertical-align: text-top;
 	}
+	.p{
+		text-align:justify;
+	}
 	</style>
 </head>
 
