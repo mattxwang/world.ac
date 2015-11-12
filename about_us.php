@@ -85,7 +85,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
-			<div class="item bg-ucc">
+			<div class="item bg-bh">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -109,6 +109,31 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
+			<div class="item bg-bh">
+				<div class = "row" style = "padding:5%;">
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-3">
+						<img src = "img/bio/headshots/placeholder.png" style = "height:80%;"></img>
+					</div>
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-6">
+						<p>
+						<span style="font-size:4vw"><b>Blaise O'Malley</b></span>
+						</br>
+						<span style="font-size:2.5vw">Conference Chair</span>
+						</br>
+						I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
+						</br>
+						Can't wait to see you there!
+						</p>
+					</div>
+					<div class = "col-md-1">
+					</div>
+				</div>
+			</div>
+
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
@@ -181,6 +206,31 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
+			<div class="item bg-ucc">
+				<div class = "row" style = "padding:5%;">
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-3">
+						<img src = "img/bio/headshots/emmanuel.png" style = "height:80%;"></img>
+					</div>
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-6">
+						<p>
+						<span style="font-size:4vw"><b>Emmanuel Wong</b></span>
+						</br>
+						<span style="font-size:2.5vw">Head of Registration</span>
+						</br>
+						I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+						</br>
+						I'm looking forward to seeing you all there!
+						</p>
+					</div>
+					<div class = "col-md-1">
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 		<a class="left carousel-control" href="#about-us-carousel" role="button" data-slide="prev">
