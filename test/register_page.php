@@ -11,7 +11,16 @@
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
-
+<?php 
+	require("common.php"); 
+	 
+	if(isset($_SESSION['user'])) 
+	{ 
+		header("Location: account.php"); 
+		 
+		die("Redirecting to account.php"); 
+	}  
+?> 
 <?php include_once("navbar.php") ?>
 
 <body style="zoom: 1;">
