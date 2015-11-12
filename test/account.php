@@ -139,7 +139,7 @@
 
 					</div>
 					<div id = "settings">
-						<div class="panel panel-info">
+						<div class="panel panel-info" style = "color:black;">
 							<div class="panel-heading">Account Settings</div>
 							<ul class="list-group">
 								<li class="list-group-item">
