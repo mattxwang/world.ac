@@ -32,23 +32,37 @@
 					</div>
 				</div>
 				<div class = "col-md-9">
-				<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+					<div style = "color:#000000">
+						<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">Change Password</h4>
+									</div>
+									<div class="modal-body">
+										<form class="form-signin" action="change_password.php" method="post">
+											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
+												<strong>Warning!</strong> Incorrect username/password combination. 
+											</div>
+											<label for="inputPassword" class="sr-only">Old Password</label>
+											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+											<label for="inputPassword" class="sr-only">New Password</label>
+											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="" autofocus = "">
+											<label for="inputPassword" class="sr-only">Confirm New Password</label>
+											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+							
+								
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div id = "notif">
 						<div class="alert alert-success" role="alert">You've been registered correctly!</div>
 						<div class="alert alert-info" role="alert">We haven't assigned plenaries yet; check back soon!</div>
