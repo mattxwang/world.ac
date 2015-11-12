@@ -35,6 +35,9 @@ include_once("../includes/sql.php");
 			<div class="item active">
 				<div style = "text-align:center;">
 					<h1>This Year's Keynote Speaker</h1>
+					<h2>Still in the Works</h2>
+					<img src="img/speaker_pic_blank_large.png"></img>
+					<h3>Check Back Later</h3>
 				</div>
 				<div style = "padding:15%;padding-top:0;text-align:justify">
 					This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
@@ -49,6 +52,24 @@ include_once("../includes/sql.php");
 				</div>
 				<div style = "padding:15%;padding-top:0;text-align:justify">
 					Last year, <b>Edward Snowden</b> gave the WAC 2015 Lionel Gelber Keynote Address. In June 2013, Snowden leaked highly classified information about the scale and scope of NSA and CIA counter-terrorism and counter-intelligence operations around the globe. Since then, he has become a household name and is among the most influential privacy activists in the world. At the Keynote Address, Snowden explained his views on global privacy issues, government involvement in citizens' lives, and the dangers of the digital age. 
+				</div>
+			</div>
+			<div class="item">
+				<div style = "text-align:center;">
+					<h1>Previous Speakers</h1>
+				</div>
+				<div style = "padding:15%;padding-top:0;text-align:justify">
+					<b>Dr. Samantha Nutt</b> - Founder of War Child North America
+					</br>
+					<b>Stephen Lewis</b> - former United Nations ambassador
+					</br>
+					<b>Ralph Nader</b> - American political activist
+					</br>
+					<b>Lord David Owen</b> - former British Foreign Secretary
+					</br>
+					<b>Marc Garneau</b> - astronaut turned politician
+					</br>
+					<b>John Stackhouse</b> - editor of the Globe and Mail
 				</div>
 			</div>
 		</div>
