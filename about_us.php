@@ -26,9 +26,6 @@ include_once("../includes/sql.php");
 	.bg-ucc{
 		background-color:#5E7794;
 	}
-	.carousel-control.left, .carousel-control.right {
-    background-image: none
-	}
 	</style>
 </head>
 
@@ -38,9 +35,9 @@ include_once("../includes/sql.php");
 	<?php include_once("navbar.php") ?>
 	<h2 style="text-align:center;font-family:nexa; color:#ffffff;">Meet the WAC Team</h2>
 	</br>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style ="height:50%;">
-		<div class="carousel-mod carousel-inner" role="listbox">
-			<div class="carousel-mod item active bg-ucc">
+	<div id="about-us-carousel" class="carousel slide" data-ride="carousel" style ="height:50%;">
+		<div class="carousel-inner" role="listbox">
+			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -64,7 +61,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
-			<div class="carousel-mod item bg-ucc">
+			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -88,7 +85,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
-			<div class="carousel-mod item bg-ucc">
+			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -112,7 +109,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
-			<div class="carousel-mod item bg-ucc">
+			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -136,7 +133,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
-			<div class="carousel-mod item bg-ucc">
+			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -160,7 +157,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
-			<div class="carousel-mod item bg-ucc">
+			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -186,11 +183,11 @@ include_once("../includes/sql.php");
 			</div>
 		</div>
 
-		<a class="carousel-mod left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<a class="left carousel-control" href="#about-us-carousel" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
 		</a>
-		<a class="carousel-mod right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<a class="right carousel-control" href="#about-us-carousel" role="button" data-slide="next">
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 		</a>
@@ -199,7 +196,7 @@ include_once("../includes/sql.php");
 	</br>
 	<div style="padding:35px;font-family:nexa; text-align:center; color:#ffffff;">
 		<p>
-		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. Our goal is to provide over eight hundred students with current affairs knowledge, and a positive experience.
+		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
 		</br>
 		This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 
@@ -211,7 +208,7 @@ include_once("../includes/sql.php");
 		Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 		</br>
 
-		<h4>And to a bunch of other people who've made WAC awesome!</h4>
+		<h3>And to all of the other people who've made WAC awesome!</h3>
 		</p>
 	</div>
 	</br>

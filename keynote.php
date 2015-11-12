@@ -29,6 +29,37 @@ include_once("../includes/sql.php");
 <body style="position:relative;">
 <?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
+<div class = "container">
+	<div id="keynote-speaker-carousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div style = "text-align:center;">
+					<h1>This Year's Keynote Speaker</h1>
+				</div>
+				This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
+			</div>
+			<div class="item">
+				<div style = "text-align:center;">
+					<h1>Last Year's Keynote Speaker</h1>
+					<h2>Edward Snowden</h2>
+					<h3>The Whistleblower of the Decade</h3>
+				</div>
+				Last year, <b>Edward Snowden</b> gave the WAC 2015 Lionel Gelber Keynote Address. In June 2013, Snowden leaked highly classified information about the scale and scope of NSA and CIA counter-terrorism and counter-intelligence operations around the globe. Since then, he has become a household name and is among the most influential privacy activists in the world. At the Keynote Address, Snowden explained his views on global privacy issues, government involvement in citizens' lives, and the dangers of the digital age. 
+
+			</div>
+		</div>
+
+		<a class="left carousel-control" href="#keynote-speaker-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="keynote-speaker-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+		</a>
+
+	</div>
+</div>
 
 <div style ="text-align:center">
 <h2>Last Year's Keynote Address</h2>
