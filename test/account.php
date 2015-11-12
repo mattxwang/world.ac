@@ -48,13 +48,13 @@
 
 					</div>
 					<div id = "settings">
-						<div class="well">
+						<div class="panel panel-info">
 							<div class = "row">
-								<div class = "col-md-8" style = "color:#000000;vertical-align:middle;">
+								<div class = "col-md-8" style = "color:#000000;">
 									Your Email: template@ucc.on.ca
 								</div>
 								<div class = "col-md-4" style = "text-align:right;">
-									<button type="button" class="btn btn-primary">Change Email</button>
+									<button type="button" class="btn btn-primary btn-block">Change Email</button>
 								</div>
 							</div>
 						</div>
