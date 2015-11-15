@@ -29,7 +29,7 @@ include_once("../includes/sql.php");
 
 	<div style="line-height:80%; padding:4%; position:relative">
 		<h1>WELCOME TO THE 2016 </br><b>WORLD AFFAIRS CONFERENCE.</b><h1>
-		<h2 style = "text-align:right">The Conference Starts In:</h2><div id="timeLeft"><h3 style = "text-align:right"></h3></div>
+		<div style="text-align:right"> <h2>The Conference Starts In:</h2><div id="timeLeft"><h3></h3></div></div>
 		<script type="text/javascript">
 			var deadLine = "2/1/2016";
 			window.setInterval(function(){
