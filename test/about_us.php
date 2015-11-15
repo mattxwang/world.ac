@@ -32,13 +32,16 @@ Head of Communications and Head of Security: Justin Lu-->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
 	.bg-bh{
-		background-color:#648F00;
+		background-color:#1A6311;
 	}
 	.bg-ucc{
 		background-color:#5E7794;
 	}
 	.bg-web{
 		background-color:#C61B26;
+	}
+	.bg-plenary{
+		background-color:#DC8944;
 	}
 	</style>
 </head>
@@ -198,7 +201,6 @@ Head of Communications and Head of Security: Justin Lu-->
 
 	</div>
 
-
 	<div id="carousel-exec" class="carousel slide" data-ride="carousel" style ="height:50%;">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
@@ -286,6 +288,98 @@ Head of Communications and Head of Security: Justin Lu-->
 		</a>
 
 	</div>
+
+	<div id="carousel-plenary" class="carousel slide" data-ride="carousel" style ="height:50%;">
+		<div class="carousel-inner" role="listbox">
+			<div class="item active bg-ucc">
+				<div class = "row" style = "padding:5%;">
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-3">
+						<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
+					</div>
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-6">
+						<p>
+						<span style="font-size:4vw"><b>David Niddam-Dent</b></span>
+						</br>
+						<span style="font-size:2.5vw">Head of Plenary</span>
+						</br>
+						Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+						</br>
+						I am looking forward to seeing you this February at UCC! 
+						</p>
+					</div>
+					<div class = "col-md-1">
+					</div>
+				</div>
+			</div>
+			<div class="item bg-ucc">
+				<div class = "row" style = "padding:5%;">
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-3">
+						<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
+					</div>
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-6">
+						<p>
+						<span style="font-size:4vw"><b>Ernest Leung</b></span>
+						</br>
+						<span style="font-size:2.5vw">Head of Operations</span>
+						</br>
+						Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
+						</br>
+						I’m super excited for WAC this February! See you all there!
+						</p>
+					</div>
+					<div class = "col-md-1">
+					</div>
+				</div>
+			</div>
+			<div class="item bg-ucc">
+				<div class = "row" style = "padding:5%;">
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-3">
+						<img src = "img/bio/headshots/emmanuel.png" style = "height:80%;"></img>
+					</div>
+					<div class = "col-md-1">
+					</div>
+					<div class = "col-md-6">
+						<p>
+						<span style="font-size:4vw"><b>Emmanuel Wong</b></span>
+						</br>
+						<span style="font-size:2.5vw">Head of Registration</span>
+						</br>
+						I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+						</br>
+						I'm looking forward to seeing you all there!
+						</p>
+					</div>
+					<div class = "col-md-1">
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<a class="left carousel-control" href="#carousel-plenary" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-plenary" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+		</a>
+
+	</div>
+
+
+
+
 	<div style="padding:35px;font-family:nexa; text-align:center; color:#ffffff;">
 		<p>
 		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
