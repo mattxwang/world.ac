@@ -51,10 +51,7 @@ body{
 	background-image: url("img/earth.png"), url("img/stars.png");
 	background-repeat:no-repeat;
     background-size:cover;
-    overflow:hidden;
 	left:0px; top:0px;
-	width:100%;
-	height:100%;
 }
 .drp-active{
 	background-color:#53b5b4;
