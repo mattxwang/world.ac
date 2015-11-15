@@ -23,7 +23,7 @@ include_once("../includes/sql.php");
 	<script src="js/countdown.js"></script>
 	<style>
 		body {
-			background-image: url("test/img/stars.png"), url("test/img/earth.png");
+			background-image: url("img/stars.png"), url("img/earth.png");
 		}
 	</style>
 </head>
