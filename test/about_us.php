@@ -50,7 +50,7 @@ Head of Communications and Head of Security: Justin Lu-->
 <body style="position:relative;">
 	<?php include_once("tracking.php") ?>
 	<?php include_once("navbar.php") ?>
-	<div style="padding:35px;text-align:center; color:#ffffff;">
+	<div style="text-align:center; color:#ffffff;">
 		<h2>Meet the WAC Team</h2>
 		<p>
 		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
