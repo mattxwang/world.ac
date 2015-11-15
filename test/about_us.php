@@ -46,9 +46,8 @@ Head of Communications and Head of Security: Justin Lu-->
 	</style>
 </head>
 
-<!-- || Main Page Content || -->
+<!-- FOR SOME REASON CONTAINERS SCREW UP THE CAROUSEL GOING FULLSCREEN -->
 <body style="position:relative;">
-<div class ="container">
 	<?php include_once("tracking.php") ?>
 	<?php include_once("navbar.php") ?>
 	<div style="padding:35px;text-align:center; color:#ffffff;">
@@ -269,7 +268,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					</div>
 				</div>
 			</div>
-			<div class="item bg-ucc">
+			<div class="item bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
@@ -287,7 +286,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					</div>
 				</div>
 			</div>
-			<div class="item bg-ucc">
+			<div class="item bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/emmanuel.png" style = "height:80%;"></img>
@@ -344,6 +343,5 @@ Head of Communications and Head of Security: Justin Lu-->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	</div>
 </body>
 </html>
