@@ -64,7 +64,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/logan.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/logan.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -80,7 +80,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-bh">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/naz.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/naz.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -96,7 +96,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-bh">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/placeholder.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/placeholder.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -128,7 +128,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item active bg-web">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/matt.png"></img>
+						<img src = "img/bio/headshots/matt.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -144,7 +144,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-web">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/jack.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/jack.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -176,7 +176,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/nitish.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/nitish.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -192,7 +192,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/ernest.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/ernest.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -208,7 +208,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/emmanuel.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/emmanuel.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -241,7 +241,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item active bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/nitish.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/nitish.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -257,7 +257,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/ernest.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/ernest.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
@@ -273,7 +273,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/emmanuel.png" style = "height:60%;"></img>
+						<img src = "img/bio/headshots/emmanuel.png" class="img-responsive"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
