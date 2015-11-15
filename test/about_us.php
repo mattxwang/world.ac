@@ -47,7 +47,7 @@ Head of Communications and Head of Security: Justin Lu-->
 <!-- FOR SOME REASON CONTAINERS SCREW UP THE CAROUSEL GOING FULLSCREEN -->
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
-	<div style="text-align:center; color:#ffffff;">
+	<div style="text-align:center;">
 		<h2>Meet the WAC Team</h2>
 		<p>
 		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
@@ -301,16 +301,16 @@ Head of Communications and Head of Security: Justin Lu-->
 
 
 
-	<div style="padding:35px;text-align:center; color:#ffffff;">
+	<div style="padding:35px;text-align:center;">
 		<p>
 		Some other people also help make WAC awesome; while they aren't on the team this year, they definitely deserve some thanks.
 		<h2>We'd Like to Thank:</h2>
 		<h3>Last Year's Website Team</h3>
 		Nick Elder, Derek Lam, Kinton Cheung
-		</br>
+		<h3>The Media Team</h3>
+		Matthew Wang, Tyler Tam
 		<h3>Website Consultants</h3>
 		Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
-		</br>
 
 		<h3>And to all of the other people who've made WAC awesome!</h3>
 		</p>
