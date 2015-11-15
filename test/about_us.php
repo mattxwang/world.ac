@@ -32,13 +32,13 @@ Head of Communications and Head of Security: Justin Lu-->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
 	.bg-bh{
-		background-color:#26943b;
+		background-color:#648F00;
 	}
 	.bg-ucc{
 		background-color:#5E7794;
 	}
 	.bg-web{
-		background-color:#FCAB74;
+		background-color:#C61B26;
 	}
 	</style>
 </head>
