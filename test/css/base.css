@@ -50,8 +50,6 @@ body{
 .bg-stars{
 	background-image: url("img/earth.png"), url("img/stars.png");
 	background-repeat:no-repeat;
-    background-size:cover;
-	left:0px; top:0px;
 }
 .drp-active{
 	background-color:#53b5b4;
