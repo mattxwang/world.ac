@@ -59,7 +59,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		</p>
 	</div>
 	</br>
-	<div id="carousel-chair" class="carousel slide" data-ride="carousel" style ="height:50%;">
+	<div id="carousel-chair" class="carousel slide" data-ride="carousel" style ="height:50%;" data-interval="5000">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
@@ -116,6 +116,7 @@ Head of Communications and Head of Security: Justin Lu-->
 				</div>
 			</div>
 		</div>
+		<!--
 		<a class="left carousel-control" href="#carousel-chair" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
@@ -124,10 +125,11 @@ Head of Communications and Head of Security: Justin Lu-->
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 		</a>
+		-->
 
 	</div>
 
-	<div id="carousel-web" class="carousel slide" data-ride="carousel" style ="height:50%;">
+	<div id="carousel-web" class="carousel slide" data-ride="carousel" style ="height:50%;" data-interval="8000">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-web">
 				<div class = "row" style = "padding:5%;">
@@ -166,7 +168,7 @@ Head of Communications and Head of Security: Justin Lu-->
 				</div>
 			</div>
 		</div>
-
+		<!--
 		<a class="left carousel-control" href="#carousel-web" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
@@ -175,10 +177,11 @@ Head of Communications and Head of Security: Justin Lu-->
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 		</a>
+		-->
 
 	</div>
 
-	<div id="carousel-exec" class="carousel slide" data-ride="carousel" style ="height:50%;">
+	<div id="carousel-exec" class="carousel slide" data-ride="carousel" style ="height:50%;" data-interval="4000">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
@@ -236,7 +239,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 
 		</div>
-
+		<!--
 		<a class="left carousel-control" href="#carousel-exec" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
@@ -245,10 +248,11 @@ Head of Communications and Head of Security: Justin Lu-->
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 		</a>
+		-->
 
 	</div>
 
-	<div id="carousel-plenary" class="carousel slide" data-ride="carousel" style ="height:50%;">
+	<div id="carousel-plenary" class="carousel slide" data-ride="carousel" style ="height:50%;" data-interval="3000">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-plenary">
 				<div class = "row" style = "padding:5%;">
@@ -306,7 +310,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 
 		</div>
-
+		<!--
 		<a class="left carousel-control" href="#carousel-plenary" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
@@ -315,6 +319,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 		</a>
+		-->
 
 	</div>
 
