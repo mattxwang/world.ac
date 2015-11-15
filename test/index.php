@@ -21,14 +21,9 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/countdown.js"></script>
-	<style>
-		body {
-			background-image: url("img/earth.png"), url("img/stars.png");
-		}
-	</style>
 </head>
 
-<body>
+<body class = "bg-stars">
 	<?php include_once("navbar.php")  ?>
 
 	<div style="line-height:80%; padding:4%; position:relative">
