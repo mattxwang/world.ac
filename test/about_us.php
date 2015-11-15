@@ -243,7 +243,7 @@ Head of Communications and Head of Security: Justin Lu-->
 
 	<div id="carousel-plenary" class="carousel slide" data-ride="carousel" style ="height:50%;">
 		<div class="carousel-inner" role="listbox">
-			<div class="item active bg-ucc">
+			<div class="item active bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
