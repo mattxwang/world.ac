@@ -137,3 +137,15 @@ body{
 .carousel-control.left, .carousel-control.right {
 	background-image: none
 }
+.bg-bh{
+		background-color:#809C29;
+}
+.bg-ucc{
+	background-color:#5E7794;
+}
+.bg-web{
+	background-color:#C61B26;
+}
+.bg-plenary{
+	background-color:#DC8944;
+}
