@@ -56,14 +56,10 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/logan.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Logan Ye</b></span>
 						</br>
@@ -74,20 +70,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						See you at WAC!
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-bh">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/naz.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Naz Gocek</b></span>
 						</br>
@@ -98,20 +88,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						Hope to see you at WAC!
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-bh">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/placeholder.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Blaise O'Malley</b></span>
 						</br>
@@ -121,8 +105,6 @@ Head of Communications and Head of Security: Justin Lu-->
 						</br>
 						Can't wait to see you there!
 						</p>
-					</div>
-					<div class = "col-md-1">
 					</div>
 				</div>
 			</div>
@@ -142,14 +124,10 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-web">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/matt.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Matthew Wang</b></span>
 						</br>
@@ -160,20 +138,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						I’m excited to make WAC as awesome as it was last year. See you there!
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-web">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/jack.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></span>
 						</br>
@@ -183,8 +155,6 @@ Head of Communications and Head of Security: Justin Lu-->
 						</br>
 						I’m happy to be part of the team. See you there!
 						</p>
-					</div>
-					<div class = "col-md-1">
 					</div>
 				</div>
 			</div>
@@ -205,14 +175,10 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Nitish Dhingra</b></span>
 						</br>
@@ -223,20 +189,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						I am looking forward to seeing you this February at UCC! 
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Ernest Leung</b></span>
 						</br>
@@ -247,20 +207,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						I’m super excited for WAC this February! See you all there!
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/emmanuel.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Emmanuel Wong</b></span>
 						</br>
@@ -270,8 +224,6 @@ Head of Communications and Head of Security: Justin Lu-->
 						</br>
 						I'm looking forward to seeing you all there!
 						</p>
-					</div>
-					<div class = "col-md-1">
 					</div>
 				</div>
 			</div>
@@ -293,14 +245,10 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/nitish.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>David Niddam-Dent</b></span>
 						</br>
@@ -311,20 +259,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						I am looking forward to seeing you this February at UCC! 
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/ernest.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Ernest Leung</b></span>
 						</br>
@@ -335,20 +277,14 @@ Head of Communications and Head of Security: Justin Lu-->
 						I’m super excited for WAC this February! See you all there!
 						</p>
 					</div>
-					<div class = "col-md-1">
-					</div>
 				</div>
 			</div>
 			<div class="item bg-ucc">
 				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-3">
+					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/emmanuel.png" style = "height:80%;"></img>
 					</div>
-					<div class = "col-md-1">
-					</div>
-					<div class = "col-md-6">
+					<div class = "col-md-8" style = "text-align:left;">
 						<p>
 						<span style="font-size:4vw"><b>Emmanuel Wong</b></span>
 						</br>
@@ -358,8 +294,6 @@ Head of Communications and Head of Security: Justin Lu-->
 						</br>
 						I'm looking forward to seeing you all there!
 						</p>
-					</div>
-					<div class = "col-md-1">
 					</div>
 				</div>
 			</div>
