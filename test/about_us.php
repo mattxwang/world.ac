@@ -7,8 +7,6 @@ include_once("../includes/sql.php");
 ?>
 <!DOCTYPE html>
 <html>
-<!-- || Page Head || -->
-
 <!-- Conference Chair: Logan Ye
 Secretary/Treasurer: Nitish Dhingra
 Head of Programs: Nikhil Kassum
@@ -48,7 +46,6 @@ Head of Communications and Head of Security: Justin Lu-->
 
 <!-- FOR SOME REASON CONTAINERS SCREW UP THE CAROUSEL GOING FULLSCREEN -->
 <body style="position:relative;">
-	<?php include_once("tracking.php") ?>
 	<?php include_once("navbar.php") ?>
 	<div style="text-align:center; color:#ffffff;">
 		<h2>Meet the WAC Team</h2>

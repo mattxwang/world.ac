@@ -11,23 +11,16 @@ include_once("../includes/sql.php");
 
 <!DOCTYPE html>
 <html>
-	<!-- || Page Head || -->
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
 	<title>Home - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/countdown.js"></script>
-	<script>
-	if (!window.jQuery) {
-	    document.write('<script src="js/jquery.js"><\/script>');
-	}
-	</script>
 	<script type="text/javascript" src="js/easing.js"></script>
 </head>
 
@@ -41,7 +34,7 @@ include_once("navbar.php")  ?>
 
 <div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:5%; position:relative">
 	<div style="font-size:5vw;">
-	WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
+		WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 	</div>
 	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts In: <div id="timeLeft" style="padding-top:3vw;">February 1st 2016</div></div>
 	<script type="text/javascript">
@@ -75,9 +68,7 @@ include_once("navbar.php")  ?>
 <?php
 include_once("footer.php")
 ?>
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

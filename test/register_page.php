@@ -23,7 +23,7 @@
 ?> 
 <?php include_once("navbar.php") ?>
 
-<body style="zoom: 1;">
+<body>
 		<div class="container">
 			<div style = "text-align:left;">
 				<h2>WAC 2016 Account Registration</h2>

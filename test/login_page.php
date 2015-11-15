@@ -12,7 +12,7 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <?php 
-	require("common.php"); 
+	require("common.php");
 	 
 	if(isset($_SESSION['user'])) 
 	{ 
@@ -23,7 +23,7 @@
 ?> 
 <?php include_once("navbar.php") ?>
 
-<body style="zoom: 1;">
+<body>
 	<div class="container" style = "vertical-align:middle">
 		<h2>WAC 2016 Account Login</h2>
 		<div class = "row">

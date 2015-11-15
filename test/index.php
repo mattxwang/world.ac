@@ -11,23 +11,16 @@ include_once("../includes/sql.php");
 
 <!DOCTYPE html>
 <html>
-	<!-- || Page Head || -->
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
 	<title>Home - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/countdown.js"></script>
-	<script>
-	if (!window.jQuery) {
-	    document.write('<script src="js/jquery.js"><\/script>');
-	}
-	</script>
 	<script type="text/javascript" src="js/easing.js"></script>
 </head>
 
@@ -40,10 +33,8 @@ include_once("../includes/sql.php");
 include_once("navbar.php")  ?>
 
 <div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:5%; position:relative">
-	<div style="font-size:5vw;">
-	WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
-	</div>
-	<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts In: <div id="timeLeft" style="padding-top:3vw;">February 1st 2016</div></div>
+	<h1>WELCOME TO THE 2016 </br><b>WORLD AFFAIRS CONFERENCE.</b><h1>
+	<div style="text-align:right"> <h2>The Conference Starts In: <div id="timeLeft" style="padding-top:3vw;">February 1st 2016</div></h2></div>
 	<script type="text/javascript">
 		var deadLine = "2/1/2016";
 		window.setInterval(function(){
@@ -55,16 +46,10 @@ include_once("navbar.php")  ?>
 </div>
 <div class = "row" style = "padding:4%;background-color:rgba(0,0,0,0.4);">
 	<div class = "col-md-8">
-		<div style="font-family:nexa;text-align:left; color:#53b5b4;">
-			<div style="box-sizing:border-box;">
-				<div style="font-weight:bold; font-size:30px;color:#53b5b4;">
-					About WAC
-				</div>
-				<div class = "text-justify" style="color:#FFFFFF;">
+				<h2 style = "color:#53b5b4;"><b>About WAC</h2>
+				<p>
 				The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference. 
-				</div>
-			</div>
-		</div>
+				</p>
 	</div>
 	<div class = "col-md-4">
 		<div class="embed-responsive embed-responsive-4by3">
@@ -75,9 +60,7 @@ include_once("navbar.php")  ?>
 <?php
 include_once("footer.php")
 ?>
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

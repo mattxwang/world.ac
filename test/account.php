@@ -10,11 +10,6 @@
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<style>
-		body{
-			position:relative;
-		}
-	</style>
 </head>
 <?php 
 	require("common.php"); 

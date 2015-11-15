@@ -1,6 +1,8 @@
 <h1>Changelog</h1>
 <h3>Changelog for current version</h3>
 
+Main Project: Adds account system.
+
 Fixes Countdown
 
 Change Plenary page styling to tab-system
@@ -12,3 +14,5 @@ Removes unused CSS
 Added more headshots.
 
 Change title page naming convention
+
+Adds Morning/Closing Panel Pages

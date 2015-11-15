@@ -7,7 +7,6 @@ include_once("../includes/sql.php");
 ?>
 <!DOCTYPE html>
 <html>
-<!-- || Page Head || -->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -24,28 +23,24 @@ include_once("../includes/sql.php");
 
 <!-- || Main Page Content || -->
 <body style="position:relative;">
-<?php include_once("tracking.php") ?>
 <?php include_once("navbar.php") ?>
-<div style="text-align:center">
+	<div class = "container">
+	<div style="text-align:center">
 
-<h1>UNDER CONSTRUCTION</h1>
+		<h1>UNDER CONSTRUCTION</h1>
 
-<img src="/img/construction-sign.png" width="165" />
+		<img src="/img/construction-sign.png" width="165"></img>
 
-<!-- Big Test Info Section -->
-<div style="font-size:24px;color:#ffffff;padding:2vw;">
-Hello there. We're still in the process of developing and creating the World Affairs Conference, and its website. Check back in a few weeks, and we'll have more content.
+		<p>
+		Hello there. We're still in the process of developing and creating the World Affairs Conference, and its website. Check back in a few weeks, and we'll have more content.
+		</p>
+
+	</div>
+	<?php
+	include_once("footer.php")
+	?>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </div>
-
-</div>
-<?php
-include_once("footer.php")
-?>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
