@@ -21,7 +21,11 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/countdown.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
+	<style>
+		body {
+			background-image: url("img/stars.png"), url("img/earth.png");
+		}
+	</style>
 </head>
 
 <body>
