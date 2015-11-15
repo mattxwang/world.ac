@@ -59,7 +59,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		</p>
 	</div>
 	</br>
-	<div id="carousel-chair" class="carousel slide" data-ride="carousel" style ="height:35%;" data-interval="5523">
+	<div id="carousel-chair" class="carousel slide" data-ride="carousel" style ="height:25%;" data-interval="5523">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
