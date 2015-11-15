@@ -48,9 +48,17 @@ Head of Communications and Head of Security: Justin Lu-->
 
 <!-- || Main Page Content || -->
 <body style="position:relative;">
+<div class ="container">
 	<?php include_once("tracking.php") ?>
 	<?php include_once("navbar.php") ?>
-	<h2 style="text-align:center;font-family:nexa; color:#ffffff;">Meet the WAC Team</h2>
+	<div style="padding:35px;text-align:center; color:#ffffff;">
+		<h2>Meet the WAC Team</h2>
+		<p>
+		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
+		</br>
+		This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
+		</p>
+	</div>
 	</br>
 	<div id="carousel-chair" class="carousel slide" data-ride="carousel" style ="height:50%;">
 		<div class="carousel-inner" role="listbox">
@@ -314,12 +322,9 @@ Head of Communications and Head of Security: Justin Lu-->
 
 
 
-	<div style="padding:35px;font-family:nexa; text-align:center; color:#ffffff;">
+	<div style="padding:35px;text-align:center; color:#ffffff;">
 		<p>
-		WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
-		</br>
-		This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
-
+		Some other people also help make WAC awesome; while they aren't on the team this year, they definitely deserve some thanks.
 		<h2>We'd Like to Thank:</h2>
 		<h3>Last Year's Website Team</h3>
 		Nick Elder, Derek Lam, Kinton Cheung
@@ -331,8 +336,6 @@ Head of Communications and Head of Security: Justin Lu-->
 		<h3>And to all of the other people who've made WAC awesome!</h3>
 		</p>
 	</div>
-	</br>
-	</br>
 	<?php
 	include_once("footer.php")
 	?>
@@ -341,6 +344,6 @@ Head of Communications and Head of Security: Justin Lu-->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-
+	</div>
 </body>
 </html>
