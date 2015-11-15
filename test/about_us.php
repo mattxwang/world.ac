@@ -32,10 +32,13 @@ Head of Communications and Head of Security: Justin Lu-->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<style>
 	.bg-bh{
-		background-color:#36CC79;
+		background-color:#26943b;
 	}
 	.bg-ucc{
 		background-color:#5E7794;
+	}
+	.bg-web{
+		background-color:#FCAB74;
 	}
 	</style>
 </head>
@@ -134,7 +137,7 @@ Head of Communications and Head of Security: Justin Lu-->
 
 	<div id="carousel-web" class="carousel slide" data-ride="carousel" style ="height:50%;">
 		<div class="carousel-inner" role="listbox">
-			<div class="item active bg-ucc">
+			<div class="item active bg-web">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
@@ -158,7 +161,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					</div>
 				</div>
 			</div>
-			<div class="item bg-ucc">
+			<div class="item bg-web">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-1">
 					</div>
