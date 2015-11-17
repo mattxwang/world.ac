@@ -44,6 +44,9 @@ Head of Communications and Head of Security: Justin Lu-->
 	.col-md-6{
 		padding:0px;
 	}
+	.blurb p{
+		height: whatever;
+	}
 	</style>
 </head>
 
@@ -59,7 +62,8 @@ Head of Communications and Head of Security: Justin Lu-->
 		</p>
 	</div>
 	</br>
-	<div class = "row" style="height:50%">
+	<div class = "blurb">
+	<div class = "row">
 		<div id="carousel-chair" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="item active bg-ucc">
@@ -124,8 +128,8 @@ Head of Communications and Head of Security: Justin Lu-->
 
 		</div>
 	</div>
-	<div class = "row" style = "height:50%">
-		<div class = "col-md-6 bg-web">
+	<div class = "row">
+		<div class = "col-md-6">
 			<div id="carousel-web" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
 					<div class="item active bg-web">
@@ -306,7 +310,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		-->
 
 	</div>
-
+	</div>
 
 
 
