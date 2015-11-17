@@ -125,7 +125,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		</div>
 	</div>
 	<div class = "row" style = "height:50%">
-		<div class = "col-md-6">
+		<div class = "col-md-6 bg-web">
 			<div id="carousel-web" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
 					<div class="item active bg-web">
