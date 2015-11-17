@@ -257,15 +257,15 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-plenary">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/ernest.png"></img>
+						<img src = "img/bio/headshots/miles.png"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
-						<h2><b>Ernest Leung</b></h2>
+						<h2><b>Plenary Head | Gender Issues</b></h2>
 						<h3>Head of Operations</h3>
-						Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
+						My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
 						</br>
-						I’m super excited for WAC this February! See you all there!
+						See you at WAC!
 						</p>
 					</div>
 				</div>
