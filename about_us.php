@@ -112,7 +112,7 @@ include_once("../includes/sql.php");
 					<div class = "col-md-1">
 					</div>
 					<div class = "col-md-3">
-						<img src = "img/bio/headshots/placeholder.png" style = "height:80%;"></img>
+						<img src = "img/bio/headshots/blaise.png" style = "height:80%;"></img>
 					</div>
 					<div class = "col-md-1">
 					</div>

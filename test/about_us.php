@@ -93,7 +93,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class="item bg-bh">
 				<div class = "row" style = "padding:5%;">
 					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/placeholder.png"></img>
+						<img src = "img/bio/headshots/blaise.png"></img>
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
