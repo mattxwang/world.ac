@@ -64,7 +64,7 @@ Head of Communications and Head of Security: Justin Lu-->
 						<div class = "col-md-4" style = "text-align:right;">
 							<img src = "img/bio/headshots/logan.png"></img>
 						</div>
-						<div class = "col-md-8" style = "text-align:left;">
+						<div class = "col-md-8" style = "text-align:justify;">
 							<p>
 							<h2><b>Logan Ye</b></h2>
 							<h3>Conference Chair</h3>
@@ -80,7 +80,7 @@ Head of Communications and Head of Security: Justin Lu-->
 						<div class = "col-md-4" style = "text-align:right;">
 							<img src = "img/bio/headshots/naz.png"></img>
 						</div>
-						<div class = "col-md-8" style = "text-align:left;">
+						<div class = "col-md-8" style = "text-align:justify;">
 							<p>
 							<h2><b>Naz Gocek</b></h2>
 							<h3>Conference Chair</h3>
@@ -96,7 +96,7 @@ Head of Communications and Head of Security: Justin Lu-->
 						<div class = "col-md-4" style = "text-align:right;">
 							<img src = "img/bio/headshots/blaise.png"></img>
 						</div>
-						<div class = "col-md-8" style = "text-align:left;">
+						<div class = "col-md-8" style = "text-align:justify;">
 							<p>
 							<h2><b>Blaise O'Malley</b></h2>
 							<h3>Conference Chair</h3>
@@ -130,7 +130,7 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/matt.png" style = "height:128px;"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:left;">
+							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b>Matthew Wang</b></h2>
 								<h3>Web Design/Media</h3>
@@ -146,7 +146,7 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/jack.png" style = "height:128px;"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:left;">
+							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></h2>
 								<h3>Web Design</h3>
@@ -179,7 +179,7 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/nitish.png" style = "height:128px;"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:left;">
+							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b>Nitish Dhingra</b></h2>
 								<h3>Secretary/Treasurer</h3>
@@ -195,7 +195,7 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/ernest.png" style = "height:128px;"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:left;">
+							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b>Ernest Leung</b></h2>
 								<h3>Head of Operations</h3>
@@ -211,7 +211,7 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/emmanuel.png" style = "height:128px;"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:left;">
+							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b>Emmanuel Wong</b></h2>
 								<h3>Head of Registration</h3>
@@ -246,7 +246,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/nitish.png"></img>
 					</div>
-					<div class = "col-md-8" style = "text-align:left;">
+					<div class = "col-md-8" style = "text-align:justify;">
 						<p>
 						<h2><b>David Niddam-Dent</b></h2>
 						<h3>Head of Plenary</h3>
@@ -262,7 +262,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/miles.png"></img>
 					</div>
-					<div class = "col-md-8" style = "text-align:left;">
+					<div class = "col-md-8" style = "text-align:justify;">
 						<p>
 						<h2><b>Miles Hoaken</b></h2>
 						<h3>Plenary Head | Gender Issues</h3>
@@ -278,7 +278,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					<div class = "col-md-4" style = "text-align:right;">
 						<img src = "img/bio/headshots/emmanuel.png"></img>
 					</div>
-					<div class = "col-md-8" style = "text-align:left;">
+					<div class = "col-md-8" style = "text-align:justify;">
 						<p>
 						<h2><b>Emmanuel Wong</b></h2>
 						<h3>Head of Registration</h3>
