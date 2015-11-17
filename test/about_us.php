@@ -120,121 +120,121 @@ Head of Communications and Head of Security: Justin Lu-->
 
 	</div>
 	<div class = "row">
-	<div class = "col-md-6">
-	<div id="carousel-web" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner" role="listbox">
-			<div class="item active bg-web">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/matt.png"></img>
+		<div class = "col-md-6">
+			<div id="carousel-web" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active bg-web">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/matt.png" style = "height:128px;"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:left;">
+								<p>
+								<h2><b>Matthew Wang</b></h2>
+								<h3>Web Design/Media</h3>
+								Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+								</br>
+								I’m excited to make WAC as awesome as it was last year. See you there!
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Matthew Wang</b></h2>
-						<h3>Web Design/Media</h3>
-						Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
-						</br>
-						I’m excited to make WAC as awesome as it was last year. See you there!
-						</p>
+					<div class="item bg-web">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/jack.png" style = "height:128px;"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:left;">
+								<p>
+								<h2><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></h2>
+								<h3>Web Design</h3>
+								I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
+								</br>
+								I’m happy to be part of the team. See you there!
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="item bg-web">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/jack.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></h2>
-						<h3>Web Design</h3>
-						I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
-						</br>
-						I’m happy to be part of the team. See you there!
-						</p>
-					</div>
-				</div>
+				<!--
+				<a class="left carousel-control" href="#carousel-web" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-web" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				-->
+
 			</div>
 		</div>
-		<!--
-		<a class="left carousel-control" href="#carousel-web" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-web" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a>
-		-->
+		<div class = "col-md-6">
+			<div id="carousel-exec" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active bg-ucc">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/nitish.png" style = "height:128px;"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:left;">
+								<p>
+								<h2><b>Nitish Dhingra</b></h2>
+								<h3>Secretary/Treasurer</h3>
+								Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+								</br>
+								I am looking forward to seeing you this February at UCC! 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-ucc">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/ernest.png" style = "height:128px;"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:left;">
+								<p>
+								<h2><b>Ernest Leung</b></h2>
+								<h3>Head of Operations</h3>
+								Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
+								</br>
+								I’m super excited for WAC this February! See you all there!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-ucc">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/emmanuel.png" style = "height:128px;"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:left;">
+								<p>
+								<h2><b>Emmanuel Wong</b></h2>
+								<h3>Head of Registration</h3>
+								I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+								</br>
+								I'm looking forward to seeing you all there!
+								</p>
+							</div>
+						</div>
+					</div>
 
-	</div>
-	</div>
-	<div class = "col-md-6">
-	<div id="carousel-exec" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner" role="listbox">
-			<div class="item active bg-ucc">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/nitish.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Nitish Dhingra</b></h2>
-						<h3>Secretary/Treasurer</h3>
-						Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
-						</br>
-						I am looking forward to seeing you this February at UCC! 
-						</p>
-					</div>
 				</div>
-			</div>
-			<div class="item bg-ucc">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/ernest.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Ernest Leung</b></h2>
-						<h3>Head of Operations</h3>
-						Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
-						</br>
-						I’m super excited for WAC this February! See you all there!
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item bg-ucc">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/emmanuel.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Emmanuel Wong</b></h2>
-						<h3>Head of Registration</h3>
-						I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
-						</br>
-						I'm looking forward to seeing you all there!
-						</p>
-					</div>
-				</div>
-			</div>
+			<!--
+			<a class="left carousel-control" href="#carousel-exec" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-exec" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+			</a>
+			-->
 
+			</div>
 		</div>
-		<!--
-		<a class="left carousel-control" href="#carousel-exec" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-exec" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a>
-		-->
-
-	</div>
-	</div>
 	</div>
 
 	<div id="carousel-plenary" class="carousel slide" data-ride="carousel">
