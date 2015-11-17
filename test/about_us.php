@@ -235,6 +235,7 @@ Head of Communications and Head of Security: Justin Lu-->
 
 	</div>
 	</div>
+	</div>
 
 	<div id="carousel-plenary" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
