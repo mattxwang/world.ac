@@ -56,7 +56,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		</p>
 	</div>
 	</br>
-	<div id="carousel-chair" class="carousel slide" data-ride="carousel" data-interval="5523">
+	<div id="carousel-chair" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
@@ -119,8 +119,9 @@ Head of Communications and Head of Security: Justin Lu-->
 		-->
 
 	</div>
-
-	<div id="carousel-web" class="carousel slide" data-ride="carousel" data-interval="8321">
+	<div class = "row">
+	<div class = "col-md-6">
+	<div id="carousel-web" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-web">
 				<div class = "row" style = "padding:5%;">
@@ -167,8 +168,9 @@ Head of Communications and Head of Security: Justin Lu-->
 		-->
 
 	</div>
-
-	<div id="carousel-exec" class="carousel slide" data-ride="carousel" data-interval="4192">
+	</div>
+	<div class = "col-md-6">
+	<div id="carousel-exec" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-ucc">
 				<div class = "row" style = "padding:5%;">
@@ -232,8 +234,9 @@ Head of Communications and Head of Security: Justin Lu-->
 		-->
 
 	</div>
+	</div>
 
-	<div id="carousel-plenary" class="carousel slide" data-ride="carousel" data-interval="2782">
+	<div id="carousel-plenary" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active bg-plenary">
 				<div class = "row" style = "padding:5%;">
