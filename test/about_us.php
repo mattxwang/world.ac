@@ -41,6 +41,9 @@ Head of Communications and Head of Security: Justin Lu-->
 	.bg-plenary{
 		background-color:#DC8944;
 	}
+	.col-md-6{
+		padding:0px;
+	}
 	</style>
 </head>
 
