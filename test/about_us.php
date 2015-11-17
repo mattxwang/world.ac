@@ -56,70 +56,72 @@ Head of Communications and Head of Security: Justin Lu-->
 		</p>
 	</div>
 	</br>
-	<div id="carousel-chair" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner" role="listbox">
-			<div class="item active bg-ucc">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/logan.png"></img>
+	<div class = "row" style="height:50%">
+		<div id="carousel-chair" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active bg-ucc">
+					<div class = "row" style = "padding:5%;">
+						<div class = "col-md-4" style = "text-align:right;">
+							<img src = "img/bio/headshots/logan.png"></img>
+						</div>
+						<div class = "col-md-8" style = "text-align:left;">
+							<p>
+							<h2><b>Logan Ye</b></h2>
+							<h3>Conference Chair</h3>
+							My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
+							</br>
+							See you at WAC!
+							</p>
+						</div>
 					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Logan Ye</b></h2>
-						<h3>Conference Chair</h3>
-						My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
-						</br>
-						See you at WAC!
-						</p>
+				</div>
+				<div class="item bg-bh">
+					<div class = "row" style = "padding:5%;">
+						<div class = "col-md-4" style = "text-align:right;">
+							<img src = "img/bio/headshots/naz.png"></img>
+						</div>
+						<div class = "col-md-8" style = "text-align:left;">
+							<p>
+							<h2><b>Naz Gocek</b></h2>
+							<h3>Conference Chair</h3>
+							I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
+							</br>
+							Hope to see you at WAC!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item bg-bh">
+					<div class = "row" style = "padding:5%;">
+						<div class = "col-md-4" style = "text-align:right;">
+							<img src = "img/bio/headshots/blaise.png"></img>
+						</div>
+						<div class = "col-md-8" style = "text-align:left;">
+							<p>
+							<h2><b>Blaise O'Malley</b></h2>
+							<h3>Conference Chair</h3>
+							I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
+							</br>
+							Can't wait to see you there!
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="item bg-bh">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/naz.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Naz Gocek</b></h2>
-						<h3>Conference Chair</h3>
-						I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
-						</br>
-						Hope to see you at WAC!
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item bg-bh">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/blaise.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:left;">
-						<p>
-						<h2><b>Blaise O'Malley</b></h2>
-						<h3>Conference Chair</h3>
-						I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
-						</br>
-						Can't wait to see you there!
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--
-		<a class="left carousel-control" href="#carousel-chair" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-chair" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a>
-		-->
+			<!--
+			<a class="left carousel-control" href="#carousel-chair" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-chair" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+			</a>
+			-->
 
+		</div>
 	</div>
-	<div class = "row">
+	<div class = "row" style = "height:50%">
 		<div class = "col-md-6">
 			<div id="carousel-web" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
@@ -262,8 +264,8 @@ Head of Communications and Head of Security: Justin Lu-->
 					</div>
 					<div class = "col-md-8" style = "text-align:left;">
 						<p>
-						<h2><b>Plenary Head | Gender Issues</b></h2>
-						<h3>Head of Operations</h3>
+						<h2><b>Miles Hoaken</b></h2>
+						<h3>Plenary Head | Gender Issues</h3>
 						My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
 						</br>
 						See you at WAC!
