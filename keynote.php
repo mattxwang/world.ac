@@ -54,7 +54,7 @@ include_once("../includes/sql.php");
 	<div style = "text-align:center;">
 		<h1>Previous Speakers</h1>
 	</div>
-	<p>
+	<p style = "text-align:center">
 		WAC has featured many current, popular, and influential speakers in the past. Here's a quick summary of some big names at WAC:
 		</br>
 		<b>Dr. Samantha Nutt</b> - Founder of War Child North America
