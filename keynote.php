@@ -40,12 +40,17 @@ include_once("../includes/sql.php");
 	<p>
 		This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
 	</p>	
+	</br>	
 	<div style = "text-align:center;">
 		<h2>Last Year's Keynote Speaker</h2>
 		<h1>Edward Snowden</h1>
 		<img src="img/speaker_pic.png"></img>
 		<h3>The Whistleblower of the Decade</h3>
 	</div>
+	<p>
+		Last year, <b><a href ="https://en.wikipedia.org/wiki/Edward_Snowden" style = "color:white">Edward Snowden</a></b> gave the WAC 2015 Lionel Gelber Keynote Address. In June 2013, Snowden leaked highly classified information about the scale and scope of NSA and CIA counter-terrorism and counter-intelligence operations around the globe. Since then, he has become a household name and is among the most influential privacy activists in the world. At the Keynote Address, Snowden explained his views on global privacy issues, government involvement in citizens' lives, and the dangers of the digital age. 
+	</p>
+	</br>	
 	<div style = "text-align:center;">
 		<h1>Previous Speakers</h1>
 	</div>
@@ -64,9 +69,6 @@ include_once("../includes/sql.php");
 		</br>
 		<b>John Stackhouse</b> - editor of the Globe and Mail
 	</p>
-	<p>
-		Last year, <b><a href ="https://en.wikipedia.org/wiki/Edward_Snowden" style = "color:white">Edward Snowden</a></b> gave the WAC 2015 Lionel Gelber Keynote Address. In June 2013, Snowden leaked highly classified information about the scale and scope of NSA and CIA counter-terrorism and counter-intelligence operations around the globe. Since then, he has become a household name and is among the most influential privacy activists in the world. At the Keynote Address, Snowden explained his views on global privacy issues, government involvement in citizens' lives, and the dangers of the digital age. 
-	</p>	
 	<?php
 	include_once("footer.php")
 	?>
