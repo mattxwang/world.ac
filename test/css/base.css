@@ -1,29 +1,4 @@
 @font-face{
-	font-family:DIN;
-	src:url(DIN/DIN-Regular.ttf);
-}
-@font-face{
-	font-family:DIN;
-	font-weight:bold;
-	src:url(DIN/DIN-Bold.ttf);
-}
-@font-face{
-	font-family:DIN;
-	font-weight:lighter;
-	src:url(DIN/DIN-Light.ttf);
-}
-
-@font-face{
-	font-family:Blanch;
-	font-weight:bold;
-	src:url(blanch/BLANCH_CAPS.otf);
-}
-@font-face{
-	font-family:Blanch;
-	src:url(blanch/BLANCH_CAPS_LIGHT.otf);
-}
-
-@font-face{
 	font-family:Nexa;
 	src:url(nexa/nexa_light.otf);
 }

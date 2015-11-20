@@ -1,29 +1,4 @@
 @font-face{
-	font-family:DIN;
-	src:url(DIN/DIN-Regular.ttf);
-}
-@font-face{
-	font-family:DIN;
-	font-weight:bold;
-	src:url(DIN/DIN-Bold.ttf);
-}
-@font-face{
-	font-family:DIN;
-	font-weight:lighter;
-	src:url(DIN/DIN-Light.ttf);
-}
-
-@font-face{
-	font-family:Blanch;
-	font-weight:bold;
-	src:url(blanch/BLANCH_CAPS.otf);
-}
-@font-face{
-	font-family:Blanch;
-	src:url(blanch/BLANCH_CAPS_LIGHT.otf);
-}
-
-@font-face{
 	font-family:Nexa;
 	src:url(nexa/nexa_light.otf);
 }
@@ -47,47 +22,14 @@ body{
 	background-color:#2a262a;
 	color:#FFFFFF;
 }
-.a:link {
-    color: #FFFFFF;
-    text-decoration: none;
+.bg-stars{
+	background-image:url("img/stars.png");
 }
-.a:visited {
-    color: #FFFFFF;
-    text-decoration: none;
+.bg-earth{
+	background-image:url("img/earth.png");
+	background-repeat:no-repeat;
 }
 
-.a:hover {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.a:active {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-#bg_stars, #bg_earth{
-	position:absolute;
-	overflow:hidden;
-	left:0px; top:0px;
-	width:100%;
-	height:100%;
-}
-#bg_stars {
-	position:fixed;
-}
-#bg_stars>div{
-	position:relative;
-	width:100%;
-	height:100%;
-	background-repeat:no-repeat;
-    background-size:cover;
-	background-repeat:repeat-y !important;
-	background-image:url(../img/stars.png);
-}
-#bg_earth{
-	background-image:url(../img/earth.png);
-	background-repeat:no-repeat;
-    background-size:cover;
-}
 .drp-active{
 	background-color:#53b5b4;
 }
@@ -96,16 +38,8 @@ body{
 	position: absolute;
 	bottom: 0;
 }
-.bg-white{
-	background-color:#FFFFFF;
-}
 .nav-rounded {
 	border-radius: 8px;
-}
-.divider-blue {
-	height: 1px;
-	overflow: hidden;
-	background-color: #2A99D6;
 }
 .divider-black {
 	height: 1px;
