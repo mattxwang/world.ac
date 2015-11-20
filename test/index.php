@@ -31,7 +31,7 @@ include_once("../includes/sql.php");
 
 <body>
 	<?php include_once("navbar.php")  ?>
-	<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:5%; position:relative" class = "hidden-xs">
+	<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:5%; position:relative">
 		<div style="font-size:5vw;">
 			WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 		</div>
@@ -45,7 +45,7 @@ include_once("../includes/sql.php");
 		</script>
 
 	</div>
-
+	<!--
 	<div style="line-height:80%; padding:4%; position:relative" class = "visible-xs">
 		<h1>WELCOME TO THE 2016 </br><b>WORLD AFFAIRS CONFERENCE.</b><h1>
 		<div style="text-align:right"> <h2>The Conference Starts In:</h2><div id="timeLeft"><h3></h3></div></div>
@@ -58,6 +58,7 @@ include_once("../includes/sql.php");
 		</script>
 
 	</div>
+	-->
 	<div class = "row" style = "padding:4%;background-color:rgba(0,0,0,0.4);">
 		<div class = "col-md-8">
 					<h2 style = "color:#53b5b4;"><b>About WAC</b></h2>
