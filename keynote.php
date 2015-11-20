@@ -21,11 +21,52 @@ include_once("../includes/sql.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style>
+	p{
+		text-align:justify;
+	}
+	</style>
 </head>
 
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
 	<div class = "container">
+	<div style = "text-align:center;">
+		<h1>This Year's Keynote Speaker</h1>
+		<h2>Mystery Speaker</h2>
+		<img src="img/speaker_pic_blank_large.png"></img>
+		<h3>Check Back Later</h3>
+	</div>
+	<p>
+		This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
+	</p>	
+	<div style = "text-align:center;">
+		<h2>Last Year's Keynote Speaker</h2>
+		<h1>Edward Snowden</h1>
+		<img src="img/speaker_pic.png"></img>
+		<h3>The Whistleblower of the Decade</h3>
+	</div>
+	<div style = "text-align:center;">
+		<h1>Previous Speakers</h1>
+	</div>
+	<p>
+		WAC has featured many current, popular, and influential speakers in the past. Here's a quick summary of some big names at WAC:
+		</br>
+		<b>Dr. Samantha Nutt</b> - Founder of War Child North America
+		</br>
+		<b>Stephen Lewis</b> - former United Nations ambassador
+		</br>
+		<b>Ralph Nader</b> - American political activist
+		</br>
+		<b>Lord David Owen</b> - former British Foreign Secretary
+		</br>
+		<b>Marc Garneau</b> - astronaut turned politician
+		</br>
+		<b>John Stackhouse</b> - editor of the Globe and Mail
+	</p>
+	<p>
+		Last year, <b><a href ="https://en.wikipedia.org/wiki/Edward_Snowden" style = "color:white">Edward Snowden</a></b> gave the WAC 2015 Lionel Gelber Keynote Address. In June 2013, Snowden leaked highly classified information about the scale and scope of NSA and CIA counter-terrorism and counter-intelligence operations around the globe. Since then, he has become a household name and is among the most influential privacy activists in the world. At the Keynote Address, Snowden explained his views on global privacy issues, government involvement in citizens' lives, and the dangers of the digital age. 
+	</p>	
 		<div id="keynote-speaker-carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -35,7 +76,7 @@ include_once("../includes/sql.php");
 						<img src="img/speaker_pic_blank_large.png"></img>
 						<h3>Check Back Later</h3>
 					</div>
-					<div style = "padding:15%;padding-top:0;text-align:justify">
+					<p>
 						This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
 					</div>			
 				</div>
@@ -46,7 +87,7 @@ include_once("../includes/sql.php");
 						<img src="img/speaker_pic.png"></img>
 						<h3>The Whistleblower of the Decade</h3>
 					</div>
-					<div style = "padding:15%;padding-top:0;text-align:justify">
+					<p>
 						Last year, <b><a href ="https://en.wikipedia.org/wiki/Edward_Snowden" style = "color:white">Edward Snowden</a></b> gave the WAC 2015 Lionel Gelber Keynote Address. In June 2013, Snowden leaked highly classified information about the scale and scope of NSA and CIA counter-terrorism and counter-intelligence operations around the globe. Since then, he has become a household name and is among the most influential privacy activists in the world. At the Keynote Address, Snowden explained his views on global privacy issues, government involvement in citizens' lives, and the dangers of the digital age. 
 					</div>
 				</div>
@@ -54,7 +95,7 @@ include_once("../includes/sql.php");
 					<div style = "text-align:center;">
 						<h1>Previous Speakers</h1>
 					</div>
-					<div style = "padding:15%;padding-top:0;text-align:justify">
+					<p>
 						WAC has featured many current, popular, and influential speakers in the past. Here's a quick summary of some big names at WAC:
 						</br>
 						<b>Dr. Samantha Nutt</b> - Founder of War Child North America
