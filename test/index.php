@@ -30,7 +30,6 @@ include_once("../includes/sql.php");
 </head>
 
 <body>
-<div class = "container">
 	<?php include_once("navbar.php")  ?>
 
 	<div style="line-height:80%; padding:4%; position:relative">
@@ -64,6 +63,6 @@ include_once("../includes/sql.php");
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-</div>
+
 </body>
 </html>
