@@ -245,71 +245,139 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 		</div>
 	</div>
+	<div class = "row">
+		<div class = "col-md-6">
+			<div id="carousel-plenary" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/nitish.png"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>David Niddam-Dent</b></h2>
+								<h3>Head of Plenary</h3>
+								Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+								</br>
+								I am looking forward to seeing you this February at UCC! 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/miles.png"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Miles Hoaken</b></h2>
+								<h3>Plenary Head | Gender Issues</h3>
+								My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
+								</br>
+								See you at WAC!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/emmanuel.png"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Emmanuel Wong</b></h2>
+								<h3>Head of Registration</h3>
+								I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+								</br>
+								I'm looking forward to seeing you all there!
+								</p>
+							</div>
+						</div>
+					</div>
 
-	<div id="carousel-plenary" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner" role="listbox">
-			<div class="item active bg-plenary">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/nitish.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:justify;">
-						<p>
-						<h2><b>David Niddam-Dent</b></h2>
-						<h3>Head of Plenary</h3>
-						Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
-						</br>
-						I am looking forward to seeing you this February at UCC! 
-						</p>
-					</div>
 				</div>
-			</div>
-			<div class="item bg-plenary">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/miles.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:justify;">
-						<p>
-						<h2><b>Miles Hoaken</b></h2>
-						<h3>Plenary Head | Gender Issues</h3>
-						My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
-						</br>
-						See you at WAC!
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item bg-plenary">
-				<div class = "row" style = "padding:5%;">
-					<div class = "col-md-4" style = "text-align:right;">
-						<img src = "img/bio/headshots/emmanuel.png"></img>
-					</div>
-					<div class = "col-md-8" style = "text-align:justify;">
-						<p>
-						<h2><b>Emmanuel Wong</b></h2>
-						<h3>Head of Registration</h3>
-						I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
-						</br>
-						I'm looking forward to seeing you all there!
-						</p>
-					</div>
-				</div>
-			</div>
+				<!--
+				<a class="left carousel-control" href="#carousel-plenary" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-plenary" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				-->
 
+			</div>
 		</div>
-		<!--
-		<a class="left carousel-control" href="#carousel-plenary" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-plenary" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a>
-		-->
+		<div class = "col-md-6">
+			<div id="carousel-plenary" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/nitish.png"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>David Niddam-Dent</b></h2>
+								<h3>Head of Plenary</h3>
+								Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+								</br>
+								I am looking forward to seeing you this February at UCC! 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/miles.png"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Miles Hoaken</b></h2>
+								<h3>Plenary Head | Gender Issues</h3>
+								My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
+								</br>
+								See you at WAC!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/emmanuel.png"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Emmanuel Wong</b></h2>
+								<h3>Head of Registration</h3>
+								I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+								</br>
+								I'm looking forward to seeing you all there!
+								</p>
+							</div>
+						</div>
+					</div>
 
-	</div>
+				</div>
+				<!--
+				<a class="left carousel-control" href="#carousel-plenary" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-plenary" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				-->
+
+			</div>
+		</div>
 	</div>
 
 
