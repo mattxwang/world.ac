@@ -31,8 +31,22 @@ include_once("../includes/sql.php");
 
 <body>
 	<?php include_once("navbar.php")  ?>
+	<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:5%; position:relative" class = "hidden-xs">
+		<div style="font-size:5vw;">
+			WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
+		</div>
+		<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts In: <div id="timeLeft" style="padding-top:3vw;">February 1st 2016</div></div>
+		<script type="text/javascript">
+			var deadLine = "2/1/2016";
+			window.setInterval(function(){
+				// console.log(getTimeRemaining(deadLine));
+				$("#timeLeft").html(getTimeRemaining(deadLine));
+			}, 1000);
+		</script>
 
-	<div style="line-height:80%; padding:4%; position:relative">
+	</div>
+
+	<div style="line-height:80%; padding:4%; position:relative" class = "visible-xs">
 		<h1>WELCOME TO THE 2016 </br><b>WORLD AFFAIRS CONFERENCE.</b><h1>
 		<div style="text-align:right"> <h2>The Conference Starts In:</h2><div id="timeLeft"><h3></h3></div></div>
 		<script type="text/javascript">
