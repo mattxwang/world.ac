@@ -48,9 +48,13 @@ body{
 	color:#FFFFFF;
 }
 .bg-stars{
-	background-image: url("img/earth.png"), url("img/stars.png");
+	background-image:url("img/stars.png");
+}
+.bg-earth{
+	background-image:url("img/earth.png");
 	background-repeat:no-repeat;
 }
+
 .drp-active{
 	background-color:#53b5b4;
 }
