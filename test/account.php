@@ -37,6 +37,43 @@
 				</div>
 				<div class = "col-md-9">
 					<div style = "color:black">
+
+						<div class="modal fade" id="editInfo" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="mainHeader">Edit Student Information</h4>
+									</div>
+									<div class="modal-body">
+										<form class="form-signin" action="change_password.php" method="post">
+											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
+												<strong>Warning!</strong> Incorrect username/password combination. 
+											</div>
+											<p>
+											These changes will be reflected on your nametag, and other delegate-specific information. 
+											</p>
+											<h4>Password</h4>
+											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+											<h4>Delegate First Name</h4>
+											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name" required="">
+											<h4>Delegate Last Name</h4>
+											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last Name" required="">
+											<h4>Delegate School</h4>
+											<input type="text" id="school" name="school" class="form-control" placeholder="school" required="">
+											
+
+								
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 						<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
 							<div class="modal-dialog" role="document">
 								<div class="modal-content">
@@ -69,7 +106,10 @@
 								</div>
 							</div>
 						</div>
+
+
 					</div>
+
 					<div id = "notif">
 						<div class="progress" style = "height:36px;">
 							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
@@ -127,7 +167,7 @@
 											Incorrect information here?
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
-											<button type="button" class="btn btn-primary btn-block">Edit Student Information</button>
+											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editInfo">Edit Student Information</button>
 										</div>
 									</div>
 								</li>
