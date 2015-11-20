@@ -39,7 +39,7 @@ include_once("../includes/sql.php");
 				<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Environment Plenary</a></li>
 				<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Gender Income Disparities</a></li>
 				<li role="presentation"><a href="#plenary5" aria-controls="plenary5" role="tab" data-toggle="tab">Nuclear Proliferation</a></li>
-				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Crisis Response and Responsibility</a></li>
+				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Response and Responsibility</a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -139,7 +139,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary5">
-					<h2>Is there a future for the Nuclear Proliferation Treaty</h2>
+					<h2>The Future of Nuclear Proliferation</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
