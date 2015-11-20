@@ -21,6 +21,6 @@ When a user signs up for an account, an email will be sent to their email confir
 </p>
 
 <h2>About Us Page</h2>
-<h3><a href = "http://world.ac/test/about_us.php">account.php</a></h3> 
+<h3><a href = "http://world.ac/test/about_us.php">about_us.php</a></h3> 
 <h4>Fix carousels</h4>
 Stop the changing of the text size impacting the colour backgrounding. Stay on the page for a minute to understand what I mean.
