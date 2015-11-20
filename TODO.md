@@ -4,6 +4,8 @@ Jack this is for you
 <h3><a href = "http://world.ac/test/account.php">account.php</a></h3> 
 <h4>User Information (1)</h4>
 Allow the user to view and edit their own info. This includes Basic information (School, Name), Special Notes, and eventually their password.
+</br>
+Make sure to tie this with the modal system. Most of, if not all of, the modals I've implemented don't send their inputs to the right place. Keep that in mind.
 <h4>Notification System (2)</h4>
 Display certain notifications based on information tied to the user.
 </br>
@@ -24,3 +26,13 @@ When a user signs up for an account, an email will be sent to their email confir
 <h3><a href = "http://world.ac/test/about_us.php">about_us.php</a></h3> 
 <h4>Fix carousels</h4>
 Stop the changing of the text size impacting the colour backgrounding. Stay on the page for a minute to understand what I mean.
+
+<h2>Navbar</h2>
+<h3>navbar.php</h3> 
+<h4>Fix Login/Register</h4>
+The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
+
+<h2>Scrollspy</h2>
+<h3><a href = "http://world.ac/test/account.php">account.php</a><a href = "http://world.ac/faq.php">faq.php</a></h3> 
+<h4>Fix/Implement Scrollspy</h4>
+On all of the pages with another nav for body elements, it'd be nice to implement scrollspy. Right now, it doesn't work at all. Thoughts?
