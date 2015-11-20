@@ -3,7 +3,7 @@ Here's the repository for <a href ="http://world.ac">world.ac</a> </br>
 
 We use the <a href = "http://getbootstrap.com">Bootstrap Framework</a> for a lot of the site.
 
-<h2>To-Do:</h2>
+## [To-Do](TODO.md)
 <h3>Main Project</h3>
 The main project is the current big undertaking. Please work on this project in the /test directory.
 </br>
