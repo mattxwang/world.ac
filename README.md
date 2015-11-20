@@ -25,7 +25,7 @@ Plenary Selection Mechansim (for UCC, select plenaries)
 </br>
 Static footer 
 </br>
-Headshot images! (and maybe format fixing for mobile devices) 
+Fix test/about_us.php to work properly
 </br>
 
 
