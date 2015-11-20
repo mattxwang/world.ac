@@ -38,12 +38,12 @@
 				<div class = "col-md-9">
 					<div style = "color:black">
 
-						<div class="modal fade" id="editInfo" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
+						<div class="modal fade" id="editInfo" tabindex="-1" role="dialog">
 							<div class="modal-dialog" role="document">
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-										<h4 class="modal-title" id="mainHeader">Edit Student Information</h4>
+										<h4 class="modal-title" id="mainHeader">Edit Delegate Information</h4>
 									</div>
 									<div class="modal-body">
 										<form class="form-signin" action="change_password.php" method="post">
@@ -53,14 +53,23 @@
 											<p>
 											These changes will be reflected on your nametag, and other delegate-specific information. 
 											</p>
+											<h4>Delegate First Name</h4>
+											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="DELEGATE F NAME" required="">
+											<h4>Delegate Last Name</h4>
+											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
+											<h4>Delegate School</h4>
+											<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<!--
+											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
+											-->
 											<h4>Password</h4>
 											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
-											<h4>Delegate First Name</h4>
-											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name" required="">
-											<h4>Delegate Last Name</h4>
-											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last Name" required="">
-											<h4>Delegate School</h4>
-											<input type="text" id="school" name="school" class="form-control" placeholder="school" required="">
 											
 
 								
@@ -73,8 +82,34 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="modal fade" id="editNotes" tabindex="-1" role="dialog">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="mainHeader">Edit Student Special Notes</h4>
+									</div>
+									<div class="modal-body">
+										<form class="form-signin" action="change_password.php" method="post">
+											<p>
+											These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
+											</br>
+											Leave blank if none needed.
+											</p>
+											<h4>Special Notes:</h4>
+											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
 						
-						<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordLabel">
+						<div class="modal fade" id="changePassword" tabindex="-1" role="dialog">
 							<div class="modal-dialog" role="document">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -117,36 +152,18 @@
 							</div>
 						</div>
 
-						<div class="alert alert-dismissible alert-warning" role="alert">You have not been successfuly registered.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<!-- NOTIFICATIONS -->
+						<div class="alert alert-dismissible alert-success" role=<?php echo $reg_class; ?>><?php echo $reg_text; ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-
-						<div class="alert alert-dismissible alert-success" role="alert">You have been successfuly registered.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div class="alert alert-dismissible alert-success" role=<?php echo $email_class; ?>><?php echo $email_text; ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-
-						<div class="alert alert-dismissible alert-info" role="alert">Plenaries haven't been assigned yet. Check back soon.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div class="alert alert-dismissible alert-success" role=<?php echo $payment_class; ?>><?php echo $payment_text; ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-
-						<div class="alert alert-dismissible alert-success" role="alert">Plenaries have been assigned. Check them out below.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-
-						<div class="alert alert-dismissible alert-warning" role="alert">Your email hasn't been confirmed yet.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-
-						<div class="alert alert-dismissible alert-success" role="alert">Your email has been confirmed.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-
-						<div class="alert alert-dismissible alert-danger" role="alert">We haven't received your payment yet.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-
-						<div class="alert alert-dismissible alert-success" role="alert">We've received your payment.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div class="alert alert-dismissible alert-success" role=<?php echo $plen_class; ?>><?php echo $plen_text; ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 
 					</div>
@@ -199,7 +216,7 @@
 											Incorrect information here?
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
-											<button type="button" class="btn btn-primary btn-block">Edit Special Notes</button>
+											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editNotes">Edit Special Notes</button>
 										</div>
 									</div>
 								</li>
