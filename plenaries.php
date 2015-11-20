@@ -34,17 +34,17 @@ include_once("../includes/sql.php");
 		</div>
 		<div>
 			<ul class="nav nav-tabs nav-justified" role="tablist">
-				<li role="presentation" class="active"><a href="#plenary1" aria-controls="plenary1" role="tab" data-toggle="tab">Plenary Heading</a></li>
-				<li role="presentation"><a href="#plenary2" aria-controls="plenary2" role="tab" data-toggle="tab">Other Plenary Heading</a></li>
-				<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Random Plenary Heading</a></li>
-				<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Plenary Name</a></li>
-				<li role="presentation"><a href="#plenary5" aria-controls="plenary5" role="tab" data-toggle="tab">Plenary Name</a></li>
-				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Plenary Name</a></li>
+				<li role="presentation" class="active"><a href="#plenary1" aria-controls="plenary1" role="tab" data-toggle="tab">China Plenary</a></li>
+				<li role="presentation"><a href="#plenary2" aria-controls="plenary2" role="tab" data-toggle="tab">Drone Plenary</a></li>
+				<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Environment Plenary</a></li>
+				<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Gender Income Disparities</a></li>
+				<li role="presentation"><a href="#plenary5" aria-controls="plenary5" role="tab" data-toggle="tab">Nuclear Proliferation</a></li>
+				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Crisis Response and Responsibility</a></li>
 			</ul>
 
 			<div class="tab-content">
 				<div role="tabpanel" class="tab-pane fade in active" id="plenary1">
-					<h2>Plenary Heading</h2>
+					<h2>China Plenary</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
@@ -66,7 +66,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary2">
-					<h2>Plenary Heading</h2>
+					<h2>Drone Plenary</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
@@ -88,7 +88,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary3">
-					<h2>Plenary Heading</h2>
+					<h2>Environment Plenary</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
@@ -110,16 +110,23 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary4">
-					<h2>Plenary Heading</h2>
+					<h2>Gender Income Disparities</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
-						<h4>Sample Speaker</h4>
+						<h4>Susannah Gouinlock</h4>
 						<img src="img/avatar.png" width = "10%"></img>
 						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+						Susannah Gouinlock works at Catalyst Canada in many different facets of work. Ms. Gouinlock
+						also manages the relationships with numerous Catalyst member companies, she is the main 
+						contact for research for companies supporting their diversity. Ms. Gouinlock is integral to 
+						growing Catalyst’s impact through social media and has spoken at the high school she 
+						graduated from, BSS. Her work aims to spread Catalyst’s core values, ‘Connect, Engage, 
+						Inspire, Impact.’ Before working at Catalyst, she received her BA(H) in Political Studies from 
+						Queen’s University, and has worked as Special Assistant to the Deputy Chief of Staff to the 
+						Premier in the Ontario Government.
 						</p>
 						</div>
 						<div class = "col-md-6">
@@ -132,16 +139,34 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary5">
-					<h2>Plenary Heading</h2>
+					<h2>Is there a future for the Nuclear Proliferation Treaty</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
-						<h4>Sample Speaker</h4>
+						<h4>Paul Meyer</h4>
 						<img src="img/avatar.png" width = "10%"></img>
 						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+						Paul Meyer was born and attended university in Toronto, at the University of Toronto. He joined 
+						the Department of Foreign Affairs in 1975 and has since dedicated his life’s work to issues such 
+						as international security and relations. He is currently working as a Fellow in International 
+						Security at the Simon Fraser University in Vancouver, Canada. Meyer is also a Senior Fellow in 
+						Space Security and Nuclear Disarmament at The Simons Foundation.
+						</br>
+						Domestically, Mr. Meyer has had a brilliant career. He occupied numerous roles in the 
+						Department of Foreign Affairs and International Trade, specifically in the area of international 
+						security. He is an accomplished writer, publishing numerous articles and posts, primarily on 
+						topics concerning nuclear threats and dangers.
+						</br>
+						Mr. Meyer has also a distinguished international career. While a part of the Department of 
+						External Affairs, Mr. Meyer served in several countries abroad as the Political Councillor for 
+						Canada’s NATO delegation, including: Norway, Russia, and Belgium. Additionally, he served at 
+						the Embassy in Washington, D.C. from 1992­1997, again as Political Councillor. Even further, 
+						he served as Ambassador to the UN and Ambassador for disarmament in Geneva. Meyer led 
+						the Canadian delegation into several NPT meetings including the 2005 review conference 
+						playing a key role in Canada’s involvement in the NPT development, implementation, and 
+						review.
 						</p>
 						</div>
 						<div class = "col-md-6">
@@ -154,16 +179,36 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary6">
-					<h2>Plenary Heading</h2>
+					<h2>Response and Responsibility in Crisis</h2>
 					<p> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
-						<h4>Sample Speaker</h4>
+						<h4>Ratna Omidvar</h4>
 						<img src="img/avatar.png" width = "10%"></img>
 						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+						Ratna Omidvar is the founding Executive Director of the Global Diversity Exchange 
+						(GDX) at the Ted Rogers School of Management, Ryerson University. GDX is a think and do 
+						tank on diversity, migration and inclusion that connects local experience and ideas with global 
+						networks. It is dedicated to building a community of international leaders who see prosperity in 
+						migration. Under her leadership the GDX is developing a program of academic and applied 
+						research, and identifying evidence­based leading practices and taking them to scale.
+						</br>
+						Ratna is Chair Emerita of the Toronto Region Immigrant Employment Council, Chair of 
+						Lifeline Syria, Co­Chair of DiverseCity: the Greater Toronto Leadership Project, and a Director 
+						of the Canadian Club of Toronto, The Environics Institute, and Samara. She is co­editor of Five 
+						Good Ideas: Practical Strategies for Nonprofit Success (2011) and co­author of Flight and 
+						Freedom: Stories of Escape to Canada (forthcoming). She is a faculty member and advisor of 
+						the Metropolis Professional Development program at Carleton University. She received an 
+						Honorary Degree, Doctor of Laws, York University in 2012.
+						</br>
+						Ratna was appointed to the Order of Ontario in 2005 and became a Member of the 
+						Order of Canada in 2011, with both honours recognizing her advocacy work on behalf of 
+						immigrants and devotion to reducing inequality in Canada. In 2010, Canada's national 
+						newspaper, The Globe and Mail, profiled her as its Nation Builder of the Decade for Citizenship. 
+						In 2014, she received the Cross of the Order of Merit of the Federal Republic of Germany in 
+						recognition of her contribution to the advancement of German­Canadian relations.
 						</p>
 						</div>
 						<div class = "col-md-6">
