@@ -29,6 +29,8 @@ Fix test/about_us.php to work properly
 </br>
 
 
+## [Changelog](Changelog.md)
+A full changelog can be found at the Releases tab.
 
 <h2>Etiquette</h2>
 <h3>Files</h3>
