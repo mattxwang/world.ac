@@ -233,7 +233,7 @@
 										<div class = "col-md-8">
 											<b>Your Email:</b> template@ucc.on.ca
 										</div>
-										<div class = "col-md-4" style = "text-align:right;">
+										<div class = "col-md-4" style = "text-align:justify;">
 											Your Email is tied to our registration process. Unfortunately, that means that we can't let you change your email on our website. If you need to change your email, please contact our registration correspondent, BLAH BLAH.
 										</div>
 									</div>
