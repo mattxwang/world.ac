@@ -22,6 +22,9 @@ include_once("../includes/sql.php");
 	p{
 		text-align:justify;
 	}
+	.bg-white{
+		background-color:#FFFFFF;
+	}
 	</style>
 </head>
 
