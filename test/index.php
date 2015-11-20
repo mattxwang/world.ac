@@ -31,7 +31,7 @@ include_once("../includes/sql.php");
 
 <body>
 	<?php include_once("navbar.php")  ?>
-	<div style="font-family:Nexa; line-height:80%; color:#FFF; padding:4%; padding-top:5%; position:relative">
+	<div style="line-height:80%; padding:4%; position:relative">
 		<div style="font-size:5vw;">
 			WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 		</div>
