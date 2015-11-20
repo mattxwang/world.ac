@@ -95,6 +95,7 @@
 											<p>
 											These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
 											</br>
+											</br>
 											Leave blank if none needed.
 											</p>
 											<h4>Special Notes:</h4>
@@ -233,7 +234,7 @@
 											<b>Your Email:</b> template@ucc.on.ca
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
-											<button type="button" class="btn btn-primary btn-block">Change Email</button>
+											Your Email is tied to our registration process. Unfortunately, that means that we can't let you change your email on our website. If you need to change your email, please contact our registration correspondent, BLAH BLAH.
 										</div>
 									</div>
 									</br>
@@ -249,13 +250,16 @@
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-8">
-											<b>Your Password:</b> ************
+											<b>Your Password</b>
+											</br>
+											We don't keep your password in plaintext. Your secret is safe with us!
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changePassword">Change Password</button>
 										</div>
 									</div>
 									</br>
+									<!--
 									<div class = "row">
 										<div class = "col-md-8">
 											Forgot your password?
@@ -264,6 +268,7 @@
 											<button type="button" class="btn btn-primary btn-block">Reset Password</button>
 										</div>
 									</div>
+									-->
 								</li>
 						</div>
 
