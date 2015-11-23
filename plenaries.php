@@ -177,10 +177,12 @@ include_once("../includes/sql.php");
 						Security at the Simon Fraser University in Vancouver, Canada. Meyer is also a Senior Fellow in 
 						Space Security and Nuclear Disarmament at The Simons Foundation.
 						</br>
+						</br>
 						Domestically, Mr. Meyer has had a brilliant career. He occupied numerous roles in the 
 						Department of Foreign Affairs and International Trade, specifically in the area of international 
 						security. He is an accomplished writer, publishing numerous articles and posts, primarily on 
 						topics concerning nuclear threats and dangers.
+						</br>
 						</br>
 						Mr. Meyer has also a distinguished international career. While a part of the Department of 
 						External Affairs, Mr. Meyer served in several countries abroad as the Political Councillor for 
@@ -207,6 +209,7 @@ include_once("../includes/sql.php");
 						proliferation threats, including Iran and North Korea, has been widely disseminated by major 
 						journals, newspapers, and websites.
 						</br>
+						</br>
 						Among other impressive credentials, James Acton is a member of the Commission on 
 						Challenges to Deep Cuts which works to implement solutions around existing political 
 						constraints with the aim of reducing the spread of nuclear weapons. Acton is also part of the 
@@ -214,9 +217,11 @@ include_once("../includes/sql.php");
 						make informed decisions on nuclear cooperation. He has also provided guidance to the UN on 
 						Disarmament Matters.
 						</br>
+						</br>
 						Acton has published in several newspapers including the New York Times, the International 
 						Herald Tribune,Foreign Affairs, Foreign Policy, Survival, and the Washington Quarterly. He has 
 						also appeared on CNN’s State of the Union, NBC Nightly News, CBS Evening News, and PBS News Hour/
+						</br>
 						</br>
 						With this wealth of experience, James Acton makes for an excellent speaker for the nuclear 
 						proliferation plenary.
@@ -241,6 +246,7 @@ include_once("../includes/sql.php");
 						migration. Under her leadership the GDX is developing a program of academic and applied 
 						research, and identifying evidence­based leading practices and taking them to scale.
 						</br>
+						</br>
 						Ratna is Chair Emerita of the Toronto Region Immigrant Employment Council, Chair of 
 						Lifeline Syria, Co­Chair of DiverseCity: the Greater Toronto Leadership Project, and a Director 
 						of the Canadian Club of Toronto, The Environics Institute, and Samara. She is co­editor of Five 
@@ -248,6 +254,7 @@ include_once("../includes/sql.php");
 						Freedom: Stories of Escape to Canada (forthcoming). She is a faculty member and advisor of 
 						the Metropolis Professional Development program at Carleton University. She received an 
 						Honorary Degree, Doctor of Laws, York University in 2012.
+						</br>
 						</br>
 						Ratna was appointed to the Order of Ontario in 2005 and became a Member of the 
 						Order of Canada in 2011, with both honours recognizing her advocacy work on behalf of 
