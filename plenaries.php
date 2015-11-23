@@ -71,14 +71,34 @@ include_once("../includes/sql.php");
 				<div role="tabpanel" class="tab-pane fade" id="plenary2">
 					<h2>Drone Plenary</h2>
 					<p> 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+					Missile strikes launched from drones, also known as unmanned air vehicles (UAV), have 
+					become the center of much controversy over the past few years. Pakistan alone has faced 
+					2,500 ­ 4,000 casualties and roughly 1,500 injuries at the hand of American drone strikes. The 
+					plenary will feature two speakers discussing the ethical dilemmas surrounding the use of armed 
+					drones and how drones should be used in the future.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
-						<h4>Sample Speaker</h4>
+						<h4>Steven P. Lee</h4>
 						<img src="img/avatar.png" width = "10%"></img>
 						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+						Steven P. Lee is a professor of philosophy at Hobart and William Smith Colleges in
+						Geneva, New York where he teaches courses on Morality and War, Social Justice, Morality and 
+						Self­ interest, Plato’s Republic, Global Justice, Philosophy of Law, Liberty and Community, and 
+						Critical Thinking. He is interested in the ways in which social and technological changes require 
+						alterations in our moral understanding of areas of human activity such as warfare, 
+						environmental stewardship, and medicine. He has written a large body of books and articles on 
+						social, moral, and political philosophy, especially pieces on war and ethics. He is the author of 
+						Morality, Prudence, and Nuclear Weapons  (Cambridge: Cambridge University Press, 1993, 
+						1996), the editor of Intervention, Terrorism, and Torture: Contemporary Challenges to Just War 
+						Theory (Dordrecht: Springer, 2007), the author of What Is the Argument?: Critical Thinking in 
+						the Real World (New York: McGraw­Hill Higher Education, 2001), the co editor of Ethics and 
+						Weapons of Mass Destruction (New York: Cambridge University Press, 2004), and the author of 
+						Ethics and War (Cambridge, UK: Cambridge University Press, 2012). He is affiliated with the 
+						American Philosophical Association, the Creighton Club of the New York State Philosophical 
+						Association, and the American Association of University Professors. He was the former 
+						president of the Concerned Philosophers for Peace and the Association for the Philosophy of 
+						Law and Social Philosophy.
 						</p>
 						</div>
 						<div class = "col-md-6">
@@ -173,10 +193,33 @@ include_once("../includes/sql.php");
 						</p>
 						</div>
 						<div class = "col-md-6">
-						<h4>Sample Speaker</h4>
+						<h4>James M. Acton</h4>
 						<img src="img/avatar.png" width = "10%"></img>
 						<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
+						James M. Acton is a British scientist with a PhD in theoretical physics from 
+						Cambridge University. He is a physicist by training and is an expert in 
+						nuclear arms. He currently works as the co­director of the Nuclear Policy 
+						Program at the Carnegie Endowment for National Peace, a policy think­tank 
+						for foreign affairs. His ongoing research focuses on the nuclear fuel cycle in 
+						Japan. Acton’s publications span the field of nuclear policy. He is the author 
+						of two books, Deterrence During Disarmament: Deep Nuclear Reductions 
+						and International Security and Abolishing Nuclear Weapons. His analysis on 
+						proliferation threats, including Iran and North Korea, has been widely disseminated by major 
+						journals, newspapers, and websites.
+						</br>
+						Among other impressive credentials, James Acton is a member of the Commission on 
+						Challenges to Deep Cuts which works to implement solutions around existing political 
+						constraints with the aim of reducing the spread of nuclear weapons. Acton is also part of the 
+						Nuclear Security Working Group which works to promote consensus on nuclear issues and 
+						make informed decisions on nuclear cooperation. He has also provided guidance to the UN on 
+						Disarmament Matters.
+						</br>
+						Acton has published in several newspapers including the New York Times, the International 
+						Herald Tribune,Foreign Affairs, Foreign Policy, Survival, and the Washington Quarterly. He has 
+						also appeared on CNN’s State of the Union, NBC Nightly News, CBS Evening News, and PBS News Hour/
+						</br>
+						With this wealth of experience, James Acton makes for an excellent speaker for the nuclear 
+						proliferation plenary.
 						</p>
 						</div>
 					</div>
