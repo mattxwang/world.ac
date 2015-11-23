@@ -232,6 +232,22 @@ Head of Communications and Head of Security: Justin Lu-->
 							</div>
 						</div>
 					</div>
+					<div class="item bg-ucc">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/justin.png" class = "half_image"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Justin Lu</b></h2>
+								<h3>Head of Security/Communications</h3>
+								Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
+								</br>
+								This year's conference will be fantastic. I hope you enjoy yourselves!
+								</p>
+							</div>
+						</div>
+					</div>
 
 				</div>
 			<!--
@@ -255,15 +271,15 @@ Head of Communications and Head of Security: Justin Lu-->
 					<div class="item active bg-plenary">
 						<div class = "row" style = "padding:5%;">
 							<div class = "col-md-4" style = "text-align:right;">
-								<img src = "img/bio/headshots/nitish.png" class = "half_image"></img>
+								<img src = "img/bio/headshots/david.png" class = "half_image"></img>
 							</div>
 							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b>David Niddam-Dent</b></h2>
-								<h3>Head of Plenary</h3>
-								Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+								<h3>Morning/Closing Panels</h3>
+								Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a nigh note.
 								</br>
-								I am looking forward to seeing you this February at UCC! 
+								Can't wait to see everyone in February! 
 								</p>
 							</div>
 						</div>
@@ -321,15 +337,15 @@ Head of Communications and Head of Security: Justin Lu-->
 					<div class="item active bg-plenary">
 						<div class = "row" style = "padding:5%;">
 							<div class = "col-md-4" style = "text-align:right;">
-								<img src = "img/bio/headshots/nitish.png" class = "half_image"></img>
+								<img src = "img/bio/headshots/david.png" class = "half_image"></img>
 							</div>
 							<div class = "col-md-8" style = "text-align:justify;">
 								<p>
 								<h2><b>David Niddam-Dent</b></h2>
-								<h3>Head of Plenary</h3>
-								Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+								<h3>Morning/Closing Panels</h3>
+								Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a nigh note.
 								</br>
-								I am looking forward to seeing you this February at UCC! 
+								Can't wait to see everyone in February! 
 								</p>
 							</div>
 						</div>
