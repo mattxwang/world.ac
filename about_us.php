@@ -228,6 +228,22 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 			</div>
+			<div class="item bg-ucc">
+				<div class = "row" style = "padding:5%;">
+					<div class = "col-md-4" style = "text-align:right;">
+						<img src = "img/bio/headshots/justin.png" class = "half_image"></img>
+					</div>
+					<div class = "col-md-8" style = "text-align:justify;">
+						<p>
+						<h2><b>Justin Lu</b></h2>
+						<h3>Head of Security/Communications</h3>
+						Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
+						</br>
+						This year's conference will be fantastic. I hope you enjoy yourselves!
+						</p>
+					</div>
+				</div>
+			</div>
 
 		</div>
 
