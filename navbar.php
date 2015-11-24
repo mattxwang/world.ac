@@ -28,7 +28,7 @@
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
             <li><a href="construction.php">Morning Panel</a></li>
-            <li><a href="construction.php">Plenaries</a></li>
+            <li><a href="plenaries.php">Plenaries</a></li>
             <li><a href="construction.php">Closing Panel</a></li>
             <li><a href="construction.php">Schedule</a></li>
           </ul>
