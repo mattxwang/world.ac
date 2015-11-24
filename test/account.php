@@ -19,7 +19,23 @@
 		header("Location: login_page.php"); 
 		 
 		die("Redirecting to login_page.php"); 
+	}
+
+	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['username'] . "';";
+	 
+	try 
+	{ 
+		$stmt = $db->prepare($query); 
+		$stmt->execute();
+	} 
+
+	catch(PDOException $ex) 
+	{ 
+		die("Failed to run query: " . $ex->getMessage()); 
 	}  
+
+	$data = $stmt->fetchAll();
+	var_dump($data)f;
 
 include_once("navbar.php") ?>
 
