@@ -43,8 +43,8 @@
 	// 	$data["firstname"] = "Default";
 	// }
 
-	echo $_SESSION['user']['username'];
-	var_dump(explode($_SESSION['user']['username'], ","));
+	// Name[0] is first, 1 is lastname
+	$name = explode(",", $_SESSION['user']['username']);
 
 include_once("navbar.php") ?>
 
@@ -71,7 +71,7 @@ include_once("navbar.php") ?>
 										<h4 class="modal-title" id="mainHeader">Edit Delegate Information</h4>
 									</div>
 									<div class="modal-body">
-										<form class="form-signin" action="change_password.php" method="post">
+										<form class="form-signin" action="update_info.php" method="post">
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
@@ -84,12 +84,16 @@ include_once("navbar.php") ?>
 											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
 											<h4>Delegate School</h4>
 											<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
+												<option value="UCC">UCC</option>
+												<option value="BSS">BSS</option>
+												<option value="BH">BH</option>
 												<option>4</option>
 												<option>5</option>
 											</select>
+
+																						<h4>Special Notes:</h4>
+											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
+
 											<!--
 											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
 											-->
@@ -101,7 +105,7 @@ include_once("navbar.php") ?>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
 										</form>
 									</div>
 								</div>
@@ -116,7 +120,7 @@ include_once("navbar.php") ?>
 										<h4 class="modal-title" id="mainHeader">Edit Student Special Notes</h4>
 									</div>
 									<div class="modal-body">
-										<form class="form-signin" action="change_password.php" method="post">
+										<form class="form-signin" action="update_info.php" method="post">
 											<p>
 											These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
 											</br>
