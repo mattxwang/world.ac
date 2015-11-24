@@ -32,7 +32,10 @@ include_once("../includes/sql.php");
 		<div style="text-align:center">
 			<h1>Plenaries at WAC</h1>
 			<p>
-			Plenaries at WAC are really cool. 
+			Plenaries are the main topics for debate at the World Affairs Conference. Delegates can attend three of the six plenaries, watching and possibly particpating in a debate with two experts in the field.
+			</br>
+			</br>
+			Delegates will receive their plenary assignments after registration, and a small period of time. 
 			</p>
 		</div>
 		<div>
