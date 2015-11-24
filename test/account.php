@@ -20,8 +20,8 @@
 		 
 		die("Redirecting to login_page.php"); 
 	}  
-?> 
-<?php include_once("navbar.php") ?>
+
+include_once("navbar.php") ?>
 
 <body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">
 		<div class= "container">
