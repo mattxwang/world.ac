@@ -17,6 +17,10 @@
 		// 	':notes'    => $_POST['notes']
 		// ); 
 
+		$query_params = array( 
+			':username' => $_POST['firstname'] . "," . $_POST['lastname'] 
+		); 
+
 		// Make query
 		$query = " 
 		REPLACE INTO info ( 
@@ -26,8 +30,8 @@
 			plen_3, 
 			school,
 			notes
-		) VALUES (" 
-			. $_SESSION['user']['username'] . ",
+		) VALUES (
+			:username,
 			NUll, 
 			NUll, 
 			NUll, "
