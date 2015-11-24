@@ -46,7 +46,7 @@
 		
 		catch(PDOException $ex) 
 		{ 
-			die("Failed"); 
+			die("Failed to run query: " . $ex->getMessage()); 
 			header("Location: account.php");
 		}
 	}
