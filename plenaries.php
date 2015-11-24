@@ -42,7 +42,7 @@ include_once("../includes/sql.php");
 			<ul class="nav nav-tabs nav-justified" role="tablist">
 				<li role="presentation" class="active"><a href="#plenary1" aria-controls="plenary1" role="tab" data-toggle="tab">China Plenary</a></li>
 				<li role="presentation"><a href="#plenary2" aria-controls="plenary2" role="tab" data-toggle="tab">Drone Plenary</a></li>
-				<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Environment Plenary</a></li>
+				<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Environmental Responsibility</a></li>
 				<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Gender Income Disparities</a></li>
 				<li role="presentation"><a href="#plenary5" aria-controls="plenary5" role="tab" data-toggle="tab">Nuclear Proliferation</a></li>
 				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Response and Responsibility</a></li>
@@ -114,7 +114,7 @@ include_once("../includes/sql.php");
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="plenary3">
-					<h2>Environment Plenary</h2>
+					<h2>Corporate Environmental Responsibility</h2>
 					<p> 
 					We're still sorting out the details; we'll reveal all of this information soon!
 					</p>
@@ -167,7 +167,10 @@ include_once("../includes/sql.php");
 				<div role="tabpanel" class="tab-pane fade" id="plenary5">
 					<h2>The Future of Nuclear Proliferation</h2>
 					<p> 
-					We're still sorting out the details; we'll reveal all of this information soon!
+					The nuclear proliferation plenary will focus on solutions to achieve wholesale international
+					participation in the Nuclear Non­Proliferation Treaty (NPT). The plenary will discuss the barriers 
+					to international cooperation and the steps already taken by individual governments to promote 
+					unanimous participation.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
