@@ -27,12 +27,12 @@
 			school,
 			notes
 		) VALUES (" 
-			. $_SESSION['user']['username'] . ",", 
-			. "NULL,", 
-			. "NULL,",
-			. "NULL,", 
+			. $_SESSION['user']['username'] . ",
+			NUll, 
+			NUll, 
+			NUll, "
 			. $_POST['school'] . ",",
-			. $_POST['notes'] 
+			. $_POST['notes'] .
 		");";
 
 		// Execute said query
