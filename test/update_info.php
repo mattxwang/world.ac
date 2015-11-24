@@ -3,19 +3,19 @@
 
 	// Make sure they did stuff
 	if(!empty($_POST)) { 
-		// if(empty($_POST['firstname']) || empty($_POST['lastname']) || /*KEEP GOING*/) { 
-		// 	die("You missed a field"); 
-		// }
+		if(empty($_POST['firstname']) || empty($_POST['lastname']) || /*KEEP GOING*/) { 
+			die("You missed a field"); 
+		}
 
-		// // Get all useful info
-		// $query_params = array( 
-		// 	':username' => $_POST['firstname'] . "," . $_POST['lastname'],
-		// 	':plen_1'   => NULL,
-		// 	':plen_2'   => NULL,
-		// 	':plen_3'   => NULL,
-		// 	':school'   => $_POST['school'],
-		// 	':notes'    => $_POST['notes']
-		// ); 
+		// Get all useful info
+		$query_params = array( 
+			':username' => $_POST['firstname'] . "," . $_POST['lastname'],
+			':plen_1'   => NULL,
+			':plen_2'   => NULL,
+			':plen_3'   => NULL,
+			':school'   => $_POST['school'],
+			':notes'    => $_POST['notes']
+		); 
 
 		// // Make query
 		// $query = " 
@@ -47,6 +47,7 @@
 		// catch(PDOException $ex) 
 		// { 
 		// 	die("Failed"); 
+			// header("Location: account.php");
 		// }
 	}
 ?>
