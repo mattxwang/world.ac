@@ -44,7 +44,7 @@
 	}
 
 	echo $_SESSION['user']['username'];
-	var_dump(explode($_SESSION['user']['username'], ","));
+	// var_dump(explode($_SESSION['user']['username'], ","));
 
 include_once("navbar.php") ?>
 
