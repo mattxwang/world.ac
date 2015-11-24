@@ -35,7 +35,7 @@
 	}  
 
 	$data = $stmt->fetchAll();
-	var_dump($data)f;
+	var_dump($data);
 
 include_once("navbar.php") ?>
 
