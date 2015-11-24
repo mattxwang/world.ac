@@ -3,9 +3,9 @@
 
 	// Make sure they did stuff
 	if(!empty($_POST)) { 
-		if(empty($_POST['firstname']) || empty($_POST['lastname']) || /*KEEP GOING*/) { 
-			die("You missed a field"); 
-		}
+		// if(empty($_POST['firstname']) || empty($_POST['lastname']) || /*KEEP GOING*/) { 
+		// 	die("You missed a field"); 
+		// }
 
 		// Get all useful info
 		$query_params = array( 
