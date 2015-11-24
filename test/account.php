@@ -43,7 +43,7 @@
 		$data["firstname"] = "Default";
 	}
 
-	echo $_SESSION['user']['username'];
+	// echo $_SESSION['user']['username'];
 	// var_dump(explode($_SESSION['user']['username'], ","));
 
 include_once("navbar.php") ?>
