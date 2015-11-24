@@ -8,14 +8,14 @@
 		// }
 
 		// Get all useful info
-		$query_params = array( 
-			':username' => $_POST['firstname'] . "," . $_POST['lastname'],
-			':plen_1'   => NULL,
-			':plen_2'   => NULL,
-			':plen_3'   => NULL,
-			':school'   => $_POST['school'],
-			':notes'    => $_POST['notes']
-		); 
+		// $query_params = array( 
+		// 	':username' => $_POST['firstname'] . "," . $_POST['lastname'],
+		// 	':plen_1'   => NULL,
+		// 	':plen_2'   => NULL,
+		// 	':plen_3'   => NULL,
+		// 	':school'   => $_POST['school'],
+		// 	':notes'    => $_POST['notes']
+		// ); 
 
 		// Make query
 		$query = " 
@@ -26,14 +26,14 @@
 			plen_3, 
 			school,
 			notes
-		) VALUES ( 
-			:username, 
-			:plen_1, 
-			:plen_2,
-			:plen_3, 
-			:school,
-			:notes 
-		);";
+		) VALUES (" 
+			. $_SESSION['user']['username'] . ",", 
+			. "NULL,", 
+			. "NULL,",
+			. "NULL,", 
+			. $_POST['school'] . ",",
+			. $_POST['notes'] 
+		");";
 
 		// Execute said query
 		try { 
