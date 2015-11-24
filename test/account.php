@@ -39,9 +39,9 @@
 	var_dump($data);
 
 	// Check if data already exists
-	if empty($data){
-		$data["firstname"] = "Default";
-	}
+	// if empty($data){
+	// 	$data["firstname"] = "Default";
+	// }
 
 	// echo $_SESSION['user']['username'];
 	// var_dump(explode($_SESSION['user']['username'], ","));
