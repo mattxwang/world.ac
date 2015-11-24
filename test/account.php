@@ -21,6 +21,7 @@
 		die("Redirecting to login_page.php"); 
 	}
 
+	// Pull user data
 	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['username'] . "';";
 	 
 	try 
@@ -36,6 +37,14 @@
 
 	$data = $stmt->fetchAll();
 	var_dump($data);
+
+	// Check if data already exists
+	if empty($data){
+		$data["firstname"] = "Default";
+	}
+
+	echo $_SESSION['user']['username'];
+	var_dump(explode($_SESSION['user']['username'], ","));
 
 include_once("navbar.php") ?>
 
