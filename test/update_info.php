@@ -1,5 +1,5 @@
 <?php 
-	require("common.php"); 
+	// require("common.php"); 
 
 	var_dump($_POST);
 
