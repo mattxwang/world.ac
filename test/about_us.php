@@ -248,6 +248,22 @@ Head of Communications and Head of Security: Justin Lu-->
 							</div>
 						</div>
 					</div>
+					<div class="item bg-ucc">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/placeholder.png" class = "half_image"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Nikhil Kassum</b></h2>
+								<h3>Head of Programs</h3>
+								My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions. 
+								</br>
+								I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it. 
+								</p>
+							</div>
+						</div>
+					</div>
 
 				</div>
 			<!--
