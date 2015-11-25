@@ -50,6 +50,8 @@
 
 	// Name[0] is first, 1 is lastname
 	$name = explode(",", $_SESSION['user']['username']);
+	$school = $data[5];
+	$notes = $data[6];
 
 include_once("navbar.php") ?>
 
@@ -227,7 +229,7 @@ include_once("navbar.php") ?>
 											School Name:
 										</div>
 										<div class = "col-md-6">
-											Upper Canada College
+											<?php echo $school; ?>
 										</div>
 									</div>
 								</li>
@@ -237,7 +239,7 @@ include_once("navbar.php") ?>
 											Special Notes: These are typically for food allergies, or other health concerns.
 										</div>
 										<div class = "col-md-6">
-											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
+											<?php echo $notes; ?>
 										</div>
 									</div>
 								</li>
