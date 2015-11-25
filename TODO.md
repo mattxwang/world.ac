@@ -13,7 +13,7 @@ Payment will be tied to a variable.
 </br>
 Email Confirmation is tied to completiton (so a variable).
 </br>
-Reg completition occurs when both of the above are met, AND a third boolean is true. This boolean should default to True, but can be manually set to be False.
+Reg Competition also requires you to finish inputting your school/special notes.
 </br>
 Plenary Selection is a Boolean that Matt will edit later. Starts off as False.
 
