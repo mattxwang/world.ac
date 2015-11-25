@@ -50,6 +50,9 @@ Head of Communications and Head of Security: Justin Lu-->
 	.half_image{
 		height:128px;
 	}
+	p{
+		text-align: justify;
+	}
 	</style>
 </head>
 
@@ -74,10 +77,11 @@ Head of Communications and Head of Security: Justin Lu-->
 						<div class = "col-md-4" style = "text-align:right;">
 							<img src = "img/bio/headshots/logan.png"></img>
 						</div>
-						<div class = "col-md-8" style = "text-align:justify;">
-							<p>
+						<div class = "col-md-8">
+							
 							<h2><b>Logan Ye</b></h2>
 							<h3>Conference Chair</h3>
+							<p>
 							My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
 							</br>
 							See you at WAC!
@@ -90,10 +94,11 @@ Head of Communications and Head of Security: Justin Lu-->
 						<div class = "col-md-4" style = "text-align:right;">
 							<img src = "img/bio/headshots/naz.png"></img>
 						</div>
-						<div class = "col-md-8" style = "text-align:justify;">
-							<p>
+						<div class = "col-md-8">
+							
 							<h2><b>Naz Gocek</b></h2>
 							<h3>Conference Chair</h3>
+							<p>
 							I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
 							</br>
 							Hope to see you at WAC!
@@ -106,10 +111,11 @@ Head of Communications and Head of Security: Justin Lu-->
 						<div class = "col-md-4" style = "text-align:right;">
 							<img src = "img/bio/headshots/blaise.png"></img>
 						</div>
-						<div class = "col-md-8" style = "text-align:justify;">
-							<p>
+						<div class = "col-md-8">
+							
 							<h2><b>Blaise O'Malley</b></h2>
 							<h3>Conference Chair</h3>
+							<p>
 							I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
 							</br>
 							Can't wait to see you there!
@@ -140,10 +146,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/matt.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Matthew Wang</b></h2>
 								<h3>Web Design/Media</h3>
+								<p>
 								Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
 								</br>
 								I’m excited to make WAC as awesome as it was last year. See you there!
@@ -156,10 +163,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/jack.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></h2>
 								<h3>Web Design</h3>
+								<p>
 								I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
 								</br>
 								I’m happy to be part of the team. See you there!
@@ -189,10 +197,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/nitish.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Nitish Dhingra</b></h2>
 								<h3>Secretary/Treasurer</h3>
+								<p>
 								Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
 								</br>
 								I am looking forward to seeing you this February at UCC! 
@@ -205,10 +214,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/ernest.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Ernest Leung</b></h2>
 								<h3>Head of Operations</h3>
+								<p>
 								Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
 								</br>
 								I’m super excited for WAC this February! See you all there!
@@ -221,10 +231,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/emmanuel.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Emmanuel Wong</b></h2>
 								<h3>Head of Registration</h3>
+								<p>
 								I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
 								</br>
 								I'm looking forward to seeing you all there!
@@ -237,10 +248,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/justin.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Justin Lu</b></h2>
 								<h3>Head of Security/Communications</h3>
+								<p>
 								Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
 								</br>
 								This year's conference will be fantastic. I hope you enjoy yourselves!
@@ -253,10 +265,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/placeholder.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Nikhil Kassum</b></h2>
 								<h3>Head of Programs</h3>
+								<p>
 								My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions. 
 								</br>
 								I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it. 
@@ -289,10 +302,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/david.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>David Niddam-Dent</b></h2>
 								<h3>Morning/Closing Panels</h3>
+								<p>
 								Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a nigh note.
 								</br>
 								Can't wait to see everyone in February! 
@@ -305,10 +319,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/placeholder.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Simon Osak</b></h2>
 								<h3>Plenary Head | China</h3>
+								<p>
 								Hi! My name is Simon Osak and I am this year's UCC China plenary head for the World Affairs Conference.  My role in WAC is to work alongside my Branksome Hall plenary head counterpart to find two speakers to speak about China's economy and why we, being North Americans, should care about it. 
 								</br>
 								I am excited to be a part of WAC and I hope to see you at UCC for this amazing conference this February.
@@ -321,10 +336,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/placeholder.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Alex Quinn</b></h2>
 								<h3>Plenary Head | Corporate Responsibility</h3>
+								<p>
 								My name is Alexander Quinn and I am the plenary co-head on corporate responsibility. My co-head Emma Lozhkin and I are in charge of coming up with our plenary's content and researching and contacting speakers.
 								</br>
 								I hope to see you there.
@@ -337,10 +353,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/miles.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Miles Hoaken</b></h2>
 								<h3>Plenary Head | Gender Issues</h3>
+								<p>
 								My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
 								</br>
 								See you at WAC!
@@ -353,10 +370,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/emmanuel.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Emmanuel Wong</b></h2>
 								<h3>Head of Registration</h3>
+								<p>
 								I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
 								</br>
 								I'm looking forward to seeing you all there!
@@ -387,10 +405,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/david.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>David Niddam-Dent</b></h2>
 								<h3>Morning/Closing Panels</h3>
+								<p>
 								Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a nigh note.
 								</br>
 								Can't wait to see everyone in February! 
@@ -403,10 +422,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/miles.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Miles Hoaken</b></h2>
 								<h3>Plenary Head | Gender Issues</h3>
+								<p>
 								My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
 								</br>
 								See you at WAC!
@@ -419,10 +439,11 @@ Head of Communications and Head of Security: Justin Lu-->
 							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/emmanuel.png" class = "half_image"></img>
 							</div>
-							<div class = "col-md-8" style = "text-align:justify;">
-								<p>
+							<div class = "col-md-8">
+								
 								<h2><b>Emmanuel Wong</b></h2>
 								<h3>Head of Registration</h3>
+								<p>
 								I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
 								</br>
 								I'm looking forward to seeing you all there!
@@ -450,9 +471,10 @@ Head of Communications and Head of Security: Justin Lu-->
 
 
 	<div style="padding:35px;text-align:center;">
-		<p>
+		
 		Some other people also help make WAC awesome; while they aren't on the team this year, they definitely deserve some thanks.
 		<h2>We'd Like to Thank:</h2>
+		<p>
 		<h3>Last Year's Website Team</h3>
 		Nick Elder, Derek Lam, Kinton Cheung
 		<h3>The Media Team</h3>
