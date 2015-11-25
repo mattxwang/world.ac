@@ -243,10 +243,10 @@ include_once("navbar.php") ?>
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-8">
+										<div class = "col-md-6">
 											Incorrect information here?
 										</div>
-										<div class = "col-md-4" style = "text-align:right;">
+										<div class = "col-md-6" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editInfo">Edit Student Information</button>
 										</div>
 									</div>
@@ -309,22 +309,22 @@ include_once("navbar.php") ?>
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-8">
+										<div class = "col-md-6">
 											Haven't received your confirmation email?
 										</div>
-										<div class = "col-md-4" style = "text-align:right;">
+										<div class = "col-md-6" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block">Resend Email Confirmation</button>
 										</div>
 									</div>
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-8">
+										<div class = "col-md-6">
 											<b>Your Password</b>
 											</br>
 											We don't keep your password in plaintext. Your secret is safe with us!
 										</div>
-										<div class = "col-md-4" style = "text-align:right;">
+										<div class = "col-md-6" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changePassword">Change Password</button>
 										</div>
 									</div>
