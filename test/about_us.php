@@ -303,6 +303,38 @@ Head of Communications and Head of Security: Justin Lu-->
 					<div class="item bg-plenary">
 						<div class = "row" style = "padding:5%;">
 							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/placeholder.png" class = "half_image"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Simon Osak</b></h2>
+								<h3>Plenary Head | China</h3>
+								Hi! My name is Simon Osak and I am this year's UCC China plenary head for the World Affairs Conference.  My role in WAC is to work alongside my Branksome Hall plenary head counterpart to find two speakers to speak about China's economy and why we, being North Americans, should care about it. 
+								</br>
+								I am excited to be a part of WAC and I hope to see you at UCC for this amazing conference this February.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
+								<img src = "img/bio/headshots/placeholder.png" class = "half_image"></img>
+							</div>
+							<div class = "col-md-8" style = "text-align:justify;">
+								<p>
+								<h2><b>Alex Quinn</b></h2>
+								<h3>Plenary Head | Corporate Responsibility</h3>
+								My name is Alexander Quinn and I am the plenary co-head on corporate responsibility. My co-head Emma Lozhkin and I are in charge of coming up with our plenary's content and researching and contacting speakers.
+								</br>
+								I hope to see you there.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item bg-plenary">
+						<div class = "row" style = "padding:5%;">
+							<div class = "col-md-4" style = "text-align:right;">
 								<img src = "img/bio/headshots/miles.png" class = "half_image"></img>
 							</div>
 							<div class = "col-md-8" style = "text-align:justify;">
