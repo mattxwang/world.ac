@@ -251,19 +251,6 @@ include_once("navbar.php") ?>
 										</div>
 									</div>
 								</li>
-								<li class="list-group-item">
-									<div class = "row">
-										<div class = "col-md-6">
-											<h2>Plenary 1: First Plenary</h2>
-											This is the first plenary! Here's information about the plenary! Here's the link to the plenary info page!
-										</div>
-										<div class = "col-md-6">
-											<h2>Plenary 2: Second Plenary</h2>
-											This is the second plenary! Here's information about the plenary! Here's the link to the plenary info page!
-										</div>
-									</div>
-									</br>
-								</li>
 						</div>
 					</div>
 					<div id = "plen">
@@ -312,10 +299,10 @@ include_once("navbar.php") ?>
 							<ul class="list-group">
 								<li class="list-group-item">
 									<div class = "row">
-										<div class = "col-md-8">
+										<div class = "col-md-6">
 											<b>Your Email:</b> template@ucc.on.ca
 										</div>
-										<div class = "col-md-4" style = "text-align:justify;">
+										<div class = "col-md-6" style = "text-align:justify;">
 											Your Email is tied to our registration process. Unfortunately, that means that we can't let you change your email on our website. If you need to change your email, please contact our registration correspondent, BLAH BLAH.
 										</div>
 									</div>
