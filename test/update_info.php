@@ -1,7 +1,5 @@
 <?php 
 	require("common.php"); 
-
-	ini_set('display_errors', 1);
 	
 	// Make sure they did stuff
 	if(!empty($_POST)) { 
@@ -19,9 +17,9 @@
 		// 	':notes'    => $_POST['notes']
 		// ); 
 
-		$query_params = array( 
-			':username' => $_POST['firstname'] . "," . $_POST['lastname'] 
-		); 
+		// $query_params = array( 
+		// 	':username' => $_POST['firstname'] . "," . $_POST['lastname'] 
+		// ); 
 
 		// Make query
 		$query = " 
