@@ -50,8 +50,8 @@
 
 	// Name[0] is first, 1 is lastname
 	$name = explode(",", $_SESSION['user']['username']);
-	$school = $data['school'];
-	$notes = $data['notes'];
+	$school = $data["school"];
+	$notes = $data["notes"];
 
 include_once("navbar.php") ?>
 
