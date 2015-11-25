@@ -77,7 +77,7 @@
 										<h4 class="modal-title" id="mainHeader">Edit Delegate Information</h4>
 									</div>
 									<div class="modal-body">
-<!-- 										<form class="form-signin" action="update_info.php" method="post">
+										<form class="form-signin" action="update_info.php" method="post">
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
@@ -114,10 +114,6 @@
 												<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
 												<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
 											</div>
-										</form> -->
-										<form action="update_info.php" method="post">
-											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="DELEGATE F NAME" required="">
-											<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
 										</form>
 									</div>
 								</div>
