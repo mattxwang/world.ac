@@ -217,7 +217,7 @@ include_once("navbar.php") ?>
 											Delegate Name:
 										</div>
 										<div class = "col-md-6">
-											<?php echo $name[0]; echo $name[1]; ?>
+											<?php echo $name[0]; echo " "; echo $name[1]; ?>
 										</div>
 									</div>
 								</li>
