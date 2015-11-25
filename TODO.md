@@ -18,7 +18,10 @@ Reg completition occurs when both of the above are met, AND a third boolean is t
 Plenary Selection is a Boolean that Matt will edit later. Starts off as False.
 
 <h4>Email Confirmation System (3)</h4>
-When a user signs up for an account, an email will be sent to their email confirming that they wanted to sign up; they can click on a link to confirm their registration and account.
+When a user signs up for an account, an email will be sent to their email confirming that they wanted to sign up; they can paste a code sent to their email to confirm the email.
+
+<h4>Forgot Password System (4)</h4>
+If the user forgets their password, they can reset it by sending an email to their preconfirmed email.
 
 </p>
 
