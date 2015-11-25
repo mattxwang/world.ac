@@ -1,6 +1,6 @@
 <?php 
 	require("common.php"); 
-	
+
 	// Make sure they did stuff
 	if(!empty($_POST)) { 
 		// if(empty($_POST['firstname']) || empty($_POST['lastname']) || /*KEEP GOING*/) { 
@@ -21,6 +21,8 @@
 		// 	':username' => $_POST['firstname'] . "," . $_POST['lastname'] 
 		// ); 
 
+		$username = $_POST['firstname'] . "," . $_POST['lastname'];
+
 		// Make query
 		$query = " 
 		REPLACE INTO info ( 
@@ -31,7 +33,7 @@
 			school,
 			notes
 		) VALUES (
-			:username,
+			" . $username . ",
 			NUll, 
 			NUll, 
 			NUll, "
