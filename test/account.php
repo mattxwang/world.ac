@@ -39,7 +39,7 @@
 	}  
 
 	$data = $stmt->fetchAll();
-	var_dump($data["school"]);
+	var_dump($data[0]["school"]);
 
 	// Check if data already exists
 	// if empty($data){
@@ -53,48 +53,8 @@
 	$notes = $data[0]["notes"];
 	echo $notes;
 ?>
-	<title><?php echo $name[0];?> - World Affairs Conference</title>
+	<title><?php echo $name[0];?>'s Account - World Affairs Conference</title>
 </head>
-<!--
-<?php 
-	require("common.php"); 
-	 
-	if(empty($_SESSION['user'])) 
-	{ 
-		header("Location: login_page.php"); 
-		 
-		die("Redirecting to login_page.php"); 
-	}
-
-	// Pull user data
-	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['email'] . "';";
-	 
-	try 
-	{ 
-		$stmt = $db->prepare($query); 
-		$stmt->execute();
-	} 
-
-	catch(PDOException $ex) 
-	{ 
-		die("Failed to run query: " . $ex->getMessage()); 
-	}  
-
-	$data = $stmt->fetchAll();
-	var_dump($data);
-
-	// Check if data already exists
-	// if empty($data){
-	// 	$data["firstname"] = "Default";
-	// }
-
-	// Name[0] is first, 1 is lastname
-	$name = explode(",", $_SESSION['user']['username']);
-	$school = $data["school"];
-	echo $school;
-	$notes = $data["notes"];
-	echo $notes;
-?> -->
 <?php include_once("navbar.php") ?>
 
 <body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">
