@@ -39,7 +39,6 @@
 	}  
 
 	$data = $stmt->fetchAll();
-	var_dump($data[0]["school"]);
 
 	// Check if data already exists
 	// if empty($data){
@@ -49,9 +48,7 @@
 	// Name[0] is first, 1 is lastname
 	$name = explode(",", $_SESSION['user']['username']);
 	$school = $data[0]["school"];
-	echo $school;
 	$notes = $data[0]["notes"];
-	echo $notes;
 ?>
 	<title><?php echo $name[0];?>'s Account - World Affairs Conference</title>
 </head>
