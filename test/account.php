@@ -27,7 +27,7 @@
 	}
 
 	// Pull user data
-	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['username'] . "';";
+	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['email'] . "';";
 	 
 	try 
 	{ 
