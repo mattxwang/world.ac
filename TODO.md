@@ -36,6 +36,6 @@ Stop the changing of the text size impacting the colour backgrounding. Stay on t
 The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
 
 <h2>Scrollspy</h2>
-<h3><a href = "http://world.ac/test/account.php">account.php</a><a href = "http://world.ac/faq.php">faq.php</a></h3> 
+<h3><a href = "http://world.ac/test/account.php">account.php</a>/<a href = "http://world.ac/faq.php">faq.php</a></h3> 
 <h4>Fix/Implement Scrollspy</h4>
 On all of the pages with another nav for body elements, it'd be nice to implement scrollspy. Right now, it doesn't work at all. Thoughts?
