@@ -10,6 +10,11 @@
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style>
+		.panel{
+			color:black;
+		}
+	</style>
 </head>
 <?php 
 	require("common.php"); 
@@ -203,7 +208,7 @@ include_once("navbar.php") ?>
 
 					</div>
 					<div id = "info">
-						<div class="panel panel-info" style = "color:black;">
+						<div class="panel panel-info">
 							<div class="panel-heading"><h2>Delegate Information</h2></div>
 							<ul class="list-group">
 								<li class="list-group-item">
@@ -215,7 +220,8 @@ include_once("navbar.php") ?>
 											Matthew Wang
 										</div>
 									</div>
-									</br>
+								</li>
+								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
 											School Name:
@@ -224,40 +230,24 @@ include_once("navbar.php") ?>
 											Upper Canada College
 										</div>
 									</div>
-									</br>
+								</li>
+								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
-											<b>Special Notes:</b> These are typically for food allergies, or other health concerns.
+											Special Notes: These are typically for food allergies, or other health concerns.
 										</div>
 										<div class = "col-md-6">
 											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
 										</div>
 									</div>
+								</li>
+								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-8">
 											Incorrect information here?
 										</div>
 										<div class = "col-md-4" style = "text-align:right;">
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editInfo">Edit Student Information</button>
-										</div>
-									</div>
-								</li>
-								<li class="list-group-item">
-									<div class = "row">
-										<div class = "col-md-6">
-											<b>Special Notes:</b> These are typically for food allergies, or other health concerns.
-										</div>
-										<div class = "col-md-6">
-											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
-										</div>
-									</div>
-									</br>
-									<div class = "row">
-										<div class = "col-md-8">
-											Incorrect information here?
-										</div>
-										<div class = "col-md-4" style = "text-align:right;">
-											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editNotes">Edit Special Notes</button>
 										</div>
 									</div>
 								</li>
@@ -275,10 +265,49 @@ include_once("navbar.php") ?>
 									</br>
 								</li>
 						</div>
+					</div>
+					<div id = "plen">
+						<div class="panel panel-info">
+							<div class="panel-heading"><h2>Delegate Plenaries</h2></div>
+							<ul class="list-group">
+								<li class="list-group-item">
+									<div class = "row">
+										<div class = "col-md-6">
+											<h2>Plenary 1: First Plenary</h2>
+											This is the first plenary! Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+										<div class = "col-md-6">
+											Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class = "row">
+										<div class = "col-md-6">
+											<h2>Plenary 2: Second Plenary</h2>
+											This is the Second plenary! Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+										<div class = "col-md-6">
+											Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class = "row">
+										<div class = "col-md-6">
+											<h2>Plenary 3: First Plenary</h2>
+											This is the third plenary! Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+										<div class = "col-md-6">
+											Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+									</div>
+								</li>
+						</div>
 
 					</div>
 					<div id = "settings">
-						<div class="panel panel-info" style = "color:black;">
+						<div class="panel panel-info">
 							<div class="panel-heading"><h2>Account Settings</h2></div>
 							<ul class="list-group">
 								<li class="list-group-item">
@@ -290,7 +319,8 @@ include_once("navbar.php") ?>
 											Your Email is tied to our registration process. Unfortunately, that means that we can't let you change your email on our website. If you need to change your email, please contact our registration correspondent, BLAH BLAH.
 										</div>
 									</div>
-									</br>
+								</li>
+								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-8">
 											Haven't received your confirmation email?
