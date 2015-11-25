@@ -1,6 +1,8 @@
 <?php 
 	require("common.php"); 
 
+	ini_set('display_errors', 1);
+	
 	// Make sure they did stuff
 	if(!empty($_POST)) { 
 		// if(empty($_POST['firstname']) || empty($_POST['lastname']) || /*KEEP GOING*/) { 
