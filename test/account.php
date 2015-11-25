@@ -77,7 +77,7 @@
 										<h4 class="modal-title" id="mainHeader">Edit Delegate Information</h4>
 									</div>
 									<div class="modal-body">
-										<form class="form-signin" action="update_info.php" method="post">
+<!-- 										<form class="form-signin" action="update_info.php" method="post">
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
@@ -105,18 +105,19 @@
 											</p>
 											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
 
-											<!--
-											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
-											-->
 											<h4>Password</h4>
 											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 											
 
 								
-											</div>
 											<div class="modal-footer">
 												<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
 												<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
+											</div>
+										</form> -->
+										<form action="update_info.php" method="post">
+											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="DELEGATE F NAME" required="">
+											<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
 										</form>
 									</div>
 								</div>
