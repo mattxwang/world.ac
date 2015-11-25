@@ -48,9 +48,9 @@
 
 	// Name[0] is first, 1 is lastname
 	$name = explode(",", $_SESSION['user']['username']);
-	$school = $data["school"];
+	$school = $data[0]["school"];
 	echo $school;
-	$notes = $data["notes"];
+	$notes = $data[0]["notes"];
 	echo $notes;
 ?>
 	<title><?php echo $name[0];?> - World Affairs Conference</title>
