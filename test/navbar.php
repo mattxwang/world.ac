@@ -92,7 +92,7 @@
 				?>
 				<!-- You exist -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome Matthew Wang<span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <?php $name = explode(",", $_SESSION['user']['username']); echo $name[0]; echo " "; echo $name[1];?><span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="account.php#notif">Notifications <span class="badge">2</span></a></li>
 						<li><a href="account.php">View Account</a></li>
