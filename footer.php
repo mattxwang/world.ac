@@ -16,7 +16,7 @@ if($rando == 1){
   */
 }
 elseif($rando == 2){
-	$teamNames = "Jack Sarick and Matthew Wang";
+	$teamNames = "Jack Sarick and Matthew Wang"; //WHAT THE FUCKING FUCK PHPHPHPHPHPHPHPHP
   /*
 	if($randa == 1){
 		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
@@ -45,9 +45,9 @@ elseif($rando == 2){
       </div>
       <div class="collapse navbar-collapse" id="footer-navbar" >
         <ul class="nav navbar-nav">
-           <li><a href="#">REGISTER</a></li>
-          <li><a href="about_us.php">WAC TEAM</a></li>
-          <li><a href="contact_us.php">CONTACT US</a></li>
+           <li><a href="#"><b>REGISTER</b></a></li>
+          <li><a href="about_us.php"><b>WAC TEAM</b></a></li>
+          <li><a href="contact_us.php"><b>CONTACT US</b></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Developed by this year's WAC web design team, <?php echo $teamNames; ?>
