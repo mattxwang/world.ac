@@ -15,7 +15,47 @@
 			color:black;
 		}
 	</style>
+	<?php 
+	require("common.php"); 
+	 
+	if(empty($_SESSION['user'])) 
+	{ 
+		header("Location: login_page.php"); 
+		 
+		die("Redirecting to login_page.php"); 
+	}
+
+	// Pull user data
+	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['email'] . "';";
+	 
+	try 
+	{ 
+		$stmt = $db->prepare($query); 
+		$stmt->execute();
+	} 
+
+	catch(PDOException $ex) 
+	{ 
+		die("Failed to run query: " . $ex->getMessage()); 
+	}  
+
+	$data = $stmt->fetchAll();
+	var_dump($data);
+
+	// Check if data already exists
+	// if empty($data){
+	// 	$data["firstname"] = "Default";
+	// }
+
+	// Name[0] is first, 1 is lastname
+	$name = explode(",", $_SESSION['user']['username']);
+	$school = $data["school"];
+	echo $school;
+	$notes = $data["notes"];
+	echo $notes;
+?>
 </head>
+<!--
 <?php 
 	require("common.php"); 
 	 
@@ -54,8 +94,8 @@
 	echo $school;
 	$notes = $data["notes"];
 	echo $notes;
-
-include_once("navbar.php") ?>
+?> -->
+<?php include_once("navbar.php") ?>
 
 <body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">
 		<div class= "container">
