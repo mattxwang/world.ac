@@ -87,11 +87,16 @@ include_once("navbar.php") ?>
 												<option value="UCC">UCC</option>
 												<option value="BSS">BSS</option>
 												<option value="BH">BH</option>
-												<option>4</option>
-												<option>5</option>
+												<option value="UTS">UTS</option>
+												<option value="TFS">TFS</option>
 											</select>
-
-																						<h4>Special Notes:</h4>
+											<h4>Special Notes:</h4>
+											<p>
+											These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
+											</br>
+											</br>
+											Leave blank if none needed.
+											</p>
 											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
 
 											<!--
@@ -202,13 +207,32 @@ include_once("navbar.php") ?>
 							<div class="panel-heading"><h2>Delegate Information</h2></div>
 							<ul class="list-group">
 								<li class="list-group-item">
-									<div>
-									<b>Delegate Name:</b> Matthew Wang
-									</br>
-									</br>
-									<b>School:</b> Upper Canada College
+									<div class = "row">
+										<div class = "col-md-6">
+											Delegate Name:
+										</div>
+										<div class = "col-md-6">
+											Matthew Wang
+										</div>
 									</div>
 									</br>
+									<div class = "row">
+										<div class = "col-md-6">
+											School Name:
+										</div>
+										<div class = "col-md-6">
+											Upper Canada College
+										</div>
+									</div>
+									</br>
+									<div class = "row">
+										<div class = "col-md-6">
+											<b>Special Notes:</b> These are typically for food allergies, or other health concerns.
+										</div>
+										<div class = "col-md-6">
+											Matthew has a food allergy to annoying people. Requires League of Legends to get out of anaphydlajkfsdf shock.
+										</div>
+									</div>
 									<div class = "row">
 										<div class = "col-md-8">
 											Incorrect information here?
@@ -217,19 +241,6 @@ include_once("navbar.php") ?>
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editInfo">Edit Student Information</button>
 										</div>
 									</div>
-								</li>
-								<li class="list-group-item">
-									<div class = "row">
-										<div class = "col-md-6">
-											<h2>Plenary 1: First Plenary</h2>
-											This is the first plenary! Here's information about the plenary! Here's the link to the plenary info page!
-										</div>
-										<div class = "col-md-6">
-											<h2>Plenary 2: Second Plenary</h2>
-											This is the second plenary! Here's information about the plenary! Here's the link to the plenary info page!
-										</div>
-									</div>
-									</br>
 								</li>
 								<li class="list-group-item">
 									<div class = "row">
@@ -249,6 +260,19 @@ include_once("navbar.php") ?>
 											<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#editNotes">Edit Special Notes</button>
 										</div>
 									</div>
+								</li>
+								<li class="list-group-item">
+									<div class = "row">
+										<div class = "col-md-6">
+											<h2>Plenary 1: First Plenary</h2>
+											This is the first plenary! Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+										<div class = "col-md-6">
+											<h2>Plenary 2: Second Plenary</h2>
+											This is the second plenary! Here's information about the plenary! Here's the link to the plenary info page!
+										</div>
+									</div>
+									</br>
 								</li>
 						</div>
 
