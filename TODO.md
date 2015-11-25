@@ -32,7 +32,10 @@ Stop the changing of the text size impacting the colour backgrounding. Stay on t
 
 <h2>Navbar</h2>
 <h3>navbar.php</h3> 
-<h4>Fix Login/Register</h4>
+<h4>Make Notifications Bar Work (1)</h4>
+Little Number that tells us how many notifcations (urgent ones) you have.
+
+<h4>Fix Login/Register (2)</h4>
 The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
 
 <h2>Scrollspy</h2>
