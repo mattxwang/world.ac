@@ -39,7 +39,7 @@
 	}  
 
 	$data = $stmt->fetchAll();
-	var_dump($data);
+	var_dump($data["school"]);
 
 	// Check if data already exists
 	// if empty($data){
