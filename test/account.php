@@ -50,6 +50,13 @@
 	$name = explode(",", $_SESSION['user']['username']);
 	$school = $data[0]["school"];
 	$notes = $data[0]["notes"];
+	$notif = 0;
+	if $school == NULL{
+		$notif += 1;
+	}
+	$plen_class = "alert alert-dismissible alert-success";
+	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
+
 ?>
 	<title><?php echo $name[0];?>'s Account - World Affairs Conference</title>
 </head>
@@ -205,8 +212,11 @@
 						<div class="alert alert-dismissible alert-success" role=<?php echo $payment_class; ?>><?php echo $payment_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class="alert alert-dismissible alert-success" role=<?php echo $plen_class; ?>><?php echo $plen_text; ?>
+						<div class=<?php echo $plen_class; ?> role="alert"><?php echo $plen_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="alert alert-dismissible alert-info" role="alert">Plenaries haven't been assigned yet. Check back soon.
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 
 					</div>
