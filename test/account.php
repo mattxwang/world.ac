@@ -50,10 +50,10 @@
 	$name = explode(",", $_SESSION['user']['username']);
 	$school = $data[0]["school"];
 	$notes = $data[0]["notes"];
-	$notif = 0;
+	/*$notif = 0;
 	if $school == NULL{
 		$notif += 1;
-	}
+	}*/
 	$plen_class = "alert alert-dismissible alert-success";
 	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
 
