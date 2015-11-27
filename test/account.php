@@ -54,7 +54,7 @@
 	if $school == NULL{
 		$notif += 1;
 	}*/
-	$plen_class = "alert alert-dismissible alert-info";
+	$plen_class = '"alert alert-dismissible alert-info"';
 	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
 
 ?>
