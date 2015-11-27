@@ -39,6 +39,7 @@
 	}  
 
 	$data = $stmt->fetchAll();
+	var_dump($data[0]["name"]);
 
 	// Check if data already exists
 	// if empty($data){
