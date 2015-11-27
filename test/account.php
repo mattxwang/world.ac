@@ -54,7 +54,7 @@
 	if $school == NULL{
 		$notif += 1;
 	}*/
-	$plen_class = "alert alert-dismissible alert-success";
+	$plen_class = "alert alert-dismissible alert-info";
 	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
 
 ?>
@@ -212,11 +212,11 @@
 						<div class="alert alert-dismissible alert-success" role=<?php echo $payment_class; ?>><?php echo $payment_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class=<?php echo $plen_class; ?> role="alert"><?php echo $plen_text; ?>
+						<div class=<?php echo $plen_class;?> role="alert"><?php echo $plen_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<div class="alert alert-dismissible alert-info" role="alert">Plenaries haven't been assigned yet. Check back soon.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 
 					</div>
