@@ -63,6 +63,7 @@
 						<ul class="nav nav-pills nav-stacked" style = "position:fixed;">
 							<li role="presentation" class = "active"><a href="#notif">Notifications</a></li>
 							<li role="presentation"><a href="#info">Delegate Info</a></li>
+							<li role="presentation"><a href="#plen">Delegate Plenaries</a></li>
 							<li role="presentation"><a href="#settings">Account Settings</a></li>
 						</ul>
 					</div>
