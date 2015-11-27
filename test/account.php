@@ -39,7 +39,7 @@
 	}  
 
 	$data = $stmt->fetchAll();
-	var_dump($data[0]["name"]);
+	var_dump($data);
 
 	// Check if data already exists
 	// if empty($data){
@@ -90,7 +90,7 @@
 											<h4>Delegate Last Name</h4>
 											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
 											<h4>Delegate School</h4>
-											<select class="form-control" id="school" name="school" required="">
+											<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
 												<option value="UCC">UCC</option>
 												<option value="BSS">BSS</option>
 												<option value="BH">BH</option>
@@ -106,15 +106,18 @@
 											</p>
 											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
 
+											<!--
+											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
+											-->
 											<h4>Password</h4>
 											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 											
 
 								
-											<div class="modal-footer">
-												<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-												<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
-											</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
 										</form>
 									</div>
 								</div>
