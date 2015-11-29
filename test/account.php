@@ -4,7 +4,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -90,6 +89,7 @@
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
+											<h4>Basic Delegate Information:</h4>
 											<p>
 											These changes will be reflected on your nametag, and other delegate-specific information. 
 											</p>
@@ -203,19 +203,19 @@
 						</div>
 
 						<!-- NOTIFICATIONS -->
-						<div class="alert alert-dismissible alert-success" role=<?php echo $reg_class; ?>><?php echo $reg_text; ?>
+						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class="alert alert-dismissible alert-success" role=<?php echo $email_class; ?>><?php echo $email_text; ?>
+						<div class=<?php echo $school_class;?> role="alert"><?php echo $school_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class="alert alert-dismissible alert-success" role=<?php echo $payment_class; ?>><?php echo $payment_text; ?>
+						<div class=<?php echo $email_class;?> role="alert"><?php echo $email_text; ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class=<?php echo $payment_class;?> role="alert"><?php echo $payment_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<div class=<?php echo $plen_class;?> role="alert"><?php echo $plen_text; ?>
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-						<div class="alert alert-dismissible alert-info" role="alert">Plenaries haven't been assigned yet. Check back soon.
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 
