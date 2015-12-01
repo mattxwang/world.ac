@@ -92,7 +92,9 @@
 											<h4>Basic Delegate Information:</h4>
 											<p>
 											These changes will be reflected on your nametag, and other delegate-specific information. 
-											</p>		
+											</p>
+											<h4>Delegate First Name</h4>
+											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="DELEGATE F NAME" required="">
 											<h4>Delegate Last Name</h4>
 											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
 											<h4>Delegate School</h4>
