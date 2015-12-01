@@ -20,10 +20,10 @@
 		// 	':notes'    => $_POST['notes']
 		// ); 
 
-		$query_params = array( 
-			':username' => $_POST['firstname'] . "%$%" . $_POST['lastname'],
-			':email' => $_SESSION['user']['username']
-		); 
+		// $query_params = array( 
+		// 	':username' => $_POST['firstname'] . "%$%" . $_POST['lastname'],
+		// 	':email' => $_SESSION['user']['username']
+		// ); 
 
 		// $username = $_POST['firstname'] . "," . $_POST['lastname'];
 
