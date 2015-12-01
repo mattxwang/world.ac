@@ -95,7 +95,7 @@
 											These changes will be reflected on your nametag, and other delegate-specific information. 
 											</p>
 											<h4>Delegate email</h4>
-											<input type="email" id="email" name="email" class="form-control" placeholder="<?php echo $email;?>" disabled>
+											<input type="email" id="email" name="email" class="form-control" disabled><?php echo $email;?></input>
 		
 											<h4>Delegate Last Name</h4>
 											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
