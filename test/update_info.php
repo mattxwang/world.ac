@@ -38,8 +38,8 @@
 			school,
 			notes
 		) VALUES (
-			:email,
-			:username,
+			" . $_SESSION['user']['email'] . ",
+			" . $_SESSION['user']['username'] . ",
 			'none', 
 			'none', 
 			'none', "
