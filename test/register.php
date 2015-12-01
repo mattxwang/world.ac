@@ -3,7 +3,7 @@
 	require("common.php"); 
 	 
 	if(!empty($_POST)) { 
-		if(empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['password']) ||empty($_POST['password2'])) { 
+		if(empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['password']) || empty($_POST['password2'])) { 
 			die("You missed a field"); 
 		} 
 		 
@@ -15,31 +15,6 @@
 			die("Invalid E-Mail Address"); 
 		} 
 		 
-		$query = " 
-			SELECT 
-				1 
-			FROM users 
-			WHERE 
-				username = :username 
-		"; 
-		 
-		$query_params = array( 
-			':username' => $_POST['firstname'] . "%$%" . $_POST['lastname'] 
-		); 
-		 
-		try { 
-			$stmt = $db->prepare($query); 
-			$result = $stmt->execute($query_params); 
-		} 
-		catch(PDOException $ex) { 
-			die("Failed to run query: " . $ex->getMessage()); 
-		} 
-		 
-		$row = $stmt->fetch(); 
-		 
-		if($row) { 
-			die("This username is already in use"); 
-		} 
 		 
 		$query = " 
 			SELECT 
@@ -69,15 +44,13 @@
 		 
 		$query = " 
 			INSERT INTO users ( 
-				username, 
+				email, 
 				password, 
 				salt, 
-				email 
 			) VALUES ( 
-				:username, 
+				:email, 
 				:password, 
 				:salt, 
-				:email 
 			);
 		"; 
 		 
@@ -90,12 +63,30 @@
 		} 
 		 
 		$query_params = array( 
-			':username' => $_POST['firstname'] . "," . $_POST['lastname'], 
+			':email' => $_POST['email'] 
 			':password' => $password, 
 			':salt' => $salt, 
-			':email' => $_POST['email'] 
 		); 
 		 
+		try { 
+			$stmt = $db->prepare($query); 
+			$result = $stmt->execute($query_params);
+		} 
+		catch(PDOException $ex) { 
+			die("Failed to run query: " . $ex->getMessage()); 
+		} 
+
+		$query = " 
+			INSERT INTO info ( 
+				email, 
+				first_name,
+				last_name,  
+			) VALUES ( 
+				:email, 
+				:firstname, 
+				:lastname, 
+			);
+		"; 
 		try { 
 			$stmt = $db->prepare($query); 
 			$result = $stmt->execute($query_params);
