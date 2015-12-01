@@ -4,7 +4,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -39,6 +38,7 @@
 	}  
 
 	$data = $stmt->fetchAll();
+	var_dump($data);
 
 	// Check if data already exists
 	// if empty($data){
@@ -49,6 +49,13 @@
 	$name = explode(",", $_SESSION['user']['username']);
 	$school = $data[0]["school"];
 	$notes = $data[0]["notes"];
+	/*$notif = 0;
+	if $school == NULL{
+		$notif += 1;
+	}*/
+	$plen_class = '"alert alert-dismissible alert-info"';
+	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
+
 ?>
 	<title><?php echo $name[0];?>'s Account - World Affairs Conference</title>
 </head>
@@ -62,6 +69,7 @@
 						<ul class="nav nav-pills nav-stacked" style = "position:fixed;">
 							<li role="presentation" class = "active"><a href="#notif">Notifications</a></li>
 							<li role="presentation"><a href="#info">Delegate Info</a></li>
+							<li role="presentation"><a href="#plen">Delegate Plenaries</a></li>
 							<li role="presentation"><a href="#settings">Account Settings</a></li>
 						</ul>
 					</div>
@@ -81,6 +89,7 @@
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
+											<h4>Basic Delegate Information:</h4>
 											<p>
 											These changes will be reflected on your nametag, and other delegate-specific information. 
 											</p>
@@ -89,7 +98,7 @@
 											<h4>Delegate Last Name</h4>
 											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
 											<h4>Delegate School</h4>
-											<select class="form-control" id="school" name="school" required="">
+											<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
 												<option value="UCC">UCC</option>
 												<option value="BSS">BSS</option>
 												<option value="BH">BH</option>
@@ -105,15 +114,18 @@
 											</p>
 											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
 
+											<!--
+											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
+											-->
 											<h4>Password</h4>
 											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 											
 
 								
-											<div class="modal-footer">
-												<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-												<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
-											</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login" >Save Changes</button>
 										</form>
 									</div>
 								</div>
@@ -184,23 +196,28 @@
 					</div>
 
 					<div id = "notif">
+						<!--
 						<div class="progress" style = "height:36px;">
 							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
 								You've completed 50% of the registration process.
 							</div>
 						</div>
+						-->
 
 						<!-- NOTIFICATIONS -->
-						<div class="alert alert-dismissible alert-success" role=<?php echo $reg_class; ?>><?php echo $reg_text; ?>
+						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class="alert alert-dismissible alert-success" role=<?php echo $email_class; ?>><?php echo $email_text; ?>
+						<div class=<?php echo $school_class;?> role="alert"><?php echo $school_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class="alert alert-dismissible alert-success" role=<?php echo $payment_class; ?>><?php echo $payment_text; ?>
+						<div class=<?php echo $email_class;?> role="alert"><?php echo $email_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class="alert alert-dismissible alert-success" role=<?php echo $plen_class; ?>><?php echo $plen_text; ?>
+						<div class=<?php echo $payment_class;?> role="alert"><?php echo $payment_text; ?>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class=<?php echo $plen_class;?> role="alert"><?php echo $plen_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 
