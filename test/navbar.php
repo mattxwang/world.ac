@@ -87,12 +87,12 @@
 
 				<?php } else { 
 					debug_to_console($_SESSION['user']['username']);
-					// $firstname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[0]));
-					// $lastname = ucfirst(htmlentities(explode(",", $_SESSION['user']['username'])[1]));
+					// $firstname = ucfirst(htmlentities(explode("%$%", $_SESSION['user']['username'])[0]));
+					// $lastname = ucfirst(htmlentities(explode("%$%", $_SESSION['user']['username'])[1]));
 				?>
 				<!-- You exist -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <b><?php $name = explode(",", $_SESSION['user']['username']); echo $name[0]; echo " "; echo $name[1];?></b><span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <b><?php $name = explode("%$%", $_SESSION['user']['username']); echo $name[0]; echo " "; echo $name[1];?></b><span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="account.php#notif">Notifications <span class="badge">2</span></a></li>
 						<li><a href="account.php">View Account</a></li>

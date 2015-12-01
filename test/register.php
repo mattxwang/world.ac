@@ -24,7 +24,7 @@
 		"; 
 		 
 		$query_params = array( 
-			':username' => $_POST['firstname'] . "," . $_POST['lastname'] 
+			':username' => $_POST['firstname'] . "%$%" . $_POST['lastname'] 
 		); 
 		 
 		try { 
