@@ -70,9 +70,9 @@
 		notes
 	) VALUES (
 		'Jack,Sarick',
-		NUll, 
-		NUll, 
-		NUll,
+		'none', 
+		'none', 
+		'none',
 		'UCC',
 		'LOLOLOL'
 	);";
