@@ -22,24 +22,24 @@
 
 		$query_params = array( 
 			':username' => $_POST['firstname'] . "%$%" . $_POST['lastname'],
-			':email' => $_POST['email']
+			':email' => $_SESSION['user']['username']
 		); 
 
 		// $username = $_POST['firstname'] . "," . $_POST['lastname'];
 
 		// Make query
 		$query = " 
-		REPLACE INTO info ( 
-			username,
+		REPLACE INTO info (
 			email,
+			username,
 			plen_1, 
 			plen_2,
 			plen_3, 
 			school,
 			notes
 		) VALUES (
-			:username,
 			:email,
+			:username,
 			'none', 
 			'none', 
 			'none', "
