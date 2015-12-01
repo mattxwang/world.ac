@@ -1,33 +1,10 @@
 <?php
 $rando = rand(1,2);
-//$randa = rand(1,3);
 if($rando == 1){
-	$teamNames = "Matthew Wang and Jack Sarick";
-  /*
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-  */
+	$teamNames = "Matthew Wang and <a href =\"http:jack.antinode.ca\">Jack Sarick</a>";
 }
 elseif($rando == 2){
-	$teamNames = "Jack Sarick and Matthew Wang"; //WHAT THE FUCKING FUCK PHPHPHPHPHPHPHPHP
-  /*
-	if($randa == 1){
-		$lteamNames = "Nick Elder, Derek Lam, and Kinton Cheung";
-	}
-	elseif($randa == 2){
-		$lteamNames = "Derek Lam, Kinton Cheung, and Nick Elder";
-	}
-	elseif($randa == 3){
-		$lteamNames = "Kinton Cheung, Nick Elder, and Derek Lam";
-	}
-  */
+	$teamNames = "<a href =\"http:jack.antinode.ca\">Jack Sarick</a> and Matthew Wang";
 }
 
 ?>
@@ -51,15 +28,8 @@ elseif($rando == 2){
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <p class="navbar-text" style ="font-size:11px; vertical-align:middle; display:table-cell;">Developed by this year's WAC web design team, <?php echo $teamNames; ?>
-          <!--</br>
-          With help from last year's team: <?php echo $lteamNames; ?></p>-->
         </ul>
        </div>
    </div>
   </nav>
 
-<!-- disabled for now
-<div class ="visible-xs vertical-align:bottom">
-<p style ="font-size:11px; text-align:left;color:#FFFFFF">Developed by this year's WAC web design team, <?php echo $teamNames; ?></p>
-</div>
--->

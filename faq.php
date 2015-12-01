@@ -49,7 +49,7 @@ include_once("../includes/sql.php");
 				</div>
 				<div id = "gen_what">
 					<h3>What is WAC?</h3>
-					<p> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 50 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</p>
+					<p> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</p>
 				</div>
 				<div id = "gen_date">
 					<h3>When is WAC?</h3>
@@ -69,7 +69,7 @@ include_once("../includes/sql.php");
 				</div>
 				<div id="reg_student_cost">
 				<h3>Registration Price</h3>
-				<p>Registration for WAC 2016 is being organized right now. Updates will be sent out shortly.</p>
+				<p>Registration for WAC 2016 is $50 CAD, per student. This should be submitted with delegate registration.</p>
 				</div>
 				<div id = "how_to_reg">
 					<h3>How can I register my school?</h3>
