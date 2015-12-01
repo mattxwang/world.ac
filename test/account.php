@@ -49,7 +49,6 @@
 	$name = explode("%$%", $_SESSION['user']['username']);
 	$school = $data[0]["school"];
 	$notes = $data[0]["notes"];
-	$email = $data[0]["email"];
 	/*$notif = 0;
 	if $school == NULL{
 		$notif += 1;
@@ -93,10 +92,7 @@
 											<h4>Basic Delegate Information:</h4>
 											<p>
 											These changes will be reflected on your nametag, and other delegate-specific information. 
-											</p>
-											<h4>Delegate email</h4>
-											<input type="email" id="email" name="email" class="form-control"><?php echo $email;?></input>
-		
+											</p>		
 											<h4>Delegate Last Name</h4>
 											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
 											<h4>Delegate School</h4>
