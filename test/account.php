@@ -24,7 +24,7 @@
 	}
 
 	// Pull user data
-	$query = "SELECT * FROM info WHERE email = '" . $_SESSION['user']['email'] . "';";
+	$query = "SELECT * FROM info WHERE email='" . $_SESSION['user']['email'] . "';";
 	 
 	try 
 	{ 
@@ -40,19 +40,19 @@
 	$data = $stmt->fetchAll();
 	var_dump($data);
 
-	Check if data already exists
-	if empty($data){
-		$data[0]["firstname"] = "New";
-		$data[0]["lastname"] = "New";
-		$data[0]["school"] = "New";
-		$data[0]["notes"] = "New";
+	// // Check if data already exists
+	// if empty($data){
+	// 	$data[0]["firstname"] = "New";
+	// 	$data[0]["lastname"] = "New";
+	// 	$data[0]["school"] = "New";
+	// 	$data[0]["notes"] = "New";
 
-	}
+	// }
 
-	// Name[0] is first, 1 is lastname
-	$name = $data[0]["firstname"];
-	$school = $data[0]["school"];
-	$notes = $data[0]["notes"];
+	// // Name[0] is first, 1 is lastname
+	// $name = $data[0]["firstname"];
+	// $school = $data[0]["school"];
+	// $notes = $data[0]["notes"];
 	/*$notif = 0;
 	if $school == NULL{
 		$notif += 1;
