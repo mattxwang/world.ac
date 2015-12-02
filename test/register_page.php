@@ -21,14 +21,14 @@
 			<div class ="row">
 				<div class = "col-md-6">
 					<form class="form-signin" action="register.php" method="post">
-						<div class = "row">
+<!-- 						<div class = "row">
 							<div class = "col-md-6">
 								<input type="text" id="firstname" class="form-control" placeholder="First Name" name="firstname" required="" autofocus="">
 							</div>
 							<div class = "col-md-6">
 								<input type="text" id="lastname" class="form-control" placeholder="Last Name" name="lastname" required="" autofocus="">
 							</div>
-						</div>
+						</div> -->
 						<div class = "row">
 							<div class = "col-md-12">
 								<input type="email" id="email" class="form-control" placeholder="user@email.com" name="email" required="" autofocus="">
