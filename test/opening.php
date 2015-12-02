@@ -34,12 +34,33 @@ include_once("../includes/sql.php");
 	<img src="img/avatar.png"></img>
 </div>
 <div style = "text-align:justify">
-	<p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et interdum arcu. Praesent auctor nunc magna, non fermentum sem fermentum sed. Sed consectetur odio eu lorem sagittis laoreet. Maecenas elementum diam eu molestie tincidunt. Ut pharetra sodales placerat. Phasellus viverra ligula dui, sed aliquet turpis auctor elementum. Phasellus sed tincidunt risus. Ut malesuada quis nibh vel sodales. Proin ut fermentum diam. Nunc eu sodales augue, commodo cursus tellus. Sed molestie consectetur arcu tincidunt ultrices. Quisque nec ultricies leo.
-	</p>
-	<p>
-	The Morning Panel is at 4:20 PM.
-	</p>
+	The Internet has radically revolutionized the entire world. Everything from how we shop to how we vote 
+
+has been affected by the Internet. As a result, the Internet continues to proliferate in every facet. This 
+
+exponential growth will have huge ramifications on both governments and individuals. 
+
+Governments have both had an increased security due to the internet, with an increasingly pervasive 
+
+method of gathering information on one's citizens, increasing security. Oppressive regimes have abused the 
+
+internet in order to exert control, while advocates for terrorism have begun utilizing the internet as a powerful 
+
+tool to propagate their cause.  
+
+However, citizens have used the Internet as tool to unite and learn. The Arab Spring saw a wave of 
+
+protests and revolution based off of Internet usage­­­specifically social media. Meanwhile citizens in 
+
+democracies have discovered their right to privacy has been stripped, as their governments use their tools for 
+
+finding terrorists against their own citizens. 
+
+As the Internet affects many different aspects of everyday life, each panelist will have a specific 
+
+viewpoint and frame of reference on the Internet, and will help outline the benefits of, and issues with, the 
+
+Internet's proliferation. Moreover, they will explain and debate their solutions to those problems.
 </div>
 
 
