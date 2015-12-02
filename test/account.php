@@ -24,7 +24,7 @@
 	}
 
 	// Pull user data
-	$query = "SELECT * FROM info WHERE username = '" . $_SESSION['user']['email'] . "';";
+	$query = "SELECT * FROM info WHERE email = '" . $_SESSION['user']['email'] . "';";
 	 
 	try 
 	{ 
@@ -40,13 +40,17 @@
 	$data = $stmt->fetchAll();
 	var_dump($data);
 
-	// Check if data already exists
-	// if empty($data){
-	// 	$data["firstname"] = "Default";
-	// }
+	Check if data already exists
+	if empty($data){
+		$data[0]["firstname"] = "New";
+		$data[0]["lastname"] = "New";
+		$data[0]["school"] = "New";
+		$data[0]["notes"] = "New";
+
+	}
 
 	// Name[0] is first, 1 is lastname
-	$name = explode("%$%", $_SESSION['user']['username']);
+	$name = $data[0]["firstname"];
 	$school = $data[0]["school"];
 	$notes = $data[0]["notes"];
 	/*$notif = 0;
@@ -196,13 +200,13 @@
 					</div>
 
 					<div id = "notif">
-						<!--
+						
 						<div class="progress" style = "height:36px;">
 							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%;">
 								You've completed 50% of the registration process.
 							</div>
 						</div>
-						-->
+						
 
 						<!-- NOTIFICATIONS -->
 						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
