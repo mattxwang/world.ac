@@ -1,5 +1,5 @@
 <h1>To-Do List</h1>
-Jack this is for you
+This is the priority of what needs to be done. Deadline for this list is Monday December 7th.
 <h2>Account System</h2>
 <h3><a href = "http://world.ac/test/account.php">account.php</a></h3> 
 <h4>User Information (1)</h4>
@@ -23,11 +23,3 @@ Plenary Selection is a Boolean that Matt will edit later. Starts off as False.
 <h3><a href = "http://world.ac/test/about_us.php">about_us.php</a></h3> 
 <h4>Fix carousels</h4>
 Stop the changing of the text size impacting the colour backgrounding. Stay on the page for a minute to understand what I mean.
-
-<h2>Navbar</h2>
-<h3>navbar.php</h3> 
-<h4>Make Notifications Bar Work (1)</h4>
-Little Number that tells us how many notifcations (urgent ones) you have.
-
-<h4>Fix Login/Register (2)</h4>
-The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
