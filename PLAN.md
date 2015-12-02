@@ -1,5 +1,6 @@
 
 <h1>Plan for Features in the Future</h1>
+Listed items are in relative order of importance. Bottom of the list are quick fixes.
 <h2>Account System</h2>
 <h3><a href = "http://world.ac/test/account.php">account.php</a></h3> 
 
