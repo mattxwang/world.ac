@@ -8,7 +8,7 @@ List of what we need to do now.
 ## [Future Plans](PLAN.md)
 List of futures that we should implement before the conference starts, but aren't urgent.
 
-## [Changelog](Changelog.md)
+## [Changelog](CHANGELOG.md)
 A full changelog can be found at the Releases tab.
 
 <h2>Etiquette</h2>
