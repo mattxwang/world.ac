@@ -4,30 +4,9 @@ Here's the repository for <a href ="http://world.ac">world.ac</a> </br>
 We use the <a href = "http://getbootstrap.com">Bootstrap Framework</a> for a lot of the site.
 
 ## [To-Do](TODO.md)
-<h3>Main Project</h3>
-The main project is the current big undertaking. Please work on this project in the /test directory.
-</br>
-Account System. This includes:
-</br>
-<a href = "http://world.ac/test">Account Page</a> (Ability to Log in, and display info from a spreadsheet. Allow user to edit spreadsheet info) [Skeleton Formatting Done]
-</br>
-<a href = "http://world.ac/test">Account Navbar functionality</a> (log in from navbar, quick avatar, display link to acc page. Changes whether or not the user is logged in)  [Skeleton Formatting Done]
-</br>
-
-<h3>Side Projects</h3>
-Side projects. Please do not work on these projects in the /test directory. 
-</br>
-Create bootstrap compatible pages for <a href = "http://world.ac/keynote.php">Keynote Speaker</a>, Opening/Closing Panels, and Schedule 
-</br>
-Fix <a href = "http://world.ac/faq">FAQ Page</a> (mobile compat + div links not working correctly) + implement <a href = "http://getbootstrap.com/javascript/#scrollspy">scrollspy</a> 
-</br>
-Plenary Selection Mechansim (for UCC, select plenaries) 
-</br>
-Static footer 
-</br>
-Fix test/about_us.php to work properly
-</br>
-
+List of what we need to do now.
+## [Future Plans](PLAN.md)
+List of futures that we should implement before the conference starts, but aren't urgent.
 
 ## [Changelog](Changelog.md)
 A full changelog can be found at the Releases tab.
