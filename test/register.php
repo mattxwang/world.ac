@@ -2,7 +2,7 @@
 
 	require("common.php"); 
 	 
-	if(!empty($_POST)) { 
+	// if(!empty($_POST)) { 
 		if(empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['password']) || empty($_POST['password2'])) { 
 			die("You missed a field"); 
 		} 
@@ -98,6 +98,6 @@
 		header("Location: login_page.php"); 
 		 
 		die("Redirecting to login_page.php"); 
-	} 
+	// } 
 	 
 ?> 
