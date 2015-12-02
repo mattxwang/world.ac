@@ -1,4 +1,4 @@
-<?php require("register.php"); ?> 
+<?php require("common.php"); ?> 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -11,16 +11,6 @@
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
-<?php 
-	require("common.php"); 
-	 
-	if(isset($_SESSION['user'])) 
-	{ 
-		header("Location: account.php"); 
-		 
-		die("Redirecting to account.php"); 
-	}  
-?> 
 <?php include_once("navbar.php") ?>
 
 <body>
