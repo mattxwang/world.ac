@@ -2,8 +2,8 @@
 	require("common.php"); 
 	
 	if(
-		empty($_POST['first_name']) ||
-		empty($_POST['last_name'])  ||
+		empty($_POST['firstname']) ||
+		empty($_POST['lastname'])  ||
 		empty($_POST['school'])
 	) { 
 		die("You missed a field"); 
@@ -12,8 +12,8 @@
 	$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
 	$email = $_SESSION['user']['email'];
-	$f_name = $_POST['first_name'];
-	$l_name = $_POST['last_name'];
+	$f_name = $_POST['firstname'];
+	$l_name = $_POST['lastname'];
 	$school = $_POST['school'];
 	$notes = $_POST['notes'];
 
