@@ -236,7 +236,9 @@ include_once("../includes/sql.php");
 					<div class = "col-md-8" style = "text-align:justify;">
 						<p>
 						<span style="font-size:4vw"><b>Justin Lu</b></span>
+						</br>
 						<span style="font-size:2.5vw">Head of Security/Communications</span>
+						</br>
 						Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
 						</br>
 						This year's conference will be fantastic. I hope you enjoy yourselves!
@@ -252,7 +254,9 @@ include_once("../includes/sql.php");
 					<div class = "col-md-8" style = "text-align:justify;">
 						<p>
 						<span style="font-size:4vw"><b>Nikhil Kassum</b></span>
+						</br>
 						<span style="font-size:2.5vw">Head of Programs</span>
+						</br>
 						My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions. 
 						</br>
 						I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it. 
