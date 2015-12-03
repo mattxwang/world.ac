@@ -2,7 +2,7 @@
 
 	function htmlClean($value){
 		return htmlEntities($value, ENT_QUOTES);
-	};
+	}
 
 	// public function cleanPost(){
 	// 	$_POST = array_map($htmlClean, $_POST);
