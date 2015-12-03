@@ -30,16 +30,18 @@
 		. $_POST['notes'] .
 	");";
 
-	try { 
-		$stmt = $db->prepare($query); 
-		$stmt->execute();
+	echo $query;
+
+	// try { 
+	// 	$stmt = $db->prepare($query); 
+	// 	$stmt->execute();
 	
-		header("Location: account.php"); 		 
-	}
+	// 	header("Location: account.php"); 		 
+	// }
 	
-	catch(PDOException $ex) 
-	{ 
-		die("Failed to run query: " . $ex->getMessage()); 
-		header("Location: account.php");
-	}
+	// catch(PDOException $ex) 
+	// { 
+	// 	die("Failed to run query: " . $ex->getMessage()); 
+	// 	header("Location: account.php");
+	// }
 ?>
