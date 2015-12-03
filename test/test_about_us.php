@@ -28,34 +28,15 @@ Head of Communications and Head of Security: Justin Lu-->
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<style>
-	.bg-bh{
-		background-color:#809C29;
-	}
-	.bg-ucc{
-		background-color:#5E7794;
-	}
-	.bg-web{
-		background-color:#C61B26;
-	}
-	.bg-plenary{
-		background-color:#DC8944;
-	}
-	.well{
-		color: black;
-	}
-	.col-md-4{
-		text-align: center;
-	}
 	.col-md-3{
 		text-align: center;
 	}
-	.collapse{
+	.collapse p{
 		text-align: justify;
 	}
 	</style>
 </head>
 
-<!-- FOR SOME REASON CONTAINERS SCREW UP THE CAROUSEL GOING FULLSCREEN -->
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
 	<div class = "container">
@@ -70,9 +51,9 @@ Head of Communications and Head of Security: Justin Lu-->
 		</br>
 
 		<div class = "row">
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
-				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
+				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png"></img>
 				</a>
 				<div class="collapse" id="collapseLogan">
 					<h2><b>Logan Ye</b></h2>
@@ -84,9 +65,9 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
-				<a href ="#collapseNaz" data-toggle="collapse"><img src = "img/bio/headshots/naz.png" style = "height:50%"></img>
+				<a href ="#collapseNaz" data-toggle="collapse"><img src = "img/bio/headshots/naz.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseNaz">
@@ -99,9 +80,9 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
-				<a href ="#collapseBlaise" data-toggle="collapse"><img src = "img/bio/headshots/blaise.png" style = "height:50%"></img>
+				<a href ="#collapseBlaise" data-toggle="collapse"><img src = "img/bio/headshots/blaise.png"></img>
 				</a>
 				<div class="collapse" id="collapseBlaise">
 					<h2><b>Blaise O'Malley</b></h2>
@@ -113,13 +94,28 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseNitish" data-toggle="collapse"><img src = "img/bio/headshots/nitish.png"></img>
+
+				</a>
+				<div class="collapse" id="collapseNitish">
+					<h2><b>Nitish Dhingra</b></h2>
+					<h3>Secretary/Treasurer</h3>
+					<p>
+					Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+					</br>
+					I am looking forward to seeing you this February at UCC! 
+					</p>
+				</div>
+			</div>
 
 		</div>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
 
-				<a href ="#collapseNikhil" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png" style = "height:50%"></img>
+				<a href ="#collapseNikhil" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 			
 				</a>
 				<div class="collapse" id="collapseNikhil">
@@ -134,7 +130,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseErnest" data-toggle="collapse"><img src = "img/bio/headshots/ernest.png" style = "height:50%"></img>
+				<a href ="#collapseErnest" data-toggle="collapse"><img src = "img/bio/headshots/ernest.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseErnest">
@@ -149,7 +145,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseEmmanuel" data-toggle="collapse"><img src = "img/bio/headshots/emmanuel.png" style = "height:50%"></img>
+				<a href ="#collapseEmmanuel" data-toggle="collapse"><img src = "img/bio/headshots/emmanuel.png"></img>
 				</a>
 				<div class="collapse" id="collapseEmmanuel">
 					<h2><b>Emmanuel Wong</b></h2>
@@ -163,7 +159,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseJustin" data-toggle="collapse"><img src = "img/bio/headshots/justin.png" style = "height:50%"></img>
+				<a href ="#collapseJustin" data-toggle="collapse"><img src = "img/bio/headshots/justin.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseJustin">
@@ -183,7 +179,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class = "row">
 			<div class = "col-md-3">
 
-				<a href ="#collapseJoseph" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png" style = "height:50%"></img>
+				<a href ="#collapseJoseph" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 			
 				</a>
 				<div class="collapse" id="collapseJoseph">
@@ -196,7 +192,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseMatt" data-toggle="collapse"><img src = "img/bio/headshots/matt.png" style = "height:50%"></img>
+				<a href ="#collapseMatt" data-toggle="collapse"><img src = "img/bio/headshots/matt.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseMatt">
@@ -211,7 +207,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseJack" data-toggle="collapse"><img src = "img/bio/headshots/jack.png" style = "height:50%"></img>
+				<a href ="#collapseJack" data-toggle="collapse"><img src = "img/bio/headshots/jack.png"></img>
 				</a>
 				<div class="collapse" id="collapseJack">
 					<h2><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></h2>
@@ -225,7 +221,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseNitish" data-toggle="collapse"><img src = "img/bio/headshots/nitish.png" style = "height:50%"></img>
+				<a href ="#collapseNitish" data-toggle="collapse"><img src = "img/bio/headshots/nitish.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseNitish">
