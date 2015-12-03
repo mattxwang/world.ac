@@ -37,8 +37,23 @@
 		}  
 
 		$row = $stmt->fetch();
+
+		//ALERTS
+		//Plenaries	
 		$plen_class = '"alert alert-dismissible alert-info"';
 		$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
+
+		//Email
+		$email_class ='"alert alert-dismissible alert-info"';
+		$email_text = "NaN";
+
+		//Reg
+		$reg_class ='"alert alert-dismissible alert-info"';
+		$reg_text = "NaN";
+
+		//Pay
+		$pay_class ='"alert alert-dismissible alert-info"';
+		$pay_text = "NaN";
 
 	?>
 	<title><?php echo $row["first_name"];?>'s Account - World Affairs Conference</title>
@@ -189,21 +204,18 @@
 						
 
 						<!-- NOTIFICATIONS -->
-<!-- 						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-						<div class=<?php echo $school_class;?> role="alert"><?php echo $school_text; ?>
+						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<div class=<?php echo $email_class;?> role="alert"><?php echo $email_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
-						<div class=<?php echo $payment_class;?> role="alert"><?php echo $payment_text; ?>
+						<div class=<?php echo $pay_class;?> role="alert"><?php echo $pay_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<div class=<?php echo $plen_class;?> role="alert"><?php echo $plen_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div> -->
+						</div>
 
 					</div>
 					<div id = "info">
