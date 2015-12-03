@@ -46,7 +46,12 @@ Head of Communications and Head of Security: Justin Lu-->
 	.well{
 		color: black;
 	}
-
+	.col-md-6{
+		text-align: center;
+	}
+	.col-md-4{
+		text-align: center;
+	}
 	</style>
 </head>
 
@@ -68,10 +73,6 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class = "col-md-4">
 
 				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
-				<!--
-				<h2><b>Logan Ye</b></h2>
-				<h3>Conference Chair</h3>
-				-->
 				</a>
 				<div class="collapse" id="collapseLogan">
 					<p>
@@ -86,10 +87,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class = "col-md-4">
 
 				<a href ="#collapseNaz" data-toggle="collapse"><img src = "img/bio/headshots/naz.png" style = "height:50%"></img>
-				<!--
-				<h2><b>Logan Ye</b></h2>
-				<h3>Conference Chair</h3>
-				-->
+
 				</a>
 				<div class="collapse" id="collapseNaz">
 					<p>
@@ -104,10 +102,6 @@ Head of Communications and Head of Security: Justin Lu-->
 			<div class = "col-md-4">
 
 				<a href ="#collapseBlaise" data-toggle="collapse"><img src = "img/bio/headshots/blaise.png" style = "height:50%"></img>
-				<!--
-				<h2><b>Logan Ye</b></h2>
-				<h3>Conference Chair</h3>
-				-->
 				</a>
 				<div class="collapse" id="collapseBlaise">
 					<p>
@@ -116,6 +110,68 @@ Head of Communications and Head of Security: Justin Lu-->
 					I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
 					</br>
 					Can't wait to see you there!
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class = "row">
+			<div class = "col-md-3">
+
+				<a href ="#collapseNikhil" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png" style = "height:50%"></img>
+			
+				</a>
+				<div class="collapse" id="collapseNikhil">
+					<p>
+					<h2><b>Nikhil Kassum</b></h2>
+					<h3>Head of Programs</h3>
+					My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions. 
+					</br>
+					I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it. 
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseErnest" data-toggle="collapse"><img src = "img/bio/headshots/ernest.png" style = "height:50%"></img>
+
+				</a>
+				<div class="collapse" id="collapseErnest">
+					<p>
+					<h2><b>Ernest Leung</b></h2>
+					<h3>Head of Operations</h3>
+					Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
+					</br>
+					I’m super excited for WAC this February! See you all there!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseEmmanuel" data-toggle="collapse"><img src = "img/bio/headshots/emmanuel.png" style = "height:50%"></img>
+				</a>
+				<div class="collapse" id="collapseEmmanuel">
+					<p>
+					<h2><b>Emmanuel Wong</b></h2>
+					<h3>Head of Registration</h3>
+					I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+					</br>
+					I'm looking forward to seeing you all there!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseJustin" data-toggle="collapse"><img src = "img/bio/headshots/justin.png" style = "height:50%"></img>
+
+				</a>
+				<div class="collapse" id="collapseJustin">
+					<p>
+					<h2><b>Justin Lu</b></h2>
+					<h3>Head of Security/Communications</h3>
+					Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
+					</br>
+					This year's conference will be fantastic. I hope you enjoy yourselves!
 					</p>
 				</div>
 			</div>
