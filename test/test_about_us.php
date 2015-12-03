@@ -74,7 +74,6 @@ Head of Communications and Head of Security: Justin Lu-->
 				-->
 				</a>
 				<div class="collapse" id="collapseLogan">
-					<div class="well">
 					<p>
 					<h2><b>Logan Ye</b></h2>
 					<h3>Conference Chair</h3>
@@ -82,7 +81,6 @@ Head of Communications and Head of Security: Justin Lu-->
 					</br>
 					See you at WAC!
 					</p>
-					</div>
 				</div>
 			</div>
 
