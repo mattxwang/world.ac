@@ -9,8 +9,8 @@
 ?> 
 
 <form action="change_password.php" method="post">
-	<input id="password" placeholder="current password">
-	<input id="password_new_1" placeholder="New password">
-	<input id="password_new_2" placeholder="confirm new password">
-	<button id="submitbutton" type="submit">Change</button>
+	<input id="password" name="password" placeholder="current password">
+	<input id="password_new_1" name="password_new_1" placeholder="New password">
+	<input id="password_new_2" name="password_new_2" placeholder="confirm new password">
+	<button id="submitbutton" name="submitbutton" type="submit">Change</button>
 </form>
