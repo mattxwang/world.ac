@@ -1,4 +1,11 @@
-<?php require("common.php"); ?> 
+<?php
+	require("common.php");
+	if(empty($_SESSION['user'])){ 
+		header("Location: login_page.php"); 
+		die("Redirecting to login_page.php"); 
+	}
+?> 
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,18 +20,9 @@
 			color:black;
 		}
 	</style>
-	<?php 
-	require("common.php"); 
-	 
-	if(empty($_SESSION['user'])) 
-	{ 
-		header("Location: login_page.php"); 
-		 
-		die("Redirecting to login_page.php"); 
-	}
-
+	<?php
 	// Pull user data
-	$query = "SELECT * FROM info WHERE email='" . $_SESSION['user']['email'] . "';";
+	$query = "SELECT * FROM info WHERE email='$_SESSION[user][email]';";
 	 
 	try 
 	{ 
