@@ -139,32 +139,6 @@
 							</div>
 						</div>
 
-						<!-- <div class="modal fade" id="editNotes" tabindex="-1" role="dialog">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-										<h4 class="modal-title" id="mainHeader">Edit Student Special Notes</h4>
-									</div>
-									<div class="modal-body">
-										<form class="form-signin" action="update_info.php" method="post">
-											<p>
-											These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
-											</br>
-											</br>
-											Leave blank if none needed.
-											</p>
-											<h4>Special Notes:</h4>
-											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div> -->
 						
 						<div class="modal fade" id="changePassword" tabindex="-1" role="dialog">
 							<div class="modal-dialog" role="document">
@@ -174,25 +148,25 @@
 										<h4 class="modal-title" id="myModalLabel">Change Password</h4>
 									</div>
 									<div class="modal-body">
-										<form class="form-signin" action="change_password.php" method="post">
+										<form action="change_password.php" method="post">
 											<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
 												<strong>Warning!</strong> Incorrect username/password combination. 
 											</div>
 											<h4>Old Password</h4>
 											<label for="inputPassword" class="sr-only">Old Password</label>
-											<input type="password" id="password" name="password" class="form-control" placeholder="Old Password" required="">
+											<input type="password" id="password" name="password" class="form-control" placeholder="Old Password" required="" autofocus="">
 											<h4>New Password</h4>
 											<label for="inputPassword" class="sr-only">New Password</label>
-											<input type="password" id="password" name="password" class="form-control" placeholder="New Password" required="" autofocus = "">
+											<input type="password_new_1" id="password_new_1" name="password_new_1" class="form-control" placeholder="New Password" required="">
 											<h4>Confirm New Password</h4>
 											<label for="inputPassword" class="sr-only">Confirm New Password</label>
-											<input type="password" id="password" name="password" class="form-control" placeholder="Confirm New Password" required="">
+											<input type="password_new_2" id="password_new_2" name="password_new_2" class="form-control" placeholder="Confirm New Password" required="">
 							
 								
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Save Changes</button>
+										<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Change Password</button>
 										</form>
 									</div>
 								</div>
