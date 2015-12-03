@@ -49,7 +49,7 @@ Head of Communications and Head of Security: Justin Lu-->
 	.col-md-3{
 		text-align: center;
 	}
-	p{
+	.collapse{
 		text-align: justify;
 	}
 	</style>
