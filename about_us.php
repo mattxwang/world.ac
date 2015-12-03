@@ -244,7 +244,9 @@ Head of Communications and Head of Security: Justin Lu-->
 			<h2>We'd Like to Thank:</h2>
 			<p>
 			<h3>The Media Team</h3>
-			Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam
+			Emmanuel Wong, Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam
+			</br>
+			As well as Derek Lam, and Nick Elder for creating the framework.
 			<h3>Website Consultants</h3>
 			Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 
