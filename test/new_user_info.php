@@ -4,15 +4,17 @@
 		$query = " 
 		INSERT INTO info (
 			email,
-			username,
+			first_name,
+			last_name,
 			plen_1, 
 			plen_2,
 			plen_3, 
 			school,
 			notes
 		) VALUES (
-			" . $_SESSION['user']['email'] . ",
-			" . $_SESSION['user']['username'] . ",
+			" . $_SESSION['user']['email'] . ","
+			. $_POST['first_name'] . ""
+			. $_POST['last_name'] . "
 			'none', 
 			'none', 
 			'none', "
