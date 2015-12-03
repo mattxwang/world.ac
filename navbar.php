@@ -16,7 +16,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration Information<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="construction.php">Registration Package</a></li>
+            <li><a href="misc_files/reg_2016.pdf">Registration Package</a></li>
             <li><a href="construction.php">How to Register</a></li>
           </ul>
         </li>
@@ -24,7 +24,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference Information <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="keynote.php">Keynote Address</a></li>
-            <li><a href="construction.php">Morning Panel</a></li>
+            <li><a href="opening.php">Opening Panel</a></li>
             <li><a href="plenaries.php">Plenaries</a></li>
             <li><a href="construction.php">Closing Panel</a></li>
             <li><a href="construction.php">Schedule</a></li>
