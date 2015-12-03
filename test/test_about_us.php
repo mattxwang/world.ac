@@ -42,7 +42,9 @@ Head of Communications and Head of Security: Justin Lu-->
 	}
 	p{
 		text-align: justify;
-		color:black;
+	}
+	.well{
+		color: black;
 	}
 
 	</style>
