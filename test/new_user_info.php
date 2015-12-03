@@ -2,6 +2,7 @@
 	if(empty($_POST['first_name']) ||empty($_POST['last_name'])||empty($_POST['school']))) { 
 		die("You missed a field"); 
 	}
+
 	$query = " 
 	INSERT INTO info (
 		email,
@@ -23,16 +24,18 @@
 		. $_POST['notes'] .
 	");";
 
-	try { 
-		$stmt = $db->prepare($query); 
-		$stmt->execute();
+	echo $query;
+
+	// try { 
+	// 	$stmt = $db->prepare($query); 
+	// 	$stmt->execute();
 	
-		header("Location: account.php"); 		 
-	}
+	// 	header("Location: account.php"); 		 
+	// }
 	
-	catch(PDOException $ex) 
-	{ 
-		die("Failed to run query: " . $ex->getMessage()); 
-		header("Location: account.php");
-	}
+	// catch(PDOException $ex) 
+	// { 
+	// 	die("Failed to run query: " . $ex->getMessage()); 
+	// 	header("Location: account.php");
+	// }
 ?>
