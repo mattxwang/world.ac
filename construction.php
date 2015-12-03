@@ -13,15 +13,11 @@ include_once("../includes/sql.php");
 	<meta name="description" content="World Affairs Conference">
 	<title>Page Under Construction - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
-	<link href="css/custom.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
-
-<!-- || Main Page Content || -->
 <body style="position:relative;">
 <?php include_once("navbar.php") ?>
 	<div class = "container">

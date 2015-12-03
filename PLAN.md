@@ -1,6 +1,7 @@
 
 <h1>Plan for Features in the Future</h1>
-Listed items are in relative order of importance. Bottom of the list are quick fixes.
+Listed items are in relative order of importance/urgency. That being said, there are some quick fixes that can be done at any time.
+
 <h2>Account System</h2>
 <h3><a href = "http://world.ac/test/account.php">account.php</a></h3> 
 
@@ -26,7 +27,7 @@ The element is too long, which double-stacks login/register on a screen res betw
 Delegates not registering from UCC will have 4 preferred plenaries, in order of preference. We need to assign all of these delegates their plenaries, "optimally". Remember that UCC students also need to be included; while the framework of this system needs to be developed, we won't be legitmately running it until step 2 is done.
 
 
-We had talked about using a "lotto" "first come first serve" system. Will be discussed later.
+We had talked about using a "lotto" "first come first serve" system. Basically, we'd give 1st plenary preferences on a first registration basis until those run out; then we'd move on to 2nd preference, 3rd preference, etc.
 
 <h4>Plenary Selection for UCC (2)</h4>
 UCC students, since they aren't completing the reg-form, need to have a method of selecting their plenaries. We'll email them a link to a part of the WAC website where they input their UCC email, and select their plenaries of their choosing. We have two ways of doing this; doing it on account.php, or on another part of the website. 
