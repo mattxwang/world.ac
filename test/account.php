@@ -40,14 +40,13 @@
 	$data = $stmt->fetchAll();
 	var_dump($data);
 
-	// // Check if data already exists
-	// if empty($data){
-	// 	$data[0]["firstname"] = "New";
-	// 	$data[0]["lastname"] = "New";
-	// 	$data[0]["school"] = "New";
-	// 	$data[0]["notes"] = "New";
-
-	// }
+	// Check if data already exists
+	if empty($data){
+		// $data[0]["firstname"] = "New";
+		// $data[0]["lastname"] = "New";
+		// $data[0]["school"] = "New";
+		// $data[0]["notes"] = "New";
+	}
 
 	// // Name[0] is first, 1 is lastname
 	// $name = $data[0]["firstname"];
