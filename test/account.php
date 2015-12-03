@@ -22,7 +22,8 @@
 	</style>
 	<?php
 	// Pull user data
-	$query = "SELECT * FROM info WHERE email='$_SESSION[user][email]';";
+	$email = $_SESSION['user']['email'];
+	$query = "SELECT * FROM info WHERE email='$email';";
 	 
 	try 
 	{ 
@@ -35,16 +36,15 @@
 		die("Failed to run query: " . $ex->getMessage()); 
 	}  
 
-	$data = $stmt->fetchAll();
-	var_dump($data);
+	$row = $stmt->fetch();
 
 	// Check if data already exists
-	if empty($data){
+	// if empty($data){
 		// $data[0]["firstname"] = "New";
 		// $data[0]["lastname"] = "New";
 		// $data[0]["school"] = "New";
 		// $data[0]["notes"] = "New";
-	}
+	// }
 
 	// // Name[0] is first, 1 is lastname
 	// $name = $data[0]["firstname"];
@@ -58,7 +58,7 @@
 	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
 
 ?>
-	<title><?php echo $name[0];?>'s Account - World Affairs Conference</title>
+	<title><?php echo $row['first_name'];?>'s Account - World Affairs Conference</title>
 </head>
 <?php include_once("navbar.php") ?>
 
