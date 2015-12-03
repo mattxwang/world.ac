@@ -32,7 +32,7 @@
 		$query_params = array( 
 			':password' => $password, 
 			':salt' => $salt, 
-			':email' => $_POST['email'] 
+			':email' => $_SESSION['user']['email'] 
 		); 
 		 
 		try { 
