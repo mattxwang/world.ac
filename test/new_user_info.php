@@ -9,6 +9,12 @@
 	// 	die("You missed a field"); 
 	// }
 
+	$email = $_SESSION['user']['email'];
+	$f_name = $_POST['first_name'];
+	$l_name = $_POST['last_name'];
+	$school = $_POST['school'];
+	$notes = $_POST['notes'];
+
 	$query = " 
 	INSERT INTO info (
 		email,
@@ -18,21 +24,21 @@
 		plen_2,
 		plen_3, 
 		school,
-		notes";
-	// ) VALUES (
-	// 	" . $_SESSION['user']['email'] . ","
-	// 	. $_POST['first_name'] . ""
-	// 	. $_POST['last_name'] . "
-	// 	'none', 
-	// 	'none', 
-	// 	'none', "
-	// 	. $_POST['school'] . ",",
-	// 	. $_POST['notes'] .
-	// ");";
+		notes
+	) VALUES (
+		'$email',
+		'$f_name',
+		'$l_name',
+		'none', 
+		'none', 
+		'none',
+		'$school',
+		'$notes'
+	);";
 
 	echo $query;
-	var_dump($_POST);
-	echo $_SESSION['user']['email'];
+	// var_dump($_POST);
+	// echo $_SESSION['user']['email'];
 
 	// try { 
 	// 	$stmt = $db->prepare($query); 
