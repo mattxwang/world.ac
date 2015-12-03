@@ -9,6 +9,7 @@
 	// 	die("You missed a field"); 
 	// }
 
+	cleanPost();
 	$email = $_SESSION['user']['email'];
 	$f_name = $_POST['first_name'];
 	$l_name = $_POST['last_name'];
