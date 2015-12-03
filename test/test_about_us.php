@@ -183,7 +183,9 @@ Head of Communications and Head of Security: Justin Lu-->
 					<h2><b>Joseph</b></h2>
 					<h3>Head of Keynote/Panels</h3>
 					<p>
-					To be confirmed.
+					Hey everyone! My name is Joe noss, I read the news avidly, and I am excited to talk about World Affairs! I will be leading the Morning team in creating the panel, "The Future of The Internet"! 
+					</br>
+					Don't Miss it!
 					</p>
 				</div>
 			</div>
