@@ -44,8 +44,9 @@ Head of Communications and Head of Security: Justin Lu-->
 			</br>
 			This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 			</p>
+			</br>
+			<h2>Click on a member's bio to learn more about them!</h2>
 		</div>
-		</br>
 
 		<div class = "row">
 			<div class = "col-md-3">
@@ -224,12 +225,10 @@ Head of Communications and Head of Security: Justin Lu-->
 
 				</a>
 				<div class="collapse" id="collapseJohn">
-					<h2><b>Nitish Dhingra</b></h2>
-					<h3>Secretary/Treasurer</h3>
+					<h2><b>John Mace</b></h2>
+					<h3>Assistant Web Design</h3>
 					<p>
-					Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
-					</br>
-					I am looking forward to seeing you this February at UCC! 
+					Coming soon!
 					</p>
 				</div>
 			</div>
