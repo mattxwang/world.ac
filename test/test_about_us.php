@@ -18,7 +18,7 @@ Head of Morning/Closing & Keynote: Joseph Noss
 Morning/Closing Team: William Lloyd, David Niddam-Dent
 Head of Communications and Head of Security: Justin Lu-->
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="World Affairs Conference">
 	<title>Meet the WAC Team - World Affairs Conference</title>
@@ -221,10 +221,10 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseNitish" data-toggle="collapse"><img src = "img/bio/headshots/nitish.png"></img>
+				<a href ="#collapseJohn" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 
 				</a>
-				<div class="collapse" id="collapseNitish">
+				<div class="collapse" id="collapseJohn">
 					<h2><b>Nitish Dhingra</b></h2>
 					<h3>Secretary/Treasurer</h3>
 					<p>
