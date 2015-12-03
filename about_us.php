@@ -428,10 +428,10 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseEmma" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseAnika" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 
 				</a>
-				<div class="collapse" id="collapseEmma">
+				<div class="collapse" id="collapseAnika">
 					<h2><b>Anika Khemani</b></h2>
 					<h3>Nuclear Proliferation Plenary Head</h3>
 					<p>
