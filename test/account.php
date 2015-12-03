@@ -226,7 +226,7 @@
 											School Name:
 										</div>
 										<div class = "col-md-6">
-											<?php echo $row['schools']; ?>
+											<?php echo $row['school']; ?>
 										</div>
 									</div>
 								</li>
