@@ -85,13 +85,13 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-4">
 
-				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
+				<a href ="#collapseNaz" data-toggle="collapse"><img src = "img/bio/headshots/naz.png" style = "height:50%"></img>
 				<!--
 				<h2><b>Logan Ye</b></h2>
 				<h3>Conference Chair</h3>
 				-->
 				</a>
-				<div class="collapse" id="collapseLogan">
+				<div class="collapse" id="collapseNaz">
 					<p>
 					<h2><b>Logan Ye</b></h2>
 					<h3>Conference Chair</h3>
@@ -103,13 +103,13 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-4">
 
-				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
+				<a href ="#collapseBlaise" data-toggle="collapse"><img src = "img/bio/headshots/blaise.png" style = "height:50%"></img>
 				<!--
 				<h2><b>Logan Ye</b></h2>
 				<h3>Conference Chair</h3>
 				-->
 				</a>
-				<div class="collapse" id="collapseLogan">
+				<div class="collapse" id="collapseBlaise">
 					<p>
 					<h2><b>Logan Ye</b></h2>
 					<h3>Conference Chair</h3>
