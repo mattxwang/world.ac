@@ -197,7 +197,7 @@ Head of Communications and Head of Security: Justin Lu-->
 				</a>
 				<div class="collapse" id="collapseAmirah">
 					<h2><b>Amirah Mahomed</b></h2>
-					<h3>Head of Keynote</h3>
+					<h3>Head of Programs/Keynote</h3>
 					<p>
 					My name’s Amirah Mahomed and I am the Branksome Hall Program Chair and Keynote Head for the World Affairs Conference this year.  I provide help for all plenaries and panels find speakers for the conference, while finding a speaker for Keynote. 
 					</br>
