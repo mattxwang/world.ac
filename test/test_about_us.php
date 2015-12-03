@@ -83,6 +83,42 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
+			<div class = "col-md-4">
+
+				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
+				<!--
+				<h2><b>Logan Ye</b></h2>
+				<h3>Conference Chair</h3>
+				-->
+				</a>
+				<div class="collapse" id="collapseLogan">
+					<p>
+					<h2><b>Logan Ye</b></h2>
+					<h3>Conference Chair</h3>
+					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
+					</br>
+					See you at WAC!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-4">
+
+				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
+				<!--
+				<h2><b>Logan Ye</b></h2>
+				<h3>Conference Chair</h3>
+				-->
+				</a>
+				<div class="collapse" id="collapseLogan">
+					<p>
+					<h2><b>Logan Ye</b></h2>
+					<h3>Conference Chair</h3>
+					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
+					</br>
+					See you at WAC!
+					</p>
+				</div>
+			</div>
 
 		</div>
 
