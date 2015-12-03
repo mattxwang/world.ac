@@ -37,11 +37,11 @@
 
 		echo "Salted password";
 		 
-		$query_params = array( 
-			':password' => $password, 
-			':salt' => $salt, 
-			':email' => $_SESSION['user']['email'] 
-		); 
+		// $query_params = array( 
+		// 	':password' => $password, 
+		// 	':salt' => $salt, 
+		// 	':email' => $_SESSION['user']['email'] 
+		// ); 
 
 		echo "Put it all toegether";
 
@@ -57,8 +57,8 @@
 		 
 		echo "Done";
 
-		header("Location: login_page.php"); 
+		// header("Location: login_page.php"); 
 		 
-		die("Redirecting to login_page.php"); 
+		// die("Redirecting to login_page.php"); 
 	}
 ?> 
