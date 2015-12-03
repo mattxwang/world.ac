@@ -2,8 +2,6 @@
 //Start the PHP session
 session_start();
 
-//Connect to SQL Database and include custom sqlQuerry function.
-include_once("../includes/sql.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +21,6 @@ Head of Communications and Head of Security: Justin Lu-->
 	<meta name="description" content="World Affairs Conference">
 	<title>Meet the WAC Team - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -244,12 +241,13 @@ Head of Communications and Head of Security: Justin Lu-->
 			Some other people also help make WAC awesome; while they aren't on the team this year, they definitely deserve some thanks.
 			<h2>We'd Like to Thank:</h2>
 			<p>
-			<h3>Last Year's Website Team</h3>
-			Nick Elder, Derek Lam, Kinton Cheung
 			<h3>The Media Team</h3>
-			Matthew Wang, Tyler Tam
+			Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam
 			<h3>Website Consultants</h3>
 			Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
+
+			<h3>Last Year's Website Team</h3>
+			Nick Elder, Derek Lam, Kinton Cheung
 
 			<h3>And to all of the other people who've made WAC awesome!</h3>
 			</p>

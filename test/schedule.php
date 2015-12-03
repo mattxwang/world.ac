@@ -1,8 +1,7 @@
 <?php
 //Start the PHP session
 session_start();
-//Connect to SQL Database and include custom sqlQuerry function.
-include_once("../includes/sql.php");
+ 
 ?>
 <!DOCTYPE html>
 <html>
