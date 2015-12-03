@@ -240,7 +240,7 @@ Head of Communications and Head of Security: Justin Lu-->
 
 		<div style="padding:35px;text-align:center;">
 			
-			Some other people also help make WAC awesome; while they aren't on the team this year, they definitely deserve some thanks.
+			That being said, WAC isn't just executives. We also have tireless teams working towards making WAC amazing.
 			<h2>We'd Like to Thank:</h2>
 			<p>
 			<h3>The Media Team</h3>
