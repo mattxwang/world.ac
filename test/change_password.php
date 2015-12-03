@@ -31,19 +31,17 @@
 			'$salt'
 		);";
 
-		echo $query;
-
-		// try { 
-		// 	$stmt = $db->prepare($query); 
-		// 	$result = $stmt->execute($query_params);
-		// } 
-		// catch(PDOException $ex) { 
-		// 	die("Failed to run query: " . $ex->getMessage()); 
-		// } 
+		try { 
+			$stmt = $db->prepare($query); 
+			$result = $stmt->execute($query_params);
+		} 
+		catch(PDOException $ex) { 
+			die("Failed to run query: " . $ex->getMessage()); 
+		} 
 		 
-		// header("Location: login_page.php"); 
+		header("Location: login_page.php"); 
 		 
-		// die("Redirecting to login_page.php"); 
+		die("Redirecting to login_page.php"); 
 	}
 
 	else {
