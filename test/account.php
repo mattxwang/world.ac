@@ -78,9 +78,9 @@
 											These changes will be reflected on your nametag, and other delegate-specific information. 
 											</p>
 											<h4>Delegate First Name</h4>
-											<input type="text" id="firstname" name="firstname" class="form-control" placeholder="DELEGATE F NAME" required="">
+											<input type="text" id="firstname" name="firstname" class="form-control" required="" value="<?php echo $row['first_name']; ?>">
 											<h4>Delegate Last Name</h4>
-											<input type="text" id="lastname" name="lastname" class="form-control" placeholder="DELEGATE L NAME" required="">
+											<input type="text" id="lastname" name="lastname" class="form-control" value="<?php echo $row['last_name']; ?>" required="">
 											<h4>Delegate School</h4>
 											<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
 												<option value="UCC">UCC</option>
@@ -96,7 +96,7 @@
 											</br>
 											Leave blank if none needed.
 											</p>
-											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
+											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" value="<?php echo $row['notes']; ?>"></textarea>
 
 											<!--
 											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
@@ -216,7 +216,7 @@
 											Delegate Name:
 										</div>
 										<div class = "col-md-6">
-											<?php echo $row['first_name']; echo " "; echo $row['last_name']; ?>
+											<?php echo $row['first_name'] . " " . $row['last_name']; ?>
 										</div>
 									</div>
 								</li>
