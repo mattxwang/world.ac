@@ -1,9 +1,11 @@
 <h1>To-Do List</h1>
 This is the priority of what needs to be done. Deadline for this list is Monday December 7th.
+<h2>Cleaning up and migration</h2>
+The current codebase in test is horrible. No orginization whatsoever, minimal (and sometime wrong) comments, and multiple orphaned files. Please clean it up.
 <h2>Account System</h2>
 <h3><a href = "http://world.ac/test/account.php">account.php</a></h3> 
 <h4>User Information (1)</h4>
-Allow the user to view and edit their own info. This includes Basic information (School, Name), Special Notes, and eventually their password.
+Password Change capability
 </br>
 Make sure to tie this with the modal system. Most of, if not all of, the modals I've implemented don't send their inputs to the right place. Keep that in mind.
 <h4>Notification System (2)</h4>
