@@ -18,7 +18,7 @@
 		plen_2,
 		plen_3, 
 		school,
-		notes"
+		notes";
 	// ) VALUES (
 	// 	" . $_SESSION['user']['email'] . ","
 	// 	. $_POST['first_name'] . ""
