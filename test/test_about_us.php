@@ -40,18 +40,11 @@ Head of Communications and Head of Security: Justin Lu-->
 	.bg-plenary{
 		background-color:#DC8944;
 	}
-	.col-md-6{
-		padding:0px;
-	}
-	.blurb p{
-		max-height:64px;
-	}
-	.half_image{
-		height:128px;
-	}
 	p{
 		text-align: justify;
+		color:black;
 	}
+
 	</style>
 </head>
 
@@ -72,14 +65,17 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class = "row">
 			<div class = "col-md-4">
 
-				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png"></img>
-
+				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png" style = "height:50%"></img>
+				<!--
 				<h2><b>Logan Ye</b></h2>
 				<h3>Conference Chair</h3>
+				-->
 				</a>
 				<div class="collapse" id="collapseLogan">
 					<div class="well">
 					<p>
+					<h2><b>Logan Ye</b></h2>
+					<h3>Conference Chair</h3>
 					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
 					</br>
 					See you at WAC!
