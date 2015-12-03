@@ -346,9 +346,6 @@ Head of Communications and Head of Security: Justin Lu-->
 					<h2><b>Katya Pollock</b></h2>
 					<h3>Drone Plenary Head</h3>
 					<p>
-					Hello! My name is Kathy, and I’m so excited to be Head of Closing. My role is to contact speakers for the closing panel. 
-					</br>
-					See you at WAC 2016! 
 					</p>
 				</div>
 			</div>
