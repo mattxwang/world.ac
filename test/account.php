@@ -101,7 +101,7 @@
 											<!--
 											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
 											-->
-											<h4>Password</h4>
+											<h4>Password (to confirm change)</h4>
 											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 											
 
