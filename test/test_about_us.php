@@ -93,11 +93,11 @@ Head of Communications and Head of Security: Justin Lu-->
 				</a>
 				<div class="collapse" id="collapseNaz">
 					<p>
-					<h2><b>Logan Ye</b></h2>
+					<h2><b>Naz Gocek</b></h2>
 					<h3>Conference Chair</h3>
-					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
+					I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
 					</br>
-					See you at WAC!
+					Hope to see you at WAC!
 					</p>
 				</div>
 			</div>
@@ -111,11 +111,11 @@ Head of Communications and Head of Security: Justin Lu-->
 				</a>
 				<div class="collapse" id="collapseBlaise">
 					<p>
-					<h2><b>Logan Ye</b></h2>
+					<h2><b>Blaise O'Malley</b></h2>
 					<h3>Conference Chair</h3>
-					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
+					I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
 					</br>
-					See you at WAC!
+					Can't wait to see you there!
 					</p>
 				</div>
 			</div>
