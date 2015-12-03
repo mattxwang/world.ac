@@ -179,7 +179,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		<div class = "row">
 			<div class = "col-md-3">
 
-				<a href ="#collapseJoseph" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseJoseph" data-toggle="collapse"><img src = "img/bio/headshots/joe.png"></img>
 			
 				</a>
 				<div class="collapse" id="collapseJoseph">
