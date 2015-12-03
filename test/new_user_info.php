@@ -9,7 +9,8 @@
 	// 	die("You missed a field"); 
 	// }
 
-	cleanPost();
+	$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
+
 	$email = $_SESSION['user']['email'];
 	$f_name = $_POST['first_name'];
 	$l_name = $_POST['last_name'];
