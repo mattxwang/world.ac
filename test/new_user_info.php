@@ -1,6 +1,8 @@
 <?php 
 	require("common.php"); 
-
+		if(empty($_POST['first_name']) ||empty($_POST['last_name'])||empty($_POST['school'])||empty($_POST['notes'])) { 
+			die("You missed a field"); 
+		} 
 		$query = " 
 		INSERT INTO info (
 			email,
