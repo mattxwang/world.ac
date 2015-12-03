@@ -248,7 +248,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					<h2><b>David Niddam-Dent</b></h2>		
 					<h3>Morning/Closing Panels</h3>	
 					<p>
-					Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a nigh note.		
+					Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a high note.		
 					</br>		
 					Can't wait to see everyone in February! 		
 					</p>
