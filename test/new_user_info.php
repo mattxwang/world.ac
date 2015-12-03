@@ -18,17 +18,17 @@
 		plen_2,
 		plen_3, 
 		school,
-		notes
-	) VALUES (
-		" . $_SESSION['user']['email'] . ","
-		. $_POST['first_name'] . ""
-		. $_POST['last_name'] . "
-		'none', 
-		'none', 
-		'none', "
-		. $_POST['school'] . ",",
-		. $_POST['notes'] .
-	");";
+		notes"
+	// ) VALUES (
+	// 	" . $_SESSION['user']['email'] . ","
+	// 	. $_POST['first_name'] . ""
+	// 	. $_POST['last_name'] . "
+	// 	'none', 
+	// 	'none', 
+	// 	'none', "
+	// 	. $_POST['school'] . ",",
+	// 	. $_POST['notes'] .
+	// ");";
 
 	echo $query;
 
