@@ -28,24 +28,6 @@ Head of Communications and Head of Security: Justin Lu-->
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<style>
-	.bg-bh{
-		background-color:#809C29;
-	}
-	.bg-ucc{
-		background-color:#5E7794;
-	}
-	.bg-web{
-		background-color:#C61B26;
-	}
-	.bg-plenary{
-		background-color:#DC8944;
-	}
-	.well{
-		color: black;
-	}
-	.col-md-4{
-		text-align: center;
-	}
 	.col-md-3{
 		text-align: center;
 	}
@@ -69,7 +51,7 @@ Head of Communications and Head of Security: Justin Lu-->
 		</br>
 
 		<div class = "row">
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
 				<a href ="#collapseLogan" data-toggle="collapse"><img src = "img/bio/headshots/logan.png"></img>
 				</a>
@@ -83,7 +65,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
 				<a href ="#collapseNaz" data-toggle="collapse"><img src = "img/bio/headshots/naz.png"></img>
 
@@ -98,7 +80,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
 				<a href ="#collapseBlaise" data-toggle="collapse"><img src = "img/bio/headshots/blaise.png"></img>
 				</a>
@@ -112,7 +94,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
-			<div class = "col-md-4">
+			<div class = "col-md-3">
 
 				<a href ="#collapseNitish" data-toggle="collapse"><img src = "img/bio/headshots/nitish.png"></img>
 
