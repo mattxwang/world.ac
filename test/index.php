@@ -5,8 +5,6 @@ session_start();
 //Calls to base hit counter
 include_once("hitcounter.php");
 
-//Connect to SQL Database and include custom sqlQuerry function.
-include_once("../includes/sql.php");
 ?>
 
 <!DOCTYPE html>
