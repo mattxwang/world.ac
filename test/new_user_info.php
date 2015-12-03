@@ -24,7 +24,7 @@
 	// 	. $_POST['notes'] .
 	// ");";
 
-	echo $_SESSION['user'];
+	var_dump($_SESSION['user']);
 
 	// try { 
 	// 	$stmt = $db->prepare($query); 
