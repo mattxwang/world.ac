@@ -20,6 +20,7 @@ Plenary Selection is a Boolean that Matt will edit later. Starts off as False.
 </p>
 
 <h2>About Us Page</h2>
+PUT THIS ON HOLD FOR NOW MATT WILL WORK ON IT
 <h3><a href = "http://world.ac/test/about_us.php">about_us.php</a></h3> 
 <h4>Fix carousels</h4>
 Stop the changing of the text size impacting the colour backgrounding. Stay on the page for a minute to understand what I mean.
