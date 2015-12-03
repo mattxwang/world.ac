@@ -34,7 +34,7 @@ session_start();
 	<input type="text" id="last_name" class="form-control" placeholder="Last Name" name="last_name" required=""> 
 
 	<h3>Delegate School</h3>
-	<h5>This is how your school will appear on the delegate nametag.</h5>]
+	<h5>This is how your school will appear on the delegate nametag.</h5>
 	<p>If your school is not in this dropdown menu, your school's registration form was submitted incorrectly. Please <a href="contact_us.php">contact us</a> for further information.
 	</p>
 	<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
