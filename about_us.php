@@ -336,6 +336,9 @@ session_start();
 					<h2><b>Katya Pollock</b></h2>
 					<h3>Drone Plenary Head</h3>
 					<p>
+					I’m Katya and I’m one of the plenary heads from Branksome Hall. I’m leading the drones plenary with my partner Emerson.
+					</br>
+					See you at WAC!
 					</p>
 				</div>
 			</div>
