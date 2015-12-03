@@ -115,6 +115,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 
 		</div>
+		</br>
 		<div class = "row">
 			<div class = "col-md-3">
 
@@ -172,6 +173,68 @@ Head of Communications and Head of Security: Justin Lu-->
 					Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
 					</br>
 					This year's conference will be fantastic. I hope you enjoy yourselves!
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		</br>
+		<div class = "row">
+			<div class = "col-md-3">
+
+				<a href ="#collapseJoseph" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png" style = "height:50%"></img>
+			
+				</a>
+				<div class="collapse" id="collapseJoseph">
+					<p>
+					<h2><b>Joseph</b></h2>
+					<h3>Head of Keynote/Panels</h3>
+					To be confirmed.
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseMatt" data-toggle="collapse"><img src = "img/bio/headshots/matt.png" style = "height:50%"></img>
+
+				</a>
+				<div class="collapse" id="collapseMatt">
+					<p>
+					<h2><b>Matthew Wang</b></h2>
+					<h3>Web Design/Media</h3>
+					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+					</br>
+					I’m excited to make WAC as awesome as it was last year. See you there!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseJack" data-toggle="collapse"><img src = "img/bio/headshots/jack.png" style = "height:50%"></img>
+				</a>
+				<div class="collapse" id="collapseJack">
+					<p>
+					<h2><b><a href = "http://jack.antinode.ca">Jack Sarick</a></b></h2>
+					<h3>Web Design</h3>
+					I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
+					</br>
+					I’m happy to be part of the team. See you there!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseNitish" data-toggle="collapse"><img src = "img/bio/headshots/nitish.png" style = "height:50%"></img>
+
+				</a>
+				<div class="collapse" id="collapseNitish">
+					<p>
+					<h2><b>Nitish Dhingra</b></h2>
+					<h3>Secretary/Treasurer</h3>
+					Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+					</br>
+					I am looking forward to seeing you this February at UCC! 
 					</p>
 				</div>
 			</div>
