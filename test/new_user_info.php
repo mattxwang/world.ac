@@ -36,20 +36,16 @@
 		'$notes'
 	);";
 
-	echo $query;
-	// var_dump($_POST);
-	// echo $_SESSION['user']['email'];
-
-	// try { 
-	// 	$stmt = $db->prepare($query); 
-	// 	$stmt->execute();
+	try { 
+		$stmt = $db->prepare($query); 
+		$stmt->execute();
 	
-	// 	header("Location: account.php"); 		 
-	// }
+		header("Location: account.php"); 		 
+	}
 	
-	// catch(PDOException $ex) 
-	// { 
-	// 	die("Failed to run query: " . $ex->getMessage()); 
-	// 	header("Location: account.php");
-	// }
+	catch(PDOException $ex) 
+	{ 
+		die("Failed to run query: " . $ex->getMessage()); 
+		header("Location: account.php");
+	}
 ?>
