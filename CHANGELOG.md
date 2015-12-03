@@ -9,7 +9,7 @@ Change Plenary page styling to tab-system
 
 Reworks Keynote page to mobile-compat
 
-Reworks Meet the WAC Team website to be more friendly for more slides
+Reworks about_us.php completely to make it more user-friendly and snappy
 
 Removes unused CSS
 
