@@ -180,10 +180,10 @@ Head of Communications and Head of Security: Justin Lu-->
 			
 				</a>
 				<div class="collapse" id="collapseJoseph">
-					<h2><b>Joseph</b></h2>
+					<h2><b>Joseph Noss</b></h2>
 					<h3>Head of Keynote/Panels</h3>
 					<p>
-					Hey everyone! My name is Joe noss, I read the news avidly, and I am excited to talk about World Affairs! I will be leading the Morning team in creating the panel, "The Future of The Internet"! 
+					Hey everyone! My name is Joe Noss; I read the news avidly, and I am excited to talk about World Affairs! I will be leading the Morning team in creating the panel, "The Future of The Internet"! 
 					</br>
 					Don't Miss it!
 					</p>
