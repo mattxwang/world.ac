@@ -11,7 +11,7 @@ session_start();
 	<title>World Affairs Conference - Schedule</title>
 	<link rel="stylesheet" href="css/base.css" />
 	<link rel="icon" href="css/favicon.ico" />
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
 	<script type="text/javascript">
 	window.onload=function() {
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {

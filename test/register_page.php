@@ -8,7 +8,7 @@
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
 </head>
 <?php include_once("navbar.php") ?>
 
@@ -62,7 +62,7 @@
 			<!-- Bootstrap core JavaScript
 			================================================== -->
 			<!-- Placed at the end of the document so the pages load faster -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="js/jquery.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
 		</div>
 </body>
