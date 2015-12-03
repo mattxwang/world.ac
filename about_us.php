@@ -331,7 +331,7 @@ Head of Communications and Head of Security: Justin Lu-->
 				<a href ="#collapsesomething" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 				</a>
 				<div class="collapse" id="collapsesomething">
-					<h2><b>Coming Soon!</b></h2>
+					<h2><b>Emerson Braithwaite</b></h2>
 					<h3>Drone Plenary Head</h3>
 					<p>
 					Coming Soon!
@@ -444,7 +444,7 @@ Head of Communications and Head of Security: Justin Lu-->
 				<a href ="#collapsequestionion" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 				</a>
 				<div class="collapse" id="collapsequestionion">
-					<h2><b>Coming Soon!</b></h2>
+					<h2><b>Komahan Paramaanantham</b></h2>
 					<h3>Refugee Crisis Plenary Head</h3>
 					<p>
 					Coming Soon!
