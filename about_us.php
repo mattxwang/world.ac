@@ -192,6 +192,21 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
+				<a href ="#collapseAmirah" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+
+				</a>
+				<div class="collapse" id="collapseAmirah">
+					<h2><b>Amirah Mahomed</b></h2>
+					<h3>Head of Keynote</h3>
+					<p>
+					My name’s Amirah Mahomed and I am the Branksome Hall Program Chair and Keynote Head for the World Affairs Conference this year.  I provide help for all plenaries and panels find speakers for the conference, while finding a speaker for Keynote. 
+					</br>
+					I am very excited for my last year at WAC!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
 				<a href ="#collapseMatt" data-toggle="collapse"><img src = "img/bio/headshots/matt.png"></img>
 
 				</a>
@@ -219,22 +234,126 @@ Head of Communications and Head of Security: Justin Lu-->
 					</p>
 				</div>
 			</div>
+
+		</div>
+
+		</br>
+		<div class = "row">
 			<div class = "col-md-3">
 
-				<a href ="#collapseJohn" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseDavid" data-toggle="collapse"><img src = "img/bio/headshots/david.png"></img>
+			
+				</a>
+				<div class="collapse" id="collapseDavid">
+					<h2><b>David Niddam-Dent</b></h2>		
+					<h3>Morning/Closing Panels</h3>	
+					<p>
+					Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a nigh note.		
+					</br>		
+					Can't wait to see everyone in February! 		
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseWill" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 
 				</a>
-				<div class="collapse" id="collapseJohn">
-					<h2><b>John Mace</b></h2>
-					<h3>Assistant Web Design</h3>
+				<div class="collapse" id="collapseWill">
+					<h2><b>Will Lloyd</b></h2>
+					<h3>Opening/Closing</h3>
 					<p>
-					Coming soon!
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseAlexPR" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapseAlexPR">
+					<h2><b>Alex Phillip-Reeves</b></h2>
+					<h3>Opening Panel</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseKathy" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapseKathy">
+					<h2><b>Kathy Liu</b></h2>
+					<h3>Closing Panel</h3>
+					<p>
+					Hello! My name is Kathy, and I’m so excited to be Head of Closing. My role is to contact speakers for the closing panel. 
+					</br>
+					See you at WAC 2016! 
 					</p>
 				</div>
 			</div>
 
 		</div>
 
+		</br>
+		<div class = "row">
+			<div class = "col-md-3">
+
+				<a href ="#collapseSimon" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+			
+				</a>
+				<div class="collapse" id="collapseSimon">
+					<h2><b>Simon Osak</b></h2>		
+					<h3>China Plenary Head</h3>	
+					<p>
+					Hi there! My name is Simon Osak and I am this year's UCC China plenary head for the World Affairs Conference.  My role in WAC is to work alongside my Branksome Hall plenary head counterpart to find two speakers to speak about China's economy and why we, being North Americans, should care about it.  
+					</br>
+					I am excited to be a part of WAC and I hope to see you at UCC for this amazing conference this February.		
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseKitty" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+
+				</a>
+				<div class="collapse" id="collapseKitty">
+					<h2><b>Kitty Qu</b></h2>
+					<h3>China Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapsesomething" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapsesomething">
+					<h2><b>Coming Soon!</b></h2>
+					<h3>Drone Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseKatya" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapseKatya">
+					<h2><b>Katya Pollock</b></h2>
+					<h3>Drone Plenary Head</h3>
+					<p>
+					Hello! My name is Kathy, and I’m so excited to be Head of Closing. My role is to contact speakers for the closing panel. 
+					</br>
+					See you at WAC 2016! 
+					</p>
+				</div>
+			</div>
+
+		</div>
 
 
 		<div style="padding:35px;text-align:center;">
