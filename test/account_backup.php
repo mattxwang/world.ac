@@ -1,4 +1,11 @@
-<?php require("register.php"); ?> 
+<?php
+	require("common.php");
+	if(empty($_SESSION['user'])){ 
+		header("Location: login_page.php"); 
+		die("Redirecting to login_page.php"); 
+	}
+?> 
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,55 +20,28 @@
 			color:black;
 		}
 	</style>
-	<?php 
-	require("common.php"); 
-	 
-	if(empty($_SESSION['user'])) 
-	{ 
-		header("Location: login_page.php"); 
+	<?php
+		// Pull user data
+		$email = $_SESSION['user']['email'];
+		$query = "SELECT * FROM info WHERE email='$email';";
 		 
-		die("Redirecting to login_page.php"); 
-	}
+		try 
+		{ 
+			$stmt = $db->prepare($query); 
+			$stmt->execute();
+		} 
 
-	// Pull user data
-	$query = "SELECT * FROM info WHERE email = '" . $_SESSION['user']['email'] . "';";
-	 
-	try 
-	{ 
-		$stmt = $db->prepare($query); 
-		$stmt->execute();
-	} 
+		catch(PDOException $ex) 
+		{ 
+			die("Failed to run query: " . $ex->getMessage()); 
+		}  
 
-	catch(PDOException $ex) 
-	{ 
-		die("Failed to run query: " . $ex->getMessage()); 
-	}  
+		$row = $stmt->fetch();
+		$plen_class = '"alert alert-dismissible alert-info"';
+		$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
 
-	$data = $stmt->fetchAll();
-	var_dump($data);
-
-	Check if data already exists
-	if empty($data){
-		$data[0]["firstname"] = "New";
-		$data[0]["lastname"] = "New";
-		$data[0]["school"] = "New";
-		$data[0]["notes"] = "New";
-
-	}
-
-	// Name[0] is first, 1 is lastname
-	$name = $data[0]["firstname"];
-	$school = $data[0]["school"];
-	$notes = $data[0]["notes"];
-	/*$notif = 0;
-	if $school == NULL{
-		$notif += 1;
-	}*/
-	$plen_class = '"alert alert-dismissible alert-info"';
-	$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
-
-?>
-	<title><?php echo $name[0];?>'s Account - World Affairs Conference</title>
+	?>
+	<title><?php echo $row["first_name"];?>'s Account - World Affairs Conference</title>
 </head>
 <?php include_once("navbar.php") ?>
 
@@ -209,7 +189,7 @@
 						
 
 						<!-- NOTIFICATIONS -->
-						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
+<!-- 						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<div class=<?php echo $school_class;?> role="alert"><?php echo $school_text; ?>
@@ -223,7 +203,7 @@
 						</div>
 						<div class=<?php echo $plen_class;?> role="alert"><?php echo $plen_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
+						</div> -->
 
 					</div>
 					<div id = "info">
@@ -236,7 +216,7 @@
 											Delegate Name:
 										</div>
 										<div class = "col-md-6">
-											<?php echo $name[0]; echo " "; echo $name[1]; ?>
+											<?php echo $row['first_name']; echo " "; echo $row['last_name']; ?>
 										</div>
 									</div>
 								</li>
@@ -246,7 +226,7 @@
 											School Name:
 										</div>
 										<div class = "col-md-6">
-											<?php echo $school; ?>
+											<?php echo $row['schools']; ?>
 										</div>
 									</div>
 								</li>
@@ -256,7 +236,7 @@
 											Special Notes: These are typically for food allergies, or other health concerns.
 										</div>
 										<div class = "col-md-6">
-											<?php echo $notes; ?>
+											<?php echo $row['notes']; ?>
 										</div>
 									</div>
 								</li>
