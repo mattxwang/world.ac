@@ -49,13 +49,12 @@ Head of Communications and Head of Security: Justin Lu-->
 	.col-md-3{
 		text-align: center;
 	}
-	.collapse{
+	.collapse p{
 		text-align: justify;
 	}
 	</style>
 </head>
 
-<!-- FOR SOME REASON CONTAINERS SCREW UP THE CAROUSEL GOING FULLSCREEN -->
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
 	<div class = "container">
