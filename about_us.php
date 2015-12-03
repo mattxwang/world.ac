@@ -5,16 +5,6 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
-<!-- Conference Chair: Logan Ye
-Secretary/Treasurer: Nitish Dhingra
-Head of Programs: Nikhil Kassum
-Head of Operations/Facilities: Ernest Leung (with Nikhil Kassum assisting)
-Registration/Media Head: Emmanuel Wong
-Registration/Media Team: Philip Nicoletti, Karman Cheema, Rob Dean, Scotty Andrade
-Plenary Heads: Matthew Jagdeo, Simon Osak, Emerson Braithwaite, Alex Quinn, Komahan Paramaanantam, Miles Hoaken
-Head of Morning/Closing & Keynote: Joseph Noss
-Morning/Closing Team: William Lloyd, David Niddam-Dent
-Head of Communications and Head of Security: Justin Lu-->
 <head>
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
