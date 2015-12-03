@@ -192,7 +192,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseAmirah" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseAmirah" data-toggle="collapse"><img src = "img/bio/headshots/amirah.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseAmirah">
@@ -281,7 +281,7 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseKathyL" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseKathyL" data-toggle="collapse"><img src = "img/bio/headshots/kathyl.png"></img>
 				</a>
 				<div class="collapse" id="collapseKathyL">
 					<h2><b>Kathy Liu</b></h2>
