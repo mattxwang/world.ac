@@ -12,8 +12,27 @@
 			die("New Password Mismatch"); 
 		}
 		
+		// Make sure the original password is right		
+		$query = " 
+			SELECT * 
+			FROM users 
+			WHERE 
+				email = :email"; 
+		 
+		$query_params = array( 
+			':email' => $_POST['email'] 
+		); 
+		 
+		try 
+		{ 
+			$stmt = $db->prepare($query); 
+			$result = $stmt->execute($query_params); 
+		} 
+		catch(PDOException $ex) 
+		{ 
+			die("Failed to run query: " . $ex->getMessage()); 
+		} 
 
-		// Make sure the original password is right
 		$login_ok = false; 
 		 
 		$row = $stmt->fetch(); 
