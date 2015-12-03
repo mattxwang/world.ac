@@ -12,7 +12,7 @@
 		 
 		$salt = dechex(mt_rand(0, 2147483647)) . dechex(mt_rand(0, 2147483647)); 
 		 
-		$password = hash('sha256', $_POST['password'] . $salt); 
+		$password = hash('sha256', $_POST['password_new_1'] . $salt); 
 		 
 		for($round = 0; $round < 65536; $round++) { 
 			$password = hash('sha256', $password . $salt); 
