@@ -21,40 +21,34 @@ include_once("../includes/sql.php");
 
 <?php include_once("navbar.php") ?>
 
-<div class = "container-fluid">
+<div class = "container">
 	
 			
 <form class="form-signin" action="new_user_info.php" method="post">
-	<div class = "row">
-		<div class = "col-md-6">
-			<input type="text" id="first_name" class="form-control" placeholder="First Name" name="first_name" required="" autofocus="">
-		</div>
-		<div class = "col-md-6">
-			<input type="text" id="last_name" class="form-control" placeholder="Last Name" name="last_name" required="" autofocus="">
-		</div>
-	</div> 
-	<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
-		<option value="UCC">UCC</option>
-		<option value="BSS">BSS</option>
-		<option value="BH">BH</option>
-		<option value="UTS">UTS</option>
-		<option value="TFS">TFS</option>
-	</select>
 
-	<h4>Special Notes:</h4>
-	<p>
-	These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
-	</br>
-	</br>
-	Leave blank if none needed.
-	</p>
-	<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
-	<div class = "row">
-		<div class = "col-md-12">
-			<button class="btn btn-lg btn-primary" type="submit" value="Login">Register</button>
-		</div>
-	</div>
-	</br>
+<input type="text" id="first_name" class="form-control" placeholder="First Name" name="first_name" required="" autofocus="">
+
+<input type="text" id="last_name" class="form-control" placeholder="Last Name" name="last_name" required="" autofocus=""> 
+<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
+<option value="UCC">UCC</option>
+<option value="BSS">BSS</option>
+<option value="BH">BH</option>
+<option value="UTS">UTS</option>
+<option value="TFS">TFS</option>
+</select>
+
+<h4>Special Notes:</h4>
+<p>
+These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
+</br>
+</br>
+Leave blank if none needed.
+</p>
+<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
+
+<button class="btn btn-lg btn-primary" type="submit" value="Login">Register</button>
+
+</br>
 </form>
 
 <?php
@@ -66,9 +60,3 @@ include_once("footer.php")
 </div>
 </body>
 </html>
-
-
-Welcome
-<form "new_user_info.php"></form>
-F name: <textarea></textarea>
-L name: <textarea></textarea>
