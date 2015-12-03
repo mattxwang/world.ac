@@ -31,6 +31,8 @@
 	// ");";
 
 	echo $query;
+	var_dump($_POST);
+	echo $_SESSION['user']['email'];
 
 	// try { 
 	// 	$stmt = $db->prepare($query); 
