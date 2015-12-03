@@ -281,9 +281,9 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseKathy" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseKathyL" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 				</a>
-				<div class="collapse" id="collapseKathy">
+				<div class="collapse" id="collapseKathyL">
 					<h2><b>Kathy Liu</b></h2>
 					<h3>Closing Panel</h3>
 					<p>
@@ -351,6 +351,121 @@ Head of Communications and Head of Security: Justin Lu-->
 			</div>
 
 		</div>
+
+		</br>
+		<div class = "row">
+			<div class = "col-md-3">
+
+				<a href ="#collapseAlexQ" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+			
+				</a>
+				<div class="collapse" id="collapseAlexQ">
+					<h2><b>Alexander Quinn</b></h2>		
+					<h3>Environment Plenary Head</h3>	
+					<p>
+					My name is Alexander Quinn and I am the plenary co-head on corporate responsibility. My co-head Emma Lozhkin and I are in charge of coming up with our plenary's content and researching and contacting speakers. 
+					</br>
+					I hope to see you there.	
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseEmma" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+
+				</a>
+				<div class="collapse" id="collapseEmma">
+					<h2><b>Emma Lozhkin</b></h2>
+					<h3>Environment Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseMiles" data-toggle="collapse"><img src = "img/bio/headshots/miles.png"></img>
+				</a>
+				<div class="collapse" id="collapseMiles">
+					<h2><b>Miles Hoaken</b></h2>
+					<h3>Gender Issues Plenary Head</h3>
+					<p>
+					My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
+					</br>
+					See you at WAC!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseKathyK" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapseKathyK">
+					<h2><b>Kathy Kim</b></h2>
+					<h3>Gender Issues Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		</br>
+		<div class = "row">
+			<div class = "col-md-3">
+
+				<a href ="#collapseMattJ" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+			
+				</a>
+				<div class="collapse" id="collapseMattJ">
+					<h2><b>Matthew Jagdeo</b></h2>		
+					<h3>Nuclear Proliferation Plenary Head</h3>	
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseEmma" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+
+				</a>
+				<div class="collapse" id="collapseEmma">
+					<h2><b>Anika Khemani</b></h2>
+					<h3>Nuclear Proliferation Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapsequestionion" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapsequestionion">
+					<h2><b>Coming Soon!</b></h2>
+					<h3>Refugee Crisis Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+			<div class = "col-md-3">
+
+				<a href ="#collapseHayley" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				</a>
+				<div class="collapse" id="collapseHayley">
+					<h2><b>Hayley Kedwell</b></h2>
+					<h3>Refugee Crisis Plenary Head</h3>
+					<p>
+					Coming Soon!
+					</p>
+				</div>
+			</div>
+
+		</div>
+
 
 
 		<div style="padding:35px;text-align:center;">
