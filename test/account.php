@@ -39,21 +39,29 @@
 		$row = $stmt->fetch();
 
 		//ALERTS
+
+		// Styles
+		$blue_class = '"alert alert-dismissible alert-info"';
+		$green_class = '"alert alert-dismissible alert-success"';
+		$red_class = '"alert alert-dismissible alert-danger"';
+		$yellow_class = '"alert alert-dismissible alert-warning"';
+		$hide_class = '"alert hidden"';
+
 		//Plenaries	
-		$plen_class = '"alert alert-dismissible alert-info"';
+		$plen_class = $blue_class;
 		$plen_text = "Plenaries haven't been assigned yet. Check back soon.";
 
 		//Email
-		$email_class ='"alert alert-dismissible alert-info"';
-		$email_text = "NaN";
+		$email_class = $green_class;
+		$email_text = "Email";
 
 		//Reg
-		$reg_class ='"alert alert-dismissible alert-info"';
-		$reg_text = "NaN";
+		$reg_class = $red_class;
+		$reg_text = "Reg";
 
 		//Pay
-		$pay_class ='"alert alert-dismissible alert-info"';
-		$pay_text = "NaN";
+		$pay_class = $yellow_class;
+		$pay_text = "Pay";
 
 	?>
 	<title><?php echo $row["first_name"];?>'s Account - World Affairs Conference</title>
