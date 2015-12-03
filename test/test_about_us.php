@@ -78,7 +78,7 @@ Head of Communications and Head of Security: Justin Lu-->
 					<p>
 					<h2><b>Logan Ye</b></h2>
 					<h3>Conference Chair</h3>
-					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference this year. I direct the general vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
+					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference. I direct the vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
 					</br>
 					See you at WAC!
 					</p>
@@ -168,7 +168,7 @@ Head of Communications and Head of Security: Justin Lu-->
 				<div class="collapse" id="collapseJustin">
 					<p>
 					<h2><b>Justin Lu</b></h2>
-					<h3>Head of Security/Communications</h3>
+					<h3>Head of Security /Communications</h3>
 					Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
 					</br>
 					This year's conference will be fantastic. I hope you enjoy yourselves!
