@@ -25,7 +25,7 @@ session_start();
 
 <?php include_once("navbar.php") ?>
 
-<div class = "container-fluid">
+<div class = "container">
 	<h1 style="text-align:center;">The Future of the Internet</h1>
 	<p>
 		The Internet has radically revolutionized the entire world. Everything from how we shop to how we vote 

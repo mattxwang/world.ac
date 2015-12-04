@@ -25,7 +25,7 @@
 
 <?php include_once("navbar.php") ?>
 
-<div class = "container-fluid">
+<div class = "container">
 
 	<form action="change_password.php" method="post">
 

@@ -28,7 +28,7 @@ include_once("../includes/sql.php");
 
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
-	<div class ="container-fluid">
+	<div class ="container">
 		<div style="text-align:center">
 			<h1>Plenaries at WAC</h1>
 			<p>

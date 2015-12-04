@@ -20,7 +20,7 @@ session_start();
 
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
 				<h1>Contact Us</h1>

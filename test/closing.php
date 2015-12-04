@@ -11,7 +11,6 @@ session_start();
 	<meta name="description" content="World Affairs Conference">
 	<title>Closing Panel - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -26,7 +25,7 @@ session_start();
 
 <?php include_once("navbar.php") ?>
 
-<div class = "container-fluid">
+<div class = "container">
 <div style = "text-align:center">
 	<h2>Closing Panel</h2>
 	<h1>Sample Speaker</h1>
