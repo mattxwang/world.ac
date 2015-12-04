@@ -67,8 +67,9 @@
 	<title><?php echo $row["first_name"];?>'s Account - World Affairs Conference</title>
 </head>
 <?php include_once("navbar.php") ?>
-
-<body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">
+<!--
+<body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">-->
+<body>
 		<div class= "container">
 			<div class = "row">
 				<div class = "col-md-3 hidden-xs">
