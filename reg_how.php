@@ -18,7 +18,7 @@ session_start();
 	p{
 		text-align:justify;
 	}
-	a{
+	.container a{
 		font-weight: bold;
 	}
 	</style>
