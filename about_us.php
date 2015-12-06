@@ -444,14 +444,16 @@ session_start();
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseAnika" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseAnika" data-toggle="collapse"><img src = "img/bio/headshots/anika.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseAnika">
 					<h2><b>Anika Khemani</b></h2>
 					<h3>Nuclear Proliferation Plenary Head</h3>
 					<p>
-					Coming Soon!
+					Hi, I’m Anika and I am the head of the nuclear proliferation plenary along with my UCC counterpart, Matthew. My job is to construct an overall vision for the plenary.
+					</br>
+					Hope to see you at WAC!
 					</p>
 				</div>
 			</div>
