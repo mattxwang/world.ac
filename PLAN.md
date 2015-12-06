@@ -22,7 +22,7 @@ Little Number that tells us how many notifcations (urgent ones) you have.
 The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
 
 <h2>Plenary Selection/Assignment</h2>
-<h3>Plen_Selection.php / <a href = "http://world.ac/test/account.php">account.php</a></h3>
+<h3>plen_Selection.php / <a href = "http://world.ac/test/account.php">account.php</a></h3>
 <h4>Plenary Assignment (1)</h4>
 Delegates not registering from UCC will have 4 preferred plenaries, in order of preference. We need to assign all of these delegates their plenaries, "optimally". Remember that UCC students also need to be included; while the framework of this system needs to be developed, we won't be legitmately running it until step 2 is done.
 
@@ -31,6 +31,12 @@ We had talked about using a "lotto" "first come first serve" system. Basically, 
 
 <h4>Plenary Selection for UCC (2)</h4>
 UCC students, since they aren't completing the reg-form, need to have a method of selecting their plenaries. We'll email them a link to a part of the WAC website where they input their UCC email, and select their plenaries of their choosing. We have two ways of doing this; doing it on account.php, or on another part of the website. 
+
+<h2>Schedule</h2>
+<h3>schedule.php</h3>
+<h2>Schedule Page</h2>
+Figure out some way of implementing a nice-looking schedule for the actual conference this year.
+
 
 <h2>Media Distribution</h2>
 <h3>Mostly Paper</h3>
