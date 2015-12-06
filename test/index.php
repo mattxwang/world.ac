@@ -19,6 +19,7 @@ include_once("hitcounter.php");
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/countdown.js"></script>
+	<script src="js/google_analytics.js"></script>
 	<style>
 	body{
 		background-image:url("img/earth.png"),url("img/stars.png");
@@ -29,7 +30,6 @@ include_once("hitcounter.php");
 
 <body>
 	<?php include_once("navbar.php")  ?>
-	<?php include_once("google_analytics.php")  ?>
 	<div style="line-height:80%; padding:4%; position:relative">
 		<div style="font-size:5vw;">
 			WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
