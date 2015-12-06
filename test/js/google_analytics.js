@@ -7,5 +7,5 @@
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-71038463-1', 'auto');
-ga(‘set’, ‘&uid’, {{USER_ID}}); 
+//ga(‘set’, ‘&uid’, {{USER_ID}}); 
 ga('send', 'pageview'); 
