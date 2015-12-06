@@ -10,10 +10,5 @@ The current codebase in test is horrible. No orginization whatsoever, minimal (a
 * Email Confirmation is tied to completiton (so a variable).
 * Reg Competition also requires you to finish inputting your school/special notes.
 * Plenary Selection is a Boolean that Matt will edit later. Starts off as False.
-
-
-##About Us Page
-PUT THIS ON HOLD FOR NOW MATT WILL WORK ON IT
-### [about_us.php](http://world.ac/test/about_us.php)
-####Fix carousels
-Stop the changing of the text size impacting the colour backgrounding. Stay on the page for a minute to understand what I mean.
+####Email Confirmation System (2)
+Sends an email to confirm registration.
