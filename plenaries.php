@@ -37,12 +37,12 @@ session_start();
 		</div>
 		<div>
 			<ul class="nav nav-tabs nav-justified" role="tablist">
-				<li role="presentation" class="active"><a href="#plenary1" aria-controls="plenary1" role="tab" data-toggle="tab">China Plenary</a></li>
-				<li role="presentation"><a href="#plenary2" aria-controls="plenary2" role="tab" data-toggle="tab">Drone Plenary</a></li>
+				<li role="presentation" class="active"><a href="#plenary1" aria-controls="plenary1" role="tab" data-toggle="tab">China</a></li>
+				<li role="presentation"><a href="#plenary2" aria-controls="plenary2" role="tab" data-toggle="tab">Drones</a></li>
 				<li role="presentation"><a href="#plenary3" aria-controls="plenary3" role="tab" data-toggle="tab">Environmental Responsibility</a></li>
-				<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Gender Income Disparities</a></li>
+				<li role="presentation"><a href="#plenary4" aria-controls="plenary4" role="tab" data-toggle="tab">Gender Income Disparity</a></li>
 				<li role="presentation"><a href="#plenary5" aria-controls="plenary5" role="tab" data-toggle="tab">Nuclear Proliferation</a></li>
-				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Response and Responsibility</a></li>
+				<li role="presentation"><a href="#plenary6" aria-controls="plenary6" role="tab" data-toggle="tab">Refugee Responsibility</a></li>
 			</ul>
 
 			<div class="tab-content">
