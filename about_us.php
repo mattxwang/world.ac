@@ -453,6 +453,7 @@ session_start();
 					<p>
 					Hi, I’m Anika and I am the head of the nuclear proliferation plenary along with my UCC counterpart, Matthew. My job is to construct an overall vision for the plenary.
 					</br>
+					</br>
 					Hope to see you at WAC!
 					</p>
 				</div>
