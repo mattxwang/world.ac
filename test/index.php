@@ -29,6 +29,7 @@ include_once("hitcounter.php");
 
 <body>
 	<?php include_once("navbar.php")  ?>
+	<?php include_once("google_analytics.php")  ?>
 	<div style="line-height:80%; padding:4%; position:relative">
 		<div style="font-size:5vw;">
 			WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>

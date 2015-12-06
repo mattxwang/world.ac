@@ -1,4 +1,5 @@
 <script>
+	//Google Analytics auto-generated code
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];
@@ -7,7 +8,7 @@
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 	ga('create', 'UA-71038463-1', 'auto');
-	ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
-	ga('send', 'pageview');
+	ga(‘set’, ‘&uid’, {{USER_ID}}); 
+	ga('send', 'pageview'); 
 
 </script>
