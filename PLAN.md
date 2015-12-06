@@ -19,7 +19,7 @@ Little Number that tells us how many notifcations (urgent ones) you have.
 The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
 
 ##Plenary Selection/Assignment##
-###plen_selection.php <a href = "http://world.ac/test/account.php">account.php</a>
+###plen_selection.php/<a href = "http://world.ac/test/account.php">account.php</a>
 ####Plenary Assignment (1)
 Delegates not registering from UCC will have 4 preferred plenaries, in order of preference. We need to assign all of these delegates their plenaries, "optimally". Remember that UCC students also need to be included; while the framework of this system needs to be developed, we won't be legitmately running it until step 2 is done.
 
