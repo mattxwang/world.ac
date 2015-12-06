@@ -31,7 +31,6 @@ session_start();
 			<h2>Meet the WAC Team</h2>
 			<p>
 			WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
-			</br>
 			This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 			</p>
 			</br>
@@ -49,6 +48,7 @@ session_start();
 					<p>
 					My name's Logan Ye and I'm the UCC Conference Chair for the World Affairs Conference. I direct the vision of the conference with my counterparts from Branksome Hall. I also help the plenary, media and registration team complete their respective tasks.
 					</br>
+					</br>
 					See you at WAC!
 					</p>
 				</div>
@@ -64,6 +64,7 @@ session_start();
 					<p>
 					I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
 					</br>
+					</br>
 					Hope to see you at WAC!
 					</p>
 				</div>
@@ -77,6 +78,7 @@ session_start();
 					<h3>Conference Chair</h3>
 					<p>
 					I'm Blaise O'Malley, and I am super excited to be one of the Branksome Conference Chairs for the World Affairs Conference 2016. My role is to help plan the conference with the other Chairs, as well as assist with plenaries and communications.
+					</br>
 					</br>
 					Can't wait to see you there!
 					</p>
@@ -93,12 +95,14 @@ session_start();
 					<p>
 					Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
 					</br>
+					</br>
 					I am looking forward to seeing you this February at UCC! 
 					</p>
 				</div>
 			</div>
 
 		</div>
+		</br>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
@@ -111,6 +115,7 @@ session_start();
 					<h3>Head of Programs</h3>
 					<p>
 					My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions. 
+					</br>
 					</br>
 					I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it. 
 					</p>
@@ -127,6 +132,7 @@ session_start();
 					<p>
 					Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
 					</br>
+					</br>
 					I’m super excited for WAC this February! See you all there!
 					</p>
 				</div>
@@ -140,6 +146,7 @@ session_start();
 					<h3>Head of Registration</h3>
 					<p>
 					I'm Emmanuel Wong, head of the registration for WAC this year. In my role, I'll be preparing and releasing information packets about this years' conference.
+					</br>
 					</br>
 					I'm looking forward to seeing you all there!
 					</p>
@@ -156,6 +163,7 @@ session_start();
 					<p>
 					Hi everyone! My name is Justin Lu, and this year I will be your head of secruity and communications. Although this is my first year on the wac executive, I have been attending the conference since grade 9.
 					</br>
+					</br>
 					This year's conference will be fantastic. I hope you enjoy yourselves!
 					</p>
 				</div>
@@ -163,6 +171,7 @@ session_start();
 
 		</div>
 
+		</br>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
@@ -175,6 +184,7 @@ session_start();
 					<h3>Head of Keynote/Panels</h3>
 					<p>
 					Hey everyone! My name is Joe Noss; I read the news avidly, and I am excited to talk about World Affairs! I will be leading the Morning team in creating the panel, "The Future of The Internet"! 
+					</br>
 					</br>
 					Don't Miss it!
 					</p>
@@ -191,6 +201,7 @@ session_start();
 					<p>
 					My name’s Amirah Mahomed and I am the Branksome Hall Program Chair and Keynote Head for the World Affairs Conference this year.  I provide help for all plenaries and panels find speakers for the conference, while finding a speaker for Keynote. 
 					</br>
+					</br>
 					I am very excited for my last year at WAC!
 					</p>
 				</div>
@@ -206,6 +217,7 @@ session_start();
 					<p>
 					Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
 					</br>
+					</br>
 					I’m excited to make WAC as awesome as it was last year. See you there!
 					</p>
 				</div>
@@ -220,6 +232,7 @@ session_start();
 					<p>
 					I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC.
 					</br>
+					</br>
 					I’m happy to be part of the team. See you there!
 					</p>
 				</div>
@@ -227,6 +240,7 @@ session_start();
 
 		</div>
 
+		</br>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
@@ -239,6 +253,7 @@ session_start();
 					<h3>Morning/Closing Panels</h3>	
 					<p>
 					Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a high note.		
+					</br>
 					</br>		
 					Can't wait to see everyone in February! 		
 					</p>
@@ -279,6 +294,7 @@ session_start();
 					<p>
 					Hello! My name is Kathy, and I’m so excited to be Head of Closing. My role is to contact speakers for the closing panel. 
 					</br>
+					</br>
 					See you at WAC 2016! 
 					</p>
 				</div>
@@ -286,6 +302,7 @@ session_start();
 
 		</div>
 
+		</br>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
@@ -298,6 +315,7 @@ session_start();
 					<h3>China Plenary Head</h3>	
 					<p>
 					Hi there! My name is Simon Osak and I am this year's UCC China plenary head for the World Affairs Conference.  My role in WAC is to work alongside my Branksome Hall plenary head counterpart to find two speakers to speak about China's economy and why we, being North Americans, should care about it.  
+					</br>
 					</br>
 					I am excited to be a part of WAC and I hope to see you at UCC for this amazing conference this February.		
 					</p>
@@ -338,6 +356,7 @@ session_start();
 					<p>
 					I’m Katya and I’m one of the plenary heads from Branksome Hall. I’m leading the drones plenary with my partner Emerson.
 					</br>
+					</br>
 					See you at WAC!
 					</p>
 				</div>
@@ -345,6 +364,7 @@ session_start();
 
 		</div>
 
+		</br>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
@@ -357,6 +377,7 @@ session_start();
 					<h3>Environment Plenary Head</h3>	
 					<p>
 					My name is Alexander Quinn and I am the plenary co-head on corporate responsibility. My co-head Emma Lozhkin and I are in charge of coming up with our plenary's content and researching and contacting speakers. 
+					</br>
 					</br>
 					I hope to see you there.	
 					</p>
@@ -385,6 +406,7 @@ session_start();
 					<p>
 					My name's Miles Hoaken and I'm a Plenary Head for the Gender Issues Plenary for World Affairs Conference this year. I direct the general vision of my plenary with  my counterpart from Branksome Hall. My job is to make my plenary fun, educational, and the best at WAC 2016.
 					</br>
+					</br>
 					See you at WAC!
 					</p>
 				</div>
@@ -404,6 +426,7 @@ session_start();
 
 		</div>
 
+		</br>
 		</br>
 		<div class = "row">
 			<div class = "col-md-3">
@@ -469,7 +492,7 @@ session_start();
 			<h3>The Media Team</h3>
 			Emmanuel Wong, Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam
 			</br>
-			As well as Derek Lam, and Nick Elder for creating the framework.
+			,as well as Derek Lam, and Nick Elder for creating the framework last year.
 			<h3>Website Consultants</h3>
 			Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 
