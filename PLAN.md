@@ -2,7 +2,7 @@
 Listed items are in relative order of importance/urgency. That being said, there are some quick fixes that can be done at any time.
 
 ##Account System
-###<a href = "http://world.ac/test/account.php">account.php</a></h3> 
+###[account.php](http://world.ac/test/account.php)
 
 ####Email Confirmation System (1)
 When a user signs up for an account, an email will be sent to their email confirming that they wanted to sign up; they can paste a code sent to their email to confirm the email.
@@ -19,7 +19,7 @@ Little Number that tells us how many notifcations (urgent ones) you have.
 The element is too long, which double-stacks login/register on a screen res between 1080p and mobile
 
 ##Plenary Selection/Assignment##
-###plen_selection.php/<a href = "http://world.ac/test/account.php">account.php</a>
+###plen_selection.php/[account.php](http://world.ac/test/account.php)
 ####Plenary Assignment (1)
 Delegates not registering from UCC will have 4 preferred plenaries, in order of preference. We need to assign all of these delegates their plenaries, "optimally". Remember that UCC students also need to be included; while the framework of this system needs to be developed, we won't be legitmately running it until step 2 is done.
 
@@ -43,6 +43,6 @@ Delegates and staff will have a nametag with their name, plenaries (if applicabl
 
 
 ##General Functionality
-###<a href = "http://world.ac/test/account.php">account.php</a>/<a href = "http://world.ac/faq.php">faq.php</a></h3> 
+###[account.php](http://world.ac/test/account.php)/[faq.php](http://world.ac/faq) 
 ####Fix/Implement Scrollspy (1)
 On all of the pages with another nav for body elements, it'd be nice to implement scrollspy. Right now, it doesn't work at all. Thoughts?
