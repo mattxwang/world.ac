@@ -1,13 +1,7 @@
 <?php
 //Start the PHP session
 session_start();
-
- 
-
-
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +13,7 @@ session_start();
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
+	<script src="js/google_analytics.js"></script>
 	
 	<style>
 	p{
