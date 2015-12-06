@@ -1,8 +1,6 @@
 <?php
 //Start the PHP session
 session_start();
-//Connect to SQL Database and include custom sqlQuerry function.
-include_once("../includes/sql.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +10,6 @@ include_once("../includes/sql.php");
 	<meta name="description" content="World Affairs Conference">
 	<title>Plenaries - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -52,15 +49,32 @@ include_once("../includes/sql.php");
 				<div role="tabpanel" class="tab-pane fade in active" id="plenary1">
 					<h2>China Plenary</h2>
 					<p> 
-					We're still sorting out the details; we'll reveal all of this information soon!
+					This year’s economics plenary’s main focus is on China.  Our plenary digs deep into the core of
+					China’s economy.  Specifically, how it can act as a possible policy role model for other 
+					countries, what its future entails and lastly, how China’s rise contributes to overall geopolitical 
+					and economic changes caring Canada.  Our plenary will inform you on this complex issue but 
+					also outline why you, being a Canadian citizen should care.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
-						<h4>Speaker</h4>
+						<h4>Margaret Cornish</h4>
 						<img src="img/avatar.png" width = "10%"></img>
 						<p>
-						We're still sorting out the details; we'll reveal all of this information soon!
-							</p>
+						Most recently Margaret Cornish served on the International Affairs Council of Advisors
+						established to advise Justin Trudeau, Leader of the Liberal Party of Canada. Margaret began 
+						her career in the Canadian Foreign Service. Her postings included Beijing, the Canadian 
+						Delegation to the United Nations in New York, and the Canadian delegation to the European 
+						Community in Brussels. She subsequently joined the Bank of Nova Scotia where she worked on 
+						sovereign debt restructuring. She then joined Scotia Capital Markets where she provided award-
+						winning research coverage on a wide range of Canadian industrial companies. From 2003­2008 
+						Margaret served as Executive Director of the Canada­China Business Council, the leading 
+						Canadian bilateral business organization dealing with China. Margaret has served as a member 
+						of the Economic Council of Canada and has been an adjunct professor in the business schools 
+						of Queen’s University and Wilfred Laurier University, She was an Associate Fellow of the 
+						Canadian International Council. From 2010 to 2015 she was Senior Advisor and Beijing Chief 
+						Representative of Bennett Jones Commercial Consulting Inc.
+
+						</p>
 						</div>
 						<div class = "col-md-6">
 						<h4>Speaker</h4>
