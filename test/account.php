@@ -77,9 +77,7 @@
 						<ul class="nav nav-pills nav-stacked" style = "position:fixed;">
 							<li role="presentation"><a href="#notif">Notifications</a></li>
 							<li role="presentation"><a href="#info">Delegate Info</a></li>
-							<!--
-							<li role="presentation"><a href="#plen">Delegate Plenaries</a></li>
-							-->
+							<li role="presentation" class = "hidden"><a href="#plen">Delegate Plenaries</a></li>
 							<li role="presentation"><a href="#settings">Account Settings</a></li>
 						</ul>
 					</div>
@@ -123,10 +121,6 @@
 											Leave blank if none needed.
 											</p>
 											<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" value="<?php echo $row['notes']; ?>"></textarea>
-
-											<!--
-											<input type="text" id="school" name="school" class="form-control" placeholder="DELEGATE SCHOOL" required="">
-											-->
 											<h4>Password (to confirm change)</h4>
 											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 											
@@ -298,10 +292,10 @@
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
-											<b>Your Email:</b> template@ucc.on.ca
+											<b>Your Email:</b> <?php echo $row["email"];?>
 										</div>
 										<div class = "col-md-6" style = "text-align:justify;">
-											Your Email is tied to our registration process. Unfortunately, that means that we can't let you change your email on our website. If you need to change your email, please contact our registration correspondent, BLAH BLAH.
+											Your Email is tied to our registration process. Unfortunately, that means that we can't let you change your email on our website. If you need to change your email, please <a href ="contact_us.php">contact us</a>.
 										</div>
 									</div>
 								</li>
