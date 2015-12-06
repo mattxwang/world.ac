@@ -15,7 +15,7 @@ session_start();
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<style>
-	.col-md-3{
+	.col-md-3 img{
 		text-align: center;
 	}
 	.collapse p{
