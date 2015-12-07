@@ -73,7 +73,7 @@ session_start();
 				</div>
 				<div id = "how_to_reg">
 					<h3>How can I register my school?</h3>
-					<p>To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. The registration information package, as well as the forms required to register are available for download, <a href="misc_files/reg_2015.pdf">here</a> and <a href ="misc_files/reg_2015_form.pdf">here</a>.</p>
+					<p>To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. The registration information package, as well as the forms required to register are available for download, <b><a href="misc_files/reg_2015.pdf">here</a></b> and <b><a href ="misc_files/reg_2015_form.pdf">here</a></b>.</p>
 				</div>
 				<div id = "reg_who">
 					<h3>Who can attend WAC?</h3>
