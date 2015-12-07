@@ -184,6 +184,7 @@
 						
 
 						<!-- NOTIFICATIONS -->
+						<!--
 						<div class=<?php echo $reg_class;?> role="alert"><?php echo $reg_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
@@ -193,6 +194,7 @@
 						<div class=<?php echo $pay_class;?> role="alert"><?php echo $pay_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
+						-->
 						<div class=<?php echo $plen_class;?> role="alert"><?php echo $plen_text; ?>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
@@ -299,6 +301,7 @@
 										</div>
 									</div>
 								</li>
+								<!--
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
@@ -309,6 +312,7 @@
 										</div>
 									</div>
 								</li>
+								-->
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
@@ -342,9 +346,6 @@
 			<?php
 			include_once("footer.php")
 			?>
-			<!-- Bootstrap core JavaScript
-			================================================== -->
-			<!-- Placed at the end of the document so the pages load faster -->
 			<script src="js/jquery.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
 		</div>
