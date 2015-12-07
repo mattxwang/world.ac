@@ -1,5 +1,11 @@
 #Changelog
-###Changelog for v1.0
+### Changelog for v1.1.0
+
+#### General Changes
+* Wraps up plenary page completion
+* Adds plenary images
+
+### Changelog for v1.0.0
 
 #### Account System added:
 * Added account page, register, login, and logout page functions
