@@ -275,7 +275,7 @@ session_start();
 			<div class = "col-md-6">
 
 				<a href ="#collapseRefugee" data-toggle="collapse">
-				<img src = "img/plenary/refugee.png" class="img-responsive center-block" width = "50%"></img>
+				<img src = "img/plenary/refugees.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseDrones">
 					<h2>Refugee Response and Responsibility in Crisis</h2>
