@@ -40,7 +40,7 @@ session_start();
 		<div class = "row">
 			<div class = "col-md-6">
 
-				<a href ="#collapseChina" data-toggle="collapse"><img src = "img/plenary/china.png" class="img-responsive"></img>
+				<a href ="#collapseChina" data-toggle="collapse"><img src = "img/plenary/china.png" class="img-responsive" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseChina">
 					<h2>China and the Economy</h2>
