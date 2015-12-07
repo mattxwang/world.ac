@@ -1,10 +1,10 @@
 <?php
 $rando = rand(1,2);
 if($rando == 1){
-  $teamNames = "Matthew Wang and <a href =\"http://jack.antinode.ca\">Jack Sarick</a>";
+	$teamNames = "Matthew Wang and <a href =\"http://jack.antinode.ca\">Jack Sarick</a>";
 }
 elseif($rando == 2){
-  $teamNames = "<a href =\"http://jack.antinode.ca\">Jack Sarick</a> and Matthew Wang";
+	$teamNames = "<a href =\"http://jack.antinode.ca\">Jack Sarick</a> and Matthew Wang";
 }
 
 ?>
@@ -33,8 +33,3 @@ elseif($rando == 2){
   </div>
 </nav>
 
-<!-- disabled for now
-<div class ="visible-xs vertical-align:bottom">
-<p style ="font-size:11px; text-align:left;color:#FFFFFF">Developed by this year's WAC web design team, <?php echo $teamNames; ?></p>
-</div>
--->

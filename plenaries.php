@@ -46,7 +46,7 @@ session_start();
 					This year’s economics plenary’s main focus is on China.  Our plenary digs deep into the core of
 					China’s economy.  Specifically, how it can act as a possible policy role model for other 
 					countries, what its future entails and lastly, how China’s rise contributes to overall geopolitical 
-					and economic changes caring Canada.  Our plenary will inform you on this complex issue but 
+					and economic changes caring Canada.  Our plenary will inform you on this complex issue and
 					also outline why you, being a Canadian citizen should care.
 					</p>
 					<div class = "row">

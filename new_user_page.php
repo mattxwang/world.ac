@@ -42,11 +42,11 @@ if(empty($_SESSION['user'])){
 	<p>If your school is not in this dropdown menu, your school's registration form was submitted incorrectly. Please <a href="contact_us.php">contact us</a> for further information.
 	</p>
 	<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
-		<option value="UCC">UCC</option>
-		<option value="BSS">BSS</option>
-		<option value="BH">BH</option>
-		<option value="UTS">UTS</option>
-		<option value="TFS">TFS</option>
+		<option value="Bishop Strachan School">Bishop Strachan School</option>
+		<option value="Branksome Hall">Branksome Hall</option>
+		<option value="St. Clements School">St. Clements School</option>
+		<option value="Upper Canada College">Upper Canada College</option>
+		<option value="University of Toronto Schools">University of Toronto Schools</option>
 	</select>
 
 	<h3>Special Notes:</h3>
