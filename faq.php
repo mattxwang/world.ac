@@ -73,7 +73,7 @@ session_start();
 				</div>
 				<div id = "how_to_reg">
 					<h3>How can I register my school?</h3>
-					<p>To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. <!-- The registration information package, as well as the forms required to register are available for download, please click the blue 'register' button at the top right of the page to view the PDF file. Please note the forms are located at the end of this file, which also includes the registration information package.--></p>
+					<p>To attend the world affairs conference you must submit your registration form and means of payment by the registration deadline. The registration information package, as well as the forms required to register are available for download, <a href="misc_files/reg_2015.pdf">here</a> and <a href ="misc_files/reg_2015_form.pdf">here</a>.</p>
 				</div>
 				<div id = "reg_who">
 					<h3>Who can attend WAC?</h3>
@@ -82,9 +82,9 @@ session_start();
 				<div id = "reg_due">
 					<h3>When is the registration due?</h3>
 					<p>This, along with other information, will be sent out as we finish the registration package. </p>
-					<!--
-					<p>The registration is due by mail on December 16th 2014. We may not be able to accept late registrants so please ensure your forms are submitted promptly. </h3>
-					-->
+				
+					<p>The registration is due by mail on January 16th 2016. We may not be able to accept late registrants so please ensure your forms are submitted promptly. </h3>
+			
 				</div>
 
 				<div id = "cday">

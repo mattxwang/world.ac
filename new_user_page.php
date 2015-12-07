@@ -27,7 +27,7 @@ if(empty($_SESSION['user'])){
 	
 <h2 style = "text-align:center;">Thanks for Registering!</h2>
 <h4 style = "text-align:center;">To complete registration, please fill out the following information. </br> It will be editable later. </h4>
-<form class="form-signin" action="new_user_info.php" method="post">
+<form class="form-signin" action="new_user.php" method="post">
 
 	<h3>Delegate First Name</h3>
 	<h5>This is how your first name will appear on the delegate nametag.</h5>
