@@ -88,7 +88,7 @@ session_start();
 		<h1>Graeme Bunton</h1>
 		<img src="img/avatar.png"></img>
 		<p> 
-		Sample Text
+		More to come soon!
 		</p>
 	</div>
 </div>
