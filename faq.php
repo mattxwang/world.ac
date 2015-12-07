@@ -99,8 +99,11 @@ session_start();
 					<p>Yes students are provided lunch free of charge on the day of the conference.</p>
 				</div>
 				<div id = "allergy">
-					<h3>How do I notify WAC of allergies?</h3>
-					<p>If you would like to notify us of a food allergy that we should be aware of, please include any details we will need on a separate piece of paper within your return envelope.</p>
+					<h3>How do I notify WAC of special food accomodations?</h3>
+					<p>This year, WAC can accomodate for vegetarian needs. Please submit this in either the registration package, or the website's account system. 
+					</br>
+					Unfortunately, we cannot tailor to specific food allergies. We suggest those delegates either bring a pack lunch, or go to a nearby restaurant.
+					</p>
 				</div>
 			</div>
 

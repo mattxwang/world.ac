@@ -59,8 +59,8 @@
 			 
 			$submitted_email = htmlentities($_POST['email'], ENT_QUOTES, 'UTF-8'); 
 
-			header("Location: login.php"); 
-			die("Redirecting to: login.php"); 
+			header("Location: login_page.php"); 
+			die("Redirecting to: login_page.php"); 
 		} 
 	} 
 	 

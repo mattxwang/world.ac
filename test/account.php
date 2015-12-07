@@ -115,7 +115,7 @@
 											</select>
 											<h4>Special Notes:</h4>
 											<p>
-											These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
+											These special notes will be used to accomodate special needs. Examples include vegetarian diets, physical assistance, or religious accomodations.
 											</br>
 											</br>
 											Leave blank if none needed.
@@ -225,7 +225,7 @@
 								<li class="list-group-item">
 									<div class = "row">
 										<div class = "col-md-6">
-											Special Notes: These are typically for food allergies, or other health concerns.
+											Special Notes: These are typically for food accomodations (such as being vegetarian).
 										</div>
 										<div class = "col-md-6">
 											<?php echo $row['notes']; ?>

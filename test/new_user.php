@@ -51,7 +51,7 @@ if(empty($_SESSION['user'])){
 
 	<h3>Special Notes:</h3>
 	<h5>
-	These special notes will be used to accomodate special needs. Examples include allergies, physical assistance, or religious accomodations.
+	These special notes will be used to accomodate special needs. Examples include a vegetarian diet, physical assistance, or religious accomodations.
 	</br>
 	Leave blank if none needed.
 	</h5>
