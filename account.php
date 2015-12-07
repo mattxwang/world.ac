@@ -21,6 +21,7 @@
 		}
 	</style>
 	<?php
+	/*
 		// Pull user data
 		$email = $_SESSION['user']['email'];
 		$query = "SELECT * FROM info WHERE email='$email';";
@@ -36,7 +37,7 @@
 			die("Failed to run query: " . $ex->getMessage()); 
 		}  
 
-		$row = $stmt->fetch();
+		$row = $stmt->fetch(); */
 
 		//ALERTS
 
