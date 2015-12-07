@@ -5,22 +5,17 @@
   // You'll need these
   require("login.php"); 
   require("common.php");
-  // Pull user data
-    $email = $_SESSION['user']['email'];
-    $query = "SELECT * FROM info WHERE email='$email';";
-     
-    try 
-    { 
-      $stmt = $db->prepare($query); 
-      $stmt->execute();
-    } 
+  function debug_to_console( $data ) {
 
-    catch(PDOException $ex) 
-    { 
-      die("Failed to run query: " . $ex->getMessage()); 
-    }  
+    if ( is_array( $data ) ){
+      $output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
+    }
 
-    $row = $stmt->fetch();
+    else {
+      $output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
+      echo $output;
+    }
+  }
 ?>
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
