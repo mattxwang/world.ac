@@ -18,6 +18,9 @@ session_start();
 	.col-md-6 img{
 		text-align: center;
 	}
+	.collapse p{
+		text-align: justify;
+	}
 	</style>
 </head>
 
