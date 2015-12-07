@@ -195,9 +195,9 @@ session_start();
 		</br>
 		<div class = "row">
 			<div class = "col-md-6">
-				<a href ="#collapseChina" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseNuclear" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 				</a>
-				<div class="collapse" id="collapseChina">
+				<div class="collapse" id="collapseNuclear">
 					<h2>The Future of Nuclear Proliferation</h2>
 					<p> 
 					The nuclear proliferation plenary will focus on solutions to achieve wholesale international
@@ -271,11 +271,11 @@ session_start();
 			</div>
 			<div class = "col-md-6">
 
-				<a href ="#collapseDrones" data-toggle="collapse">
+				<a href ="#collapseRefugee" data-toggle="collapse">
 				<img src = "img/bio/headshots/placeholder.png"></img>
 				</a>
 				<div class="collapse" id="collapseDrones">
-					<h2>Response and Responsibility in Crisis</h2>
+					<h2>Refugee Response and Responsibility in Crisis</h2>
 					<p> 
 					We're still sorting out the details; we'll reveal all of this information soon!
 					</p>
