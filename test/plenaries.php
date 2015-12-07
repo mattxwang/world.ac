@@ -36,8 +36,8 @@ session_start();
 
 		<div class = "row">
 			<div class = "col-md-6">
-
-				<a href ="#collapseChina" data-toggle="collapse"><img src = "img/plenary/china.png" class="img-responsive center-block" width = "50%"></img>
+				<a href ="#collapseChina" data-toggle="collapse">
+				<img src = "img/plenary/china.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseChina">
 					<h2>China and the Economy</h2>
@@ -80,7 +80,7 @@ session_start();
 			</div>
 			<div class = "col-md-6">
 				<a href ="#collapseDrones" data-toggle="collapse">
-				<img src = "img/bio/headshots/placeholder.png"></img>
+				<img src = "img/plenary/drone.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseDrones">
 					<h2>Drones: Weapons of War</h2>
@@ -131,7 +131,8 @@ session_start();
 		<div class = "row">
 			<div class = "col-md-6">
 
-				<a href ="#collapseEnvironment" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseEnvironment" data-toggle="collapse">
+				<img src = "img/plenary/environment.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseEnvironment">
 					<h2>Environmental Responsibility</h2>
@@ -158,7 +159,8 @@ session_start();
 			</div>
 			<div class = "col-md-6">
 
-				<a href ="#collapseGender" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseGender" data-toggle="collapse">
+				<img src = "img/plenary/gender.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseGender">
 					<h2>Gender Income Disparities</h2>
@@ -195,7 +197,8 @@ session_start();
 		</br>
 		<div class = "row">
 			<div class = "col-md-6">
-				<a href ="#collapseNuclear" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+				<a href ="#collapseNuclear" data-toggle="collapse">
+				<img src = "img/plenary/nuclear.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseNuclear">
 					<h2>The Future of Nuclear Proliferation</h2>
@@ -272,7 +275,7 @@ session_start();
 			<div class = "col-md-6">
 
 				<a href ="#collapseRefugee" data-toggle="collapse">
-				<img src = "img/bio/headshots/placeholder.png"></img>
+				<img src = "img/plenary/refugee.png" class="img-responsive center-block" width = "50%"></img>
 				</a>
 				<div class="collapse" id="collapseDrones">
 					<h2>Refugee Response and Responsibility in Crisis</h2>
