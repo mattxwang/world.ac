@@ -89,6 +89,11 @@
 
         </li>
 
+        <?php } else { 
+          debug_to_console($_SESSION['user']['username']);
+          // $firstname = ucfirst(htmlentities(explode("%$%", $_SESSION['user']['username'])[0]));
+          // $lastname = ucfirst(htmlentities(explode("%$%", $_SESSION['user']['username'])[1]));
+        ?>
         <!-- You exist -->
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <b><?php echo $row["first_name"];?></b><span class="caret"></span></a>
