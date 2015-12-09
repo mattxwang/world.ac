@@ -52,7 +52,7 @@ session_start();
 					<div class = "row">
 						<div class = "col-md-6">
 						<h4>Margaret Cornish</h4>
-							<img src="img/bio/speakers/china_1.png" width = "128px"></img>
+							<img src="img/bio/speakers/cornish.png" width = "128px"></img>
 							<p>
 							Most recently Margaret Cornish served on the International Affairs Council of Advisors
 							established to advise Justin Trudeau, Leader of the Liberal Party of Canada. Margaret began 
@@ -239,7 +239,7 @@ session_start();
 						</div>
 						<div class = "col-md-6">
 							<h4>James M. Acton</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/acton.png" width = "128px"></img>
 							<p>
 							James M. Acton is a British scientist with a PhD in theoretical physics from 
 							Cambridge University. He is a physicist by training and is an expert in 
