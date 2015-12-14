@@ -184,10 +184,40 @@ session_start();
 							</p>
 						</div>
 						<div class = "col-md-6">
-							<h4>Speaker</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<h4>Emanuela Heyninck</h4>
+							<img src="img/heyninck.png" width = "128px"></img>
 							<p>
-							We're still sorting out the details; we'll reveal all of this information soon!
+							Emanuela Heyninck is currently serving her third term as head of the Pay Equity Commission for 
+							Ontario, an independent agency of the Ministry of Labour.  The Commission enforces the Ontario 
+							Pay Equity Act, which aims to redress systemic gender compensation issues.  In addition to its 
+							enforcement and education mandate, the Commission has the authority to research and make 
+							recommendations to the Minister of Labour on issues related to pay equity, gender wage gaps and 
+							women and work.  
+							</br>
+							</br>
+							In April of 2015, Ms. Heyninck was one of four individuals appointed by the government to the 
+							Gender Wage Gap Strategy Steering Committee.  The Committee is conducting researching and 
+							seeking public input into solutions to close the gender wage gap in Ontario.  The Committee’s 
+							recommendations will be submitted to the Minister of Labour in the spring of 2016. 
+							Since 2010, Ms. Heyninck has also served as a part-time adjudicator for the Health Professions 
+							and Health Services Appeal and Review Boards.  HPARB reviews decisions of the complaints 
+							committees of the various regulated health professions.  HSARB hears appeals from decisions 
+							made by OHIP regarding health insurance coverage. 
+							</br>
+							</br>
+							Ms. Heyninck is immediate Past President of the Society of Adjudicators and Regulators and has 
+							served on several of SOAR’s committees and on the Board of Director and Executive. She is a 
+							member of several Advisory Councils, including Conestoga College and the University of 
+							Western Ontario Student Law Clinic and is a mentor at Brescia College.  She holds an Hon. B.A. 
+							in Italian and French from McMaster University and a Bachelor of Laws from the University of 
+							Windsor.
+							</br>
+							</br>
+							Before her appointment she practiced civil, family and administrative law in London, Ontario for 
+							25 years.  Her past community involvement has included several terms on the Executives of the 
+							London Chamber of Commerce, the London Business and Professional Women’s Club, the 
+							Middlesex Family Lawyers Association, the Middlesex as well as the Ontario Collaborative Law 
+							Group, Hospice of London and Investing in Children.
 							</p>
 						</div>
 					</div>
