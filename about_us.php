@@ -342,8 +342,11 @@ session_start();
 				<div class="collapse" id="collapsesomething">
 					<h2><b>Emerson Braithwaite</b></h2>
 					<h3>Drone Plenary Head</h3>
-					<p>
-					Coming Soon!
+					<p>		
+					Hey! My name is Emerson and I'm a student at Upper Canada College. My partner Katya and I are the heads of the plenary and drones. We direct the vision of the plenary to make it interesting and informative.
+					</br>
+					</br>
+					I hope to see you at WAC this coming February.
 					</p>
 				</div>
 			</div>
