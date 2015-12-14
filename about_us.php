@@ -209,7 +209,7 @@ session_start();
 			</div>
 			<div class = "col-md-3">
 
-				<a href ="#collapseMatt" data-toggle="collapse"><img src = "img/bio/headshots/matt.png"></img>
+				<a href ="#collapseMatt" data-toggle="collapse"><img src = "img/bio/headshots/matt_n.png"></img>
 
 				</a>
 				<div class="collapse" id="collapseMatt">
