@@ -49,11 +49,9 @@
 				<div class = "col-md-6" style = "text-align: justify;">
 					<h3>Why register for a WAC 2016 account?</h3>
 					<p>
-					The WAC 2016 account does a few things for you! First of all, it allows us to check whether or not you've been correctly registered for WAC!
-					</br>
-					It also lets you check up on your plenaries, whether or not your payment has been accepted, and to make sure that all of your delegate information is correct.
-					</br>
-					You can only sign up for a WAC 2016 account if you have already been registered as a delegate. If you're getting a registration error, feel free to <a href ="contact_us.php">contact us</a>.
+					The WAC 2016 account is an essential part of the delegate experience; 
+					it allows delegates to ensure that they have been registered correctly, receive their plenary assignments, and receive notifications about the conference.
+					If you have any concerns, feel free to <a href ="contact_us.php">contact us</a>.
 					</p>
 				</div>
 			</div>

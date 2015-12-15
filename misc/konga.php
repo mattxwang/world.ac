@@ -26,7 +26,7 @@
 			opacity:1.0;cursor:default;
 			}
 		figure.ditto{
-			position:absolute;display:block;padding:0px;margin:0px;width:499px;height:439px;background-image:url(ditto.gif);background-repeat:no-repeat;
+			position:absolute;display:block;padding:0px;margin:0px;width:499px;height:439px;background-image:url(assets/ditto.gif);background-repeat:no-repeat;
 		}
 		figure.ditto.hero{
 			z-index:0;position:absolute;left:50%;margin-left:-255px;top:50%;margin-top:-220px;
@@ -187,8 +187,8 @@
 	</section>
 	<!-- Add up the audio -->
 	<audio id="song" autoplay loop>
-		<source src="konga.mp3" type="audio/mp3"/>
-		<embed src="konga.mp3" loop="true">
+		<source src="assets/konga.mp3" type="audio/mp3"/>
+		<embed src="assets/konga.mp3" loop="true">
 	</audio>
 </body>
 </html>
