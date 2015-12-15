@@ -5,9 +5,7 @@
 	<meta name="description" content="World Affairs Conference">
 	<title>WAC 2016 Account Registration</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/google_analytics.js"></script>
 </head>
