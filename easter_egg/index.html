@@ -2,7 +2,9 @@
 <html>
 <head>
 	<!--
-	CREDITS TO MATIAS MARTINEZ http://matmartinez.net/nsfw/
+	CREDITS TO MATIAS MARTINEZ @ http://matmartinez.net/nsfw/
+	Comments and some tweaking by Matthew Wang.
+	Enjoy.
 	-->
 	<title>Loading…</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -43,6 +45,7 @@
 	<script>
 		(function(window) {
 			if (window.location !== window.top.location) {
+				//boring resizing, who cares
 				window.top.location = window.location;
 			}
 		})(this);
@@ -54,20 +57,21 @@
 	  		var r = $("html");
 	  		var b = $("body");
 	  		var c = $("section#dancefloor");
-	  		var spawnRate = 400;
-	  		var deallocDelay = 3000;
-	  		var danceDelay = 1000;
+	  		var spawnRate = 400; //how fast our young dittos spawn
+	  		var deallocDelay = 3000; //how long until our young dittos fly away
+	  		var danceDelay = 1000; //how long until our young dittos dance their hearts out
 	  		
 	  		function newDitto() { 
-	  			var scale =  "scale("+dice(0.1, 1.6)+")";
-	  			var fromLeft = diceInt(0,1);
-	  			var originY = dice(-10, 100) + "%";
-	  			var opacity = dice(0.1, 1.0);
+	  			var scale =  "scale("+dice(0.1, 1.6)+")"; //random ditto size
+	  			var fromLeft = diceInt(0,1); //whether or not the ditto comes in from the left/right
+	  			var originY = dice(-10, 100) + "%"; //where the ditto starts height wise
+	  			var opacity = dice(0.1, 1.0); //the opacity of the ditto is randomized
 	  			var index = dice(-30, 10);
-	  			var duration = dice(0.5, 3) + "s";
+	  			var duration = dice(0.5, 3) + "s"; //how long our young ditto stays alive
 	  			
 	  			var d = $('<figure/>').css({
-	  				top: originY,
+	  				//sets a bunch of variables to what we've set them to be earlier
+	  				top: originY, 
 	  				opacity: opacity,
 	  				"z-index": index,
 	  				"-webkit-transform": scale,
@@ -79,19 +83,19 @@
 				});
 				
 				r.css({
-					"background-color": color()
+					"background-color": color() //randomized color uno
 				});
 				
 				b.css({
-					"background-color": color()
+					"background-color": color() //randomized color dos
 				});
-				
+				//here we just create the ditto and set what we need to do
 				d.addClass("ditto");
 				d.addClass( (fromLeft) ? "fromLeft" : "fromRight");
 				d.appendTo(c);
 				
 				setTimeout(function() { 
-					d.remove();
+					d.remove(); //here our dittos rip in pepperonis so no memory is wasted
 				}, deallocDelay); 
 				
 	  		}
@@ -151,15 +155,14 @@
 			});
 			
 			function dice(min, max) {
-    			return Math.random() * (max - min) + min;
+    			return Math.random() * (max - min) + min; //returns random number between param
 			}
 			
 			function diceInt(min, max) {
-				return Math.floor(Math.random() * (max - min + 1)) + min;
+				return Math.floor(Math.random() * (max - min + 1)) + min; //returns random int between param
 			}
-			
 			function color() {
-		  		return '#'+Math.floor(Math.random()*16777215).toString(16);
+		  		return '#'+Math.floor(Math.random()*16777215).toString(16); //randomizes colour
 		  	}
 			  	
 		</script>
@@ -178,12 +181,14 @@
 		</script>
 </head>
 <body>
-<section id="dancefloor">
-<figure class="ditto hero"></figure>
-</section>
-<audio id="song" autoplay loop>
-<source src="konga.mp3" type="audio/mp3"/>
-<embed src="konga.mp3" loop="true">
-</audio>
+	<!-- let's add ditto to the dance floor! -->
+	<section id="dancefloor">
+		<figure class="ditto hero"></figure>
+	</section>
+	<!-- Add up the audio -->
+	<audio id="song" autoplay loop>
+		<source src="konga.mp3" type="audio/mp3"/>
+		<embed src="konga.mp3" loop="true">
+	</audio>
 </body>
 </html>
