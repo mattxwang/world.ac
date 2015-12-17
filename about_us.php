@@ -15,7 +15,6 @@ session_start();
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/google_analytics.js"></script>
-	<script src="js/scrolling-nav.js"></script>
 	<style>
 	.col-md-3 img{
 		text-align: center;
@@ -28,6 +27,7 @@ session_start();
 
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
+	<script src="js/scrolling-nav.js"></script>
 	<div class = "container">
 		<div style="text-align:center;">
 			<h2>Meet the WAC Team</h2>
