@@ -69,7 +69,7 @@ body{
 	background-color:#DC8944;
 }
 @media(min-width:767px) {
-	.navbar {
+	.navbar-fixed-top {
 		padding: 20px 0;
 		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
 		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
