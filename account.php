@@ -67,10 +67,9 @@
 	<title><?php echo $row["first_name"];?>'s Account - World Affairs Conference</title>
 </head>
 <?php include_once("navbar.php") ?>
-<!--
-<body style = "position:relative;" data-spy="scroll" data-target="#acc-navbar">-->
 <body>
 	<div class= "container">
+	<!--
 		<div class = "row">
 			<div class = "col-md-3 hidden-xs">
 				<div id = "acc-navbar">
@@ -82,9 +81,8 @@
 					</ul>
 				</div>
 			</div>
-			<div class = "col-md-9">
+			<div class = "col-md-9">-->
 				<div style = "color:black">
-
 					<div class="modal fade" id="editInfo" tabindex="-1" role="dialog">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -338,8 +336,8 @@
 							</li>
 					</div>
 
-				</div>
-			</div>
+			<!--	</div>
+			</div>-->
 		</div>
 
 		
