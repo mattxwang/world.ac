@@ -12,6 +12,7 @@ session_start();
 	<title>How To Register - World Affairs Conference</title>
 	<link rel="icon" href="css/favicon.ico" />
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/google_analytics.js"></script>
 	<style>
