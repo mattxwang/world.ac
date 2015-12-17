@@ -27,7 +27,6 @@ session_start();
 
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
-	<script src="js/scrolling-nav.js"></script>
 	<div class = "container">
 		<div style="text-align:center;">
 			<h2>Meet the WAC Team</h2>
@@ -517,6 +516,7 @@ session_start();
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scrolling-nav.js"></script>
 	</div>
 </body>
 </html>
