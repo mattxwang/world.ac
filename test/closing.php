@@ -47,8 +47,10 @@ include_once("footer.php")
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+ <script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/nav-collapse.js"></script>
 
 </div>
 </body>
