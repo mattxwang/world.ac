@@ -514,7 +514,7 @@ session_start();
 		include_once("footer.php")
 		?>
 
-		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</div>
