@@ -4,6 +4,8 @@
 #### General Changes
 * Wraps up plenary page completion
 * Adds plenary images
+* Changes PHPmyadmin hooking for new VPS
+* Adds navbar collapse on scroll; looks pretty :D
 
 ### Changelog for v1.0.0
 
