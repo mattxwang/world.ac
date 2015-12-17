@@ -1,6 +1,6 @@
 <?php 
 
-	$username = "wac"; 
+	$username = "root"; 
 	$password = "password"; 
 	$host = "localhost"; 
 	$dbname = "wac"; 
