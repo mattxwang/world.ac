@@ -244,27 +244,12 @@ session_start();
 							<h4>Paul Meyer</h4>
 							<img src="img/avatar.png" width = "10%"></img>
 							<p>
-							Paul Meyer was born and attended university in Toronto, at the University of Toronto. He joined 
-							the Department of Foreign Affairs in 1975 and has since dedicated his life’s work to issues such 
-							as international security and relations. He is currently working as a Fellow in International 
-							Security at the Simon Fraser University in Vancouver, Canada. Meyer is also a Senior Fellow in 
-							Space Security and Nuclear Disarmament at The Simons Foundation.
-							</br>
-							</br>
-							Domestically, Mr. Meyer has had a brilliant career. He occupied numerous roles in the 
-							Department of Foreign Affairs and International Trade, specifically in the area of international 
-							security. He is an accomplished writer, publishing numerous articles and posts, primarily on 
-							topics concerning nuclear threats and dangers.
-							</br>
-							</br>
-							Mr. Meyer has also a distinguished international career. While a part of the Department of 
-							External Affairs, Mr. Meyer served in several countries abroad as the Political Councillor for 
-							Canada’s NATO delegation, including: Norway, Russia, and Belgium. Additionally, he served at 
-							the Embassy in Washington, D.C. from 1992­1997, again as Political Councillor. Even further, 
-							he served as Ambassador to the UN and Ambassador for disarmament in Geneva. Meyer led 
-							the Canadian delegation into several NPT meetings including the 2005 review conference 
-							playing a key role in Canada’s involvement in the NPT development, implementation, and 
-							review.
+							Paul Meyer is an Adjunct Professor of International Studies and a Centre for Dialogue Fellow in International Security at Simon Fraser University. 
+							He is a Senior Fellow at The Simons Foundation. A former career diplomat in Canada’s Foreign Service (1975-2010) Paul served abroad in six diplomatic postings, 
+							including as Ambassador and Permanent Representative to the UN and Conference on Disarmament in Geneva (2003-2007) and in a variety of HQ assignments with a 
+							focus on international security policy. Since assuming his current positions in 2011, Paul has taught courses on multilateral diplomacy and pursued research 
+							interests relating to arms control and disarmament, outer space security and international cyber security. He has written extensively on these subjects for 
+							professional publications and media commentary. 
 							</p>
 						</div>
 						<div class = "col-md-6">
