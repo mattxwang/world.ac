@@ -254,7 +254,7 @@ session_start();
 					<div class = "row">
 						<div class = "col-md-6">
 							<h4>Paul Meyer</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/bio/speakers/meyer.png" width = "128px"></img>
 							<p>
 							Paul Meyer is an Adjunct Professor of International Studies and a Centre for Dialogue Fellow in International Security at Simon Fraser University. 
 							He is a Senior Fellow at The Simons Foundation. A former career diplomat in Canada’s Foreign Service (1975-2010) Paul served abroad in six diplomatic postings, 
