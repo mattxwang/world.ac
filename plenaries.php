@@ -313,7 +313,7 @@ session_start();
 					<div class = "row">
 						<div class = "col-md-6">
 							<h4>Ratna Omidvar</h4>
-							<img src="img/bio/speakers/ratna.png" width = "10%"></img>
+							<img src="img/bio/speakers/ratna.png" width = "128px"></img>
 							<p>
 							Ratna Omidvar is the founding Executive Director of the Global Diversity Exchange 
 							(GDX) at the Ted Rogers School of Management, Ryerson University. GDX is a think and do 
