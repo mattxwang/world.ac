@@ -95,7 +95,7 @@ session_start();
 					<div class = "row">
 						<div class = "col-md-6">
 							<h4>Steven P. Lee</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/bio/speakers/lee.png" width = "128px"></img>
 							<p>
 							Steven P. Lee is a professor of philosophy at Hobart and William Smith Colleges in
 							Geneva, New York where he teaches courses on Morality and War, Social Justice, Morality and 
