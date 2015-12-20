@@ -118,7 +118,7 @@ session_start();
 						</div>
 						<div class = "col-md-6">
 							<h4>Paul Robinson</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/bio/speakers/robinson.png" width = "128px"></img>
 							<p>
 							Paul Robinson is a professor at the University of Ottawa Graduate School of Public and International 
 							Affairs, where he teaches courses on the history of war and security, Russian history, and foreign 
