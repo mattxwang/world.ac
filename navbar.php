@@ -45,7 +45,7 @@
             <li><a href="keynote.php">Keynote Address</a></li>
             <li><a href="opening.php">Opening Panel</a></li>
             <li><a href="plenaries.php">Plenaries</a></li>
-            <li><a href="construction.php">Closing Panel</a></li>
+            <li><a href="closing.php">Closing Panel</a></li>
             <li><a href="construction.php">Schedule</a></li>
           </ul>
         </li>
