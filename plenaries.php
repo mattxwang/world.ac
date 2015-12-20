@@ -117,10 +117,22 @@ session_start();
 							</p>
 						</div>
 						<div class = "col-md-6">
-							<h4>Speaker</h4>
+							<h4>Paul Robinson</h4>
 							<img src="img/avatar.png" width = "10%"></img>
 							<p>
-							We're still sorting out the details; we'll reveal all of this information soon!
+							Paul Robinson is a professor at the University of Ottawa Graduate School of Public and International 
+							Affairs, where he teaches courses on the history of war and security, Russian history, and foreign 
+							policy decision-making. Robinson holds an MA in Russian and Eastern European Studies from the University 
+							of Toronto and a D. Phil. in Modern History from the University of Oxford. Prior to his graduate studies, 
+							he served as a regular officer in the British Army Intelligence Corps from 1989 to 1994, and as a reserve 
+							officer in the Canadian Forces from 1994 to 1996. He also worked as a media research executive in Moscow 
+							in 1995. Robinson has written widely for the international press on political issues and has published 
+							seven books. He is the author of Aiding Afghanistan: A History of Soviet Assistance to a Developing 
+							Country (2013), Dictionary of International Security (2008), Reviving Realism in the Canadian Defence 
+							Debate (2008), and Military Honour and the Conduct of War: From Ancient Greece to Iraq (2006). 
+							His articles have appeared in both national and international publications, including The Ottawa Citizen, 
+							The National Post, and The American Conservative. In recent years, Robinson has focused his research on 
+							Russian history, military history, defence policy, and military ethics.
 							</p>
 						</div>
 					</div>
