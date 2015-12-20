@@ -183,7 +183,7 @@ session_start();
 					<div class = "row">
 						<div class = "col-md-6">
 							<h4>Susannah Gouinlock</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/bio/speakers/gouinlock.png" width = "128px"></img>
 							<p>
 							Susannah Gouinlock works at Catalyst Canada in many different facets of work. Ms. Gouinlock
 							also manages the relationships with numerous Catalyst member companies, she is the main 
