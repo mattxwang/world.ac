@@ -53,6 +53,7 @@ session_start();
 	<div class = "col-md-6">
 		<h1>Ron Deibert</h1>
 		<img src="img/bio/speakers/deibert.png"></img>
+		</br>
 		<p> 
 		Ron Deibert, (OOnt, PhD, University of British Columbia) is Professor of Political Science, and Director of 
 		the Citizen Lab at the Munk School of Global Affairs, University of Toronto. The Citizen Lab is an interdisciplinary 

@@ -53,6 +53,7 @@ session_start();
 						<div class = "col-md-6">
 						<h4>Margaret Cornish</h4>
 							<img src="img/bio/speakers/cornish.png" width = "128px"></img>
+							</br>
 							<p>
 							Most recently Margaret Cornish served on the International Affairs Council of Advisors
 							established to advise Justin Trudeau, Leader of the Liberal Party of Canada. Margaret began 
@@ -96,6 +97,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Steven P. Lee</h4>
 							<img src="img/bio/speakers/lee.png" width = "128px"></img>
+							</br>
 							<p>
 							Steven P. Lee is a professor of philosophy at Hobart and William Smith Colleges in
 							Geneva, New York where he teaches courses on Morality and War, Social Justice, Morality and 
@@ -119,6 +121,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Paul Robinson</h4>
 							<img src="img/bio/speakers/robinson.png" width = "128px"></img>
+							</br>
 							<p>
 							Paul Robinson is a professor at the University of Ottawa Graduate School of Public and International 
 							Affairs, where he teaches courses on the history of war and security, Russian history, and foreign 
@@ -156,6 +159,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>John Coyne</h4>
 							<img src="img/bio/speakers/coyne.png" width = "128px"></img>
+							</br>
 							<p>
 							We're still sorting out the details; we'll reveal all of this information soon!
 							</p>
@@ -184,6 +188,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Susannah Gouinlock</h4>
 							<img src="img/bio/speakers/gouinlock.png" width = "128px"></img>
+							</br>
 							<p>
 							Susannah Gouinlock works at Catalyst Canada in many different facets of work. Ms. Gouinlock
 							also manages the relationships with numerous Catalyst member companies, she is the main 
@@ -198,6 +203,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Emanuela Heyninck</h4>
 							<img src="img/bio/speakers/heyninck.png" width = "128px"></img>
+							</br>
 							<p>
 							Emanuela Heyninck is currently serving her third term as head of the Pay Equity Commission for 
 							Ontario, an independent agency of the Ministry of Labour.  The Commission enforces the Ontario 
@@ -255,6 +261,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Paul Meyer</h4>
 							<img src="img/bio/speakers/meyer.png" width = "128px"></img>
+							</br>
 							<p>
 							Paul Meyer is an Adjunct Professor of International Studies and a Centre for Dialogue Fellow in International Security at Simon Fraser University. 
 							He is a Senior Fellow at The Simons Foundation. A former career diplomat in Canada’s Foreign Service (1975-2010) Paul served abroad in six diplomatic postings, 
@@ -267,6 +274,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>James M. Acton</h4>
 							<img src="img/bio/speakers/acton.png" width = "128px"></img>
+							</br>
 							<p>
 							James M. Acton is a British scientist with a PhD in theoretical physics from 
 							Cambridge University. He is a physicist by training and is an expert in 
@@ -314,6 +322,7 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Ratna Omidvar</h4>
 							<img src="img/bio/speakers/ratna.png" width = "128px"></img>
+							</br>
 							<p>
 							Ratna Omidvar is the founding Executive Director of the Global Diversity Exchange 
 							(GDX) at the Ted Rogers School of Management, Ryerson University. GDX is a think and do 
