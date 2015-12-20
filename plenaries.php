@@ -155,7 +155,7 @@ session_start();
 					<div class = "row">
 						<div class = "col-md-6">
 							<h4>John Coyne</h4>
-							<img src="img/speakers/coyne.png" width = "128px"></img>
+							<img src="img/bio/speakers/coyne.png" width = "128px"></img>
 							<p>
 							We're still sorting out the details; we'll reveal all of this information soon!
 							</p>
@@ -197,7 +197,7 @@ session_start();
 						</div>
 						<div class = "col-md-6">
 							<h4>Emanuela Heyninck</h4>
-							<img src="img/speakers/heyninck.png" width = "128px"></img>
+							<img src="img/bio/speakers/heyninck.png" width = "128px"></img>
 							<p>
 							Emanuela Heyninck is currently serving her third term as head of the Pay Equity Commission for 
 							Ontario, an independent agency of the Ministry of Labour.  The Commission enforces the Ontario 
