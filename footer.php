@@ -1,10 +1,10 @@
 <?php
 $rando = rand(1,2);
 if($rando == 1){
-	$teamNames = "<b>Matthew Wang</b> and <b><a href =\"http://jack.antinode.ca\">Jack Sarick</a></b>";
+	$teamNames = "<b><a href =\"https://twitter.com/malsf21\">Matthew Wang</a></b> and <b><a href =\"http://jack.antinode.ca\">Jack Sarick</a></b>";
 }
 elseif($rando == 2){
-	$teamNames = "<b><a href =\"http://jack.antinode.ca\">Jack Sarick</a></b> and <b>Matthew Wang</b>";
+	$teamNames = "<b><a href =\"http://jack.antinode.ca\">Jack Sarick</a></b> and <b><a href =\"https://twitter.com/malsf21\">Matthew Wang</a></b>";
 }
 
 ?>
