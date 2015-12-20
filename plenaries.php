@@ -154,14 +154,14 @@ session_start();
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
-							<h4>Speaker</h4>
+							<h4>John Coyne</h4>
 							<img src="img/avatar.png" width = "10%"></img>
 							<p>
 							We're still sorting out the details; we'll reveal all of this information soon!
 							</p>
 						</div>
 						<div class = "col-md-6">
-							<h4>Speaker</h4>
+							<h4>Bill Shireman</h4>
 							<img src="img/avatar.png" width = "10%"></img>
 							<p>
 							We're still sorting out the details; we'll reveal all of this information soon!
