@@ -3,7 +3,8 @@
 
 #### General Changes
 * Wraps up plenary page completion
-* Adds plenary images
+* Adds plenary images/speaker bios
+* Adds Opening and Closing Panel Pages
 * Changes PHPmyadmin hooking for new VPS
 * Adds navbar collapse on scroll; looks pretty :D
 
