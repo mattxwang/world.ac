@@ -22,6 +22,9 @@ session_start();
 		text-align:justify;
 		color:black;
 	}
+	.well{
+		color:black;
+	}
 	</style>
 </head>
 
@@ -30,8 +33,10 @@ session_start();
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
 
-
-		<div class="panel-group" id="general" role="tablist" aria-multiselectable="true">
+		<div class="well well-lg" id = "general">
+			<h2><a href="#general">General</a></h2>
+		</div>
+		<div class="panel-group" role="tablist" aria-multiselectable="true">
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab">
 					<h4 class="panel-title">
