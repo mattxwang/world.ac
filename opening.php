@@ -88,7 +88,7 @@ session_start();
 		</div>
 		<div class = "col-md-6">
 			<h1>Graeme Bunton</h1>
-			<img src="img/avatar.png"></img>
+			<img src="img/avatar.png" height="128px"></img>
 			<p> 
 			More to come soon!
 			</p>
@@ -99,9 +99,9 @@ session_start();
 	include_once("footer.php")
 	?>
 	 <script src="js/jquery.js"></script>
-			<script src="js/jquery.easing.min.js"></script>
-			<script src="js/bootstrap.min.js"></script>
-			<script src="js/nav-collapse.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/nav-collapse.js"></script>
 
 	</div>
 </body>
