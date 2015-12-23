@@ -1,10 +1,6 @@
 <?php
 //Start the PHP session
 session_start();
-if(empty($_SESSION['user'])){ 
-	header("Location: login_page.php"); 
-	die("Redirecting to login_page.php"); 
-}
 ?>
 <!DOCTYPE html>
 <html>
