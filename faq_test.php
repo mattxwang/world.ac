@@ -36,6 +36,9 @@ session_start();
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
 
+		<h3>Click on a question to expand the answer.</h3>
+		<h5> Is your question not answered? You can <b><a href="contact_us.php">contact us</a></b> for more information.</h5>
+
 		<div class="panel-group" id="general" role="tablist" aria-multiselectable="true">
 			<h2><a href="#general">General</a></h2>
 			<div class="panel panel-default">
@@ -196,7 +199,7 @@ session_start();
 					</a>
 					</h4>
 				</div>
-				<div id="collapseConfSchedule" class="panel-collapse collapse" role="tabpanel">
+				<div id="collapseKeynoteWho" class="panel-collapse collapse" role="tabpanel">
 					<div class="panel-body">
 					Anybody can attend the Keynote Address. We recommend that all delegates that attend the Conference Day also attend the Keynote Address.
 					</div>
