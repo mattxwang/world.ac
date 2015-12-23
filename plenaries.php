@@ -24,6 +24,7 @@ session_start();
 
 <body style="position:relative;">
 	<?php include_once("navbar.php") ?>
+	<?php include_once("import_info.php") ?>
 	<div class = "container">
 		<div style="text-align:center;">
 			<h1>Plenaries at WAC</h1>
