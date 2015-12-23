@@ -17,7 +17,6 @@ session_start();
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/google_analytics.js"></script>
-	
 	<style>
 	p{
 		text-align:justify;
@@ -84,7 +83,7 @@ session_start();
 					<h3>When is the registration due?</h3>
 					<p>This, along with other information, will be sent out as we finish the registration package. </p>
 				
-					<p>The registration is due by mail on January 16th 2016. We may not be able to accept late registrants so please ensure your forms are submitted promptly. </h3>
+					<p>The registration is due by mail on January 16th 2016. We may not be able to accept late registrants, so please ensure your forms are submitted promptly. </h3>
 			
 				</div>
 
@@ -97,7 +96,7 @@ session_start();
 				</div>
 				<div id = "lunch">
 					<h3>Are students provided lunch?</h3>
-					<p>Yes students are provided lunch free of charge on the day of the conference.</p>
+					<p>Yes, students are provided lunch free of charge on the day of the conference.</p>
 				</div>
 				<div id = "allergy">
 					<h3>How do I notify WAC of special food accomodations?</h3>
