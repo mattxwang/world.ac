@@ -25,6 +25,9 @@ session_start();
 	.well{
 		color:black;
 	}
+	h2{
+		font-weight: bold;
+	}
 	</style>
 </head>
 
@@ -155,6 +158,66 @@ session_start();
 			</div>
 		</div>
 
+		<div class="panel-group" id="keynote" role="tablist" aria-multiselectable="true">
+			<h2><a href="#keynote">Keynote Address</a></h2>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#keynote" href="#collapseKeynoteWhat">
+					What happens during the Keynote Address?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseKeynoteWhat" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					During the <b><a href="keynote.php">Keynote Address</a></b>, a prominent member of the community (who will be revealed shortly) will give an address on current affairs at Laidlaw Hall. The Keynote Address is open to the public, and will also feature a Q&A session. Coat Check will also be provided.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#keynote" href="#collapseKeynoteWhen">
+					When does the Keynote Address start?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseKeynoteWhen" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					More information on the keynote will be put up shortly.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#keynote" href="#collapseKeynoteWho">
+					Who can attend the Keynote Address?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseConfSchedule" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					Anybody can attend the Keynote Address. We recommend that all delegates that attend the Conference Day also attend the Keynote Address.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#keynote" href="#collapseKeynoteSpeaker">
+					Who is speaking at the Keynote Address?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseKeynoteSpeaker" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					This information will be provided shortly. We suggest you check back in with the site every now and then.
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="panel-group" id="conf" role="tablist" aria-multiselectable="true">
 			<h2><a href="#conf">Conference Day</a></h2>
 			<div class="panel panel-default">
@@ -165,7 +228,7 @@ session_start();
 					</a>
 					</h4>
 				</div>
-				<div id="collapseGeneralWhat" class="panel-collapse collapse" role="tabpanel">
+				<div id="collapseConfWhat" class="panel-collapse collapse" role="tabpanel">
 					<div class="panel-body">
 					During the Conference Day, delegates will attend the <b><a href="opening.php">Opening Panel</a></b>, on the Future of the Internet.
 					They will then proceed to attend three out of the six <b><a href="plenaries.php">plenaries</a></b> that they have been assigned to, with a lunch break in between.
