@@ -25,9 +25,13 @@ session_start();
 <h4 style = "text-align:center;">To complete registration, please fill out the following information. </br> It will be editable later. </h4>
 <form class="form-signin" action="new_user.php" method="post">
 
+<h3>Delegate Email</h3>
+	<h5>This is the email you just used to register for your account.</h5>
+	<input type="email" id="email" class="form-control" placeholder="john.doe@ucc.on.ca" name="email" required="" autofocus="">
+
 	<h3>Delegate First Name</h3>
 	<h5>This is how your first name will appear on the delegate nametag.</h5>
-	<input type="text" id="first_name" class="form-control" placeholder="First Name" name="first_name" required="" autofocus="">
+	<input type="text" id="first_name" class="form-control" placeholder="First Name" name="first_name" required="">
 
 	<h3>Delegate Last Name</h3>
 	<h5>This is how your last name will appear on the delegate nametag.</h5>
