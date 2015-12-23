@@ -36,6 +36,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration Information<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="misc_files/reg_2016.pdf">Registration Package</a></li>
+            <li><a href="misc_files/reg_2016_form.pdf">Registration Form</a></li>
             <li><a href="reg_how.php">How to Register</a></li>
           </ul>
         </li>
