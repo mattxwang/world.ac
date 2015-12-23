@@ -7,6 +7,7 @@
 * Adds Opening and Closing Panel Pages
 * Changes PHPmyadmin hooking for new VPS
 * Adds navbar collapse on scroll; looks pretty :D
+* Changes FAQ to use collapsing panels instead of messy walls of text
 
 ### Changelog for v1.0.0
 
