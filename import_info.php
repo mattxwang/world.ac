@@ -1,4 +1,5 @@
 <?php
+	require("common.php");
 	if(!empty($_SESSION['user'])){ 
 		// Pull user data
 		$email = $_SESSION['user']['email'];
