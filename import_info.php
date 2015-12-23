@@ -1,4 +1,5 @@
 <?php
+	if(!empty($_SESSION['user'])){ 
 		// Pull user data
 		$email = $_SESSION['user']['email'];
 		$query = "SELECT * FROM info WHERE email='$email';";
@@ -15,4 +16,5 @@
 		}  
 
 		$row = $stmt->fetch();
+	}
 ?>
