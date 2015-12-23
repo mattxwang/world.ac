@@ -46,7 +46,7 @@ session_start();
 
 			<div class = "col-md-10" style ="color:#FFFFFF"> 
 				<div id = "general">
-				<h2>General</h2>
+				<h2><a href="#general">General</a></h2>
 				</div>
 				<div id = "gen_what">
 					<h3>What is WAC?</h3>
@@ -66,7 +66,7 @@ session_start();
 				</div>
 
 				<div id = "reg">
-				<h2>Registration</h2>
+				<h2><a href="#reg">Registration</a></h2>
 				</div>
 				<div id="reg_student_cost">
 				<h3>Registration Price</h3>
@@ -89,7 +89,7 @@ session_start();
 				</div>
 
 				<div id = "cday">
-				<h2>Conference Day</h2>
+				<h2><a href="#cday">Conference Day</a></h2>
 				</div>
 				<div id = "theday">
 					<h3>What can I expect on the day of WAC?</h3>
