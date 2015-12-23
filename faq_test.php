@@ -33,9 +33,7 @@ session_start();
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
 
-		<div class="well" id = "general">
-			<h2><a href="#general">General</a></h2>
-		</div>
+		<h2><a href="#general">General</a></h2>
 		<div class="panel-group" role="tablist" aria-multiselectable="true">
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab">
