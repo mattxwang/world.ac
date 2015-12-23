@@ -33,8 +33,8 @@ session_start();
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
 
-		<h2><a href="#general">General</a></h2>
 		<div class="panel-group" id="general" role="tablist" aria-multiselectable="true">
+			<h2><a href="#general">General</a></h2>
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab">
 					<h4 class="panel-title">
@@ -149,31 +149,72 @@ session_start();
 					<div class="panel-body">
 					Delegates can notify WAC of their food (or otherwise) accomodations through the <a href="account.php">account system</a>. 
 					We can guarantee that there will be vegetarian food that is available during the conference lunch.
-					Unfortunately, we are not certain that we can accomodate for every food accomodation.  We suggest delegates with special food accomodations either bring a pack lunch, or go to a nearby restaurant.
+					Unfortunately, we are not certain that we can accomodate every dietary concern.  We suggest delegates with dietary concerns either bring a pack lunch, or go to a nearby restaurant.
 					</div>
 				</div>
 			</div>
 		</div>
 
-	
-
-		<div id = "cday">
-		<h2><a href="#cday">Conference Day</a></h2>
-		</div>
-		<div id = "theday">
-			<h3>What can I expect on the day of WAC?</h3>
-			<p>School supervisors and their students are encouraged to arrive at or before 8AM for the registration check in process. Each student will receive their personal package with their name tag. The conference will then be kicked off with our morning panel. The closing ceremonies typically end at around 4:40PM</p>
-		</div>
-		<div id = "lunch">
-			<h3>Are students provided lunch?</h3>
-			<p>Yes, students are provided lunch free of charge on the day of the conference.</p>
-		</div>
-		<div id = "allergy">
-			<h3>How do I notify WAC of special food accomodations?</h3>
-			<p>This year, WAC can accomodate for vegetarian needs. Please submit this in either the registration package, or the website's account system. 
-			</br>
-			Unfortunately, we cannot tailor to specific food allergies. We suggest those delegates either bring a pack lunch, or go to a nearby restaurant.
-			</p>
+		<div class="panel-group" id="conf" role="tablist" aria-multiselectable="true">
+			<h2><a href="#conf">Conference Day</a></h2>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#conf" href="#collapseConfWhat">
+					What happens during the Conference Day?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseGeneralWhat" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					During the Conference Day, delegates will attend the <b><a href="opening.php">Opening Panel</a></b>, on the Future of the Internet.
+					They will then proceed to attend three out of the six <b><a href="plenaries.php">plenaries</a></b> that they have been assigned to, with a lunch break in between.
+					Finally, delegates will attend the <b><a href="closing.php">Closing Panel</a></b>, hosted by Sami Jo Small. A full schedule can be found <b><a href="construction.php">here</a></b>.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#conf" href="#collapseConfWhen">
+					Is there a check in process?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseConfWhen" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					School supervisors and their students are encouraged to arrive at or before 8AM for the registration check in process. Each student will receive their personal delegate package with their nametag and plenary assignments.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#conf" href="#collapseConfSchedule">
+					What times do all of these events happen?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseConfSchedule" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					A schedule of events will be shortly posted to the WAC website. As well, one will be included in the delegate and faculty packages.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#conf" href="#collapseConfLunch">
+					Will students be provided lunch?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseConfLunch" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					Lunch is provided to both student and faculty delegates free of charge on the day of the conference. A vegetarian option will be provided. Delegates are also free to bring a pack lunch or go to a restaurant to fit their dietary concerns.
+					</div>
+				</div>
+			</div>
 		</div>
 		
 	<?php
