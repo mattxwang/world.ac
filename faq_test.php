@@ -20,6 +20,7 @@ session_start();
 	<style>
 	.panel-body{
 		text-align:justify;
+		color:black;
 	}
 	</style>
 </head>
@@ -53,7 +54,7 @@ session_start();
 					</a>
 					</h4>
 				</div>
-				<div id="collapseGeneralWhen" class="panel-collapse collapse in" role="tabpanel">
+				<div id="collapseGeneralWhen" class="panel-collapse collapse" role="tabpanel">
 					<div class="panel-body">
 					WAC spans two days: the <a href="keynote.php">Keynote Address</a>, featuring a prominent member of the community, is held on the night of February 1st and open to the public; and the Conference Day, which is held on February 2nd and is attended by delegates and faculty supervisors only.
 					</div>
@@ -67,7 +68,7 @@ session_start();
 					</a>
 					</h4>
 				</div>
-				<div id="collapseGeneralMedia" class="panel-collapse collapse in" role="tabpanel">
+				<div id="collapseGeneralMedia" class="panel-collapse collapse" role="tabpanel">
 					<div class="panel-body">
 					For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmanuel Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a>
 					</div>
