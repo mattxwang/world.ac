@@ -34,7 +34,7 @@ session_start();
 		<?php include_once("navbar.php") ?>
 
 		<h2><a href="#general">General</a></h2>
-		<div class="panel-group" role="tablist" aria-multiselectable="true">
+		<div class="panel-group" id="general" role="tablist" aria-multiselectable="true">
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab">
 					<h4 class="panel-title">
@@ -67,7 +67,7 @@ session_start();
 				<div class="panel-heading" role="tab">
 					<h4 class="panel-title">
 					<a role="button" data-toggle="collapse" data-parent="#general" href="#collapseGeneralMedia">
-					Who Do We Contact for Media Information?
+					Who do we contact for media information?
 					</a>
 					</h4>
 				</div>
@@ -79,26 +79,51 @@ session_start();
 			</div>
 		</div>
 
-
-		<div class="well well-lg" id = "general">
-			<h2><a href="#general">General</a></h2>
+		<div class="panel-group" id="reg" role="tablist" aria-multiselectable="true">
+			<h2><a href="#reg">Registration</a></h2>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#reg" href="#collapseRegSchool">
+					How can I register my school?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseRegSchool" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					To attend the World Affairs Conference this year, the registration form and means of payment need to be submitted by January 16th 2016. The registration information package, as well as the forms required to register are available for download, <b><a href="misc_files/reg_2015.pdf">here</a></b> and <b><a href ="misc_files/reg_2015_form.pdf">here</a></b>.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#reg" href="#collapseRegStudent">
+					Can I register as an individual student?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseRegStudent" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					Students cannot register individually. We suggest students contact their principal, head of school, or itnerested teacher(s), and have them contact WAC.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab">
+					<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#reg" href="#collapseRegDue">
+					When is registration due?
+					</a>
+					</h4>
+				</div>
+				<div id="collapseRegDue" class="panel-collapse collapse" role="tabpanel">
+					<div class="panel-body">
+					Registration is due by mail on January 16th 2016. We may not be able to accept late registrants, so please ensure your forms are submitted promptly. 
+					</div>
+				</div>
+			</div>
 		</div>
-			<div id = "gen_what">
-				<h3>What is WAC?</h3>
-				<p> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.</p>
-			</div>
-			<div id = "gen_date">
-				<h3>When is WAC?</h3>
-				<p> There are two parts to WAC: the Keynote Address, which will be held on the night of February 1st, and the conference day, which is on the day of February 2nd.  </p>
-			</div>
-			<div id = "gen_days">
-				<h3>Do students attend both days?</h3>
-				<p>The first day of the conference consists just of the Lionel Gelber Keynote Address which is hosted in the evening. This event is open to the Toronto community, and anyone is welcome to attend. The second day of the conference begins at 8AM and is attended by only registered student delegates and their faculty supervisors. We do encourage students to attend the Keynote Address if it is of interest to them. It tends to feature a well know speaker of great importance to current affairs.</p>
-			</div>
-			<div id = "media">
-				<h3>Media information</h3>
-				<p>For any information regarding media coverage please contact the Head of the Department of Registration and Media: Emmanuel Wong (emmanuel.wong@ucc.on.ca). If you require any WAC branding for your work please feel free to use the following provided logos: <a href="misc_files/WAC_Logos.zip"><b>download here.</b></a></p>
-			</div>
 
 		<div id = "reg">
 		<h2><a href="#reg">Registration</a></h2>
