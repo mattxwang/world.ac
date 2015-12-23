@@ -33,7 +33,7 @@ session_start();
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
 
-		<div class="well well-lg" id = "general">
+		<div class="well" id = "general">
 			<h2><a href="#general">General</a></h2>
 		</div>
 		<div class="panel-group" role="tablist" aria-multiselectable="true">
@@ -45,7 +45,7 @@ session_start();
 					</a>
 					</h4>
 				</div>
-				<div id="collapseGeneralWhat" class="panel-collapse collapse in" role="tabpanel">
+				<div id="collapseGeneralWhat" class="panel-collapse collapse" role="tabpanel">
 					<div class="panel-body">
 					The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 800 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.
 					</div>
