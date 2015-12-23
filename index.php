@@ -25,6 +25,7 @@ session_start();
 </head>
 
 <body>
+	<?php include_once("import_info.php") ?>
 	<?php include_once("navbar.php")  ?>
 	<div style="line-height:80%; padding:4%; position:relative">
 		<div style="font-size:5vw;">

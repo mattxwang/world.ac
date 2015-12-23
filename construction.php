@@ -19,25 +19,26 @@ session_start();
 	
 </head>
 <body style="position:relative;">
-<?php include_once("navbar.php") ?>
+	<?php include_once("import_info.php") ?>
+	<?php include_once("navbar.php") ?>
 	<div class = "container">
-	<div style="text-align:center">
+		<div style="text-align:center">
 
-		<h1>UNDER CONSTRUCTION</h1>
+			<h1>UNDER CONSTRUCTION</h1>
 
-		<img src="/img/construction-sign.png" width="165"></img>
+			<img src="/img/construction-sign.png" width="165"></img>
 
-		<p>
-		Hello there. We're still in the process of developing and creating the World Affairs Conference, and its website. Check back in a few weeks, and we'll have more content.
-		</p>
+			<p>
+			Hello there. We're still in the process of developing and creating the World Affairs Conference, and its website. Check back in a few weeks, and we'll have more content.
+			</p>
 
-	</div>
+		</div>
 	<?php
 	include_once("footer.php")
 	?>
-	 <script src="js/jquery.js"></script>
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/nav-collapse.js"></script></div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/nav-collapse.js"></script></div>
 </body>
 </html>

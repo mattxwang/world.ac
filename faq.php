@@ -30,6 +30,7 @@ session_start();
 
 <body style="position:relative;">
 	<div class="container">
+		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
 
 		<div class = "row">

@@ -21,7 +21,8 @@
 		die("Redirecting to account.php"); 
 	}  
 ?> 
-<?php include_once("navbar.php") ?>
+	<?php include_once("import_info.php") ?>
+	<?php include_once("navbar.php") ?>
 
 <body>
 	<div class="container" style = "vertical-align:middle">
