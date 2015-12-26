@@ -157,7 +157,7 @@ session_start();
 				<div class="collapse" id="collapseEnvironment">
 					<h2>Environmental Responsibility</h2>
 					<p> 
-					We're still sorting out the details; we'll reveal all of this information soon!
+					This year’s plenary on the environment is entitled Environmental Corporate Responsibility. The plenary will explore the ways that companies can remain profitable while mitigating their effects on the environment and benefiting the lives of people that they interact with. Corporate responsibility regarding the environment may have positive outcomes for both the company and the world as a whole. The invited speakers for this year’s conference in the environment plenary are Bill Shireman and John Coyne. Both speakers have extensive experience in corporate environmental responsibility, each directing large companies and organizations to improve environmental sustainability from within to benefit themselves, the people they interact with, and the environment.
 					</p>
 					<div class = "row">
 						<div class = "col-md-6">
@@ -171,9 +171,9 @@ session_start();
 						</div>
 						<div class = "col-md-6">
 							<h4>Bill Shireman</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/avatar.png" width = "128px"></img>
 							<p>
-							We're still sorting out the details; we'll reveal all of this information soon!
+							Bill Shireman, president and CEO of Future 500, influences some of the world’s largest companies and most impassioned activists to find common ground as oppose to fighting against one another. Shireman works with companies including Coca-Cola, General Motors and Nike to increase awareness about the importance of environmental sustainability in these corporations. Shireman’s research, books and studies prove that it is possible to protect the Earth while increasing prosperity and efficiency at the same time. Bill Shireman is both an environmental advocate and an entrepreneur, and uses his business knowledge and passion for environmental sustainability to join forces from opposite sides, believing that by internalizing external costs, both businesses and the environment can thrive. With this theory, Shireman blends economic, ecological and systems theory to develop practical solutions. He believes that competition leads to cooperation, that conservative economic policies support liberal social policies, that consumers can also be creators, and that nature is the best business model.
 							</p>
 						</div>
 					</div>
