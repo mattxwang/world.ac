@@ -74,7 +74,9 @@ session_start();
 						</div>
 						<div class = "col-md-6">
 							<h4>Speaker</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/avatar.png" width = "128px"></img>
+							</br>
+							</br>
 							<p>
 							We're still sorting out the details; we'll reveal all of this information soon!
 							</p>
@@ -172,6 +174,8 @@ session_start();
 						<div class = "col-md-6">
 							<h4>Bill Shireman</h4>
 							<img src="img/avatar.png" width = "128px"></img>
+							</br>
+							</br>
 							<p>
 							Bill Shireman, president and CEO of Future 500, influences some of the world’s largest companies and most impassioned activists to find common ground as oppose to fighting against one another. Shireman works with companies including Coca-Cola, General Motors and Nike to increase awareness about the importance of environmental sustainability in these corporations. Shireman’s research, books and studies prove that it is possible to protect the Earth while increasing prosperity and efficiency at the same time. Bill Shireman is both an environmental advocate and an entrepreneur, and uses his business knowledge and passion for environmental sustainability to join forces from opposite sides, believing that by internalizing external costs, both businesses and the environment can thrive. With this theory, Shireman blends economic, ecological and systems theory to develop practical solutions. He believes that competition leads to cooperation, that conservative economic policies support liberal social policies, that consumers can also be creators, and that nature is the best business model.
 							</p>
@@ -361,7 +365,9 @@ session_start();
 						</div>
 						<div class = "col-md-6">
 							<h4>Speaker</h4>
-							<img src="img/avatar.png" width = "10%"></img>
+							<img src="img/avatar.png" width = "128px"></img>
+							</br>
+							</br>
 							<p>
 							We're still sorting out the details; we'll reveal all of this information soon!
 							</p>
