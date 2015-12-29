@@ -32,7 +32,7 @@ session_start();
 	<div class="container">
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
-
+		<h1 style="text-align: center;">Frequently Asked Questions</h1>
 		<h3>Click on a question to expand the answer.</h3>
 		<h5> Is your question not answered? You can <b><a href="contact_us.php">contact us</a></b> for more information.</h5>
 
