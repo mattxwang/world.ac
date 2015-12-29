@@ -67,7 +67,7 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+			<a role="button" data-toggle="popover" data-trigger="focus" container: 'body' title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
 
 
 
