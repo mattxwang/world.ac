@@ -37,10 +37,15 @@ elseif($rando == 2){
       <h6><a href="contact_us.php">Contact Us</a></h6>
       </br>
       </br>
+      </br>
     </div>
     <div class = "col-md-3">
-      <h3>Developed by this year's WAC web design team, <?php echo $teamNames; ?></h3>
-      Privacy Policy blah blah blah
+      Developed by this year's WAC web design team, <?php echo $teamNames; ?>
+      <p style="font-size: 8px">
+      Made with the help of <a href="http://getbootstrap.com"> the bootstrap framework</a>.
+      </p>
+
+      We use cookies and Google Analytics to help make the website experience better! By using our site, you agree to the use of these services.
     </div>
   </div>
 </div>
