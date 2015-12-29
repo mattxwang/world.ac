@@ -18,6 +18,9 @@ session_start();
 			.filled{
 
 			}
+			.popover{
+				color:black;
+			}
 		</style>
 	</head>
 
@@ -67,8 +70,8 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<a data-toggle="popover" container: 'table' html="true" title="Keynote Address" data-content="The Keynote Address will feature this awesome speaker! Check it out at <a href='#'></a>">Dismissible popover</a>
-			<div style="color:black;">The Keynote Address will feature this awesome speaker! Check it out at <a href="#"></a></div>
+			<a data-toggle="popover" container="body" html="true" placement="auto top" title="Keynote Address" data-content="The Keynote Address will feature this awesome speaker! ">Dismissible popover</a>
+	
 
 
 
