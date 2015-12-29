@@ -12,7 +12,7 @@ elseif($rando == 2){
 </br>
 </br>
 </br>
-<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 5% 10% 1% 10%">
+<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 2% 10% 1% 10%">
   <div class =  "row">
     <div class = "col-md-2 vertical-line">
       <h4><b>Home</b></h4>
@@ -41,8 +41,16 @@ elseif($rando == 2){
       </br>
       </div>
     </div>
-    <div class = "col-md-6 vertical-line">
+    <div class = "col-md-6 vertical-line" style="text-align: right;">
+      <h4>The World Affairs Conference Website</h4>
       Developed by this year's WAC web design team, <?php echo $teamNames; ?>
+      </br>
+      The World Affairs Conference 2016
+      </br>
+      February 1st 2016 | February 2nd 2016
+      </br>
+      Upper Canada College
+      </br>
     </div>
   </div>
    <p style="text-align:right;font-size: 8px">
