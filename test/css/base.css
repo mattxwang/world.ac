@@ -79,7 +79,7 @@ body{
 		padding: 0;
 	}
 }
-.vertical-line {
+div .vertical-line {
 	width: 1px;
 	background-color: black;
 	height: 80%;
