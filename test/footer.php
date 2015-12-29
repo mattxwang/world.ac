@@ -11,9 +11,9 @@ elseif($rando == 2){
 
 <div class="containter-fluid">
   <div class =  "row" style = "background-color:#f8f8f8;color: black;">
-    <div class = "col-md-8">
+    <div class = "col-md-8 vertical-line">
       <div class = "row">
-        <div class = "col-md-4">
+        <div class = "col-md-4 vertical-line">
           <b><h5>Home</h5></b>
           <h6><a href="index.php">Homepage</a></h6>
           <b><h5>Registration Information</h5></b>
@@ -21,7 +21,7 @@ elseif($rando == 2){
           <h6><a href="reg_2016.pdf">Registration Package</a></h6>
           <h6><a href="reg_2016_form.pdf">Registration Form</a></h6>
         </div>
-        <div class = "col-md-4">
+        <div class = "col-md-4 vertical-line">
           <b><h5>Conference Information</h5></b>
           <h6><a href="keynote.php">Keynote Address</a></h6>
           <h6><a href="opening.php">Opening Panel</a></h6>

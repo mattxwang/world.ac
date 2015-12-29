@@ -80,3 +80,6 @@ body{
 		padding: 0;
 	}
 }
+.vertical-line {
+    border-right: thick solid #000000;
+}
