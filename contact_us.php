@@ -35,8 +35,6 @@ session_start();
 				<b>Ernest Leung</b>, Head of Operations, <a href="mailto:ernest.leung@ucc.on.ca">ernest.leung@ucc.on.ca</a></br>
 				<b>Emmanuel Wong</b>, Head of Registration, <a href="mailto:emmanuel.wong@ucc.on.ca">emmanuel.wong@ucc.on.ca</a></br>
 				<b>Nitish Dhingra</b>, Secretary/Treasurer, <a href="mailto:nitish.dhingra@ucc.on.ca">nitish.dhingra@ucc.on.ca</a></br>
-
-				
 				</br>
 				<h3>Website Design</h3>
 				<b><a href="http://twitter.com/malsf21">Matthew Wang</a></b>, Website Design, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></br>
