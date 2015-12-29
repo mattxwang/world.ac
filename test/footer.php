@@ -10,7 +10,7 @@ elseif($rando == 2){
 ?>
 
 
-<div class =  "row" style = "background-color:white;color: black;">
+<div class =  "row" style = "background-color:#f8f8f8;color: black;">
   <div class = "col-md-8">
     <div class = "row">
       <div class = "col-md-4">
