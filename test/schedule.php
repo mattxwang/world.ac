@@ -15,23 +15,27 @@ session_start();
 		<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/base.css" />
 		<style>
-			.filled{
-
-			}
 			.popover{
 				color:black;
 			}
 			.plen{
 				background-color:#5E7794;
+				text-align: center;
 			}
 			.reg{
 				background-color:#809C29;
+				text-align: center;
 			}
 			.panel{
 				background-color:#DC8944;
+				text-align: center;
 			}
 			.lunch{
 				background-color:#C61B26;
+				text-align: center;
+			}
+			th{
+				text-align: center;
 			}
 		</style>
 	</head>
@@ -42,7 +46,7 @@ session_start();
 
 		<div class = "container">
 			<h1 style="text-align: center;">Conference Day Schedule</h1>
-			<h6 style="text-align: center;">Hover over a block to learn more</h6>
+			<h6 style="text-align: center;">Click on a block to learn more</h6>
 			<div class = "table-responsive">
 				<table class = "table">
 					<tr>
