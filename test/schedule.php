@@ -44,6 +44,28 @@ session_start();
 						<th>2:25-3:25</th>
 					</tr>
 					<tr>
+						<td><b>CC3</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>PLEN</td>
+						<td>PLEN</td>
+						<td></td>
+						<td>PLEN</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>David Chu Theatre</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>PLEN</td>
+						<td>PLEN</td>
+						<td></td>
+						<td>PLEN</td>
+						<td></td>
+					</tr>
+					<tr>
 						<td><b>Laidlaw Hall</b></td>
 						<td></td>
 						<td>OPENING</td>
@@ -55,14 +77,59 @@ session_start();
 						<td>CLOSING</td>
 					</tr>
 					<tr>
-						<td>Eve</td>
-						<td>Jackson</td>
-						<td>94</td>
+						<td><b>Lecture Theatre</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>PLEN</td>
+						<td>PLEN</td>
+						<td></td>
+						<td>PLEN</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>John</td>
-						<td>Doe</td>
-						<td>80</td>
+						<td><b>Lett Gym</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Lunch</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>Library</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>PLEN</td>
+						<td>PLEN</td>
+						<td></td>
+						<td>PLEN</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>Old Gym</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>PLEN</td>
+						<td>PLEN</td>
+						<td></td>
+						<td>PLEN</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>Upper Dining Hall</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>LUNCH</td>
+						<td></td>
+						<td></td>
 					</tr>
 				</table>
 			</div>
