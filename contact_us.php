@@ -39,8 +39,8 @@ session_start();
 				
 				</br>
 				<h3>Website Design</h3>
-				<b>Matthew Wang</b>, Website Design, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></br>
-				<b>Jack Sarick</b>, Website Design, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></br>
+				<b><a href="http://twitter.com/malsf21">Matthew Wang</a></b>, Website Design, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></br>
+				<b><a href="http://jack.antinode.ca">Jack Sarick</a></b>, Website Design, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></br>
 				</p>
 				
 			</div>

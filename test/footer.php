@@ -39,7 +39,7 @@ elseif($rando == 2){
     </div>
     <div class = "col-md-6" style="text-align: right;">
       <h4><b>The World Affairs Conference Website</b></h4>
-      Developed by this year's WAC web design team, <?php echo $teamNames; ?>
+      Developed by <?php echo $teamNames; ?>
       </br>
       </br>
       <h4><b>The World Affairs Conference 2016</b></h4>
