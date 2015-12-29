@@ -74,3 +74,10 @@ body{
 		padding: 0;
 	}
 }
+
+/* | Small fix for firefox tables, from Bootstrap. | */
+@-moz-document url-prefix() {
+	fieldset {
+		display: table-cell;
+	}
+}
