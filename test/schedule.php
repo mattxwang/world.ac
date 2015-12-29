@@ -34,10 +34,6 @@ session_start();
 				<table class = "table">
 					<tr>
 						<th></th>
-						<th>Monday</th>
-						<th>RECEPTION</th>
-						<th>KEYNOTE ADDRESS</th>
-						<th>Tuesday</th>
 						<th>8:30-9:00</th>
 						<th>9:00-10:15</th>
 						<th>10:15-10:30</th>
@@ -49,10 +45,6 @@ session_start();
 					</tr>
 					<tr>
 						<td><b>Laidlaw Hall</b></td>
-						<td></td>
-						<td>SEATING</td>
-						<td>KEYNOTE</td>
-						<td></td>
 						<td></td>
 						<td>OPENING</td>
 						<td></td>
