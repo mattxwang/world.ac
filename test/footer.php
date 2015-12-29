@@ -11,6 +11,7 @@ elseif($rando == 2){
 
 
 <div class =  "row" style = "background-color:#f8f8f8;color: black;">
+<div class="container">
   <div class = "col-md-8">
     <div class = "row">
       <div class = "col-md-4">
@@ -40,5 +41,6 @@ elseif($rando == 2){
   <div class = "col-md-4">
     <h3>Developed by this year's WAC web design team, <?php echo $teamNames; ?></h3>
     Privacy Policy blah blah blah
+  </div>
   </div>
 </div>
