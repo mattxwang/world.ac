@@ -67,7 +67,7 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+			<a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
 
 
 
@@ -80,7 +80,7 @@ session_start();
 			<script src="js/nav-collapse.js"></script>
 			<script>
 				$(function () {
-					$('[data-toggle="tooltip"]').tooltip()
+					$('[data-toggle="popover"]').popover()
 				})
 			</script>
 		</div>
