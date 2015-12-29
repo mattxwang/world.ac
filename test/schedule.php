@@ -86,7 +86,7 @@ session_start();
 					<tr>
 						<td><b>Foyer</b></td>
 						<td class="reg">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate/Faculty Registration" data-content='Registered Delegates and Faculty Members should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">Delegate/Faculty Reg.</a>
+							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate/Faculty Registration" data-content='Registered Delegates and Faculty Members should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">Delegate/Faculty Reg.</a>
 						</td>
 						<td></td>
 						<td></td>
@@ -99,14 +99,14 @@ session_start();
 						<td><b>Laidlaw Hall</b></td>
 						<td></td>
 						<td class="panel">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Opening Panel</a>
+							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Opening Panel</a>
 						</td>
 						<td class="plen">PLEN</td>
 						<td class="plen">PLEN</td>
 						<td></td>
 						<td class="plen">PLEN</td>
 						<td class="panel">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Olympic Gold Medalist Sami Jo Small, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
+							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Olympic Gold Medalist Sami Jo Small, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
 						</td>
 					</tr>
 					<tr>
@@ -126,7 +126,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="lunch">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate Lunch" data-content='Delegates will have a buffet-style lunch in the Lett Gym. A vegetarian option will be available.' data-html="true">Delegate Lunch</a>
+							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate Lunch" data-content='Delegates will have a buffet-style lunch in the Lett Gym. A vegetarian option will be available.' data-html="true">Delegate Lunch</a>
 						</td>
 						<td></td>
 						<td></td>
@@ -154,7 +154,7 @@ session_start();
 					<tr>
 						<td><b>Student Center</b></td>
 						<td class="reg">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="UCC Registration" data-content='UCC students/WAC staff should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">UCC Delegate/Staff Reg.</a>
+							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="UCC Registration" data-content='UCC students/WAC staff should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">UCC Delegate/Staff Reg.</a>
 						</td>
 						<td></td>
 						<td></td>
@@ -170,7 +170,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="lunch">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Faculty Lunch" data-content='Faculty will have a buffet-style lunch in the Upper Dining Hall. A vegetarian option will be available.' data-html="true">Faculty Lunch</a>
+							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Faculty Lunch" data-content='Faculty will have a buffet-style lunch in the Upper Dining Hall. A vegetarian option will be available.' data-html="true">Faculty Lunch</a>
 						</td>
 						<td></td>
 						<td></td>
