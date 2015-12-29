@@ -9,6 +9,10 @@
 * Adds navbar collapse on scroll; looks pretty :D
 * Changes FAQ to use collapsing panels instead of messy walls of text
 * Welcome section in navbar now properly displays name
+#### New Schedule Page
+* Implements new Schedule of Conference Day
+* Uses popovers to display information
+* Fills all non-plenary information of Conference Day
 
 ### Changelog for v1.0.0
 
