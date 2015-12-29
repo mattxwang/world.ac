@@ -177,7 +177,7 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<a tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
+			<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
 	
 
 
