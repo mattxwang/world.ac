@@ -7,8 +7,10 @@ The current codebase in test is horrible. No orginization whatsoever, minimal (a
 #### Navbar work
 * ~~Fix navbar not displaying name properly in "welcome" message~~
 * Navbar element element is too long, which double-stacks login/register on a screen res between 1080p and mobile
+
 #### Wrong password
 * Make wrong password pop an alert telling that the password is wrong, instead of just redirecting
+
 ####Notification System (1)
 * Display certain notifications based on information tied to the user.
 * Payment will be tied to a variable.
