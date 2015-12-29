@@ -49,7 +49,6 @@ session_start();
 						<th></th>
 						<th>8:30-9:00</th>
 						<th>9:00-10:15</th>
-						<th>10:15-10:30</th>
 						<th>10:30-11:30</th>
 						<th>11:35-12:35</th>
 						<th>12:35-1:20</th>
@@ -60,7 +59,6 @@ session_start();
 						<td><b>CC3</b></td>
 						<td></td>
 						<td></td>
-						<td></td>
 						<td class="plen">PLEN</td>
 						<td class="plen">PLEN</td>
 						<td></td>
@@ -69,7 +67,6 @@ session_start();
 					</tr>
 					<tr>
 						<td><b>David Chu Theatre</b></td>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td class="plen">PLEN</td>
@@ -87,13 +84,11 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td></td>
 					</tr>
 					<tr>
 						<td><b>Laidlaw Hall</b></td>
 						<td></td>
 						<td class="panel">OPENING</td>
-						<td></td>
 						<td class="plen">PLEN</td>
 						<td class="plen">PLEN</td>
 						<td></td>
@@ -102,7 +97,6 @@ session_start();
 					</tr>
 					<tr>
 						<td><b>Lecture Theatre</b></td>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td class="plen">PLEN</td>
@@ -117,14 +111,12 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td></td>
 						<td class="lunch">LUNCH</td>
 						<td></td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><b>Library</b></td>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td class="plen">PLEN</td>
@@ -135,7 +127,6 @@ session_start();
 					</tr>
 					<tr>
 						<td><b>Old Gym</b></td>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td class="plen">PLEN</td>
@@ -153,11 +144,9 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td></td>
 					</tr>
 					<tr>
 						<td><b>Upper Dining Hall</b></td>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td></td>
