@@ -15,7 +15,6 @@ session_start();
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
 	<script src="js/countdown.js"></script>
-	<script src="js/google_analytics.js"></script>
 	<style>
 	body{
 		background-image:url("img/earth.png"),url("img/stars.png");
