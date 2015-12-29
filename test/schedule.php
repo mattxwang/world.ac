@@ -52,7 +52,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td class="reg">PLEN</td>
+						<td class="plen">PLEN</td>
 						<td>PLEN</td>
 						<td></td>
 						<td>PLEN</td>
