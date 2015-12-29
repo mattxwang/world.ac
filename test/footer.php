@@ -12,35 +12,31 @@ elseif($rando == 2){
 </br>
 </br>
 </br>
-<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 10% 5% 10% 5%">
+<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 5% 10% 5% 10%">
   <div class =  "row">
-    <div class = "col-md-8 vertical-line">
-      <div class = "row">
-        <div class = "col-md-4 vertical-line">
-          <h4><b>Home</b></h4>
-          <h6><a href="index.php">Homepage</a></h6>
-          <h4><b>Registration Information</b></h4>
-          <h6><a href="reg_how.php">How to Register</a></h6>
-          <h6><a href="reg_2016.pdf">Registration Package</a></h6>
-          <h6><a href="reg_2016_form.pdf">Registration Form</a></h6>
-        </div>
-        <div class = "col-md-4 vertical-line">
-          <h4><b>Conference Information<b></h5>
-          <h6><a href="keynote.php">Keynote Address</a></h6>
-          <h6><a href="opening.php">Opening Panel</a></h6>
-          <h6><a href="plenaries.php">Plenaries</a></h6>
-          <h6><a href="opening.php">Closing Panel</a></h6>
-          <h6><a href="plenaries.php">Schedule</a></h6>
-        </div>
-        <div class = "col-md-4">
-          <h4><b>About WAC</b></h5>
-          <h6><a href="faq.php">FAQ</a></h6>
-          <h6><a href="about_us.php">Meet the Team</a></h6>
-          <h6><a href="contact_us.php">Contact Us</a></h6>
-        </div>
-      </div>
+    <div class = "col-md-3 vertical-line">
+      <h4><b>Home</b></h4>
+      <h6><a href="index.php">Homepage</a></h6>
+      <h4><b>Registration Information</b></h4>
+      <h6><a href="reg_how.php">How to Register</a></h6>
+      <h6><a href="reg_2016.pdf">Registration Package</a></h6>
+      <h6><a href="reg_2016_form.pdf">Registration Form</a></h6>
     </div>
-    <div class = "col-md-4">
+    <div class = "col-md-3 vertical-line">
+      <h4><b>Conference Information<b></h5>
+      <h6><a href="keynote.php">Keynote Address</a></h6>
+      <h6><a href="opening.php">Opening Panel</a></h6>
+      <h6><a href="plenaries.php">Plenaries</a></h6>
+      <h6><a href="opening.php">Closing Panel</a></h6>
+      <h6><a href="plenaries.php">Schedule</a></h6>
+    </div>
+    <div class = "col-md-3">
+      <h4><b>About WAC</b></h5>
+      <h6><a href="faq.php">FAQ</a></h6>
+      <h6><a href="about_us.php">Meet the Team</a></h6>
+      <h6><a href="contact_us.php">Contact Us</a></h6>
+    </div>
+    <div class = "col-md-3">
       <h3>Developed by this year's WAC web design team, <?php echo $teamNames; ?></h3>
       Privacy Policy blah blah blah
     </div>
