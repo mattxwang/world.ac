@@ -45,6 +45,6 @@
 	}
 
 	else {
-		echo "IDK";
+		echo "No password was submitted.";
 	}
 ?> 

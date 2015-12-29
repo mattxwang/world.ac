@@ -19,7 +19,7 @@ session_start();
 	
 </head>
 
-<body style="position:relative;">
+<body>
 	<?php include_once("import_info.php") ?>
 	<?php include_once("navbar.php") ?>
 	<div class="container">
@@ -42,11 +42,9 @@ session_start();
 				<b>Matthew Wang</b>, Website Design, <a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></br>
 				<b>Jack Sarick</b>, Website Design, <a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></br>
 				</p>
-			</div>
-			<div class="col-md-2">
 				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<h1>Social Media</h1>
 				<a href="https://www.facebook.com/worldaffairsconference?fref=ts">
 				<img src="img/facebook.png" class="img-responsive" style="width:30%;"></img>
@@ -56,12 +54,13 @@ session_start();
 				</a>
 			</div>
 		</div>
-		<?php
-		include_once("footer.php")
-		?>
-	</div>
-	 <script src="js/jquery.js"></script>
+	
+		<?php include_once("footer.php") ?>
+
+		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/nav-collapse.js"></script></body>
+		<script src="js/nav-collapse.js"></script>
+	</div>
+</body>
 </html>

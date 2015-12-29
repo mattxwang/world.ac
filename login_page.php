@@ -5,7 +5,6 @@
 	<meta name="description" content="World Affairs Conference">
 	<title>WAC 2016 Account Registration</title>
 	<link rel="icon" href="css/favicon.ico" />
-	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/base.css" />
@@ -17,14 +16,13 @@
 	if(isset($_SESSION['user'])) 
 	{ 
 		header("Location: account.php"); 
-		 
 		die("Redirecting to account.php"); 
 	}  
 ?> 
-	<?php include_once("import_info.php") ?>
-	<?php include_once("navbar.php") ?>
 
 <body>
+	<?php include_once("import_info.php") ?>
+	<?php include_once("navbar.php") ?>
 	<div class="container" style = "vertical-align:middle">
 		<h2>WAC 2016 Account Login</h2>
 		<div class = "row">
@@ -41,25 +39,24 @@
 				</form>
 			</div>
 			<div class = "col-md-6" style = "text-align:justify">
-			<p>
-			Please use your email that you've registered for WAC 2016 with. 
-			</br>
-			</br>
-			If you haven't registered for WAC, <a href = "register_page.php">register here</a>.
-			</br>
-			</br>
-			If you've forgotten your password, send us an <a href = "mailto:matthew.wang@ucc.on.ca">email</a>! We'll see what we can do for you.
-			</p>
+				<p>
+				Please use your email that you've registered for WAC 2016 with. 
+				</br>
+				</br>
+				If you haven't registered for WAC, <a href = "register_page.php">register here</a>.
+				</br>
+				</br>
+				If you've forgotten your password, send us an <a href = "mailto:matthew.wang@ucc.on.ca">email</a>! We'll see what we can do for you.
+				</p>
 			</div>
 		</div>
-		<?php
-			include_once("footer.php")
-			?>
-			<!-- Bootstrap core JavaScript
-			================================================== -->
-			<!-- Placed at the end of the document so the pages load faster -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/bootstrap.min.js"></script>
+
+		<?php include_once("footer.php") ?>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/nav-collapse.js"></script>
 	</div>
 </body>
 </html>

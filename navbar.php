@@ -1,6 +1,3 @@
-<!-- underline code
-<span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:2px; opacity:1;" class="hidden-xs"></span>
--->
 <?php 
   // You'll need these
   require("login.php"); 
@@ -86,9 +83,6 @@
         </li>
 
         <?php } else { 
-          debug_to_console($_SESSION['user']['username']);
-          // $firstname = ucfirst(htmlentities(explode("%$%", $_SESSION['user']['username'])[0]));
-          // $lastname = ucfirst(htmlentities(explode("%$%", $_SESSION['user']['username'])[1]));
         ?>
         <!-- You exist -->
         <li class="dropdown">
@@ -103,17 +97,6 @@
 
 
       </ul>
-      <!--
-      <ul class = "nav navbar-nav navbar-right" style = "padding:0px;">
-        <li><a href="http://www.ucc.on.ca/"><img height="25px" src="img/ucc_n.png"></img></a></li>
-        <li><a href="http://www.branksome.on.ca/Pages/default.aspx"><img height="25px" src="img/bh_n.png"></img></a></li>
-      </ul>
-      -->
-      <!--
-      <ul class="nav navbar-nav navbar-right hidden-xs">
-      	<li><button type="button" class="btn navbar-btn coloured-button"><a href="#">Register</a></button></li>
-      </ul>
-      -->
     </div>
   </div>
 </nav>

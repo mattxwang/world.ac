@@ -1,8 +1,6 @@
 <?php
 //Start the PHP session
 session_start();
-
- 
 ?>
 
 <!DOCTYPE html>
@@ -28,10 +26,10 @@ session_start();
 	</style>
 </head>
 
-<body style="position:relative;">
+<body>
+	<?php include_once("import_info.php") ?>
+	<?php include_once("navbar.php") ?>
 	<div class="container">
-		<?php include_once("import_info.php") ?>
-		<?php include_once("navbar.php") ?>
 		<h1 style="text-align: center;">Frequently Asked Questions</h1>
 		<h3>Click on a question to expand the answer.</h3>
 		<h5> Is your question not answered? You can <b><a href="contact_us.php">contact us</a></b> for more information.</h5>
@@ -280,15 +278,12 @@ session_start();
 			</div>
 		</div>
 		
-	<?php
-	include_once("footer.php")
-	?>
+		<?php include_once("footer.php") ?>
 
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/nav-collapse.js"></script>
 	</div>
-
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/nav-collapse.js"></script>
 </body>
 </html>
