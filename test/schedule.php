@@ -99,13 +99,15 @@ session_start();
 						<td><b>Laidlaw Hall</b></td>
 						<td></td>
 						<td class="panel">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Dismissible popover</a>
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Opening Panel</a>
 						</td>
 						<td class="plen">PLEN</td>
 						<td class="plen">PLEN</td>
 						<td></td>
 						<td class="plen">PLEN</td>
-						<td class="panel">CLOSING</td>
+						<td class="panel">
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Sami Jo Small, an Olympic Champion hockey player, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
+						</td>
 					</tr>
 					<tr>
 						<td><b>Lecture Theatre</b></td>
