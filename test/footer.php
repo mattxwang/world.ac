@@ -30,7 +30,7 @@ elseif($rando == 2){
       <h6><a href="opening.php">Closing Panel</a></h6>
       <h6><a href="plenaries.php">Schedule</a></h6>
     </div>
-    <div class = "col-md-3">
+    <div class = "col-md-3 vertical-line">
       <h4><b>About WAC</b></h5>
       <h6><a href="faq.php">FAQ</a></h6>
       <h6><a href="about_us.php">Meet the Team</a></h6>
