@@ -98,7 +98,9 @@ session_start();
 					<tr>
 						<td><b>Laidlaw Hall</b></td>
 						<td></td>
-						<td class="panel">OPENING</td>
+						<td class="panel">
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Dismissible popover</a>
+						</td>
 						<td class="plen">PLEN</td>
 						<td class="plen">PLEN</td>
 						<td></td>
@@ -150,7 +152,7 @@ session_start();
 					<tr>
 						<td><b>Student Center</b></td>
 						<td class="reg">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="UCC Registration" data-content='UCC students should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">UCC Delegate Reg.</a>
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="UCC Registration" data-content='UCC students/WAC staff should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">UCC Delegate/Staff Reg.</a>
 						</td>
 						<td></td>
 						<td></td>
