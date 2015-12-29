@@ -162,7 +162,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="lunch">
-							<a data-toggle="popover" data-container="table" data-placement="auto top" title="Faculty Lunch" data-content='Faculty will have a buffet-style lunch in the Upper Dining Hall. A vegetarian option will be available.' data-html="true">Faculty Lunch</a>
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Faculty Lunch" data-content='Faculty will have a buffet-style lunch in the Upper Dining Hall. A vegetarian option will be available.' data-html="true">Faculty Lunch</a>
 						</td>
 						<td></td>
 						<td></td>
