@@ -120,7 +120,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="lunch">
-							<a data-toggle="popover" container="body" placement="auto top" title="Delegate Lunch" data-content='Delegates will have a buffet-style lunch in the Lett Gym. A vegetarian option will be available.' data-html="true">Delegate Lunch</a>
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate Lunch" data-content='Delegates will have a buffet-style lunch in the Lett Gym. A vegetarian option will be available.' data-html="true">Delegate Lunch</a>
 						</td>
 						<td></td>
 						<td></td>
@@ -162,14 +162,14 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="lunch">
-							<a data-toggle="popover" container="body" placement="auto top" title="Faculty Lunch" data-content='Faculty will have a buffet-style lunch in the Upper Dining Hall. A vegetarian option will be available.' data-html="true">Faculty Lunch</a>
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Faculty Lunch" data-content='Faculty will have a buffet-style lunch in the Upper Dining Hall. A vegetarian option will be available.' data-html="true">Faculty Lunch</a>
 						</td>
 						<td></td>
 						<td></td>
 					</tr>
 				</table>
 			</div>
-			<a data-toggle="popover" container="body" placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
+			<a data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
 	
 
 
