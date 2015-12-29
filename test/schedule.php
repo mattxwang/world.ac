@@ -24,6 +24,15 @@ session_start();
 			.plen{
 				background-color:#5E7794;
 			}
+			.reg{
+				background-color:#809C29;
+			}
+			.panel{
+				background-color:#DC8944;
+			}
+			.lunch{
+				background-color:#C61B26;
+			}
 		</style>
 	</head>
 
@@ -53,9 +62,9 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="plen">PLEN</td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -63,15 +72,15 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>PLEN</td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><b>Foyer</b></td>
-						<td>REG</td>
+						<td class="reg">REG</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -83,23 +92,23 @@ session_start();
 					<tr>
 						<td><b>Laidlaw Hall</b></td>
 						<td></td>
-						<td>OPENING</td>
+						<td class="panel">OPENING</td>
 						<td></td>
-						<td>PLEN</td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
-						<td>PLEN</td>
-						<td>CLOSING</td>
+						<td class="plen">PLEN</td>
+						<td class="panel">CLOSING</td>
 					</tr>
 					<tr>
 						<td><b>Lecture Theatre</b></td>
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>PLEN</td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -109,7 +118,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>LUNCH</td>
+						<td class="lunch">LUNCH</td>
 						<td></td>
 						<td></td>
 					</tr>
@@ -118,10 +127,10 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>PLEN</td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -129,15 +138,15 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>PLEN</td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
-						<td>PLEN</td>
+						<td class="plen">PLEN</td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><b>Student Center</b></td>
-						<td>REG</td>
+						<td class="reg">REG</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -153,7 +162,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>LUNCH</td>
+						<td class="lunch">LUNCH</td>
 						<td></td>
 						<td></td>
 					</tr>
