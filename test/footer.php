@@ -35,9 +35,11 @@ elseif($rando == 2){
       <h6><a href="faq.php">FAQ</a></h6>
       <h6><a href="about_us.php">Meet the Team</a></h6>
       <h6><a href="contact_us.php">Contact Us</a></h6>
+      <div class ="hidden-xs">
       </br>
       </br>
       </br>
+      </div>
     </div>
     <div class = "col-md-3">
       Developed by this year's WAC web design team, <?php echo $teamNames; ?>
