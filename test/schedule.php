@@ -70,7 +70,7 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<a data-toggle="popover" container="body" html="True" placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a> '>Dismissible popover</a>
+			<a data-toggle="popover" container="body" html="TRUE" placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a> '>Dismissible popover</a>
 	
 
 
