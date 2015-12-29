@@ -12,7 +12,7 @@ elseif($rando == 2){
 </br>
 </br>
 </br>
-<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 5% 10% 5% 10%">
+<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 5% 10% 1% 10%">
   <div class =  "row">
     <div class = "col-md-2 vertical-line">
       <h4><b>Home</b></h4>
@@ -41,7 +41,7 @@ elseif($rando == 2){
       </br>
       </div>
     </div>
-    <div class = "col-md-6">
+    <div class = "col-md-6 vertical-line">
       Developed by this year's WAC web design team, <?php echo $teamNames; ?>
     </div>
   </div>
