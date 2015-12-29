@@ -68,14 +68,12 @@ session_start();
 		</p>
 
 
-	<?php
-	include_once("footer.php")
-	?>
-	 <script src="js/jquery.js"></script>
-			<script src="js/jquery.easing.min.js"></script>
-			<script src="js/bootstrap.min.js"></script>
-			<script src="js/nav-collapse.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/nav-collapse.js"></script>
 
 	</div>
+	<?php include_once("footer.php") ?>
 </body>
 </html>
