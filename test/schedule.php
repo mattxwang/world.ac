@@ -29,7 +29,8 @@ session_start();
 		<?php include_once("navbar.php") ?>
 
 		<div class = "container">
-			
+			<h1 style="text-align: center;">Conference Day Schedule</h1>
+			<h6 style="text-align: center;">Hover over a block to learn more</h6>
 			<div class = "table-responsive">
 				<table class = "table">
 					<tr>
