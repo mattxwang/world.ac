@@ -5,7 +5,7 @@ The current codebase in test is horrible. No orginization whatsoever, minimal (a
 ##Account System
 ### [account.php](http://world.ac/test/account.php)
 #### Navbar work
-* Fix navbar not displaying name properly in "welcome" message
+* ~~Fix navbar not displaying name properly in "welcome" message~~
 * Navbar element element is too long, which double-stacks login/register on a screen res between 1080p and mobile
 #### Wrong password
 * Make wrong password pop an alert telling that the password is wrong, instead of just redirecting
