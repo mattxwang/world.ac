@@ -21,18 +21,22 @@ session_start();
 			.plen{
 				background-color:#5E7794;
 				text-align: center;
+				font-weight: bold;
 			}
 			.reg{
 				background-color:#809C29;
 				text-align: center;
+				font-weight: bold;
 			}
 			.panel{
 				background-color:#DC8944;
 				text-align: center;
+				font-weight: bold;
 			}
 			.lunch{
 				background-color:#C61B26;
 				text-align: center;
+				font-weight: bold;
 			}
 			th{
 				text-align: center;
@@ -115,7 +119,9 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td class="lunch">LUNCH</td>
+						<td class="lunch">
+							<a data-toggle="popover" container="body" placement="auto top" title="Delegate Lunch" data-content='Delegates will have' data-html="true">Delegate Lunch</a>
+						</td>
 						<td></td>
 						<td></td>
 					</tr>
@@ -161,7 +167,7 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<a data-toggle="popover" container="body" placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' html="true">Dismissible popover</a>
+			<a data-toggle="popover" container="body" placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
 	
 
 
