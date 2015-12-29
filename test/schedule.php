@@ -85,7 +85,9 @@ session_start();
 					</tr>
 					<tr>
 						<td><b>Foyer</b></td>
-						<td class="reg">REG</td>
+						<td class="reg">
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate/Faculty Registration" data-content='Registered Delegates and Faculty Members should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">Delegate/Faculty Reg.</a>
+						</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -147,7 +149,9 @@ session_start();
 					</tr>
 					<tr>
 						<td><b>Student Center</b></td>
-						<td class="reg">REG</td>
+						<td class="reg">
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="UCC Registration" data-content='UCC students should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">UCC Delegate Reg.</a>
+						</td>
 						<td></td>
 						<td></td>
 						<td></td>
