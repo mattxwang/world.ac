@@ -168,7 +168,15 @@ session_start();
 							</br>
 							</br>
 							<p>
-							We're still sorting out the details; we'll reveal all of this information soon!
+							John Coyne is currently the Vice President, Legal & External Affairs and General Counsel at 
+							Unilever Canada. Through his involvement and leadership in Unilever Canada, John Coyne is a 
+							leader in Canada in promoting sustainable and responsible corporate practices. Mr Coyne is 
+							also a leader of the Unilever Sustainable Living Plan, designed to help Unilever grow its 
+							business while reducing its impact on the environment and helping make the world a better 
+							place. Mr Coyne works closely other organizations, including being the Chair of the Board of 
+							Advertising Standards Canada, Canadian Cosmetic, Toiletry and Fragrance Association, and 
+							Stewardship Ontario. His participation and action in sustainability has had him recognised by 
+							Clean 50 as one of Canada’s top sustainability leaders.
 							</p>
 						</div>
 						<div class = "col-md-6">
@@ -177,7 +185,11 @@ session_start();
 							</br>
 							</br>
 							<p>
-							Bill Shireman, president and CEO of Future 500, influences some of the world’s largest companies and most impassioned activists to find common ground as oppose to fighting against one another. Shireman works with companies including Coca-Cola, General Motors and Nike to increase awareness about the importance of environmental sustainability in these corporations. Shireman’s research, books and studies prove that it is possible to protect the Earth while increasing prosperity and efficiency at the same time. Bill Shireman is both an environmental advocate and an entrepreneur, and uses his business knowledge and passion for environmental sustainability to join forces from opposite sides, believing that by internalizing external costs, both businesses and the environment can thrive. With this theory, Shireman blends economic, ecological and systems theory to develop practical solutions. He believes that competition leads to cooperation, that conservative economic policies support liberal social policies, that consumers can also be creators, and that nature is the best business model.
+							As president and CEO of Future 500, Bill Shireman influences some of the world’s largest 
+							companies such as Coca­Cola, General Motors, Nike and more, to promote environmental 
+							sustainability while increasing prosperity at the same time. Called a “master of environmental 
+							entrepreneurism,” Shireman unites companies to save the environment and promote freedom 
+							around the world.
 							</p>
 						</div>
 					</div>
@@ -364,12 +376,42 @@ session_start();
 							</p>
 						</div>
 						<div class = "col-md-6">
-							<h4>Speaker</h4>
+							<h4>Chris Alexander</h4>
 							<img src="img/avatar.png" width = "128px"></img>
 							</br>
 							</br>
 							<p>
-							We're still sorting out the details; we'll reveal all of this information soon!
+							Chris Alexander is a Canadian diplomat and politician. He began his career as a member of the 
+							Canadian Foreign Service as a political officer in August 1991. Chris was later assigned to the 
+							Canadian Embassy in Moscow in August 1993 as Third Secretary and Vice­Consul under 
+							Ambassador Jeremy Kinsman. In 1996 he returned to Ottawa to become assistant to the Deputy 
+							Minister of Foreign Affairs, supporting his work as Canada's G8 Sherpa, as well as Canada's 
+							1996 initiative to respond to the refugee crisis in Eastern Congo.  In 1997, he became Deputy 
+							Director (Russia) of the Eastern Europe Division responsible for political and trade relations, 
+							including during the 1998 Russian financial crisis. In 2002 he returned to the Canadian Embassy 
+							in Moscow as Minister Counsellor under Ambassador Rodney Irwin. In December 2005 
+							Alexander became Deputy Special Representative of the Secretary General.  Within UNAMA, 
+							he had responsibility for political good offices, human rights, rule of law, governance, electoral 
+							support and liaison with ISAF.  He had a hand in the drafting of the Afghanistan Compact, the 
+							centrepiece of the London Conference in January 2006.  In 2007, he promoted a new national 
+							programme to support the justice sector. Alexander left his position in UNAMA at the end of 
+							May 2009. In May of 2011, the people of Ajax­Pickering elected Chris as their Member of 
+							Parliament. Later that May, Chris was appointed Parliamentary Secretary to the Minister of 
+							National Defence. Over the next two years Chris worked hard on the government's defence 
+							priorities including procurement, reform of military justice, the training mission in Afghanistan, 
+							the Libya mission and the restoration and commemoration of our military heritage.  On July 15, 
+							2013 Alexander was appointed Canada's Minister of Citizenship and Immigration.  Over his time 
+							in this office Canada adopted the Strengthening Canadian Citizenship Act and the Zero 
+							Tolerance for Barbaric Cultural Practices Act.  Canada's citizenship, immigration and refugee 
+							programmes were strengthened in several ways. As the Conservative candidate for Ajax, 
+							Alexander was defeated in the general election on October 19, 2015.  He ceased to be Minister of 
+							Citizenship and Immigration on November 4, 2015. Alexander is the recipient of several awards.  
+							In 2005 he became a Young Global Leader at the World Economic Forum.  In 2006 he was 
+							named one of Canada's Top 40 Under 40.  He received the Atlantic Council of Canada Award in 
+							2007, and in 2008 was made an officer of the Order of the Star of Italian Solidarity.  In 2009 he 
+							was Honorary Chair of the UTS Centenary.  In 2010 he received the Birchall Leadership Award.  
+							In December 2014 he chaired an international meeting of interior and home affairs ministers at 
+							the Organization for Economic Cooperation and Development (OECD) in Paris.
 							</p>
 						</div>
 					</div>
