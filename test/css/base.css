@@ -82,3 +82,6 @@ body{
 .vertical-line {
     border-left: solid #000000;
 }
+.container{
+	min-height:100%;
+}
