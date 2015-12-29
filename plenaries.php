@@ -34,6 +34,7 @@ session_start();
 			</br>
 			Delegates will receive their plenary assignments after registration, and a small period of time. 
 			</p>
+			<h3>Click on a plenary icon to reveal its description.</h3>
 		</div>
 
 		<div class = "row">
