@@ -67,20 +67,20 @@ session_start();
 						<td><b>CC3</b></td>
 						<td></td>
 						<td></td>
-						<td class="plen">PLEN</td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
+						<td class="plen">Plenary</td>
 						<td></td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><b>David Chu Theatre</b></td>
 						<td></td>
 						<td></td>
-						<td class="plen">PLEN</td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
+						<td class="plen">Plenary</td>
 						<td></td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -101,10 +101,10 @@ session_start();
 						<td class="panel">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Opening Panel</a>
 						</td>
-						<td class="plen">PLEN</td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
+						<td class="plen">Plenary</td>
 						<td></td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
 						<td class="panel">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Olympic Gold Medalist Sami Jo Small, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
 						</td>
@@ -113,10 +113,10 @@ session_start();
 						<td><b>Lecture Theatre</b></td>
 						<td></td>
 						<td></td>
-						<td class="plen">PLEN</td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
+						<td class="plen">Plenary</td>
 						<td></td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -135,20 +135,20 @@ session_start();
 						<td><b>Library</b></td>
 						<td></td>
 						<td></td>
-						<td class="plen">PLEN</td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
+						<td class="plen">Plenary</td>
 						<td></td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><b>Old Gym</b></td>
 						<td></td>
 						<td></td>
-						<td class="plen">PLEN</td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
+						<td class="plen">Plenary</td>
 						<td></td>
-						<td class="plen">PLEN</td>
+						<td class="plen">Plenary</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -177,9 +177,10 @@ session_start();
 					</tr>
 				</table>
 			</div>
+			<!--
 			<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
 	
-
+			-->
 
 
 			<?php include_once("footer.php") ?>
