@@ -21,6 +21,9 @@ session_start();
 			.popover{
 				color:black;
 			}
+			.plen{
+				background-color:#5E7794;
+			}
 		</style>
 	</head>
 
@@ -49,7 +52,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>PLEN</td>
+						<td class="reg">PLEN</td>
 						<td>PLEN</td>
 						<td></td>
 						<td>PLEN</td>
@@ -64,6 +67,17 @@ session_start();
 						<td>PLEN</td>
 						<td></td>
 						<td>PLEN</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>Foyer</b></td>
+						<td>REG</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 						<td></td>
 					</tr>
 					<tr>
@@ -95,7 +109,7 @@ session_start();
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>Lunch</td>
+						<td>LUNCH</td>
 						<td></td>
 						<td></td>
 					</tr>
@@ -119,6 +133,17 @@ session_start();
 						<td>PLEN</td>
 						<td></td>
 						<td>PLEN</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>Student Center</b></td>
+						<td>REG</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 						<td></td>
 					</tr>
 					<tr>
