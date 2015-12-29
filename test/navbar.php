@@ -1,21 +1,7 @@
 <!-- underline code
 <span style="position:absolute; bottom:-1px; left:0px; width:100%; background-color:#53b5b4; height:2px; opacity:1;" class="hidden-xs"></span>
 -->
-<?php 
-  // You'll need these
-  require("login.php"); 
-  function debug_to_console( $data ) {
 
-    if ( is_array( $data ) ){
-      $output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
-    }
-
-    else {
-      $output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
-      echo $output;
-    }
-  }
-?>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
