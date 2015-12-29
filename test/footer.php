@@ -23,7 +23,7 @@ elseif($rando == 2){
       <h6><a href="reg_2016_form.pdf">Registration Form</a></h6>
     </div>
     <div class = "col-md-3 vertical-line">
-      <h4><b>Conference Information<b></h5>
+      <h4><b>Conference Information</b></h5>
       <h6><a href="keynote.php">Keynote Address</a></h6>
       <h6><a href="opening.php">Opening Panel</a></h6>
       <h6><a href="plenaries.php">Plenaries</a></h6>
@@ -42,10 +42,11 @@ elseif($rando == 2){
     <div class = "col-md-3">
       Developed by this year's WAC web design team, <?php echo $teamNames; ?>
       <p style="font-size: 8px">
-      Made with the help of <a href="http://getbootstrap.com"> the bootstrap framework</a>.
-      </p>
-
+      </br>
+      This website utilises <a href="http://getbootstrap.com">the bootstrap framework</a>.
+      </br>
       We use cookies and Google Analytics to help make the website experience better! By using our site, you agree to the use of these services.
+      </p>
     </div>
   </div>
 </div>
