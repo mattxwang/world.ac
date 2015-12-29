@@ -10,6 +10,7 @@
 
 html{
 	min-height:100%;
+	overflow-x: hidden;
 }
 a{
 	color:inherit;
@@ -17,8 +18,8 @@ a{
 }
 body{
 	font-family:Nexa;
-	padding-top:70px;
-	padding-bottom:70px;
+	padding-top:100px;
+	padding-bottom:100px;
 	background-color:#2a262a;
 	color:#FFFFFF;
 }
@@ -66,4 +67,20 @@ body{
 }
 .bg-plenary{
 	background-color:#DC8944;
+}
+@media(min-width:767px) {
+	.navbar-fixed-top {
+		padding: 10px 0;
+		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
+
+	.top-nav-collapse {
+		padding: 0;
+	}
+}
+
+h6{
+	font-weight: normal;
 }
