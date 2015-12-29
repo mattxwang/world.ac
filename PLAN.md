@@ -43,6 +43,6 @@ Delegates and staff will have a nametag with their name, plenaries (if applicabl
 
 
 ##General Functionality
-###[account.php](http://world.ac/test/account.php)/[faq.php](http://world.ac/faq) 
+###[account.php](http://world.ac/test/account.php)
 ####Fix/Implement Scrollspy (1)
 On all of the pages with another nav for body elements, it'd be nice to implement scrollspy. Right now, it doesn't work at all. Thoughts?
