@@ -43,12 +43,11 @@ elseif($rando == 2){
     </div>
     <div class = "col-md-6">
       Developed by this year's WAC web design team, <?php echo $teamNames; ?>
-      <p style="font-size: 8px">
-      </br>
+    </div>
+  </div>
+   <p style="text-align:right;font-size: 8px">
       This website utilises <a href="http://getbootstrap.com">the bootstrap framework</a>.
       </br>
       We use cookies and Google Analytics to help make the website experience better! By using our site, you agree to the use of these services.
       </p>
-    </div>
-  </div>
 </div>
