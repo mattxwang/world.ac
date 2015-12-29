@@ -22,7 +22,7 @@ elseif($rando == 2){
     </div>
     <div class="collapse navbar-collapse" id="footer-navbar" >
       <ul class="nav navbar-nav">
-        <li><a href="#"><b>REGISTER</b></a></li>
+        <li><a href="reg_how.php"><b>REGISTER</b></a></li>
         <li><a href="about_us.php"><b>WAC TEAM</b></a></li>
         <li><a href="contact_us.php"><b>CONTACT US</b></a></li>
       </ul>
