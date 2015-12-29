@@ -106,7 +106,7 @@ session_start();
 						<td></td>
 						<td class="plen">PLEN</td>
 						<td class="panel">
-							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Sami Jo Small, an Olympic Champion hockey player, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
+							<a data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Olympic Gold Medalist Sami Jo Small, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
 						</td>
 					</tr>
 					<tr>
@@ -177,7 +177,7 @@ session_start();
 					</tr>
 				</table>
 			</div>
-			<a data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
+			<a tabindex="0" role="button" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The Keynote Address will feature this awesome speaker! <a href="#">swag</a>' data-html="true">Dismissible popover</a>
 	
 
 
