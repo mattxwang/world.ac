@@ -12,7 +12,7 @@ elseif($rando == 2){
 </br>
 </br>
 </br>
-<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 10%">
+<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 10% 5% 10% 5%">
   <div class =  "row">
     <div class = "col-md-8 vertical-line">
       <div class = "row">
