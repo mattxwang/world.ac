@@ -80,7 +80,5 @@ body{
 	}
 }
 .vertical-line {
-	width: 1px;
-	background-color: black;
-	height: 80%;
+    border-right: solid #000000;
 }
