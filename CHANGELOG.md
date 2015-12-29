@@ -8,6 +8,7 @@
 * Changes PHPmyadmin hooking for new VPS
 * Adds navbar collapse on scroll; looks pretty :D
 * Changes FAQ to use collapsing panels instead of messy walls of text
+* Welcome section in navbar now properly displays name
 
 ### Changelog for v1.0.0
 
