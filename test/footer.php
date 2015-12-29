@@ -41,12 +41,12 @@ elseif($rando == 2){
       </br>
       </div>
     </div>
-    <div class = "col-md-6 vertical-line" style="text-align: right;">
-      <h4>The World Affairs Conference Website</h4>
+    <div class = "col-md-6" style="text-align: right;">
+      <h4><b>The World Affairs Conference Website</b></h4>
       Developed by this year's WAC web design team, <?php echo $teamNames; ?>
       </br>
-      The World Affairs Conference 2016
       </br>
+      <h4><b>The World Affairs Conference 2016</b></h4>
       February 1st 2016 | February 2nd 2016
       </br>
       Upper Canada College
