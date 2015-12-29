@@ -67,6 +67,11 @@ session_start();
 		We suggest you head over to our <a href="faq.php">Frequently Asked Questions page</a>. If your question isn't answered, feel free to <a href="contact_us.php">contact us</a>.
 		</p>
 
+		</br>
+		</br>
+		</br>
+		</br>
+
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
