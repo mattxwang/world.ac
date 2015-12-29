@@ -17,15 +17,15 @@ elseif($rando == 2){
     <div class = "col-md-8 vertical-line">
       <div class = "row">
         <div class = "col-md-4 vertical-line">
-          <b><h5>Home</h5></b>
+          <h4><b>Home</b></h4>
           <h6><a href="index.php">Homepage</a></h6>
-          <b><h5>Registration Information</h5></b>
+          <h4><b>Registration Information</b></h4>
           <h6><a href="reg_how.php">How to Register</a></h6>
           <h6><a href="reg_2016.pdf">Registration Package</a></h6>
           <h6><a href="reg_2016_form.pdf">Registration Form</a></h6>
         </div>
         <div class = "col-md-4 vertical-line">
-          <b><h5>Conference Information</h5></b>
+          <h4><b>Conference Information<b></h5>
           <h6><a href="keynote.php">Keynote Address</a></h6>
           <h6><a href="opening.php">Opening Panel</a></h6>
           <h6><a href="plenaries.php">Plenaries</a></h6>
@@ -33,7 +33,7 @@ elseif($rando == 2){
           <h6><a href="plenaries.php">Schedule</a></h6>
         </div>
         <div class = "col-md-4">
-          <b><h5>About WAC</h5></b>
+          <h4><b>About WAC</b></h5>
           <h6><a href="faq.php">FAQ</a></h6>
           <h6><a href="about_us.php">Meet the Team</a></h6>
           <h6><a href="contact_us.php">Contact Us</a></h6>
