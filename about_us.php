@@ -495,9 +495,9 @@ session_start();
 				<h2>We'd Like to Thank:</h2>
 				<p>
 				<h3>The Media Team</h3>
-				Emmanuel Wong, Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam
+				Emmanuel Wong, Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam,
 				</br>
-				,as well as Derek Lam, and Nick Elder for creating the framework last year.
+				as well as Derek Lam, and Nick Elder for creating the framework last year.
 				<h3>Website Consultants</h3>
 				Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 
