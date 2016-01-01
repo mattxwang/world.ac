@@ -11,8 +11,9 @@
 * Welcome section in navbar now properly displays name
 
 #### New Schedule Page
-* Implements new Schedule of Conference Day
+* Implements new Schedule of Keynote Address and Conference Day
 * Uses popovers to display information
+* Fills all non-speaker related information of Keynote Address
 * Fills all non-plenary information of Conference Day
 
 ### Changelog for v1.0.0
