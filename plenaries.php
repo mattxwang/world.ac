@@ -35,10 +35,10 @@ session_start();
 				</p>
 				<h3>Click on a plenary icon to reveal its description.</h3>
 			</div>
-			<div id="plenarylist" role="tablist">
+			<div id="plen-list" role="tablist">
 				<div class = "row">
 					<div class = "col-md-6">
-						<a href ="#collapseChina" data-toggle="collapse" role="button" data-parent="#plenarylist">
+						<a href ="#collapseChina" data-toggle="collapse" role="button" data-parent="#plen-list">
 						<img src = "img/plenary/china.png" class="img-responsive center-block" width = "50%"></img>
 						</a>
 						<div class="collapse" id="collapseChina">
@@ -85,7 +85,7 @@ session_start();
 						</div>
 					</div>
 					<div class = "col-md-6">
-						<a href ="#collapseDrones" data-toggle="collapse" role="button" data-parent="#plenarylist">
+						<a href ="#collapseDrones" data-toggle="collapse" role="button" data-parent="#plen-list">
 						<img src = "img/plenary/drone.png" class="img-responsive center-block" width = "50%"></img>
 						</a>
 						<div class="collapse" id="collapseDrones">
@@ -153,7 +153,7 @@ session_start();
 				<div class = "row">
 					<div class = "col-md-6">
 
-						<a href ="#collapseEnvironment" data-toggle="collapse" role="button" data-parent="#plenarylist">
+						<a href ="#collapseEnvironment" data-toggle="collapse" role="button" data-parent="#plen-list">
 						<img src = "img/plenary/environment.png" class="img-responsive center-block" width = "50%"></img>
 						</a>
 						<div class="collapse" id="collapseEnvironment">
@@ -197,7 +197,7 @@ session_start();
 					</div>
 					<div class = "col-md-6">
 
-						<a href ="#collapseGender" data-toggle="collapse" role="button" data-parent="#plenarylist">
+						<a href ="#collapseGender" data-toggle="collapse" role="button" data-parent="#plen-list">
 						<img src = "img/plenary/gender.png" class="img-responsive center-block" width = "50%"></img>
 						</a>
 						<div class="collapse" id="collapseGender">
@@ -269,7 +269,7 @@ session_start();
 				</br>
 				<div class = "row">
 					<div class = "col-md-6">
-						<a href ="#collapseNuclear" data-toggle="collapse" role="button" data-parent="#plenarylist">
+						<a href ="#collapseNuclear" data-toggle="collapse" role="button" data-parent="#plen-list">
 						<img src = "img/plenary/nuclear.png" class="img-responsive center-block" width = "50%"></img>
 						</a>
 						<div class="collapse" id="collapseNuclear">
@@ -335,7 +335,7 @@ session_start();
 					</div>
 					<div class = "col-md-6">
 
-						<a href ="#collapseRefugee" data-toggle="collapse" role="button" data-parent="#plenarylist">
+						<a href ="#collapseRefugee" data-toggle="collapse" role="button" data-parent="#plen-list">
 						<img src = "img/plenary/refugees.png" class="img-responsive center-block" width = "50%"></img>
 						</a>
 						<div class="collapse" id="collapseRefugee">
