@@ -54,8 +54,9 @@ session_start();
 				Leave blank if none needed.
 				</h5>
 				<textarea class="form-control" rows="3" id="notes" name="notes" class="form-control" placeholder="SPECIAL INFO"></textarea>
+				</br>
 
-				<button class="btn btn-lg btn-primary" type="submit" value="Login">Register</button>
+				<button class="btn btn-lg btn-primary" type="submit" value="Login">Complete Registration</button>
 
 			</form>
 

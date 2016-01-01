@@ -74,9 +74,6 @@
 				</br>
 				</br>
 				</br>
-				</br>
-				</br>
-				</br>
 			</div>
 
 			<script src="js/jquery.js"></script>
