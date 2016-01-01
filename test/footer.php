@@ -45,7 +45,7 @@ elseif($rando == 2){
       <h4><b>The World Affairs Conference 2016</b></h4>
       February 1st 2016 | February 2nd 2016
       </br>
-      Upper Canada College
+      <a href="http://ucc.on.ca">Upper Canada College</a>
       </br>
     </div>
   </div>
