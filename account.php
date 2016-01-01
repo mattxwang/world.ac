@@ -13,7 +13,6 @@
 		<meta name="description" content="World Affairs Conference">
 		<link rel="icon" href="css/favicon.ico" />
 		<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/base.css" />
 		<script src="js/google_analytics.js"></script>
 		<style>
@@ -341,14 +340,12 @@
 				</div>-->
 			</div>
 
-			
-			<?php include_once("footer.php") ?>
-
 			<script src="js/jquery.js"></script>
 			<script src="js/jquery.easing.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
 			<script src="js/nav-collapse.js"></script>
 
 		</div>
+		<?php include_once("footer.php") ?>
 	</body>
 </html>

@@ -8,28 +8,50 @@ elseif($rando == 2){
 }
 
 ?>
-
-<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse navbar-footer hidden-xs" style="background-color:transparent; ">
-  <div class="container-fluid navbar-footer" style ="text-algin:center">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#footer-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt = "World Affairs Conference" height="25px"></img></a>
+<div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 2% 10% 1% 10%">
+  <div class =  "row">
+    <div class = "col-md-2 vertical-line">
+      <h4><b>Home</b></h4>
+      <h6><a href="index.php">Homepage</a></h6>
+      <h4><b>Registration Information</b></h4>
+      <h6><a href="reg_how.php">How to Register</a></h6>
+      <h6><a href="reg_2016.pdf">Registration Package</a></h6>
+      <h6><a href="reg_2016_form.pdf">Registration Form</a></h6>
     </div>
-    <div class="collapse navbar-collapse" id="footer-navbar" >
-      <ul class="nav navbar-nav">
-        <li><a href="reg_how.php"><b>REGISTER</b></a></li>
-        <li><a href="about_us.php"><b>WAC TEAM</b></a></li>
-        <li><a href="contact_us.php"><b>CONTACT US</b></a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <p class="navbar-text" style =" vertical-align:middle; display:table-cell;">Developed by this year's WAC web design team, <?php echo $teamNames; ?>
-      </ul>
+    <div class = "col-md-2 vertical-line">
+      <h4><b>Conference Information</b></h5>
+      <h6><a href="keynote.php">Keynote Address</a></h6>
+      <h6><a href="opening.php">Opening Panel</a></h6>
+      <h6><a href="plenaries.php">Plenaries</a></h6>
+      <h6><a href="opening.php">Closing Panel</a></h6>
+      <h6><a href="construction.php">Schedule</a></h6>
+    </div>
+    <div class = "col-md-2 vertical-line">
+      <h4><b>About WAC</b></h5>
+      <h6><a href="faq.php">FAQ</a></h6>
+      <h6><a href="about_us.php">Meet the Team</a></h6>
+      <h6><a href="contact_us.php">Contact Us</a></h6>
+      <div class ="hidden-xs">
+      </br>
+      </br>
+      </br>
+      </div>
+    </div>
+    <div class = "col-md-6" style="text-align: right;">
+      <h4><b>The World Affairs Conference Website</b></h4>
+      Developed by <?php echo $teamNames; ?>
+      </br>
+      </br>
+      <h4><b>The World Affairs Conference 2016</b></h4>
+      February 1st 2016 | February 2nd 2016
+      </br>
+      <a href="http://ucc.on.ca">Upper Canada College</a>
+      </br>
     </div>
   </div>
-</nav>
-
+   <p style="text-align:right;font-size: 8px">
+      This website utilises <a href="http://getbootstrap.com">the bootstrap framework</a>.
+      </br>
+      We use <a href="https://en.wikipedia.org/wiki/HTTP_cookie">cookies</a> and <a href="https://www.google.com/policies/privacy/">Google Analytics</a> to help make the website experience better! By using our site, you agree to the use of these services.
+      </p>
+</div>
