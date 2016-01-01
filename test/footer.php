@@ -52,6 +52,6 @@ elseif($rando == 2){
    <p style="text-align:right;font-size: 8px">
       This website utilises <a href="http://getbootstrap.com">the bootstrap framework</a>.
       </br>
-      We use cookies and Google Analytics to help make the website experience better! By using our site, you agree to the use of these services.
+      We use <a href="https://en.wikipedia.org/wiki/HTTP_cookie">cookies</a> and <a href="https://www.google.com/policies/privacy/">Google Analytics</a> to help make the website experience better! By using our site, you agree to the use of these services.
       </p>
 </div>
