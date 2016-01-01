@@ -28,7 +28,7 @@ session_start();
 	<?php include_once("import_info.php") ?>
 	<?php include_once("navbar.php")  ?>
 	<h1 style="text-align: center;">
-	Happy New Years!
+	<b>Happy New Years!</b>
 	</h1>
 	<div style="line-height:80%; padding:4%; position:relative">
 		<div style="font-size:5vw;">
