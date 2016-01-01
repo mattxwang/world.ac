@@ -17,6 +17,11 @@ session_start();
 			.popover{
 				color:black;
 			}
+			.keynote{
+				background-color:#5E7794;
+				text-align: center;
+				font-weight: bold;
+			}
 			.plen{
 				background-color:#5E7794;
 				text-align: center;
@@ -48,6 +53,39 @@ session_start();
 		<?php include_once("navbar.php") ?>
 
 		<div class = "container">
+			<h1 style="text-align: center;">Keynote Address Schedule</h1>
+			<h6 style="text-align: center;">Click on a block to learn more</h6>
+			<div class = "table-responsive">
+				<table class = "table">
+					<tr>
+						<th></th>
+						<th>COAT CHECK/WAIT</th>
+						<th>ADDRESS</th>
+						<th>Q&A</th>
+					</tr>
+					<tr>
+						<td><b>Foyer</b></td>
+						<td class="reg">
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Coat Check" data-content='The Foyer will have a complimentary coat check service.' data-html="true">Coat Check</a>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr> 
+						<td><b>Laidlaw Hall</b></td>
+						<td class="reg">
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Seating" data-content='Seating will begin in Laidlaw Hall.' data-html="true">Seating</a>
+						</td>
+						<td class="keynote">
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The <a href="keynote.php"><b>Keynote Address</b></a> will feature a prominent member of the community discussing current affairs, inside of Laidlaw Hall. It is open to the general public. ' data-html="true">Keynote Address</a>
+						</td>
+						<td class="keynote">
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Question Period" data-content='After the <a href="keynote.php"><b>Keynote Address</b></a>, the speaker will take questions from the audience in Laidlaw Hall. ' data-html="true">Question Period</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			</br>
 			<h1 style="text-align: center;">Conference Day Schedule</h1>
 			<h6 style="text-align: center;">Click on a block to learn more</h6>
 			<div class = "table-responsive">
@@ -59,7 +97,7 @@ session_start();
 						<th>10:30-11:30</th>
 						<th>11:35-12:35</th>
 						<th>12:35-1:20</th>
-						<th>1:20=2:20</th>
+						<th>1:20-2:20</th>
 						<th>2:25-3:25</th>
 					</tr>
 					<tr>
