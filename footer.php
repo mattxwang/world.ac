@@ -8,6 +8,10 @@ elseif($rando == 2){
 }
 
 ?>
+<div class ="hidden-xs">
+  </br>
+</div>
+</br>
 <div class="containter-fluid" style = "background-color:#f8f8f8;color: black; padding: 2% 10% 1% 10%">
   <div class =  "row">
     <div class = "col-md-2 vertical-line">

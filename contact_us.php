@@ -52,6 +52,15 @@ session_start();
 				</div>
 			</div>
 
+			<div class ="hidden-xs">
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+			</div>
+
 			<script src="js/jquery.js"></script>
 			<script src="js/jquery.easing.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>

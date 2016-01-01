@@ -15,10 +15,10 @@ session_start();
 		<script src="js/google_analytics.js"></script>
 	</head>
 
-	<body style="position:relative;text-align:center;">
+	<body>
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
-		<div class = "container">
+		<div class = "container" style="text-align: center;">
 
 			<h1>This Year's Keynote Speaker</h1>
 			<h2>Mystery Speaker</h2>
