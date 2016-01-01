@@ -2,16 +2,25 @@
 ### Changelog for v1.1.0
 
 #### General Changes
+* General Codebase standardization, including indenting, usage of syntax, and placement of divs.
+* Comments base.css and removes redundant references.
+* Removes Bootstrap-Theme references (as it is obsolete now)
 * Wraps up plenary page completion
-* Adds plenary images/speaker bios
-* Adds Opening and Closing Panel Pages
+* Adds plenary images/speaker bios, with 90% completion.
+* Adds Opening and Closing Panel Pages, including content and pictures.
 * Changes PHPmyadmin hooking for new VPS
-* Adds navbar collapse on scroll; looks pretty :D
+* Adds navbar collapse on scroll, using nav-collapse.js and jquery's easing
 * Changes FAQ to use collapsing panels instead of messy walls of text
+* Removes sidebar nav for FAQ
 * Welcome section in navbar now properly displays name
 
+#### New Footer
+* New footer no longer uses a fixed, inverted bottom-of-page navbar; uses imported div section instead.
+* Footer includes full-site page list, retains made-by section, and adds more information
+* Footer now includes privacy terms that are agreed to on website visit.
+
 #### New Schedule Page
-* Implements new Schedule of Keynote Address and Conference Day
+* Implements new Schedule of Keynote Address and Conference Day (in test folder)
 * Uses popovers to display information
 * Fills all non-speaker related information of Keynote Address
 * Fills all non-plenary information of Conference Day
