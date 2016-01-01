@@ -42,6 +42,9 @@ session_start();
 				text-align: center;
 				font-weight: bold;
 			}
+			.place{
+				text-align: left;
+			}
 			td{
 				text-align: center;
 			}
@@ -64,7 +67,7 @@ session_start();
 						<td>Q&A</td>
 					</tr>
 					<tr>
-						<td>Foyer</td>
+						<td class="place">Foyer</td>
 						<td class="reg">
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Coat Check" data-content='The Foyer will have a complimentary coat check service.' data-html="true">Coat Check</a>
 						</td>
@@ -72,7 +75,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr> 
-						<td>Laidlaw Hall</td>
+						<td class="place">Laidlaw Hall</td>
 						<td class="reg">
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Seating" data-content='Seating will begin in Laidlaw Hall.' data-html="true">Seating</a>
 						</td>
@@ -101,7 +104,7 @@ session_start();
 						<td>2:25-3:25</td>
 					</tr>
 					<tr>
-						<td>CC3</td>
+						<td class="place">CC3</td>
 						<td></td>
 						<td></td>
 						<td class="plen">
@@ -117,7 +120,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>David Chu Theatre</td>
+						<td class="place">David Chu Theatre</td>
 						<td></td>
 						<td></td>
 						<td class="plen">
@@ -133,7 +136,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Foyer</td>
+						<td class="place">Foyer</td>
 						<td class="reg">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Delegate/Faculty Registration" data-content='Registered Delegates and Faculty Members should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">Delegate/Faculty Reg.</a>
 						</td>
@@ -145,7 +148,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Laidlaw Hall</td>
+						<td class="place">Laidlaw Hall</td>
 						<td></td>
 						<td class="panel">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Opening Panel</a>
@@ -165,7 +168,7 @@ session_start();
 						</td>
 					</tr>
 					<tr>
-						<td>Lecture Theatre</td>
+						<td class="place">Lecture Theatre</td>
 						<td></td>
 						<td></td>
 						<td class="plen">
@@ -181,7 +184,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Lett Gym</td>
+						<td class="place">Lett Gym</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -193,7 +196,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Library</td>
+						<td class="place">Library</td>
 						<td></td>
 						<td></td>
 						<td class="plen">
@@ -209,7 +212,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Old Gym</td>
+						<td class="place">Old Gym</td>
 						<td></td>
 						<td></td>
 						<td class="plen">
@@ -225,7 +228,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Student Center</td>
+						<td class="place">Student Center</td>
 						<td class="reg">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="UCC Registration" data-content='UCC students/WAC staff should drop by the Student Center to pick up their delegate packages and nametags.' data-html="true">UCC Delegate/Staff Reg.</a>
 						</td>
@@ -237,7 +240,7 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
-						<td>Upper Dining Hall</td>
+						<td class="place">Upper Dining Hall</td>
 						<td></td>
 						<td></td>
 						<td></td>
