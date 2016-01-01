@@ -181,7 +181,7 @@ session_start();
 							</div>
 							<div class = "col-md-6">
 								<h4>Bill Shireman</h4>
-								<img src="img/speakers/shireman.png" width = "128px"></img>
+								<img src="img/bio/speakers/shireman.png" width = "128px"></img>
 								</br>
 								</br>
 								<p>
@@ -377,7 +377,7 @@ session_start();
 							</div>
 							<div class = "col-md-6">
 								<h4>Chris Alexander</h4>
-								<img src="img/speakers/alexander.png" width = "128px"></img>
+								<img src="img/bio/speakers/alexander.png" width = "128px"></img>
 								</br>
 								</br>
 								<p>

@@ -87,7 +87,7 @@ session_start();
 			</div>
 			<div class = "col-md-6">
 				<h1>Graeme Bunton</h1>
-				<img src="img/speakers/bunton.png" height="128px"></img>
+				<img src="img/bio/speakers/bunton.png" height="128px"></img>
 				</br>
 				</br>
 				<p> 

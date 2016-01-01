@@ -37,7 +37,7 @@ session_start();
 				</p>
 				<div style = "text-align:center">
 					<h1>Sami Jo Small</h1>
-					<img src="img/speakers/sj-small.png" height="256px"></img>
+					<img src="img/bio/speakers/sj-small.png" height="256px"></img>
 				</div>
 				<p>
 				Growing up on the outdoor hockey rinks in Winnipeg, Manitoba, Sami Jo Small’s triumphant sports career 
