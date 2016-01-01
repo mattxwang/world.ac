@@ -29,11 +29,6 @@ We had talked about using a "lotto" "first come first serve" system. Basically, 
 ####Plenary Selection for UCC (2)
 UCC students, since they aren't completing the reg-form, need to have a method of selecting their plenaries. We'll email them a link to a part of the WAC website where they input their UCC email, and select their plenaries of their choosing. We have two ways of doing this; doing it on account.php, or on another part of the website. 
 
-## ~~Schedule~~
-### ~~schedule.php~~
-#### ~~Schedule Page~~
-~~Figure out some way of implementing a nice-looking schedule for the actual conference this year.~~
-
 
 ##Media Distribution
 ###Mostly Paper
