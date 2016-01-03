@@ -26,9 +26,11 @@ session_start();
 	<body>
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php")  ?>
+		<!--
 		<h1 style="text-align: center;">
 		<b>Happy New Years!</b>
 		</h1>
+		-->
 		<div style="line-height:80%; padding:4%; position:relative">
 			<div style="font-size:5vw;">
 				WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
