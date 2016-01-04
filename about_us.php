@@ -331,7 +331,10 @@ session_start();
 						<h2><b>Kitty Qu</b></h2>
 						<h3>China Plenary Head</h3>
 						<p>
-						Coming Soon!
+						Hello! My name is Kitty and I am very excited for this plenary on China’s economic future. With my UCC counterpart, we are bringing to you the fascinating story of gains and sacrifices from China’s economic transformation, shared by two insightful speakers. We also hope to provide a platform of discussion for all of you to share opinions on where China’s economy leads and how it may affect the global future.
+						</br>
+						</br>
+						I hope to see you at WAC!
 						</p>
 					</div>
 				</div>
@@ -352,7 +355,7 @@ session_start();
 				</div>
 				<div class = "col-md-3">
 
-					<a href ="#collapseKatya" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+					<a href ="#collapseKatya" data-toggle="collapse"><img src = "img/bio/headshots/katya.png"></img>
 					</a>
 					<div class="collapse" id="collapseKatya">
 						<h2><b>Katya Pollock</b></h2>
