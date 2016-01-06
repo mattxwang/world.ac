@@ -278,10 +278,13 @@ session_start();
 					<a href ="#collapseAlexPR" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
 					</a>
 					<div class="collapse" id="collapseAlexPR">
-						<h2><b>Alex Phillip-Reeves</b></h2>
+						<h2><b>Alexandra Phillip-Reeves</b></h2>
 						<h3>Opening Panel</h3>
 						<p>
-						Coming Soon!
+						Hello! My name is Alex and I am the Head of Opening from Branksome. I am very excited for this year’s WAC and look forward to some engaging discussions from all of you.
+						</br>
+						</br>
+						See you there!
 						</p>
 					</div>
 				</div>
