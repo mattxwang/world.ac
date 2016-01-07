@@ -275,7 +275,7 @@ session_start();
 				</div>
 				<div class = "col-md-3">
 
-					<a href ="#collapseAlexPR" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+					<a href ="#collapseAlexPR" data-toggle="collapse"><img src = "img/bio/headshots/alexpr.png"></img>
 					</a>
 					<div class="collapse" id="collapseAlexPR">
 						<h2><b>Alexandra Phillip-Reeves</b></h2>
