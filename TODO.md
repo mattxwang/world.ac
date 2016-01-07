@@ -2,6 +2,12 @@
 This is the priority of what needs to be done. Should finish this right after the end of exams.
 ##Cleaning up and Migration
 The current codebase in test is horrible. No orginization whatsoever, minimal (and sometime wrong) comments, and multiple orphaned files. Please clean it up.
+
+## Plenary Selection
+####Plenary Selection for UCC
+UCC students, since they aren't completing the reg-form, need to have a method of selecting their plenaries. We'll email them a link to a part of the WAC website where they input their UCC email, and select their plenaries of their choosing. We have two ways of doing this; doing it on account.php, or on another part of the website. 
+
+
 ##Account System
 ### [account.php](http://world.ac/test/account.php)
 #### Navbar work
