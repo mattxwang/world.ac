@@ -43,6 +43,7 @@
 					<option value="E">Nuclear Plenary</option>
 					<option value="F">Refugee Plenary</option>
 				</select>
+				<h2>Plenary 2</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_2" name="plen_2" required="">
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
@@ -51,6 +52,7 @@
 					<option value="E">Nuclear Plenary</option>
 					<option value="F">Refugee Plenary</option>
 				</select>
+				<h2>Plenary 3</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_3" name="plen_3" required="">
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
@@ -59,6 +61,7 @@
 					<option value="E">Nuclear Plenary</option>
 					<option value="F">Refugee Plenary</option>
 				</select>
+				<h2>Plenary 4</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_4" name="plen_4" required="">
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
