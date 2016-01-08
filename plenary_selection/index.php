@@ -30,7 +30,7 @@
 				<h2>World Affairs Conference</h2>
 				<h1>Plenary Selection</h1>
 				<h5>Select which plenaries you would like to attend, in preferential order.</h5>
-				<h5>Find out more about each plenary <a href="../plenaries.php">here</a></h5>
+				<h5>Find out more about each plenary <a href="../plenaries.php"><b>here</b></a></h5>
 			</div>
 
 			<form class="form-signin" action="plenary_selection_function.php" method="post">
