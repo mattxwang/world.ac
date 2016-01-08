@@ -1,5 +1,5 @@
 <?php 
-	function has_dupes($array){
+	/* function has_dupes($array){
 		$dupe_array = array();
 		foreach($array as $val){
 			if(++$dupe_array[$val] > 1){
@@ -8,6 +8,7 @@
 		}
 		return false;
 	}
+	*/
 	require("../common.php"); 
 	if(!empty($_POST)) { 
 		if(
@@ -23,11 +24,11 @@
 		if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) { 
 			die("Invalid email address"); 
 		}
-
+		/*
 		if(has_dupes($_POST) == true){
 			die("Not all plenaries are unique!")
 		}
-
+		*/
 		$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
 		$email = $_POST['email'];
