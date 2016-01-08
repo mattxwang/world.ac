@@ -38,6 +38,7 @@
 				<input type="email" id="email" class="form-control" placeholder="first.last@ucc.on.ca" name="email" required="" autofocus="">
 				<h2>Plenary 1</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_1" name="plen_1" required="">
+					<option value = "NULL">Select your 1st choice.</option>
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
 					<option value="C">Environmental Plenary</option>
@@ -47,6 +48,7 @@
 				</select>
 				<h2>Plenary 2</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_2" name="plen_2" required="">
+					<option value = "NULL">Select your 2nd choice.</option>
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
 					<option value="C">Environmental Plenary</option>
@@ -56,6 +58,7 @@
 				</select>
 				<h2>Plenary 3</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_3" name="plen_3" required="">
+					<option value = "NULL">Select your 3rd choice.</option>
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
 					<option value="C">Environmental Plenary</option>
@@ -65,6 +68,7 @@
 				</select>
 				<h2>Plenary 4</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_4" name="plen_4" required="">
+					<option value = "NULL">Select your 4th choice.</option>
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
 					<option value="C">Environmental Plenary</option>
