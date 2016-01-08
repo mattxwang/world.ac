@@ -43,8 +43,10 @@ session_start();
 					<option value="Bishop Strachan School">Bishop Strachan School</option>
 					<option value="Branksome Hall">Branksome Hall</option>
 					<option value="St. Clements School">St. Clements School</option>
+					<option value="Toronto Prep Schools">Toronto Prep School</option>
 					<option value="Upper Canada College">Upper Canada College</option>
 					<option value="University of Toronto Schools">University of Toronto Schools</option>
+					<option value="Vaughn Road Academy">Vaugn Road Academy</option>
 				</select>
 
 				<h3>Special Notes:</h3>
