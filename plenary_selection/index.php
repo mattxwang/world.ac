@@ -27,7 +27,7 @@
 		</script>
 		<div class="container">
 			<form class="form-signin" action="plenary_selection_function.php" method="post">
-				<select onchange="toggleDisability(this);" class="form-control" id="plen_1" name="plen_1" required="">
+				<select onchange="toggleDisability(this);" class="form-control" id="plen_1" name="plen_1" placeholder="Drone Plenary" required="">
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
 					<option value="C">Environmental Plenary</option>
