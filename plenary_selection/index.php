@@ -26,7 +26,15 @@
 			}
 		</script>
 		<div class="container">
+			<div style="text-align:center">
+				<h2>World Affairs Conference</h2>
+				<h1>Plenary Selection</h1>
+				<h5>Select which plenaries you would like to attend, in preferential order.</h5>
+				<h5>Find out more about each plenary <a href="../plenaries.php">here</a></h5>
+			</div>
+
 			<form class="form-signin" action="plenary_selection_function.php" method="post">
+				<h2>Plenary 1</h2>
 				<select onchange="toggleDisability(this);" class="form-control" id="plen_1" name="plen_1" required="">
 					<option value="A">China Plenary</option>
 					<option value="B">Drone Plenary</option>
@@ -59,12 +67,12 @@
 					<option value="E">Nuclear Plenary</option>
 					<option value="F">Refugee Plenary</option>
 				</select>
-				<div class = "row">
-					<div class = "col-md-12">
-						<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
-					</div>
-				</div>
+				<h5>Please ensure that you've chosen 4 different plenaries, in preferential order.</h5>
+				<h5>We will try to assign everybody their best preferences, but we cannot guarantee it.</h5>
+				<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 			</form>
+				<h2>Any more questions?</h2>
+				<h5>Shoot an email to <a href="mailto:matthew.wang@ucc.on.ca">Matthew Wang</a></h5>
 		</div>
 	</body>
 </html>
