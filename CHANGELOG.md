@@ -1,4 +1,16 @@
 #Changelog
+
+### Changelog for v1.2.0
+
+#### General Changes
+* More Codebase standaridzation
+* 
+
+#### Plenary Selection
+* Adds plenary selection (in /plenary_selection)
+* Exports data to uccstudents database
+* Checks for validity of selected plenaries
+
 ### Changelog for v1.1.0
 
 #### General Changes
