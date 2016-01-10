@@ -40,6 +40,7 @@ session_start();
 				<p>If your school is not in this dropdown menu, your school's registration form was submitted incorrectly. Please <a href="contact_us.php">contact us</a> for further information.
 				</p>
 				<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
+					<option value="NULL">Choose your School</option>
 					<option value="Bishop Strachan School">Bishop Strachan School</option>
 					<option value="Branksome Hall">Branksome Hall</option>
 					<option value="St. Clements School">St. Clements School</option>
@@ -47,6 +48,7 @@ session_start();
 					<option value="Upper Canada College">Upper Canada College</option>
 					<option value="University of Toronto Schools">University of Toronto Schools</option>
 					<option value="Vaughn Road Academy">Vaugn Road Academy</option>
+					<option value="na">My school isn't displayed here!</option>
 				</select>
 
 				<h3>Special Notes:</h3>

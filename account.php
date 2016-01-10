@@ -105,6 +105,7 @@
 											<input type="text" id="lastname" name="lastname" class="form-control" value="<?php echo $row['last_name']; ?>" required="">
 											<h4>Delegate School</h4>
 											<select class="form-control" id="school" name="school" placeholder="DELEGATE SCHOOL" required="">
+												<option value="NULL">Choose your School</option>
 												<option value="Bishop Strachan School">Bishop Strachan School</option>
 												<option value="Branksome Hall">Branksome Hall</option>
 												<option value="St. Clements School">St. Clements School</option>
@@ -112,6 +113,7 @@
 												<option value="Upper Canada College">Upper Canada College</option>
 												<option value="University of Toronto Schools">University of Toronto Schools</option>
 												<option value="Vaughn Road Academy">Vaugn Road Academy</option>
+												<option value="na">My school isn't displayed here!</option>
 											</select>
 											<h4>Special Notes:</h4>
 											<p>
