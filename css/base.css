@@ -12,23 +12,55 @@ The navbar starts off expanded, and un-expands on scroll.
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/3018a5");
 
-  
-@font-face {font-family: 'NexaThin';src: url('webfonts/3018A5_0_0.eot');src: url('webfonts/3018A5_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_0_0.woff2') format('woff2'),url('webfonts/3018A5_0_0.woff') format('woff'),url('webfonts/3018A5_0_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBlackItalic';src: url('webfonts/3018A5_1_0.eot');src: url('webfonts/3018A5_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_1_0.woff2') format('woff2'),url('webfonts/3018A5_1_0.woff') format('woff'),url('webfonts/3018A5_1_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBlack';src: url('webfonts/3018A5_2_0.eot');src: url('webfonts/3018A5_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_2_0.woff2') format('woff2'),url('webfonts/3018A5_2_0.woff') format('woff'),url('webfonts/3018A5_2_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBoldItalic';src: url('webfonts/3018A5_3_0.eot');src: url('webfonts/3018A5_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_3_0.woff2') format('woff2'),url('webfonts/3018A5_3_0.woff') format('woff'),url('webfonts/3018A5_3_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBold';src: url('webfonts/3018A5_4_0.eot');src: url('webfonts/3018A5_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_4_0.woff2') format('woff2'),url('webfonts/3018A5_4_0.woff') format('woff'),url('webfonts/3018A5_4_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBookItalic';src: url('webfonts/3018A5_5_0.eot');src: url('webfonts/3018A5_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_5_0.woff2') format('woff2'),url('webfonts/3018A5_5_0.woff') format('woff'),url('webfonts/3018A5_5_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaBook';src: url('webfonts/3018A5_6_0.eot');src: url('webfonts/3018A5_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_6_0.woff2') format('woff2'),url('webfonts/3018A5_6_0.woff') format('woff'),url('webfonts/3018A5_6_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaHeavyItalic';src: url('webfonts/3018A5_7_0.eot');src: url('webfonts/3018A5_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_7_0.woff2') format('woff2'),url('webfonts/3018A5_7_0.woff') format('woff'),url('webfonts/3018A5_7_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaHeavy';src: url('webfonts/3018A5_8_0.eot');src: url('webfonts/3018A5_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_8_0.woff2') format('woff2'),url('webfonts/3018A5_8_0.woff') format('woff'),url('webfonts/3018A5_8_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaLightItalic';src: url('webfonts/3018A5_9_0.eot');src: url('webfonts/3018A5_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_9_0.woff2') format('woff2'),url('webfonts/3018A5_9_0.woff') format('woff'),url('webfonts/3018A5_9_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaLight';src: url('webfonts/3018A5_A_0.eot');src: url('webfonts/3018A5_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_A_0.woff2') format('woff2'),url('webfonts/3018A5_A_0.woff') format('woff'),url('webfonts/3018A5_A_0.ttf') format('truetype');}
-@font-face {font-family: 'Nexa-RegularItalic';src: url('webfonts/3018A5_B_0.eot');src: url('webfonts/3018A5_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_B_0.woff2') format('woff2'),url('webfonts/3018A5_B_0.woff') format('woff'),url('webfonts/3018A5_B_0.ttf') format('truetype');}
+/* | NEXA FONT |
+Nexa
+Nexa Italic
+Nexa Bold
+Nexa Bold Italic
+ */
 @font-face {font-family: 'Nexa';src: url('webfonts/3018A5_C_0.eot');src: url('webfonts/3018A5_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_C_0.woff2') format('woff2'),url('webfonts/3018A5_C_0.woff') format('woff'),url('webfonts/3018A5_C_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaThinItalic';src: url('webfonts/3018A5_D_0.eot');src: url('webfonts/3018A5_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_D_0.woff2') format('woff2'),url('webfonts/3018A5_D_0.woff') format('woff'),url('webfonts/3018A5_D_0.ttf') format('truetype');}
-@font-face {font-family: 'NexaXBoldItalic';src: url('webfonts/3018A5_E_0.eot');src: url('webfonts/3018A5_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_E_0.woff2') format('woff2'),url('webfonts/3018A5_E_0.woff') format('woff'),url('webfonts/3018A5_E_0.ttf') format('truetype');}
+@font-face {font-family: 'Nexa';font-style:italic;src: url('webfonts/3018A5_B_0.eot');src: url('webfonts/3018A5_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_B_0.woff2') format('woff2'),url('webfonts/3018A5_B_0.woff') format('woff'),url('webfonts/3018A5_B_0.ttf') format('truetype');}
+@font-face {font-family: 'Nexa';font-weight:bold;src: url('webfonts/3018A5_4_0.eot');src: url('webfonts/3018A5_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_4_0.woff2') format('woff2'),url('webfonts/3018A5_4_0.woff') format('woff'),url('webfonts/3018A5_4_0.ttf') format('truetype');}
+@font-face {font-family: 'Nexa';font-weight:bold;font-style:italic;src: url('webfonts/3018A5_3_0.eot');src: url('webfonts/3018A5_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_3_0.woff2') format('woff2'),url('webfonts/3018A5_3_0.woff') format('woff'),url('webfonts/3018A5_3_0.ttf') format('truetype');}
+
+/* | NEXA LIGHT | 
+Nexa Light
+Nexa Light Italic
+*/
+@font-face {font-family: 'NexaLight';src: url('webfonts/3018A5_A_0.eot');src: url('webfonts/3018A5_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_A_0.woff2') format('woff2'),url('webfonts/3018A5_A_0.woff') format('woff'),url('webfonts/3018A5_A_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaLight';font-style:italic;src: url('webfonts/3018A5_9_0.eot');src: url('webfonts/3018A5_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_9_0.woff2') format('woff2'),url('webfonts/3018A5_9_0.woff') format('woff'),url('webfonts/3018A5_9_0.ttf') format('truetype');}
+
+/* | NEXA THIN | */
+@font-face {font-family: 'NexaThin';src: url('webfonts/3018A5_0_0.eot');src: url('webfonts/3018A5_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_0_0.woff2') format('woff2'),url('webfonts/3018A5_0_0.woff') format('woff'),url('webfonts/3018A5_0_0.ttf') format('truetype');}
+
+/* | NEXA BLACK | 
+Nexa Black
+Nexa Black Italic
+*/
+@font-face {font-family: 'NexaBlack';src: url('webfonts/3018A5_2_0.eot');src: url('webfonts/3018A5_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_2_0.woff2') format('woff2'),url('webfonts/3018A5_2_0.woff') format('woff'),url('webfonts/3018A5_2_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaBlack';font-style:italic;src: url('webfonts/3018A5_1_0.eot');src: url('webfonts/3018A5_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_1_0.woff2') format('woff2'),url('webfonts/3018A5_1_0.woff') format('woff'),url('webfonts/3018A5_1_0.ttf') format('truetype');}
+
+/* | NEXA BOOK | 
+Nexa Book 
+Nexa Book Italic
+*/
+@font-face {font-family: 'NexaBook';src: url('webfonts/3018A5_6_0.eot');src: url('webfonts/3018A5_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_6_0.woff2') format('woff2'),url('webfonts/3018A5_6_0.woff') format('woff'),url('webfonts/3018A5_6_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaBook';font-style:italic;src: url('webfonts/3018A5_5_0.eot');src: url('webfonts/3018A5_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_5_0.woff2') format('woff2'),url('webfonts/3018A5_5_0.woff') format('woff'),url('webfonts/3018A5_5_0.ttf') format('truetype');}
+
+
+/* | NEXA HEAVY |
+Nexa Heavy
+Nexa Heavy Italic
+*/
+@font-face {font-family: 'NexaHeavy';src: url('webfonts/3018A5_8_0.eot');src: url('webfonts/3018A5_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_8_0.woff2') format('woff2'),url('webfonts/3018A5_8_0.woff') format('woff'),url('webfonts/3018A5_8_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaHeavy';font-style:italic;src: url('webfonts/3018A5_7_0.eot');src: url('webfonts/3018A5_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_7_0.woff2') format('woff2'),url('webfonts/3018A5_7_0.woff') format('woff'),url('webfonts/3018A5_7_0.ttf') format('truetype');}
+
+/* | NEXA EXTRA BOLD |
+NexaXBold
+NexaXBoldItalic
+*/
 @font-face {font-family: 'NexaXBold';src: url('webfonts/3018A5_F_0.eot');src: url('webfonts/3018A5_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_F_0.woff2') format('woff2'),url('webfonts/3018A5_F_0.woff') format('woff'),url('webfonts/3018A5_F_0.ttf') format('truetype');}
+@font-face {font-family: 'NexaXBold';font-style:italic;src: url('webfonts/3018A5_E_0.eot');src: url('webfonts/3018A5_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_E_0.woff2') format('woff2'),url('webfonts/3018A5_E_0.woff') format('woff'),url('webfonts/3018A5_E_0.ttf') format('truetype');}
 
 
 /* |FREE LICENSED FONTS| 
@@ -58,9 +90,9 @@ a{
 	text-decoration:none;
 }
 
-/* | Sets default font to NexaBook, pads content so the navbar doesn't overlap, and sets a default background and text colour. | */
+/* | Sets default font to Nexa, pads content so the navbar doesn't overlap, and sets a default background and text colour. | */
 body{
-	font-family:NexaBook;
+	font-family:Nexa;
 	padding-top:100px;
 	background-color:#2a262a;
 	color:#FFFFFF;
@@ -68,11 +100,11 @@ body{
 
 /* | Sets default fonts for headers. | */
 h1{
-	font-family:NexaXBold;
+	font-family:NexaHeavy;
 }
 
 h2, h3{
-	font-family:Nexa Bold;
+	font-weight: bold;
 }
 h4, h5, h6 {
 	font-family:Nexa;
