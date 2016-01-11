@@ -1,16 +1,13 @@
 /*
 ||| CSS FOR THE WAC WEBSITE |||
 Few basic things:
-Default font is Nexa, with an existing bold setting (no italics)
+Default font is Nexa, with a lot of font families following it.
 Links don't have an underline or change their colour.
 Linking to a div tag links you to the place 100 px above where it actually is, to account for the navbar.
 The navbar starts off expanded, and un-expands on scroll.
 */
 
 /* | Font Imports. | */
-
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/3018a5");
 
 /* | NEXA FONT |
 Nexa
