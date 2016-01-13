@@ -444,7 +444,7 @@ session_start();
 			<div class = "row">
 				<div class = "col-md-3">
 
-					<a href ="#collapseMattJ" data-toggle="collapse"><img src = "img/bio/headshots/jageo.png"></img>
+					<a href ="#collapseMattJ" data-toggle="collapse"><img src = "img/bio/headshots/jagdeo.png"></img>
 				
 					</a>
 					<div class="collapse" id="collapseMattJ">
