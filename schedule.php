@@ -63,9 +63,9 @@ session_start();
 				<table class = "table">
 					<tr>
 						<td></td>
-						<td>COAT CHECK/WAIT</td>
-						<td>ADDRESS</td>
-						<td>Q&A</td>
+						<td>Coat Check</td>
+						<td>Keynote Address</td>
+						<td>Question and Answer</td>
 					</tr>
 					<tr>
 						<td class="place">Foyer</td>
