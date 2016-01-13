@@ -311,7 +311,7 @@ session_start();
 			<div class = "row">
 				<div class = "col-md-3">
 
-					<a href ="#collapseSimon" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+					<a href ="#collapseSimon" data-toggle="collapse"><img src = "img/bio/headshots/simon.png"></img>
 				
 					</a>
 					<div class="collapse" id="collapseSimon">
@@ -395,14 +395,17 @@ session_start();
 				</div>
 				<div class = "col-md-3">
 
-					<a href ="#collapseEmma" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+					<a href ="#collapseEmma" data-toggle="collapse"><img src = "img/bio/headshots/emma.png"></img>
 
 					</a>
 					<div class="collapse" id="collapseEmma">
 						<h2><b>Emma Lozhkin</b></h2>
 						<h3>Environment Plenary Head</h3>
 						<p>
-						Coming Soon!
+						Hi everyone, my name is Emma and I am a co-head of the environment and corporations plenary. My partner and I have found two speakers to discuss the ways companies can be both ecologically-mindful and economically prosperous to make the world a better place.
+						</br>
+						</br>
+						Hope you see you at WAC 2016!
 						</p>
 					</div>
 				</div>
@@ -441,14 +444,17 @@ session_start();
 			<div class = "row">
 				<div class = "col-md-3">
 
-					<a href ="#collapseMattJ" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
+					<a href ="#collapseMattJ" data-toggle="collapse"><img src = "img/bio/headshots/jageo.png"></img>
 				
 					</a>
 					<div class="collapse" id="collapseMattJ">
 						<h2><b>Matthew Jagdeo</b></h2>		
 						<h3>Nuclear Proliferation Plenary Head</h3>	
 						<p>
-						Coming Soon!
+						Hi, I'm Matthew Jagdeo, and I am one of the Plenary Heads for the Nuclear Proliferation session. In working with my partner, I plan to make this plenary engaging, impactful, and educational. I hope you all will learn something and maybe even inspired by our plenary. 
+						</br>
+						</br>
+						See you in February!
 						</p>
 					</div>
 				</div>
