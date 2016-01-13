@@ -38,6 +38,11 @@
 
 			$row = $stmt->fetch();
 
+			if (empty($row)){
+				header("Location: new_user_page.php"); 
+				die("Redirecting to new_user_page.php"); 
+			}
+
 			//ALERTS
 
 			// Styles
