@@ -22,7 +22,7 @@ session_start();
 
 			<h1>This Year's Lionel Gelber Keynote Speaker</h1>
 			<h2>Nanor Balyozian</h2>
-			<img src="img/bio/speakers/balyozian_poster.png" class="img-rounded" height="250px"></img>
+			<img src="img/bio/speakers/balyozian_poster.png" class="img-rounded" height="360px"></img>
 			<h3>Becoming Canadian: A Syrian Refugee's Journey</h3>
 
 			Bio coming soon!
