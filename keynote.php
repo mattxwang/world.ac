@@ -21,9 +21,11 @@ session_start();
 		<div class = "container" style="text-align: center;">
 
 			<h1>This Year's Keynote Speaker</h1>
-			<h2>Mystery Speaker</h2>
-			<img src="img/speaker_pic_blank.png" style = "width:256px"></img>
-			<h3>Check Back Later</h3>
+			<h2>Nanor Bolyozian</h2>
+			<div style="100%">
+				<img src="img/speakers/balyozian_poster.png" class="img-rounded img-responsive" height="50%"></img>
+			</div>
+			<h3>Becoming Canadian: A Syrian Refugee's Journey</h3>
 
 			This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
 
