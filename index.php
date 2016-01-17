@@ -26,11 +26,10 @@ session_start();
 	<body>
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php")  ?>
-		<!--
-		<h1 style="text-align: center;">
-		<b>Happy New Years!</b>
-		</h1>
-		-->
+		<div class="alert alert-dismissible alert-info fade in">
+			<button type="button" class="close" data-dismiss="alert">x</button>
+			<p><span class="glyphicon glyphicon-pushpin"></span> Hey there! We just announced the <a href="keynote.php"><b>Lionel Gelber Keynote Speaker</b>! Discover who will be joining the ranks of Edward Snowden, Ralph Nader, and more!</p>
+		</div>
 		<div style="line-height:80%; padding:4%; position:relative">
 			<div style="font-size:5vw;">
 				WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
