@@ -18,13 +18,11 @@ session_start();
 	<body>
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
-		<div class = "container" style="text-align: center;" height="100%">
+		<div class = "container" style="text-align:center;">
 
 			<h1>This Year's Lionel Gelber Keynote Speaker</h1>
 			<h2>Nanor Balyozian</h2>
-			<div height="100%">
-				<img src="img/bio/speakers/balyozian_poster.png" class="img-rounded img-responsive" height="25%"></img>
-			</div>
+			<img src="img/bio/speakers/balyozian_poster.png" class="img-rounded" height="250px"></img>
 			<h3>Becoming Canadian: A Syrian Refugee's Journey</h3>
 
 			Bio coming soon!
