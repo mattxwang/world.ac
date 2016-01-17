@@ -20,14 +20,14 @@ session_start();
 		<?php include_once("navbar.php") ?>
 		<div class = "container" style="text-align: center;">
 
-			<h1>This Year's Keynote Speaker</h1>
-			<h2>Nanor Bolyozian</h2>
+			<h1>This Year's Lionel Gelber Keynote Speaker</h1>
+			<h2>Nanor Balyozian</h2>
 			<div style="100%">
 				<img src="img/speakers/balyozian_poster.png" class="img-rounded img-responsive" height="50%"></img>
 			</div>
 			<h3>Becoming Canadian: A Syrian Refugee's Journey</h3>
 
-			This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
+			Bio coming soon!
 
 			</br>	
 
