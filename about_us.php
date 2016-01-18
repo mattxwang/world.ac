@@ -510,6 +510,27 @@ session_start();
 				Emmanuel Wong, Philip Nicoletti, Karman Cheema, Matthew Wang, Rob Dean, Scotty Andrade, Tyler Tam,
 				</br>
 				as well as Derek Lam, and Nick Elder for creating the framework last year.
+				<h3>The Security Team</h3>
+				Aaron Ash Cutajar,
+				Dempster Schneckenburger,
+				Charlie Cottrelle,
+				Ryan O'Shea,
+				Simon Broer,
+				Sachin Desai,
+				Charlie Mortimer,
+				Tom Reeve,
+				Rory Doyle,
+				Adam Sellan,
+				Sierra Chow,
+				Mikki Barnett,
+				Kristen Snatos,
+				Indigo Baylis,
+				Nikki Stuart,
+				Priyanka Dogra,
+				Yasmine Elkhouly,
+				Meredith Wilson-Smith,
+				Alex Whang,
+				Mimi Mann
 				<h3>Website Consultants</h3>
 				Aidan Harradence, Alex Roberts, Austin Felix, Camran Hansen, Evan Boeckh, John Mace, Kevin Olds, Matt Jackman, Zack Nathan
 

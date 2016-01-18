@@ -18,14 +18,19 @@ session_start();
 	<body>
 		<?php include_once("import_info.php") ?>
 		<?php include_once("navbar.php") ?>
-		<div class = "container" style="text-align: center;">
+		<div class = "container" style="text-align:center;">
 
-			<h1>This Year's Keynote Speaker</h1>
-			<h2>Mystery Speaker</h2>
-			<img src="img/speaker_pic_blank.png" style = "width:256px"></img>
-			<h3>Check Back Later</h3>
+			<h1>This Year's Lionel Gelber Keynote Speaker</h1>
+			<h2>Nanor Balyozian</h2>
+			<img src="img/bio/speakers/balyozian_poster.png" class="img-rounded" height="360px"></img>
+			<h3>Becoming Canadian: A Syrian Refugee's Journey</h3>
 
-			This year's Keynote Speaker hasn't been decided yet! We'll announce the speaker soon, so remember to check back!
+			<h5>Biography:</h5>
+			Nanor Balyozian fled the Syrian civil war in 2013. Her family fled to Lebanon, where they spent a year before arriving in Toronto on December 22nd 2014. She holds a BA in English Literature from the University of Arts and Humanities in Aleppo, Syria. Before the civil war began, she worked in the travel and tourism industry. She now works as a consultant and financial planner in Toronto. She also volunteers with the Armenian Community Centre of Toronto to provide services to new refugees. She is married to Abraham Shohmelian, and they have two children together, a five year old son, and a seven year old daughter.
+
+			<h5>Address Content:</h5>
+
+			In her speech, Balyozian will describe the challenges she faced on her journey from Aleppo to Toronto. She will address the Canadian government’s policies during the refugee crisis from her personal perspective. What has the government done well? What has the government done poorly? Finally, she will also give her thoughts on the refugee crisis as a global issue. As always, there will be an open question and answer period after her address.
 
 			</br>	
 
