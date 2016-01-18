@@ -73,12 +73,12 @@ session_start();
 								</p>
 							</div>
 							<div class = "col-md-6">
-								<h4>Speaker</h4>
-								<img src="img/avatar.png" width = "128px"></img>
+								<h4>Loren Brandt</h4>
+								<img src="img/bio/speakers/brandt.png" width = "128px"></img>
 								</br>
 								</br>
 								<p>
-								We're still sorting out the details; we'll reveal all of this information soon!
+								Loren Brandt is an esteemed Professor of Economics at the University of Toronto since 1987, specializing in the Chinese economy. Meanwhile, he has also earned fellowship at renowned institutes such as Oxford China Growth Center, Institute for Labor Studies (IZA) in Bonn, Germany, and Hoover Institute in Stanford University. In 2012, he was invited to the editorial board of China Quarterly. Professor Brandt has also contributed his insight to leading economic publications, including Oxford University Press’ five volume Encyclopedia of Economic History (2003) and Cambridge University Press’s study on China’s Great Economic Transformation (2008). Currently, Professor Brandt continues to conduct extensive household and enterprise survey work in China. He also focuses his research on industrial innovation, inequality dynamics, long-term economic growth, and structural change in China.
 								</p>
 							</div>
 						</div>
