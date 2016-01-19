@@ -91,7 +91,7 @@ session_start();
 				</br>
 				</br>
 				<p> 
-				More to come soon!
+				Graeme Bunton has been an Information Specialist at Tucows since February 2011, where he works in business intelligence, analytics, and reporting. He is also a Senior Web Presence Consultant at nModel Solutions Inc in Toronto. Bunton was an original member of Citizen Lab, a Toronto-based digital rights think tank. Although Corporations usually take a passive stance on political issues, Tucows has come out against mass-surveillance and in favor of Net Neutrality, with Bunton spearheading the cause, writing essays and op-eds against things like Bill C-51, while working with other Canadian businesses to discuss substantive changes to C-51 that could be beneficial.
 				</p>
 			</div>
 		</div>
