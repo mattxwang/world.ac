@@ -12,7 +12,9 @@
 	require("../common.php"); 
 	if(!empty($_POST)) { 
 		if(
-			empty($_POST['email']) ||
+			empty($_POST['email'])  ||
+			empty($_POST['f_name']) ||
+			empty($_POST['l_name']) ||
 			empty($_POST['plen_1']) ||
 			empty($_POST['plen_2']) ||
 			empty($_POST['plen_3']) ||
@@ -32,6 +34,8 @@
 		$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
 		$email = $_POST['email'];
+		$first_name = $_POST['f_name'];
+		$last_name = $_POST['l_name'];
 		$plen_1 = $_POST['plen_1'];
 		$plen_2 = $_POST['plen_2'];
 		$plen_3 = $_POST['plen_3'];
@@ -40,12 +44,18 @@
 		$query = " 
 		INSERT INTO uccstudents (
 			email,
+			first_name,
+			last_name,
+			school,
 			plen_1, 
 			plen_2,
 			plen_3, 
 			plen_4
 		) VALUES (
 			'$email',
+			'$first_name',
+			'$last_name',
+			'Upper Canada College',
 			'$plen_1',
 			'$plen_2',
 			'$plen_3', 

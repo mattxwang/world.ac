@@ -40,6 +40,10 @@
 			<form class="form-signin" action="plenary_selection_function.php" method="post">
 				<h2>School Email</h2>
 				<input type="email" id="email" class="form-control" placeholder="first.last@ucc.on.ca" name="email" required="" autofocus="">
+				<h2>First Name</h2>
+				<input type="text" id="f_name" class="form-control" placeholder="" name="f_name" required="">
+				<h2>Last Name</h2>
+				<input type="text" id="l_name" class="form-control" placeholder="" name="l_name" required="">
 				<h2>Plenary 1</h2>
 				<select onchange="toggleDisability(this);" class="form-control-disable form-control" id="plen_1" name="plen_1" required="">
 					<option value = "NULL">Select your 1st choice.</option>
