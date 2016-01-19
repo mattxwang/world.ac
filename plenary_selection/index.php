@@ -26,6 +26,10 @@
 			}
 		</script>
 		<div class="container">
+		<div class="alert alert-dismissible alert-warning fade in">
+			<button type="button" class="close" data-dismiss="alert">x</button>
+			<p><span class="glyphicon glyphicon-alert"></span> <b>Having issues with selection?</b> Refresh the page.</p>
+		</div>
 			<div style="text-align:center">
 				<h2>World Affairs Conference</h2>
 				<h1>Plenary Selection</h1>
