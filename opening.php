@@ -49,7 +49,7 @@ session_start();
 			</p>
 
 		<div class = "row">
-			<div class = "col-md-6">
+			<div class = "col-md-4">
 				<h1>Ron Deibert</h1>
 				<img src="img/bio/speakers/deibert.png"></img>
 				</br>
@@ -85,7 +85,7 @@ session_start();
 				communications rights, openness and security worldwide.”
 				</p>
 			</div>
-			<div class = "col-md-6">
+			<div class = "col-md-4">
 				<h1>Graeme Bunton</h1>
 				<img src="img/bio/speakers/bunton.png" height="128px"></img>
 				</br>
@@ -94,6 +94,14 @@ session_start();
 				Graeme Bunton has been an Information Specialist at Tucows since February 2011, where he works in business intelligence, analytics, and reporting. He is also a Senior Web Presence Consultant at nModel Solutions Inc in Toronto. Bunton was an original member of Citizen Lab, a Toronto-based digital rights think tank. Although Corporations usually take a passive stance on political issues, Tucows has come out against mass-surveillance and in favor of Net Neutrality, with Bunton spearheading the cause, writing essays and op-eds against things like Bill C-51, while working with other Canadian businesses to discuss substantive changes to C-51 that could be beneficial.
 				</p>
 			</div>
+			<div class="col-md-4">
+				<h1>Ariel Katz</h1>
+				<img src="img/bio/speakers/katz.png" height="128px"></img>
+				</br>
+				</br>
+				<p>
+				Ariel Katz is an Associate Professor at the Faculty of Law, University of Toronto, where he holds the Innovation Chair in Electronic Commerce. Professor Katz received his LL.B. and LL.M from the Hebrew University of Jerusalem and his SJD from the University of Toronto. His general area of research includes intellectual property law, with allied interests in electronic commerce, pharmaceutical regulation, the regulation of international trade, and particularly the intersection of these fields. He has previously served as the Director of the Centre for Innovation Law and Policy.  Professor Katz currently teaches courses on intellectual property, cyberlaw, and the intersection of competition law and intellectual property, and shares some of his current thoughts on these issues on his blog. 
+				</p>
 		</div>
 
 		<script src="js/jquery.js"></script>
