@@ -19,7 +19,7 @@
 				var selectedOption = selectElement.selectedIndex;
 				for(var i=0; i<arraySelects.length; i++) {
 					if(arraySelects[i] == selectElement)
-					continue;
+					arraySelects[i].options[selectedOption].disabled = false;
 
 					arraySelects[i].options[selectedOption].disabled = true;
 				}
