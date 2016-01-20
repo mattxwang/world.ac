@@ -1,7 +1,7 @@
 <?php
 //Start the PHP session
 session_start();
- 
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -63,9 +63,9 @@ session_start();
 				<table class = "table">
 					<tr>
 						<td></td>
-						<td>Coat Check</td>
-						<td>Keynote Address</td>
-						<td>Question and Answer</td>
+						<td>Coat Check & Seating (6:30-7:00)</td>
+						<td>Keynote Address (7:00-7:30)</td>
+						<td>Question and Answer (7:30-8:00)</td>
 					</tr>
 					<tr>
 						<td class="place">Foyer</td>
@@ -75,16 +75,16 @@ session_start();
 						<td></td>
 						<td></td>
 					</tr>
-					<tr> 
+					<tr>
 						<td class="place">Laidlaw Hall</td>
 						<td class="reg">
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Seating" data-content='Seating will begin in Laidlaw Hall.' data-html="true">Seating</a>
 						</td>
 						<td class="keynote">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The <a href="keynote.php"><b>Keynote Address</b></a> will feature a prominent member of the community discussing current affairs, inside of Laidlaw Hall. It is open to the general public. ' data-html="true">Keynote Address</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Keynote Address" data-content='The <a href="keynote.php"><b>Keynote Address</b></a> will feature <a href="keynote.php">Nanor Balyozian</a> discussing the refugee crisis. It is open to the general public. ' data-html="true">Keynote Address</a>
 						</td>
 						<td class="keynote">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Question Period" data-content='After the <a href="keynote.php"><b>Keynote Address</b></a>, the speaker will take questions from the audience in Laidlaw Hall. ' data-html="true">Question Period</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Question Period" data-content='After the <a href="keynote.php"><b>Keynote Address</b></a>, Nanor Balyozian will take questions from the audience in Laidlaw Hall. ' data-html="true">Question Period</a>
 						</td>
 					</tr>
 				</table>
@@ -255,7 +255,7 @@ session_start();
 				</table>
 			</div>
 
-			
+
 		 	<script src="js/jquery.js"></script>
 			<script src="js/jquery.easing.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
