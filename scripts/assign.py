@@ -1,4 +1,5 @@
-import csv
+# Refugee plenaries is 1-2
+# A plenaries must happen twice in a row
 
 # Variables
 data = {}
@@ -22,10 +23,10 @@ for name, choice in data.iteritems():
 	except Exception, e:
 		abnormal.append(name)
 
-# Data -> CSV
-with open(raw_input("OUTPUT FILE\n>"), 'wb') as out_file:
-    wr = csv.writer(out_file, quoting=csv.QUOTE_ALL)
-    wr.writerow(plen)
+print plen
+
+# print amount of people in each plenary
+print [(key + ": " + str(len(value))) for key,value in plen.iteritems()]
 
 # print out the abnormalities
 print abnormal
