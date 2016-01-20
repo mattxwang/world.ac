@@ -6,7 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8"> 
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="World Affairs Conference">
 		<title>Meet the WAC Team - World Affairs Conference</title>
@@ -31,7 +31,7 @@ session_start();
 			<div style="text-align:center;">
 				<h2>Meet the WAC Team</h2>
 				<p>
-				WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work. 
+				WAC is a student-run organisation that spans two schools, one hundred students, and thousands of hours of work.
 				This kind of work doesn't appear out of thin air: we have many students working hard to make WAC the best current affairs conference there is.
 				</p>
 				</br>
@@ -63,7 +63,7 @@ session_start();
 						<h2><b>Naz Gocek</b></h2>
 						<h3>Conference Chair</h3>
 						<p>
-						I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration. 
+						I'm Naz and I'm one of the Branksome Hall Conference Chairs for the World Affairs Conference this year. I manage the vision and direction of WAC with my Branksome counterpart Blaise and UCC counterpart Logan. I also direct Branksome's registration.
 						</br>
 						</br>
 						Hope to see you at WAC!
@@ -94,10 +94,10 @@ session_start();
 						<h2><b>Nitish Dhingra</b></h2>
 						<h3>Secretary/Treasurer</h3>
 						<p>
-						Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates. 
+						Hi everyone, my name is Nitish and I’m extremely excited to be helping run this year’s World Affairs Conference. My role as secretary/treasurer surrounds helping make sure WAC runs as smoothly as possible and is enjoyable for all our delegates.
 						</br>
 						</br>
-						I am looking forward to seeing you this February at UCC! 
+						I am looking forward to seeing you this February at UCC!
 						</p>
 					</div>
 				</div>
@@ -109,16 +109,16 @@ session_start();
 				<div class = "col-md-3">
 
 					<a href ="#collapseNikhil" data-toggle="collapse"><img src = "img/bio/headshots/nikhil.png"></img>
-				
+
 					</a>
 					<div class="collapse" id="collapseNikhil">
 						<h2><b>Nikhil Kassum</b></h2>
 						<h3>Head of Programs</h3>
 						<p>
-						My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions. 
+						My name is Nikhil Kassum and I am the UCC Programs Chair for the World Affairs Conference 2016. I am in charge of the academic content of the conference with my counterparts from Branksome Hall as we oversee all plenary and panel sessions.
 						</br>
 						</br>
-						I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it. 
+						I'm really looking forward being a part of WAC 2016 and hope that all of you really enjoy it.
 						</p>
 					</div>
 				</div>
@@ -131,7 +131,7 @@ session_start();
 						<h2><b>Ernest Leung</b></h2>
 						<h3>Head of Operations</h3>
 						<p>
-						Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of. 
+						Hey everyone! My name is Ernest Leung and I’m honoured to be able to serve on the World Affairs Conference executive this year. As Head of Operations, I work with all different teams to ensure that the logistics of WAC run smoothly and that everything goes according to plan the day of.
 						</br>
 						</br>
 						I’m super excited for WAC this February! See you all there!
@@ -178,13 +178,13 @@ session_start();
 				<div class = "col-md-3">
 
 					<a href ="#collapseJoseph" data-toggle="collapse"><img src = "img/bio/headshots/joe.png"></img>
-				
+
 					</a>
 					<div class="collapse" id="collapseJoseph">
 						<h2><b>Joseph Noss</b></h2>
 						<h3>Head of Keynote/Panels</h3>
 						<p>
-						Hey everyone! My name is Joe Noss; I read the news avidly, and I am excited to talk about World Affairs! I will be leading the Morning team in creating the panel, "The Future of The Internet"! 
+						Hey everyone! My name is Joe Noss; I read the news avidly, and I am excited to talk about World Affairs! I will be leading the Morning team in creating the panel, "The Future of The Internet"!
 						</br>
 						</br>
 						Don't Miss it!
@@ -200,7 +200,7 @@ session_start();
 						<h2><b>Amirah Mahomed</b></h2>
 						<h3>Head of Programs/Keynote</h3>
 						<p>
-						My name’s Amirah Mahomed and I am the Branksome Hall Program Chair and Keynote Head for the World Affairs Conference this year.  I provide help for all plenaries and panels find speakers for the conference, while finding a speaker for Keynote. 
+						My name’s Amirah Mahomed and I am the Branksome Hall Program Chair and Keynote Head for the World Affairs Conference this year.  I provide help for all plenaries and panels find speakers for the conference, while finding a speaker for Keynote.
 						</br>
 						</br>
 						I am very excited for my last year at WAC!
@@ -216,7 +216,7 @@ session_start();
 						<h2><b><a href="https://twitter.com/malsf21">Matthew Wang</a></b></h2>
 						<h3>Web Design/Media</h3>
 						<p>
-						Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year! 
+						Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year!
 						</br>
 						</br>
 						I’m excited to make WAC as awesome as it was last year. See you there!
@@ -247,16 +247,16 @@ session_start();
 				<div class = "col-md-3">
 
 					<a href ="#collapseDavid" data-toggle="collapse"><img src = "img/bio/headshots/david.png"></img>
-				
+
 					</a>
 					<div class="collapse" id="collapseDavid">
-						<h2><b>David Niddam-Dent</b></h2>		
-						<h3>Morning/Closing Panels</h3>	
+						<h2><b>David Niddam-Dent</b></h2>
+						<h3>Morning/Closing Panels</h3>
 						<p>
-						Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a high note.		
+						Hi, I'm David. It's my first year on the WAC team, and I'm very excited for the conference. I'm part of the morning and closing team, so I'll be helping to make sure that we start and end the conference on a high note.
 						</br>
-						</br>		
-						Can't wait to see everyone in February! 		
+						</br>
+						Can't wait to see everyone in February!
 						</p>
 					</div>
 				</div>
@@ -296,10 +296,10 @@ session_start();
 						<h2><b>Kathy Liu</b></h2>
 						<h3>Closing Panel</h3>
 						<p>
-						Hello! My name is Kathy, and I’m so excited to be Head of Closing. My role is to contact speakers for the closing panel. 
+						Hello! My name is Kathy, and I’m so excited to be Head of Closing. My role is to contact speakers for the closing panel.
 						</br>
 						</br>
-						See you at WAC 2016! 
+						See you at WAC 2016!
 						</p>
 					</div>
 				</div>
@@ -312,16 +312,16 @@ session_start();
 				<div class = "col-md-3">
 
 					<a href ="#collapseSimon" data-toggle="collapse"><img src = "img/bio/headshots/simon.png"></img>
-				
+
 					</a>
 					<div class="collapse" id="collapseSimon">
-						<h2><b>Simon Osak</b></h2>		
-						<h3>China Plenary Head</h3>	
+						<h2><b>Simon Osak</b></h2>
+						<h3>China Plenary Head</h3>
 						<p>
-						Hi there! My name is Simon Osak and I am this year's UCC China plenary head for the World Affairs Conference.  My role in WAC is to work alongside my Branksome Hall plenary head counterpart to find two speakers to speak about China's economy and why we, being North Americans, should care about it.  
+						Hi there! My name is Simon Osak and I am this year's UCC China plenary head for the World Affairs Conference.  My role in WAC is to work alongside my Branksome Hall plenary head counterpart to find two speakers to speak about China's economy and why we, being North Americans, should care about it.
 						</br>
 						</br>
-						I am excited to be a part of WAC and I hope to see you at UCC for this amazing conference this February.		
+						I am excited to be a part of WAC and I hope to see you at UCC for this amazing conference this February.
 						</p>
 					</div>
 				</div>
@@ -348,7 +348,7 @@ session_start();
 					<div class="collapse" id="collapsesomething">
 						<h2><b>Emerson Braithwaite</b></h2>
 						<h3>Drone Plenary Head</h3>
-						<p>		
+						<p>
 						Hey! My name is Emerson and I'm a student at Upper Canada College. My partner Katya and I are the heads of the plenary and drones. We direct the vision of the plenary to make it interesting and informative.
 						</br>
 						</br>
@@ -380,16 +380,16 @@ session_start();
 				<div class = "col-md-3">
 
 					<a href ="#collapseAlexQ" data-toggle="collapse"><img src = "img/bio/headshots/placeholder.png"></img>
-				
+
 					</a>
 					<div class="collapse" id="collapseAlexQ">
-						<h2><b>Alexander Quinn</b></h2>		
-						<h3>Environment Plenary Head</h3>	
+						<h2><b>Alexander Quinn</b></h2>
+						<h3>Environment Plenary Head</h3>
 						<p>
-						My name is Alexander Quinn and I am the plenary co-head on corporate responsibility. My co-head Emma Lozhkin and I are in charge of coming up with our plenary's content and researching and contacting speakers. 
+						My name is Alexander Quinn and I am the plenary co-head on corporate responsibility. My co-head Emma Lozhkin and I are in charge of coming up with our plenary's content and researching and contacting speakers.
 						</br>
 						</br>
-						I hope to see you there.	
+						I hope to see you there.
 						</p>
 					</div>
 				</div>
@@ -445,13 +445,13 @@ session_start();
 				<div class = "col-md-3">
 
 					<a href ="#collapseMattJ" data-toggle="collapse"><img src = "img/bio/headshots/jagdeo.png"></img>
-				
+
 					</a>
 					<div class="collapse" id="collapseMattJ">
-						<h2><b>Matthew Jagdeo</b></h2>		
-						<h3>Nuclear Proliferation Plenary Head</h3>	
+						<h2><b>Matthew Jagdeo</b></h2>
+						<h3>Nuclear Proliferation Plenary Head</h3>
 						<p>
-						Hi, I'm Matthew Jagdeo, and I am one of the Plenary Heads for the Nuclear Proliferation session. In working with my partner, I plan to make this plenary engaging, impactful, and educational. I hope you all will learn something and maybe even inspired by our plenary. 
+						Hi, I'm Matthew Jagdeo, and I am one of the Plenary Heads for the Nuclear Proliferation session. In working with my partner, I plan to make this plenary engaging, impactful, and educational. I hope you all will learn something and maybe even inspired by our plenary.
 						</br>
 						</br>
 						See you in February!
@@ -502,7 +502,7 @@ session_start();
 			</div>
 
 			<div style="padding:35px;text-align:center;">
-				
+
 				That being said, WAC isn't just executives. We also have tireless teams working towards making WAC amazing.
 				<h2>We'd Like to Thank:</h2>
 				<p>
@@ -521,11 +521,11 @@ session_start();
 				Tom Reeve,
 				Rory Doyle,
 				Adam Sellan,
-				Sierra Chow,
+				Kaya Marcus,
 				Mikki Barnett,
-				Kristen Snatos,
+				Kristen Santos,
 				Indigo Baylis,
-				Nikki Stuart,
+				MJ Hill-Strathy,
 				Priyanka Dogra,
 				Yasmine Elkhouly,
 				Meredith Wilson-Smith,
