@@ -5,11 +5,18 @@
 data = {}
 plen = {"A": [], "B": [], "C": [], "D": [], "E": [], "F": []}
 abnormal = []
+files = []
 
 # CSV -> Data
-for line in open(raw_input("INPUT FILE\n>")):
-	row = line.split(",")
-	data[(row[1] + " " + row[2])] = [row[4], row[5], row[6], row[7]]
+## Collect all files
+for i in range(input("Amount of files\n>")):
+	files.append(raw_input("INPUT FILE\n>"))
+
+## Open all files
+for file_name in files:
+	for line in open(file_name):
+		row = line.split(",")
+		data[(row[1] + " " + row[2])] = [row[4], row[5], row[6], row[7]]
 
 # Parse data
 for name, choice in data.iteritems():
