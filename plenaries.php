@@ -125,7 +125,7 @@ session_start();
 							</div>
 							<div class = "col-md-6">
 								<h4>Luke Gregory</h4>
-								<img src="img/bio/speakers/luke.png" width = "128px"></img>
+								<img src="img/bio/speakers/gregory.png" width = "128px"></img>
 								</br>
 								</br>
 								<p>
