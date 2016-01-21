@@ -206,7 +206,7 @@ session_start();
 					<div class="collapse" id="collapseGender">
 						<h2>Gender Income Disparities</h2>
 						<p>
-						We're still sorting out the details; we'll reveal all of this information soon!
+						The vision of this plenary is to identify the current causes and circumstances of gender income disparities and how to eliminate them. This solution based plenary will first outline the problem, and then a solution will be proposed by the speakers. After the speakers are done, there will be an opportunity to ask questions to the speakers. Time permitting, the plenary will break into discussion groups and discuss the problem at hand and if they agree or disagree with the speakers.
 						</p>
 						<div class = "row">
 							<div class = "col-md-6">
