@@ -28,7 +28,7 @@ elseif($rando == 2){
       <h6><a href="opening.php">Opening Panel</a></h6>
       <h6><a href="plenaries.php">Plenaries</a></h6>
       <h6><a href="opening.php">Closing Panel</a></h6>
-      <h6><a href="construction.php">Schedule</a></h6>
+      <h6><a href="schedule.php">Schedule</a></h6>
     </div>
     <div class = "col-md-2 vertical-line">
       <h4>About WAC</h4>
