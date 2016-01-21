@@ -1,14 +1,22 @@
-import csv
+# Refugee plenaries is 1-2
+# A plenaries must happen twice in a row
 
 # Variables
 data = {}
 plen = {"A": [], "B": [], "C": [], "D": [], "E": [], "F": []}
 abnormal = []
+files = []
 
 # CSV -> Data
-for line in open(raw_input("INPUT FILE\n>")):
-	row = line.split(",")
-	data[(row[1] + " " + row[2])] = [row[4], row[5], row[6], row[7]]
+## Collect all files
+for i in range(input("Amount of files\n>")):
+	files.append(raw_input("INPUT FILE\n>"))
+
+## Open all files
+for file_name in files:
+	for line in open(file_name):
+		row = line.split(",")
+		data[(row[1] + " " + row[2])] = [row[4], row[5], row[6], row[7]]
 
 # Parse data
 for name, choice in data.iteritems():
@@ -22,10 +30,10 @@ for name, choice in data.iteritems():
 	except Exception, e:
 		abnormal.append(name)
 
-# Data -> CSV
-with open(raw_input("OUTPUT FILE\n>"), 'wb') as out_file:
-    wr = csv.writer(out_file, quoting=csv.QUOTE_ALL)
-    wr.writerow(plen)
+print plen
+
+# print amount of people in each plenary
+print [(key + ": " + str(len(value))) for key,value in plen.iteritems()]
 
 # print out the abnormalities
 print abnormal
