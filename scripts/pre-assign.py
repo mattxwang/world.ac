@@ -15,7 +15,7 @@ for i in range(input("Amount of files\n>")):
 ## Open all files
 for file_name in files:
 	for line in open(file_name):
-		row = line.split(",")
+		row = line.replace('"', '').split(",")
 		data[(row[1] + " " + row[2])] = [row[4], row[5], row[6], row[7]]
 
 # Parse data
@@ -35,5 +35,3 @@ print plen
 # print amount of people in each plenary
 print [(key + ": " + str(len(value))) for key,value in plen.iteritems()]
 
-# print out the abnormalities
-print abnormal
