@@ -344,7 +344,7 @@ session_start();
 					<div class="collapse" id="collapseRefugee">
 						<h2>Refugee Response and Responsibility in Crisis</h2>
 						<p>
-						We're still sorting out the details; we'll reveal all of this information soon!
+						Refugee Response and Responsibility in Crisis will deal with the core issues concerning the Syrian refugee crisis. The plenary session will ignite a discussion about the balance between domestic interests and refugee responsibility. In particular, the speakers will speak about possible government and community policies that would maintain and balance both national security and humanitarian values during this crisis. We have an obligation to other humans suffering, but we also have an obligation to our own citizens, how do we balance these competing interests? Or are they mutually exclusive at all?
 						</p>
 						<div class = "row">
 							<div class = "col-md-6">
