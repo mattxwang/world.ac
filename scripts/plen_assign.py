@@ -37,25 +37,27 @@ for name, choice in data.iteritems():
 	except Exception, e:
 		abnormal.append(name)
 
+def conflict_detect():
+	global result
+	# Detect schedule conflicts
+	for name, plens in result.iteritems():
+		try:
+			# make list of plenary slots
+			session = plens[0][2] + plens[1][2] + plens[2][2]
+			# If they miss a slot (means they have a conflict)
+			if ((1 not in session) or (2 not in session) or (3 not in session)):
+				# reassign to their third to fourth
+				result[name][2] = plenaries[data[name][3]]
+				# print "RESOLVED: ",
+				# print result[name]
 
-# Detect schedule conflicts
-for name, plens in result.iteritems():
-	try:
-		# make list of plenary slots
-		session = plens[0][2] + plens[1][2] + plens[2][2]
-		# If they miss a slot (means they have a conflict)
-		if ((1 not in session) or (2 not in session) or (3 not in session)):
-			# reassign to their third to fourth
-			result[name][2] = plenaries[data[name][3]]
-			# print "RESOLVED: ",
-			# print result[name]
+		# anomaly detection
+		except Exception, e:
+			print "\nFookin hell m8. IDK what's wrong with: " + name + "\n"
+			# Execute the anomaly
+			result.remove(name)
 
-	# anomaly detection
-	except Exception, e:
-		print "\nFookin hell m8. IDK what's wrong with: " + name + "\n"
-		# Execute the anomaly
-		result.remove(name)
-
+conflict_detect()
 print result
 
 
@@ -88,22 +90,6 @@ print "#########################"
 
 #DOUBLE CHECK
 # Detect schedule conflicts
-for name, plens in result.iteritems():
-	try:
-		# make list of plenary slots
-		session = plens[0][2] + plens[1][2] + plens[2][2]
-		# If they miss a slot (means they have a conflict)
-		if ((1 not in session) or (2 not in session) or (3 not in session)):
-			# reassign to their third to fourth
-			result[name][2] = plenaries[data[name][3]]
-			print "RESOLVED: ",
-			print result[name]
-
-	# anomaly detection
-	except Exception, e:
-		print "\nFookin hell m8. IDK what's wrong with: " + name + "\n"
-		# Execute the anomaly
-		result.remove(name)
-
+conflict_detect
 
 print result
