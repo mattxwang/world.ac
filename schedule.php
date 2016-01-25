@@ -108,15 +108,13 @@ session_start();
 						<td class="place">CC3</td>
 						<td></td>
 						<td></td>
+						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 1" data-content='The first <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 1</a>
-						</td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 2" data-content='The second <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="China Economic Plenary" data-content='The first <a href="plenaries.php"><b>China plenary session</b></a> will be held on the third floor in room CC3, featuring Margaret Cornish and Loren Brandt discussing China and its effect on the global economy.' data-html="true">China Plenary 1</a>
 						</td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 3" data-content='The third <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 3</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="China Economic Plenary" data-content='The second <a href="plenaries.php"><b>China plenary session</b></a> will be held on the third floor in room CC3, featuring Margaret Cornish and Loren Brandt discussing China and its effect on the global economy.' data-html="true">China Plenary 2</a>
 						</td>
 						<td></td>
 					</tr>
@@ -124,15 +122,13 @@ session_start();
 						<td class="place">David Chu Theatre</td>
 						<td></td>
 						<td></td>
+						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 1" data-content='The first <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 1</a>
-						</td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 2" data-content='The second <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Nuclear Proliferation Plenary" data-content='The first <a href="plenaries.php"><b>Nuclear Proliferation plenary session</b></a> will be held on the basement floor in the David Chu Theatre, featuring Paul Meyer and James M. Acton discussing the future of Nuclear Proliferation.' data-html="true">Nuclear Proliferation 1</a>
 						</td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 3" data-content='The third <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 3</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Nuclear Proliferation Plenary" data-content='The first <a href="plenaries.php"><b>Nuclear Proliferation plenary session</b></a> will be held on the basement floor in the David Chu Theatre, featuring Paul Meyer and James M. Acton discussing the future of Nuclear Proliferation.' data-html="true">Nuclear Proliferation 2</a>
 						</td>
 						<td></td>
 					</tr>
@@ -155,15 +151,13 @@ session_start();
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Opening Panel: The Future of the Internet" data-content='The <a href="opening.php"><b>opening panel</b></a> in Laidlaw Hall features Ron Deibert and Graeme Bunton discussing the Future of the Internet. It has already revolutionized the world; what will it do next?' data-html="true">Opening Panel</a>
 						</td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 1" data-content='The first <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 1</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Refugee Plenary" data-content='The first <a href="plenaries.php"><b>refugee plenary session</b></a> will be held in Laidlaw Hall, featuring Chris Alexander and Ratna Omidvar discussing the Refugee crisis on both a global and Canadian scale.' data-html="true">Refugee Plenary 1</a>
 						</td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 2" data-content='The second <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Refugee Plenary" data-content='The first <a href="plenaries.php"><b>refugee plenary session</b></a> will be held in Laidlaw Hall, featuring Chris Alexander and Ratna Omidvar discussing the Refugee crisis on both a global and Canadian scale.' data-html="true">Refugee Plenary 2</a>
 						</td>
 						<td></td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 3" data-content='The third <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 3</a>
-						</td>
+						<td></td>
 						<td class="panel">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Olympic Gold Medalist Sami Jo Small, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
 						</td>
@@ -173,15 +167,13 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 1" data-content='The first <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 1</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Environmental Plenary" data-content='The first <a href="plenaries.php"><b>environmental plenary session</b></a> will be held in the Lecture Theatre on the second floor, with John Coyne and Bill Shireman discussing the impacts of environmental change.' data-html="true">Environmental Plenary 1</a>
 						</td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 2" data-content='The second <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Environmental Plenary" data-content='The second <a href="plenaries.php"><b>environmental plenary session</b></a> will be held in the Lecture Theatre on the second floor, with John Coyne and Bill Shireman discussing the impacts of environmental change.' data-html="true">Environmental Plenary 2</a>
 						</td>
 						<td></td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 3" data-content='The third <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 3</a>
-						</td>
+						<td></td>
 						<td></td>
 					</tr>
 					<tr>
@@ -200,16 +192,12 @@ session_start();
 						<td class="place">Library</td>
 						<td></td>
 						<td></td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 1" data-content='The first <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 1</a>
-						</td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 2" data-content='The second <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 2</a>
-						</td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 3" data-content='The third <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 3</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Gender Plenary" data-content='The second <a href="plenaries.php"><b>gender issues plenary session</b></a> will be held in the library, with Emanuela Heyninck and Susannah Gouinlock discussing gender issues that affect society today.' data-html="true">Gender Plenary 2</a>
 						</td>
+						<td></td>
+						<td></td>
 						<td></td>
 					</tr>
 					<tr>
@@ -217,14 +205,14 @@ session_start();
 						<td></td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 1" data-content='The first <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 1</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Environmental Plenary" data-content='The first <a href="plenaries.php"><b>gender issues plenary session</b></a> will be held in the Old Gym, with Emanuela Heyninck and Susannah Gouinlock discussing gender issues that affect society today.' data-html="true">Gender Plenary 1</a>
 						</td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 2" data-content='The second <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Drone Plenary" data-content='The first <a href="plenaries.php"><b>drone plenary session</b></a> will be held in the Old Gym, featuring Luke Gregory and Steven Lee discussing the impact of drones in everyday and governmental life.' data-html="true">Drones Plenary 1</a>
 						</td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Plenary Session 3" data-content='The third <a href="plenaries.php"><b>plenary session</b></a> will be held here, featuring these people discussing these important issues.' data-html="true">Plenary Session 3</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Drone Plenary" data-content='The second <a href="plenaries.php"><b>drone plenary session</b></a> will be held in the Old Gym, featuring Luke Gregory and Steven Lee discussing the impact of drones in everyday and governmental life.' data-html="true">Drone Plenary 2</a>
 						</td>
 						<td></td>
 					</tr>
