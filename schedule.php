@@ -128,7 +128,7 @@ session_start();
 						</td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Nuclear Proliferation Plenary" data-content='The first <a href="plenaries.php"><b>Nuclear Proliferation plenary session</b></a> will be held on the basement floor in the David Chu Theatre, featuring Paul Meyer and James M. Acton discussing the future of Nuclear Proliferation.' data-html="true">Nuclear Proliferation 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Nuclear Proliferation Plenary" data-content='The second <a href="plenaries.php"><b>Nuclear Proliferation plenary session</b></a> will be held on the basement floor in the David Chu Theatre, featuring Paul Meyer and James M. Acton discussing the future of Nuclear Proliferation.' data-html="true">Nuclear Proliferation 2</a>
 						</td>
 						<td></td>
 					</tr>
@@ -154,7 +154,7 @@ session_start();
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Refugee Plenary" data-content='The first <a href="plenaries.php"><b>refugee plenary session</b></a> will be held in Laidlaw Hall, featuring Chris Alexander and Ratna Omidvar discussing the Refugee crisis on both a global and Canadian scale.' data-html="true">Refugee Plenary 1</a>
 						</td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Refugee Plenary" data-content='The first <a href="plenaries.php"><b>refugee plenary session</b></a> will be held in Laidlaw Hall, featuring Chris Alexander and Ratna Omidvar discussing the Refugee crisis on both a global and Canadian scale.' data-html="true">Refugee Plenary 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Refugee Plenary" data-content='The second <a href="plenaries.php"><b>refugee plenary session</b></a> will be held in Laidlaw Hall, featuring Chris Alexander and Ratna Omidvar discussing the Refugee crisis on both a global and Canadian scale.' data-html="true">Refugee Plenary 2</a>
 						</td>
 						<td></td>
 						<td></td>
