@@ -215,14 +215,13 @@ session_start();
 								</br>
 								</br>
 								<p>
-								Susannah Gouinlock works at Catalyst Canada in many different facets of work. Ms. Gouinlock
-								also manages the relationships with numerous Catalyst member companies, she is the main
-								contact for research for companies supporting their diversity. Ms. Gouinlock is integral to
-								growing Catalyst’s impact through social media and has spoken at the high school she
-								graduated from, BSS. Her work aims to spread Catalyst’s core values, ‘Connect, Engage,
-								Inspire, Impact.’ Before working at Catalyst, she received her BA(H) in Political Studies from
-								Queen’s University, and has worked as Special Assistant to the Deputy Chief of Staff to the
-								Premier in the Ontario Government.
+									Susannah Gouinlock is a Senior Associate at Catalyst Canada. Catalyst is the leading nonprofit organization expanding opportunities for women and business. With operations in the US, Canada, Europe, India, Australia, and Japan, and more than 800 member organizations, Catalyst is the trusted resource for research, information, and advice about women at work.
+									</br>
+									</br>
+									Susannah manages the relationships with numerous Catalyst member companies, supporting their diversity and inclusion efforts by acting as their main contact for research, resources and support. Susannah is also responsible for driving Millennial engagement in Canada to ensure Catalyst reaches a younger demographic. Susannah frequently speaks with members of the Canadian business community on the importance of creating inclusive workplaces to strengthen Canada’s talent advantage.
+									</br>
+									</br>
+									Before joining Catalyst, she worked as Special Assistant to the Deputy Chief of Staff to the Premier in the Ontario Government, and received her BA(H) in Political Studies from Queen’s University. In 2015, Susannah was nominated for Samara Canada's Everyday Political Citizen Award.
 								</p>
 							</div>
 							<div class = "col-md-6">
