@@ -171,15 +171,13 @@ session_start();
 								</br>
 								</br>
 								<p>
-								John Coyne is currently the Vice President, Legal & External Affairs and General Counsel at
-								Unilever Canada. Through his involvement and leadership in Unilever Canada, John Coyne is a
-								leader in Canada in promoting sustainable and responsible corporate practices. Mr Coyne is
-								also a leader of the Unilever Sustainable Living Plan, designed to help Unilever grow its
-								business while reducing its impact on the environment and helping make the world a better
-								place. Mr Coyne works closely other organizations, including being the Chair of the Board of
-								Advertising Standards Canada, Canadian Cosmetic, Toiletry and Fragrance Association, and
-								Stewardship Ontario. His participation and action in sustainability has had him recognised by
-								Clean 50 as one of Canada’s top sustainability leaders.
+									John has been with Unilever Canada since 1992 and today works with professionals and multi-disciplinary teams in law, sustainability, corporate and government relations, regulatory affairs, quality assurance and safety.  He is a member of Unilever Canada’s board of directors as well as the Canadian Leadership Team, and is also chair of the company’s Pension Committee.
+									</br>
+									</br>
+									John is well known for his leadership in corporate sustainability.  He is a passionate activator of the Unilever Sustainable Living Plan, designed to help Unilever deliver its objective of growing the business while reducing its environmental footprint and increasing its positive contribution to society.  John is Executive Chair of the Board of Canadian Stewardship Services Alliance, Inc. and is a director of Evergreen.  In addition, John is co-chair of the Partners in Project Green steering committee, a major environmental initiative of the Toronto Region Conservation Authority.  He is also director and past Chair of Stewardship Ontario. In 2012 John has been recognized for his leadership in corporate sustainability by being named by Clean 50 as one of Canada’s top sustainability leaders.  Last year, John was appointed as a member of the Ontario Government’s Climate Action Group.  This group will advise the Ontario Minister of the Environment on effective climate change actions that will help Ontario meet its greenhouse gas reduction goals and transition to a prosperous, low-carbon economy.
+									</br>
+								 	</br>
+									John also works closely with industry groups and other organizations.  He is Chair of the board of Canadian Cosmetic, Toiletry and Fragrance Association Foundation and is director and past Chair of the Association.
 								</p>
 							</div>
 							<div class = "col-md-6">
