@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nametag</title>
+	<style type="text/css">
+	@font-face {
+		font-family: 'Nexa'; font-weight:bold; src: url('nexa_bold.otf') format("opentype");
+		font-family: 'Nexa'; font-weight:lighter; src: url('nexa_light.otf') format("opentype");
+	}
+
+
+	.tag {
+		position: relative;
+		background-image: url("nametag_front_blank.png");
+		background-repeat: no-repeat;
+		font-family:Nexa;
+		font-weight:lighter;
+		width:1000px;
+		height: 337px;
+		color: white;
+	}
+
+	.back_tag {
+		display: table;
+		position: relative;
+		background-image: url("nametag_back_blank.png");
+		background-repeat: no-repeat;
+		font-family:Nexa;
+		font-weight:lighter;
+		width:1000px;
+		height: 337px;
+		color: white;
+		padding-top: 40px;
+	}
+
+	.rank {
+		font-size: 32px;
+		width: 100%;
+		height: 75px;
+		position: absolute;
+		text-align: center;
+		bottom: 0;
+		line-height: 75px;
+	}
+
+	.name {
+		position: relative;
+		top: 40%;
+		font-size: 32px;
+		transform: translateY(-40%);
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.school {
+		position: relative;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+		top: 45%;
+		font-size: 24px;
+		transform: translateY(-45%);
+	}
+
+	.plen {
+		background-color: #303030;
+		font-size: 32px;
+		margin: 30px;
+		padding: 10px;
+		line-height: 2;
+	}
+	</style>
+</head>
+	<body>
+		<div class="tag">
+			<div class="name">John Smith</div>
+			<div class="school">UCC</div>
+			<div class="rank" style="background-color:red;">Security</div>
+		</div>
+
+		<div style="height:20px;"></div>
+
+		<div class="back_tag">
+			<div class="plen">
+				Refugee Crisis in Laidlaw<br>
+				Gender Income Disparities in Old Gym/Library<br>
+				Drones in Old Gym
+			</div>
+		</div>
+	</body>
+</html>
