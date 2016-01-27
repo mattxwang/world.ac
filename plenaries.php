@@ -171,15 +171,13 @@ session_start();
 								</br>
 								</br>
 								<p>
-								John Coyne is currently the Vice President, Legal & External Affairs and General Counsel at
-								Unilever Canada. Through his involvement and leadership in Unilever Canada, John Coyne is a
-								leader in Canada in promoting sustainable and responsible corporate practices. Mr Coyne is
-								also a leader of the Unilever Sustainable Living Plan, designed to help Unilever grow its
-								business while reducing its impact on the environment and helping make the world a better
-								place. Mr Coyne works closely other organizations, including being the Chair of the Board of
-								Advertising Standards Canada, Canadian Cosmetic, Toiletry and Fragrance Association, and
-								Stewardship Ontario. His participation and action in sustainability has had him recognised by
-								Clean 50 as one of Canada’s top sustainability leaders.
+									John has been with Unilever Canada since 1992 and today works with professionals and multi-disciplinary teams in law, sustainability, corporate and government relations, regulatory affairs, quality assurance and safety.  He is a member of Unilever Canada’s board of directors as well as the Canadian Leadership Team, and is also chair of the company’s Pension Committee.
+									</br>
+									</br>
+									John is well known for his leadership in corporate sustainability.  He is a passionate activator of the Unilever Sustainable Living Plan, designed to help Unilever deliver its objective of growing the business while reducing its environmental footprint and increasing its positive contribution to society.  John is Executive Chair of the Board of Canadian Stewardship Services Alliance, Inc. and is a director of Evergreen.  In addition, John is co-chair of the Partners in Project Green steering committee, a major environmental initiative of the Toronto Region Conservation Authority.  He is also director and past Chair of Stewardship Ontario. In 2012 John has been recognized for his leadership in corporate sustainability by being named by Clean 50 as one of Canada’s top sustainability leaders.  Last year, John was appointed as a member of the Ontario Government’s Climate Action Group.  This group will advise the Ontario Minister of the Environment on effective climate change actions that will help Ontario meet its greenhouse gas reduction goals and transition to a prosperous, low-carbon economy.
+									</br>
+								 	</br>
+									John also works closely with industry groups and other organizations.  He is Chair of the board of Canadian Cosmetic, Toiletry and Fragrance Association Foundation and is director and past Chair of the Association.
 								</p>
 							</div>
 							<div class = "col-md-6">
@@ -215,14 +213,13 @@ session_start();
 								</br>
 								</br>
 								<p>
-								Susannah Gouinlock works at Catalyst Canada in many different facets of work. Ms. Gouinlock
-								also manages the relationships with numerous Catalyst member companies, she is the main
-								contact for research for companies supporting their diversity. Ms. Gouinlock is integral to
-								growing Catalyst’s impact through social media and has spoken at the high school she
-								graduated from, BSS. Her work aims to spread Catalyst’s core values, ‘Connect, Engage,
-								Inspire, Impact.’ Before working at Catalyst, she received her BA(H) in Political Studies from
-								Queen’s University, and has worked as Special Assistant to the Deputy Chief of Staff to the
-								Premier in the Ontario Government.
+									Susannah Gouinlock is a Senior Associate at Catalyst Canada. Catalyst is the leading nonprofit organization expanding opportunities for women and business. With operations in the US, Canada, Europe, India, Australia, and Japan, and more than 800 member organizations, Catalyst is the trusted resource for research, information, and advice about women at work.
+									</br>
+									</br>
+									Susannah manages the relationships with numerous Catalyst member companies, supporting their diversity and inclusion efforts by acting as their main contact for research, resources and support. Susannah is also responsible for driving Millennial engagement in Canada to ensure Catalyst reaches a younger demographic. Susannah frequently speaks with members of the Canadian business community on the importance of creating inclusive workplaces to strengthen Canada’s talent advantage.
+									</br>
+									</br>
+									Before joining Catalyst, she worked as Special Assistant to the Deputy Chief of Staff to the Premier in the Ontario Government, and received her BA(H) in Political Studies from Queen’s University. In 2015, Susannah was nominated for Samara Canada's Everyday Political Citizen Award.
 								</p>
 							</div>
 							<div class = "col-md-6">

@@ -133,7 +133,7 @@ session_start();
 					</div>
 					<div id="collapseRegDue" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-						Registration is due by mail by <b>January 16th 2016</b>. We may not be able to accept late registrants, so please ensure your forms are submitted promptly. 
+						Registration is due by mail by <b>January 16th 2016</b>. We may not be able to accept late registrants, so please ensure your forms are submitted promptly.
 						</div>
 					</div>
 				</div>
@@ -147,7 +147,7 @@ session_start();
 					</div>
 					<div id="collapseRegFood" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-						Delegates can notify WAC of their food (or otherwise) accomodations through the <a href="account.php">account system</a>. 
+						Delegates can notify WAC of their food (or otherwise) accomodations through the <a href="account.php">account system</a>.
 						We can guarantee that there will be vegetarian food that is available during the conference lunch.
 						Unfortunately, we are not certain that we can accomodate every dietary concern.  We suggest delegates with dietary concerns either bring a pack lunch, or go to a nearby restaurant.
 						</div>
@@ -167,7 +167,7 @@ session_start();
 					</div>
 					<div id="collapseKeynoteWhat" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-						During the <b><a href="keynote.php">Keynote Address</a></b>, a prominent member of the community (who will be revealed shortly) will give an address on current affairs at Laidlaw Hall. The Keynote Address is open to the public, and will also feature a Q&A session. Coat Check will also be provided.
+						During the <b><a href="keynote.php">Keynote Address</a></b>, a prominent member of the community (<a href="keynote.php">Nanor Balyozian this year</a>) will give an address on current affairs at Laidlaw Hall. The Keynote Address is open to the public, and will also feature a Q&A session. Coat Check will also be provided.
 						</div>
 					</div>
 				</div>
@@ -181,7 +181,7 @@ session_start();
 					</div>
 					<div id="collapseKeynoteWhen" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-						More information on the keynote will be put up shortly.
+						You can find the full schedule for the keynote address <a href="schedule.php">here</a>.
 						</div>
 					</div>
 				</div>
@@ -209,7 +209,7 @@ session_start();
 					</div>
 					<div id="collapseKeynoteSpeaker" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-						This information will be provided shortly. We suggest you check back in with the site every now and then.
+						<a href="keynote.php">Nanor Balyozian</a> is speaking this year, a Syrian refugee discussing the refugee crisis from an often unheard but impactful perspective. A more detailed description of her and her address can be found <a href="keynote.php">here</a>.
 						</div>
 					</div>
 				</div>
@@ -257,7 +257,7 @@ session_start();
 					</div>
 					<div id="collapseConfSchedule" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-						A schedule of events will be shortly posted to the WAC website. As well, one will be included in the delegate and faculty packages.
+						The schedule for this year can be found <a href="schedule.php">here</a>. As well, one will be included in the delegate and faculty packages.
 						</div>
 					</div>
 				</div>
