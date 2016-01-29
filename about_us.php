@@ -494,7 +494,10 @@ session_start();
 						<h2><b>Hayley Kedwell</b></h2>
 						<h3>Refugee Crisis Plenary Head</h3>
 						<p>
-						Coming Soon!
+							Hi my name is Hayley and I'm a student at Branksome Hall. My partner Komahan and I are the plenary head of the refugee crisis.  Our job is to direct the overall vision of the plenary and contact speakers.
+							</br>
+							</br>
+							Hope to see you at WAC!
 						</p>
 					</div>
 				</div>
