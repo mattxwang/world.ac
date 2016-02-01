@@ -36,9 +36,9 @@ session_start();
 			<div style="font-size:5vw;">
 				WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 			</div>
-			<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts In: <div id="timeLeft" style="padding-top:3vw;font-weight:bold;">00 Days, 00 Hours, 00 Minutes, and 00 Seconds</div></div>
+			<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts  <div id="timeLeft" style="padding-top:3vw;font-weight:bold;">00 Days, 00 Hours, 00 Minutes, and 00 Seconds</div></div>
 			<script type="text/javascript">
-				var deadLine = "2/1/2016"; //Countdown date in MM/DD/YYYY format (no 0's required)
+				var deadLine = "19:00:00 2/1/2016"; //Countdown date in MM/DD/YYYY format (no 0's required)
 				window.setInterval(function(){
 					// console.log(getTimeRemaining(deadLine));
 					$("#timeLeft").html(getTimeRemaining(deadLine));
@@ -50,7 +50,7 @@ session_start();
 			<div class = "col-md-8">
 				<h2 style = "color:#53b5b4;"><b>About the World Affairs Conference</b></h2>
 				<p>
-				The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference. 
+				The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2016 conference.
 				</p>
 			</div>
 			<div class = "col-md-4">

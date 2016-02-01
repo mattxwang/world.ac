@@ -7,9 +7,9 @@ function getTimeRemaining(endtime){
 	var days = Math.floor( t/(1000*60*60*24) );
 
 	if (t > 0){
-		return days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds!";
+		return "In: " + days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds!";
 	}
 	else {
-		return "February 1st 2016";
+		return "Now!";
 	}
 }
