@@ -10,6 +10,6 @@ function getTimeRemaining(endtime){
 		return "In: " + days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds!";
 	}
 	else {
-		return "Now!";
+		return "Is in Session!";
 	}
 }

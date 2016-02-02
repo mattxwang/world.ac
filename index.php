@@ -36,7 +36,7 @@ session_start();
 			<div style="font-size:5vw;">
 				WELCOME TO THE 2016 <div style="font-weight:bold; padding-top: 5vw;">WORLD AFFAIRS CONFERENCE.</div>
 			</div>
-			<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The Conference Starts  <div id="timeLeft" style="padding-top:3vw;font-weight:bold;">00 Days, 00 Hours, 00 Minutes, and 00 Seconds</div></div>
+			<div style="padding:0 10px 0 10px; padding-top:5vw; font-size:3vw; text-align:right"> The World Affairs Conference  <div id="timeLeft" style="padding-top:3vw;font-weight:bold;">00 Days, 00 Hours, 00 Minutes, and 00 Seconds</div></div>
 			<script type="text/javascript">
 				var deadLine = "19:00:00 2/1/2016"; //Countdown date in MM/DD/YYYY format (no 0's required)
 				window.setInterval(function(){
