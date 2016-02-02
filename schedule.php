@@ -113,9 +113,7 @@ session_start();
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="China Economic Plenary" data-content='The first <a href="plenaries.php"><b>China plenary session</b></a> will be held on the third floor in room CC3, featuring Margaret Cornish and Loren Brandt discussing China and its effect on the global economy.' data-html="true">China Plenary 1</a>
 						</td>
 						<td></td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="China Economic Plenary" data-content='The second <a href="plenaries.php"><b>China plenary session</b></a> will be held on the third floor in room CC3, featuring Margaret Cornish and Loren Brandt discussing China and its effect on the global economy.' data-html="true">China Plenary 2</a>
-						</td>
+						<td></td>
 						<td></td>
 					</tr>
 					<tr>
@@ -157,7 +155,9 @@ session_start();
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Refugee Plenary" data-content='The second <a href="plenaries.php"><b>refugee plenary session</b></a> will be held in Laidlaw Hall, featuring Chris Alexander and Ratna Omidvar discussing the Refugee crisis on both a global and Canadian scale.' data-html="true">Refugee Plenary 2</a>
 						</td>
 						<td></td>
-						<td></td>
+						<td class="plen">
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Drone Plenary" data-content='The second <a href="plenaries.php"><b>drone plenary session</b></a> will be held in the Old Gym, featuring Luke Gregory and Steven Lee discussing the impact of drones in everyday and governmental life.' data-html="true">Drone Plenary 2</a>
+						</td>
 						<td class="panel">
 							<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Closing Panel: Sami Jo Small" data-content='The <a href="closing.php"><b>closing panel</b></a> in Laidlaw Hall features Olympic Gold Medalist Sami Jo Small, and a presentation that will inspire and engage delegates for an outstanding finish to the Conference.' data-html="true">Closing Panel</a>
 						</td>
@@ -201,18 +201,28 @@ session_start();
 						<td></td>
 					</tr>
 					<tr>
+						<td class="place">Room 140</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="plen">
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Drone Plenary" data-content='The first <a href="plenaries.php"><b>drone plenary session</b></a> will be held in the Old Gym, featuring Luke Gregory and Steven Lee discussing the impact of drones in everyday and governmental life.' data-html="true">Drones Plenary 1</a>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
 						<td class="place">Old Gym</td>
 						<td></td>
 						<td></td>
 						<td class="plen">
 						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Environmental Plenary" data-content='The first <a href="plenaries.php"><b>gender issues plenary session</b></a> will be held in the Old Gym, with Emanuela Heyninck and Susannah Gouinlock discussing gender issues that affect society today.' data-html="true">Gender Plenary 1</a>
 						</td>
-						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Drone Plenary" data-content='The first <a href="plenaries.php"><b>drone plenary session</b></a> will be held in the Old Gym, featuring Luke Gregory and Steven Lee discussing the impact of drones in everyday and governmental life.' data-html="true">Drones Plenary 1</a>
-						</td>
+						<td></td>
 						<td></td>
 						<td class="plen">
-						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Drone Plenary" data-content='The second <a href="plenaries.php"><b>drone plenary session</b></a> will be held in the Old Gym, featuring Luke Gregory and Steven Lee discussing the impact of drones in everyday and governmental life.' data-html="true">Drone Plenary 2</a>
+						<a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="China Economic Plenary" data-content='The second <a href="plenaries.php"><b>China plenary session</b></a> will be held on the third floor in room CC3, featuring Margaret Cornish and Loren Brandt discussing China and its effect on the global economy.' data-html="true">China Plenary 2</a>
 						</td>
 						<td></td>
 					</tr>
