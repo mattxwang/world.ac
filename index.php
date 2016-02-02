@@ -29,7 +29,7 @@ session_start();
 		<div class="container">
 		<div class="alert alert-dismissible alert-info fade in">
 			<button type="button" class="close" data-dismiss="alert">x</button>
-			<p><span class="glyphicon glyphicon-pushpin"></span><a href="keynote.php"><b>The Lionel Gelber Keynote Address</b>, from Nanor Balyozian, is happening today! Join us in Laidlaw Hall today @ 7:00 PM.</a></p>
+			<p><span class="glyphicon glyphicon-pushpin"></span>It's Conference Day! Watch the <a href="opening.php">Opening Panel</a>, engage in some <a href="plenaries.php">plenary debate</a>, and listen to the <a href="closing.php">Closing Panel</a>. The full schedule is <a href="schedule.php">here</a>.</p>
 		</div>
 		</div>
 		<div style="line-height:80%; padding:4%; position:relative">
