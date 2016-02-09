@@ -1,4 +1,4 @@
-# world.ac
+# [world.ac](http://world.ac)
 ## Welcome Back
 
 It's been a good year, but we're going to have to go at it again. Next year's WAC is going to happen, and unlike this year, we want to be ahead of the game. A few key things:
