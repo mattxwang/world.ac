@@ -214,7 +214,7 @@ session_start();
 					</a>
 					<div class="collapse" id="collapseMatt">
 						<h2><b><a href="https://twitter.com/malsf21">Matthew Wang</a></b></h2>
-						<h3>Web Design/Media</h3>
+						<h3>Head of Technology</h3>
 						<p>
 						Hi, I’m Matthew Wang! I’m part of this year’s media team, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech: I’m pumped to do it all again this year!
 						</br>
