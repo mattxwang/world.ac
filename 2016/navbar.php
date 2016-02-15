@@ -1,6 +1,6 @@
-<?php 
+<?php
   // You'll need these
-  require("login.php"); 
+  require("login.php");
   require("common.php");
   function debug_to_console( $data ) {
 
@@ -82,7 +82,7 @@
 
         </li>
 
-        <?php } else { 
+        <?php } else {
         ?>
         <!-- You exist -->
         <li class="dropdown">
@@ -100,6 +100,3 @@
     </div>
   </div>
 </nav>
-<div class="alert alert-danger" role="alert" id="correctionAlert" style="display:<?php echo $correction; ?>;">
-  <strong>Warning!</strong> Incorrect username/password
-</div>

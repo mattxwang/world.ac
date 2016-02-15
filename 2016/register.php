@@ -1,4 +1,6 @@
 <?php
+	header("Location: over.html");
+	die("Redirecting to: over.html");
 	/*
 	require("common.php");
 
