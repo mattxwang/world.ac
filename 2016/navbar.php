@@ -1,6 +1,5 @@
 <?php
   // You'll need these
-  require("login.php");
   require("common.php");
   function debug_to_console( $data ) {
 
