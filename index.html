@@ -1,31 +1,23 @@
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="description" content="World Affairs Conference">
-		<title>Thanks for coming!</title>
-		<link rel="icon" href="css/favicon.ico" />
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css" />
-		<script src="js/google_analytics.js"></script>
-		<style>
-			body{
-				background-image:url("img/earth.png"),url("img/stars.png");
-				background-repeat:no-repeat;
-			}
-		</style>
-	</head>
+---
+layout: default
+---
 
-	<body>
-    <div class="container" style="text-align:center; color:#111">
-			<div class="well well-lg">
-		    <h1>Thanks for coming to WAC 2016!</h1>
-				<h6>So long, and thanks for all the fish!</h6>
-		    <h2>We're remaking the site to be awesome next year.</h2>
-		    <h4>You can <a href="2016" style="font-weight:bold;">visit our old site here</a> in the meantime.</h4>
-		    <h3>Stay tuned for more announcements!</h3>
-				<h5>Thanks, <a href="2016/about_us.php">the WAC Team!</a></h5>
-	    </div>
-		</div>
-  </body>
-</html>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
