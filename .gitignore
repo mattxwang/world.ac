@@ -2,3 +2,6 @@
 world.ac
 img/bio/headshots/headshot.psd
 img/bio/speakers/speakers.psd
+_site/
+.sass-cache/
+.jekyll-metadata
