@@ -10,7 +10,7 @@ title: World Affairs Conference
 email: wac@ucc.on.ca
 description: The WAC website!
 baseurl: "/wac" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "world.ac" # the base hostname & protocol for your site
 twitter_username: WorldAffairsCon
 github_username:  malsf21
 
