@@ -16,3 +16,9 @@ github_username:  malsf21
 
 # Build settings
 markdown: kramdown
+
+collections:
+  speakers:
+    output: true
+  plenaries:
+    output: true
