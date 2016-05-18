@@ -9,30 +9,45 @@
 
 		{% include navbar.html %}
 
-		<div class="container"><center>
-			<h1>{{ page.title }}</h1>
-			<img src="{{ site.baseurl}}/img/plenaries/{{ page.pic }}" style="width:30vw;">
-			{{ content }}
-		</center></div>
-
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="container"><center>
-					<h1>{{ speaker1.name }}</h1>
-					<img src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" style="max-width:50%;"><br>
-					{{ speaker1.bio }}
-				</center></div>
+		<div class="container">
+			<center>
+				<h1>{{ page.title }} Plenary</h1>
+				<div class="card">
+					<img class="card-img-top" src="{{ site.baseurl}}/img/plenaries/{{ page.pic }}" alt="Plenary picture" >
+					<div class="card-block">
+						<h4 class="card-title">{{ page.title }} Plenary</h4>
+						<p class="card-text">
+							{{ content }}
+						</p>
+					</div>
+				</div>
+			</center>
+			<div class="card-deck-wrapper">
+  			<div class="card-deck">
+					<div class="card">
+						<img class="card-img-top" src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" alt="Plenary Speaker 1">
+						<div class="card-block">
+							<h4 class="card-title">{{ speaker1.name }}</h4>
+							<p class="card-text">
+								{{ speaker1.bio }}
+							</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" alt="Plenary Speaker 2">
+						<div class="card-block">
+							<h4 class="card-title">{{ speaker2.name }}</h4>
+							<p class="card-text">
+								{{ speaker2.bio }}
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="container"><center>
-					<h1>{{ speaker2.name }}</h1>
-					<img src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" style="max-width:50%;"><br>
-					{{ speaker2.bio }}
-				</center></div>
-			</div>			
 		</div>
-
+		</br>
+		</br>
+		</br>
 		{% include footer.html %}
-
 	</body>
 </html>

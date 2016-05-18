@@ -1,8 +1,8 @@
 ---
 layout: plenary
-title: Drones are taking over
+title: Drones
 pic: drone.jpg
-speaker1: Jane Doe 
+speaker1: Jane Doe
 speaker2: John Smith
 ---
 
