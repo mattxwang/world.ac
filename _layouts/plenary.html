@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	{% include head.html %}
+	{% assign speaker1 = site.data.speaker[page.speaker1] %}
+	{% assign speaker2 = site.data.speaker[page.speaker2] %}
+
+	<body>
+
+		{% include navbar.html %}
+
+		<div class="container"><center>
+			<h1>{{ page.title }}</h1>
+			<img src="{{ site.baseurl}}/img/plenaries/{{ page.pic }}" style="width:30vw;">
+			{{ content }}
+		</center></div>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="container"><center>
+					<h1>{{ speaker1.name }}</h1>
+					<img src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" style="max-width:50%;"><br>
+					{{ speaker1.bio }}
+				</center></div>
+			</div>
+			<div class="col-sm-6">
+				<div class="container"><center>
+					<h1>{{ speaker2.name }}</h1>
+					<img src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" style="max-width:50%;"><br>
+					{{ speaker2.bio }}
+				</center></div>
+			</div>			
+		</div>
+
+		{% include footer.html %}
+
+	</body>
+</html>
