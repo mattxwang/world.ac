@@ -1,6 +1,12 @@
 # [world.ac](http://world.ac)
 ## Welcome Back!
 
+### Quick Pointers
+
+* Our production-ready version of the website is stored in `stable`, which is available for viewing at [world.ac](http://world.ac).
+* Our testing-but-stable version of the website is stored in `master`, which is available for viewing on [my webserver](http://matthewwang.me/wac).
+* All other branches are not officially available on the web. Instead, you'll have to build and run them yourself. Refer to our setup section for more information.
+
 ### Notes for the Media Department/Website Sub-Department
 
 It's been a good year, but we're going to have to go at it again. Next year's WAC is going to happen, and unlike this year, we want to be ahead of the game. A few key things:
