@@ -4,7 +4,7 @@ email: wac@ucc.on.ca
 description: The WAC website!
 baseurl: "/wac"
 url: "world.ac"
-lead_web_dev: Jack Sarick
+blogurl: "/wac/blog"
 twitter_username: WorldAffairsCon
 github_username:  malsf21
 
