@@ -1,0 +1,68 @@
+---
+layout: reg
+---
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card card-block">
+        <form action="register.php" method="post">
+          <h4>Want to participate in WAC 2017?</h4>
+          <h2>Register.</h2>
+          <fieldset class="form-group">
+            <label for="regSchool">School Name</label>
+            <input type="email" class="form-control" name="school" id="regSchool" placeholder="Enter school">
+            <small class="text-muted">Please enter the full name of your school.</small>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="regName">Faculty Adviser Name</label>
+            <input type="email" class="form-control" name="name" id="regName" placeholder="John Smith">
+            <small class="text-muted">This will be our first point of contact with the school, and your login email.</small>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="regEmail">Factulty Adviser Email Address</label>
+            <input type="email" class="form-control" name="email" id="regEmail" placeholder="Enter email">
+            <small class="text-muted">We'll never share your email with anyone else.</small>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="regPassword1">Password</label>
+            <input type="password" class="form-control" name="password1" id="regPassword1" placeholder="Password">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="regPassword1">Confirm Password</label>
+            <input type="password" class="form-control" name="password2" id="regPassword1" placeholder="Password">
+          </fieldset>
+          <button type="submit" class="btn btn-success-outline">Register</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card card-block">
+        <form action="login.php" method="post">
+          <h4>Already have an account?</h4>
+          <h2>Log in.</h2>
+          <fieldset class="form-group">
+            <label for="loginEmail">Factulty Adviser Email Address</label>
+            <input type="email" class="form-control" name="email" id="loginEmail" placeholder="Enter email">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="loginPassword1">Password</label>
+            <input type="password" class="form-control" name="password" id="loginPassword" placeholder="Password">
+          </fieldset>
+          <button type="submit" class="btn btn-success-outline">Login</button>
+        </form>
+      </div>
+      <div class="card card-block">
+        <h4 class="card-title">What's WAC?</h4>
+        <p class="card-text">The World Affairs Conference, affectionately known as WAC, is a completely student-run current affairs conference designed to educate students about a broad spectrum of topics, ranging from the Middle East to the rise of technology. </p>
+        <a href="#" class="card-link">About WAC</a>
+        <a href="#" class="card-link">Keynote</a>
+        <a href="#" class="card-link">Panels</a>
+        <a href="#" class="card-link">Plenaries</a>
+        <a href="#" class="card-link">FAQ</a>
+      </div>
+      <div class="card card-block">
+        <p class="card-text">Interested in signing up as an independent? <a class="card-link" href="#">Contact us</a> for more information.</p>
+      </div>
+    </div>
+  </div>
+</div>

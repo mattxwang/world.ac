@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Matthew Wang">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>Registration | {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link href="favicon.ico" rel="icon" />
@@ -14,10 +14,4 @@
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <style>
-		body{
-			background-image:url("{{ "/img/earth.png" | prepend: site.baseurl }}"),url("{{ "/img/stars.png" | prepend: site.baseurl }}");
-			background-repeat:no-repeat;
-		}
-	</style>
 </head>
