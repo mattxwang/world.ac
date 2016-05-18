@@ -11,13 +11,17 @@
 
 		<div class="container"><center>
 			<h1>{{ page.title }}</h1>
-			<img src="{{ page.pic }}" style="width:30vw;">
+			<img src="{{ site.baseurl}}/img/plenaries/{{ page.pic }}" style="width:30vw;">
 			{{ content }}
 		</center></div>
 
 		<div class="row">
 			<div class="col-sm-6">
-				{{}}
+				<div class="container"><center>
+					<h1>{{ speaker1.name }}</h1>
+					<img src="{{site.baseurl}}/img/speakers/{{ page.pic }}" style="max-width:50%;">
+					{{ speaker1.content }}
+				</center></div>
 			</div>
 			<div class="col-sm-6">
 				
