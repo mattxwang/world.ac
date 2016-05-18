@@ -1,0 +1,24 @@
+---
+layout: default
+title: index
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <center>
+    <ul class="post-list">
+      {% for plenary in site.plenaries %}{% unless plenary.title == 'index' %}
+        <li>
+          <h2>
+            <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
+          </h2>
+        </li>
+      {% endunless %}{% endfor %}
+    </ul>
+  </center>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
