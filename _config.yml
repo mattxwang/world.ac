@@ -12,7 +12,13 @@ github_username:  malsf21
 markdown: kramdown
 
 collections:
+<<<<<<< HEAD
   
+=======
+  speakers:
+    output: true
+    layout: speaker
+>>>>>>> master
   plenaries:
     output: true
     layout: plenary
