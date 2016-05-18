@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	{% include head.html %}
+	{% assign speaker1 = site.data.speaker[page.speaker1] %}
+	{% assign speaker2 = site.data.speaker[page.speaker2] %}
+
+	<body>
+
+		{% include navbar.html %}
+
+		<div class="container"><center>
+			<h1>{{ page.title }}</h1>
+			<img src="{{ page.pic }}" style="width:30vw;">
+			{{ content }}
+		</center></div>
+
+		<div class="row">
+			<div class="col-sm-6">
+				{{}}
+			</div>
+			<div class="col-sm-6">
+				
+			</div>			
+		</div>
+
+		{% include footer.html %}
+
+	</body>
+</html>
