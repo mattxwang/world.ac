@@ -1,24 +1,23 @@
 ---
 layout: default
-title: index
+title: Plenaries
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <center>
-    <ul class="post-list">
-      {% for plenary in site.plenaries %}{% unless plenary.title == 'index' %}
-        <li>
-          <h2>
-            <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
-          </h2>
-        </li>
-      {% endunless %}{% endfor %}
-    </ul>
-  </center>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+    {% for plenary in site.plenaries %}{% unless plenary.title == 'Plenaries' %}
+    <div class="card card-block">
+    <div class="row">
+      <div class="col-sm-3">
+        <img class="img-thumbnail" src="{{ site.baseurl}}/img/plenaries/{{ plenary.pic }}" alt="Plenary Picture" />
+      </div>
+      <div class="col-sm-9">
+        <h2>
+          <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
+        </h2>
+        <p class="card-text">{{ plenary.shortbio }}</p>
+      </div>
+    </div>
+    </br>
+    </div>
+    {% endunless %}{% endfor %}
 </div>
