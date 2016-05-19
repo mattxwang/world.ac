@@ -6,18 +6,18 @@ title: Plenaries
 <div class="container">
     {% for plenary in site.plenaries %}{% unless plenary.title == 'Plenaries' %}
     <div class="card card-block">
-    <div class="row">
-      <div class="col-sm-3">
-        <img class="img-thumbnail" src="{{ site.baseurl}}/img/plenaries/{{ plenary.pic }}" alt="Plenary Picture" />
+      <div class="row">
+        <div class="col-sm-3">
+          <img class="img-thumbnail" src="{{ site.baseurl}}/img/plenaries/{{ plenary.pic }}" alt="Plenary Picture" />
+        </div>
+        <div class="col-sm-9">
+          <h2>
+            <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
+          </h2>
+          <p class="card-text">{{ plenary.shortbio }}</p>
+        </div>
       </div>
-      <div class="col-sm-9">
-        <h2>
-          <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
-        </h2>
-        <p class="card-text">{{ plenary.shortbio }}</p>
-      </div>
-    </div>
-    </br>
+      </br>
     </div>
     {% endunless %}{% endfor %}
 </div>
