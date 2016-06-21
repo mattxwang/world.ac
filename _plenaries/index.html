@@ -7,10 +7,10 @@ title: Plenaries
     {% for plenary in site.plenaries %}{% unless plenary.title == 'Plenaries' %}
     <div class="card card-block">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 {% cycle 'group1': '', ' col-sm-push-9' %}">
           <img class="img-thumbnail" src="{{ site.baseurl}}/img/plenaries/{{ plenary.pic }}" alt="Plenary Picture" />
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-9 {% cycle 'group2': '', ' col-sm-pull-3' %}" {% cycle 'group3': '', 'style="text-align:right;"'%}>
           <h2>
             <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
           </h2>

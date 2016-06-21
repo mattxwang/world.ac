@@ -15,7 +15,7 @@
 				<div class="card">
 					<img class="card-img-top" src="{{ site.baseurl}}/img/plenaries/{{ page.pic }}" alt="Plenary picture" >
 					<div class="card-block">
-						<h4 class="card-title">{{ page.title }} Plenary</h4>
+						<h3 class="card-title">{{ page.title }} Plenary</h3>
 						<p class="card-text">
 							{{ content }}
 						</p>
@@ -25,18 +25,26 @@
 			<div class="card-deck-wrapper">
   			<div class="card-deck">
 					<div class="card">
-						<img class="card-img-top" src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" alt="Plenary Speaker 1">
 						<div class="card-block">
-							<h4 class="card-title">{{ speaker1.name }}</h4>
+							<div style="text-align:center;">
+								<img class="img-thumbnail" src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" alt="Plenary Speaker 1">
+								</br>
+								</br>
+								<h3 class="card-title">{{ speaker1.name }}</h3>
+							</div>
 							<p class="card-text">
 								{{ speaker1.bio }}
 							</p>
 						</div>
 					</div>
 					<div class="card">
-						<img class="card-img-top" src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" alt="Plenary Speaker 2">
 						<div class="card-block">
-							<h4 class="card-title">{{ speaker2.name }}</h4>
+							<div style="text-align:center;">
+								<img class="img-thumbnail" src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" alt="Plenary Speaker 2">
+								</br>
+								</br>
+								<h3 class="card-title">{{ speaker2.name }}</h3>
+							</div>
 							<p class="card-text">
 								{{ speaker2.bio }}
 							</p>
@@ -46,7 +54,7 @@
 			</div>
 			</br>
 			<div class="card card-block" style="text-align:center;">
-				<p class="card-text"><a href="card-link"><span class="fa fa-arrow-left"></span> View the other plenaries.</a></p>
+				<p class="card-text"><a class="card-link" href="{{site.baseurl}}/plenaries"><span class="fa fa-arrow-left"></span> View the other plenaries.</a></p>
 			</div>
 		</div>
 		</br>

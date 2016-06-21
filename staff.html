@@ -1,0 +1,26 @@
+---
+layout: default
+title: WAC Staff
+permalink: /staff/
+---
+<div class="container">
+  <div class="row">
+    {% for item in site.data.staff %}
+        <div class="col-sm-4">
+          <div class="card">
+            <div style="text-align:center;">
+              <a data-toggle="collapse" href="#collapse-{{item[0]}}">
+                <img src="{{site.baseurl}}/img/staff/{{item[1].image}}">
+              </a>
+            </div>
+            <div class="card-block collapse" id="collapse-{{item[0]}}">
+              <h2 class="card-title">{{ item[1].name }}</h2>
+              <h4>{{item[1].primary}}</h4>
+              {% if item[1].secondary%}<h5>and {{item[1].secondary}}</h5>{% endif %}
+              <p class="card-text">{{item[1].bio}}</p>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+</div>
