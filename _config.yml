@@ -4,10 +4,11 @@ email: wac@ucc.on.ca
 description: The WAC website!
 baseurl: "/wac"
 url: "world.ac"
-blogurl: "/wac/blog/"
-regurl: "/wac/reg/"
+blogurl: "/wac/blog"
+regurl: "/wac/reg"
 twitter_username: WorldAffairsCon
 github_username:  malsf21
+github: "https://github.com/malsf21/world.ac"
 
 # Build settings
 markdown: kramdown

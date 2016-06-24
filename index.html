@@ -14,7 +14,7 @@ layout: default
     </div>
     <div style="text-align:right;">
       <h4>The Conference is only</h4>
-      <h3>9 Months, 13 Days, 29 Minutes, 42 Seconds Away</h3>
+      <h3 id="countdown"></h3>
     </div>
   </div>
 </div>
@@ -38,3 +38,23 @@ layout: default
     </div>
   </div>
 </div>
+<script type="text/javascript">
+  var wacdate = "2/7/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  function getTimeRemaining(endtime){
+  	var t = Date.parse(endtime) - Date.parse(new Date());
+  	var seconds = Math.floor( (t/1000) % 60 );
+  	var minutes = Math.floor( (t/1000/60) % 60 );
+  	var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  	var days = Math.floor( t/(1000*60*60*24) );
+
+  	if (t > 0){
+  		return days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds";
+  	}
+  	else {
+  		return "Oops!";
+  	}
+  }
+  window.setInterval(function(){
+    $("#countdown").html(getTimeRemaining(wacdate));
+  }, 1000);
+</script>
