@@ -179,8 +179,8 @@ h4, h5, h6 {
   height: 60px;
 	text-align:center;
   line-height: 60px;
-	color:white;
-  background-color: #2a262a;
+	color:#2a262a;
+  background-color: white;
 }
 
 /* | Found from Stack Overflow, this snippet makes linked-to div tags link to a target 100px above it's actual position, to account for the navbar. | */
