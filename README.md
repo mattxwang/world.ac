@@ -1,4 +1,5 @@
 # [world.ac](http://world.ac)
+![travis build status](https://travis-ci.org/malsf21/world.ac.svg)
 ## Welcome Back!
 
 ### Quick Pointers
