@@ -12,6 +12,7 @@ github: "https://github.com/malsf21/world.ac"
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]
 
 collections:
   plenaries:
