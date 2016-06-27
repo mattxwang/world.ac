@@ -1,5 +1,5 @@
 # [world.ac](http://world.ac)
-![travis build status](https://travis-ci.org/malsf21/world.ac.svg)
+[![Build Status](https://travis-ci.org/malsf21/world.ac.svg?branch=master)](https://travis-ci.org/malsf21/world.ac)
 ## Welcome Back!
 
 ### Quick Pointers
