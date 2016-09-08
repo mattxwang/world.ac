@@ -1,6 +1,7 @@
 # [world.ac](http://world.ac)
 [![Build Status](https://travis-ci.org/malsf21/world.ac.svg?branch=master)](https://travis-ci.org/malsf21/world.ac)
 ## Welcome Back!
+If you have the time and know how, please help out
 
 ### Quick Pointers
 
