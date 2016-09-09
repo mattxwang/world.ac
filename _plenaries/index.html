@@ -5,19 +5,15 @@ title: Plenaries
 
 <div class="container">
     {% for plenary in site.plenaries %}{% unless plenary.title == 'Plenaries' %}
-    <div class="card card-block">
-      <div class="row">
-        <div class="col-sm-3 {% cycle 'group1': '', ' col-sm-push-9' %}">
-          <img class="img-thumbnail" src="{{ site.baseurl}}/img/plenaries/{{ plenary.pic }}" alt="Plenary Picture" />
-        </div>
-        <div class="col-sm-9 {% cycle 'group2': '', ' col-sm-pull-3' %}" {% cycle 'group3': '', 'style="text-align:right;"'%}>
-          <h2>
-            <a class="post-link" href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a>
-          </h2>
-          <p class="card-text">{{ plenary.shortbio }}</p>
-        </div>
+    {% cycle 'group1': '<div class="card-deck-wrapper">
+      <div class="card-deck">', '' %}
+    <div class="card">
+      <a href="{{ plenary.url | prepend: site.baseurl }}"><img class="card-img-top" src="{{ site.baseurl}}/img/plenaries/{{ plenary.pic }}" alt="Plenary Picture" /></a>
+      <div class="card-block">
+        <h2><a href="{{ plenary.url | prepend: site.baseurl }}">{{ plenary.title }} </a></h2>
+        <p class="card-text">{{ plenary.shortbio }}</p>
       </div>
-      </br>
     </div>
+    {% cycle 'group2': '', '</div></div>' %}
     {% endunless %}{% endfor %}
 </div>
