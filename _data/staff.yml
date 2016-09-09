@@ -1,38 +1,49 @@
+MattJagdeo:
+  name: Matthew Jagdeo
+  primary: Head of Plenaries
+  bio: Watch me whip...
+  image: mattjagdeo.jpg
 MatthewWang:
   name: Matthew Wang
   primary: Head of Registration and Media
   secondary: Head of Technology
-  bio: Hi, I’m Matthew Wang! I’m the head of Registration and Media this year, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech, and I’m pumped to do it all again this year!  I’m excited to make WAC as awesome as it was last year. See you there!
+  bio: How do Web Developers mark their work? They Graphic De-sign it.
   image: mattwang.png
 
 JackSarick:
   name: Jack Sarick
   primary: Website Developer
   secondary: A/V Consultant
-  bio: I’m Jack Sarick, a student currently enrolled in UCC. I’m the head of Robotics, Computer Science/Digital Media, and am ready to apply that experience to WAC. I’m happy to be part of the team. See you there!
-  image: jacksarick.png
+  bio: Miseducated like Lauryn Hill.
+  image: jacksarick.jpg
 
 JohnMace:
   name: John Mace
   primary: Head of Audio/Visual Technology
   secondary: Assistant Web Developer
-  bio: Hi there! My name is John (You know my last name)! As head of Audio/Visual for this year's World Affairs conference it is my duty to channel my totality into the Audio/Visual systems of Upper Canada College to ensure a smooth and successful conference. See you there.
-  image: avatar.png
+  bio: There are some who call me John Mace. That is my name.
+  image: johnmace.png
+
+NickOBrien:
+  name: Nicholas O'Brien
+  primary: Assistant Web Developer
+  bio: All my friends are Heathens...
+  image: nickobrien.jpg
 
 DavidNiddamDent:
   name: David Niddam-Dent
   primary: Head of Registration and Media
-  bio: Hi, I’m Matthew Wang! I’m the head of Registration and Media this year, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech, and I’m pumped to do it all again this year!  I’m excited to make WAC as awesome as it was last year. See you there!
-  image: avatar.png
+  bio: Dropped out of school now I'm dumb rich.
+  image: dnd.jpg
 
 AlexanderQuinn:
   name: Alexander Quinn
   primary: Head of Registration and Media
-  bio: Hi, I’m Matthew Wang! I’m the head of Registration and Media this year, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech, and I’m pumped to do it all again this year!  I’m excited to make WAC as awesome as it was last year. See you there!
-  image: avatar.png
+  bio: About a week ago...
+  image: alexquinn.jpg
 
 SimonOsak:
   name: Simon Osak
   primary: Head of Registration and Media
-  bio: Hi, I’m Matthew Wang! I’m the head of Registration and Media this year, as well as the designer of this lovely website. Last year, I helped with web design, media, and tech, and I’m pumped to do it all again this year!  I’m excited to make WAC as awesome as it was last year. See you there!
-  image: simonosak.png
+  bio: I need a One Dance...
+  image: simonosak.jpg
