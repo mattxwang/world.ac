@@ -2,7 +2,7 @@
 title: World Affairs Conference
 email: wac@ucc.on.ca
 description: The WAC website!
-baseurl: "/wac"
+baseurl: "/wac-test"
 url: "world.ac"
 github: "https://github.com/malsf21/world.ac"
 
