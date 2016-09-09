@@ -18,4 +18,3 @@ It's been a good year, but we're going to have to go at it again. Next year's WA
 * Online Registration is **confirmed**. This would be our #1 priority after the structure/layout of the site is finished.
 * The account system this year will only concern **faculty advisers** and **independent students**.
 * A majority of Media's job in the upcoming year is creating a strong media foundation, especially artistically. The artistic theme of the website is **not finalized yet**, and will be decided in conjunction with media.
-* We have a blog! Eventually, it'll be hosted at blog.world.ac , but for now, it's at [http://matthewwang.me/wac/blog/](http://matthewwang.me/wac/blog/).
