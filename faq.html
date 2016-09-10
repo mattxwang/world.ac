@@ -3,7 +3,7 @@ layout: default
 title: Frequenty Asked Questions
 permalink: /faq/
 ---
-<div class="container">
+<!-- <div class="container">
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     {% for item in site.data.faq %}
       <div class="card card-block">
@@ -21,5 +21,32 @@ permalink: /faq/
         </div>
       </div>
     {% endfor %}
+  </div>
+</div> 
+
+ -->
+ <style>
+   .side {display: inline-block;}
+ </style>
+<div class="container">
+  <div class="card card-block side">
+    <ul style="list-style-type:none;">
+      {% for item in site.data.faq %}
+        <li><a href="#{{item[1].id}}">{{ item[1].question }}</a></li>
+      {% endfor%}
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="card card-block side">
+    {% for item in site.data.faq %}
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 id="{{ item[1].id }}">{{ item[1].question}}</h4>
+          <p>{{item[1].answer}}</p>
+          <br>
+        </div>
+      </div>
+    {% endfor %}  
   </div>
 </div>
