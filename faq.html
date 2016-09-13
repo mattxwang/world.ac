@@ -3,11 +3,6 @@ layout: default
 title: Frequenty Asked Questions
 permalink: /faq/
 ---
- <style>
-    
-
-
- </style>
 
 <div class="container">
 <div class="row">
@@ -15,10 +10,10 @@ permalink: /faq/
     <div class="card card-block sidebar ">
       <ul style="list-style-type:none;">
         {% for item in site.data.faq %}
-          <li><a href="#{{item[1].id}}" style="padding-right:15px;">{{ item[1].question }}</a></li>
-        {% endfor%}
-      </ul>
-    </div>
+        <li><a href="#{{item[1].id}}" style="padding-right:15px;">{{ item[1].question }}</a></li>
+      {% endfor%}
+    </ul>
+  </div>
 </div>  
 <div class="col-md-9">
     <div class="card card-block">
@@ -31,7 +26,7 @@ permalink: /faq/
           </div>
         </div>
       {% endfor %}  
-    </div>
+      </div>
     </div>
   </div>
 </div>  
