@@ -1,7 +1,14 @@
+<!-- <style>
+  @media (max-width: 727) {
+    .switch-larger {
+      display: none;
+    }
+  }
+</style> -->
 <nav class="navbar navbar-light navbar-fixed-top bg-faded">
   <div class="container-fluid">
     <a class="navbar-brand " href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav switch-larger">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Info</a>
         <div class="dropdown-menu">
@@ -39,5 +46,49 @@
         <a class="btn btn-outline-primary" href="{{site.baseurl}}/reg/">Register</a>
       </li>
     </ul>
+
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#switch" aria-controls="switch" aria-expanded="false" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+      <div class="collapse">
+        <div class="bg-inverse p-a-1">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Info</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/about/">About</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/faq/">FAQ</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/staff/">Meet the Team</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/contact/">Contact Us</a>
+          </div>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Registration</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item nav-link">How to Register</a>
+              <span></span>
+              <a class="dropdown-item nav-link">Registration Package</a>
+            </div>
+           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conference</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item nav-link" href="{{site.baseurl}}/keynote/">Keynote</a>
+              <span></span>
+              <a class="dropdown-item nav-link">Panels</a>
+              <span></span>
+              <a class="dropdown-item nav-link" href="{{ site.baseurl }}/plenaries/">Plenaries</a>
+              <span></span>
+              <a class="dropdown-item nav-link">Schedule</a>
+            </div>
+          </li>
+
+          <li class="nav-item pull-xs-right">
+            <a class="btn btn-outline-primary" href="{{site.baseurl}}/reg/">Register</a>
+          </li>
+        </div>
+      </div> -->
   </div>
 </nav>

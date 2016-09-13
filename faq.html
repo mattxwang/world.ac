@@ -4,43 +4,34 @@ title: Frequenty Asked Questions
 permalink: /faq/
 ---
  <style>
-   @media (min-width: 1210px) {
-      .sidebar {
-        position: fixed;
-        float: center;
-        right: 20px;
-        display: inline-block;
-        overflow-x: hidden;
-        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-      }
-      .side {
-        display: inline-block;
-        left: 70px;
-
-      }
-    }
+    
 
 
  </style>
+
 <div class="container">
-  <div class="card card-block sidebar ">
-    <ul style="list-style-type:none;">
+<div class="row">
+  <div class="col-md-3">    
+    <div class="card card-block sidebar ">
+      <ul style="list-style-type:none;">
+        {% for item in site.data.faq %}
+          <li><a href="#{{item[1].id}}" style="padding-right:15px;">{{ item[1].question }}</a></li>
+        {% endfor%}
+      </ul>
+    </div>
+</div>  
+<div class="col-md-9">
+    <div class="card card-block">
       {% for item in site.data.faq %}
-        <li><a href="#{{item[1].id}}" style="padding-right:15px;">{{ item[1].question }}</a></li>
-      {% endfor%}
-    </ul>
-  </div>
-</div>
-<div class="container side">
-  <div class="card card-block">
-    {% for item in site.data.faq %}
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4 id="{{ item[1].id }}">{{ item[1].question}}</h4>
-          <p>{{item[1].answer}}</p>
-          <br>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4 id="{{ item[1].id }}">{{ item[1].question}}</h4>
+            <p>{{item[1].answer}}</p>
+            <br>
+          </div>
         </div>
-      </div>
-    {% endfor %}  
+      {% endfor %}  
+    </div>
+    </div>
   </div>
-</div>
+</div>  
