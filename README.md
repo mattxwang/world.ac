@@ -6,7 +6,7 @@ If you have the time and know how, please help out
 ### Quick Pointers
 
 * Our production-ready version of the website is stored in `stable`, which is available for viewing at [world.ac](http://world.ac).
-* Our testing-but-stable version of the website is stored in `master`, which is available for viewing on [my webserver](http://matthewwang.me/wac).
+* Our testing-but-stable version of the website is stored in `master`. It's viewable on our webserver, but for development purposes only.
 * All other branches are not officially available on the web. Instead, you'll have to build and run them yourself. Refer to our setup section for more information.
 
 ### Notes for the Media Department/Website Sub-Department
