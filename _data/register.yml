@@ -1,0 +1,16 @@
+# image is not full url just file name
+# if there is no image for that text dont you worry it will work!
+how-to:
+  ht1: 
+    text : what is this
+    
+    image : button.png
+  
+  ht2: 
+    text : what is this
+    
+    image : button.png
+  ht3: 
+    text : what is this
+    image : button.png
+

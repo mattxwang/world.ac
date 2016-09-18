@@ -1,0 +1,20 @@
+---
+layout : default
+title : "Panels"
+permalink : /panel/
+---
+<div class="container">
+	<div class="card card-block">
+		<h1>Opening Panel</h1>
+		<h2>{{ site.data.panel.opening.title}}</h2>
+		<p>{{ site.data.panel.opening.paragraph}}</p>
+		{% for item in site.data.panel.opening.speakers %}
+			<div class="col-md-{{ 12 | divided_by: site.data.panel.opening.speakers.number}}">
+				<div class="container">
+					<h4>{{ item[1].name }}</h4>
+					<p>{{ item[1].blurb }}</p>
+				</div>
+			</div>
+		{% endfor %}	
+	</div>
+</div>
