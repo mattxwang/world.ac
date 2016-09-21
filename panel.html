@@ -6,15 +6,46 @@ permalink : /panel/
 <div class="container">
 	<div class="card card-block">
 		<h1>Opening Panel</h1>
+		<br><div class="container"><center><img height="75%" width="75%" style="border-radius: 4px;" src="{{site.baseurl}}/img/plenaries/drone.jpg" alt="{{item[1].name}}"></center></div><br>
 		<h2>{{ site.data.panel.opening.title}}</h2>
-		<p>{{ site.data.panel.opening.paragraph}}</p>
-		{% for item in site.data.panel.opening.speakers %}
-			<div class="col-md-{{ 12 | divided_by: site.data.panel.opening.speakers.number}}">
-				<div class="container">
-					<h4>{{ item[1].name }}</h4>
-					<p>{{ item[1].blurb }}</p>
+		<p>{{ site.data.panel.opening.blurb}}</p>
+
+			
+			{% for item in site.data.panel.opening.speakers %}
+		
+				<div class="row">
+					<div class="container">
+						<div class="col-md-8">
+							<h4>{{ item[1].name }}</h4>
+							<p>{{ item[1].blurb }}</p>
+						</div>
+						<div class="col-md-4">
+							<img height="75%" width="75%" src="{{site.baseurl}}{{item[1].href}}" alt="{{item[1].name}}">
+						</div>	
+					</div>
 				</div>
-			</div>
-		{% endfor %}	
+			
+			{% endfor %}
+		
+		<h1 style="padding-top: 5vh;">Closing Panel</h1>
+		<h2>{{ site.data.panel.closing.title}}</h2>
+		<p>{{ site.data.panel.closing.paragraph}}</p>
+			
+			{% for item in site.data.panel.closing.speakers %}
+		
+				<div class="row">
+					<div class="container">
+						<div class="col-md-8">
+							<h4>{{ item[1].name }}</h4>
+							<p>{{ item[1].blurb }}</p>
+						</div>
+						<div class="col-md-4">
+							<img height="75%" width="75%" src="{{site.baseurl}}{{item[1].href}}" alt="{{item[1].name}}">
+						</div>	
+					</div>
+				</div>
+			
+			{% endfor %}
+										
 	</div>
 </div>
