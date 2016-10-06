@@ -15,6 +15,7 @@ Nexa Italic
 Nexa Bold
 Nexa Bold Italic
  */
+/* For future reference, TAB LENGTH MUST BE CONSTANT! */
 @font-face {
 	font-family: 'Nexa';
 	src: url('webfonts/3018A5_C_0.eot');
@@ -147,15 +148,15 @@ NexaXBoldItalic
 /* | Removes sideways scrollbar, and always has a full background. | */
 html{
 	position: relative;
-  min-width: 100%;
-  min-height: 100%;
+  	min-width: 100%;
+  	min-height: 100%;
 	overflow-x: hidden;
 }
 
 /* | Sets default font to Nexa, pads content so the navbar doesn't overlap, and sets a default background and text colour. | */
 body{
 	min-width: 100%;
-  min-height: 100%;
+  	min-height: 100%;
 	font-family:Nexa;
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -171,16 +172,34 @@ h1, h2, h3 {
 h4, h5, h6 {
 	font-family:Nexa;
 }
+/*
+.too-small { display: none; }
+*/
+.too-big {display: none;}
+/*
+@media (min-width: 730px) {
+	.too-small { 
+		display: none;
+	}
+}
+@media (max-width: 730px) {
+	.too-big {
+		display: none;
+	}
+}
+*/
+
+
 
 /* | Special css we use for footer stuff. | */
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-	text-align:center;
-  line-height: 60px;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 60px;
+  	text-align:center;
+  	line-height: 60px;
 }
 
 .card{
