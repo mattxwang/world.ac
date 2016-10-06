@@ -172,22 +172,28 @@ h1, h2, h3 {
 h4, h5, h6 {
 	font-family:Nexa;
 }
-/*
+
 .too-small { display: none; }
-*/
+
 .too-big {display: none;}
-/*
+
 @media (min-width: 730px) {
 	.too-small { 
 		display: none;
+	}
+	.too-big {
+		display: block;
 	}
 }
 @media (max-width: 730px) {
 	.too-big {
 		display: none;
 	}
+	.too-small {
+		display: block;
+	}
 }
-*/
+
 
 
 
