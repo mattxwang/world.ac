@@ -1,80 +1,87 @@
 <nav class="navbar navbar-light navbar-fixed-top bg-faded">
   <div class="container-fluid">
-    <a class="navbar-brand " href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <ul class="nav navbar-nav switch-larger too-big">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Info</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item nav-link" href="{{site.baseurl}}/about/">About</a>
-          <span></span>
-          <a class="dropdown-item nav-link" href="{{site.baseurl}}/faq/">FAQ</a>
-          <span></span>
-          <a class="dropdown-item nav-link" href="{{site.baseurl}}/staff/">Meet the Team</a>
-          <span></span>
-          <a class="dropdown-item nav-link" href="{{site.baseurl}}/contact/">Contact Us</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Registration</a>
-        <div class="dropdown-menu">
-          <a href="{{site.baseurl}}/howtoregister/" class="dropdown-item nav-link">How to Register</a>
-          <span></span>
-          <a class="dropdown-item nav-link">Registration Package</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conference</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item nav-link" href="{{site.baseurl}}/keynote/">Keynote</a>
-          <span></span>
-          <a class="dropdown-item nav-link" href="{{site.baseurl}}/panel/">Panels</a>
-          <span></span>
-          <a class="dropdown-item nav-link" href="{{ site.baseurl }}/plenaries/">Plenaries</a>
-          <span></span>
-          <a class="dropdown-item nav-link">Schedule</a>
-        </div>
-      </li>
+    <div class="too-big">
+      <a class="navbar-brand WAC" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <ul class="nav navbar-nav switch-larger too-big">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Info</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/about/">About</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/faq/">FAQ</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/staff/">Meet the Team</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/contact/">Contact Us</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Registration</a>
+          <div class="dropdown-menu">
+            <a href="{{site.baseurl}}/howtoregister/" class="dropdown-item nav-link">How to Register</a>
+            <span></span>
+            <a class="dropdown-item nav-link">Registration Package</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conference</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/keynote/">Keynote</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{site.baseurl}}/panel/">Panels</a>
+            <span></span>
+            <a class="dropdown-item nav-link" href="{{ site.baseurl }}/plenaries/">Plenaries</a>
+            <span></span>
+            <a class="dropdown-item nav-link">Schedule</a>
+          </div>
+        </li>
 
-      <li class="nav-item pull-xs-right">
-        <a class="btn btn-outline-primary" href="{{site.baseurl}}/reg/">Register</a>
-      </li>
-    </ul>
-    
+        <li class="nav-item pull-xs-right">
+          <a class="btn btn-outline-primary" href="{{site.baseurl}}/reg/">Register</a>
+        </li>
+      </ul>
+    </div>
 <!-- This is the nav if the screen width is less than 730px -->
-    <ul class="too-small">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-nav-text" aria-controls="collapsed-nav-text" aria-expanded="false" aria-label="Toggle navigation">
-        &#9776;
-      </button>
-      <div class="collapse" id="collapsed-nav-text">
-        <div class="p-a-1">
-          <span class="text-muted">Info</span>
-          <div id="info-links">
-            <a href="{{site.baseurl}}/about/">About</a>
-            <br>
-            <a href="{{site.baseurl}}/faq/">FAQ</a>
-            <br>
-            <a href="{{site.baseurl}}/staff/">Meet the Team</a>
-            <br>
-            <a href="{{site.baseurl}}/contact/">Contact Us</a>
-          </div><br>
-          <span class="text-muted">Registration</span>
-          <div id="registration-links">
-            <a href="{{site.baseurl}}/howtoregister/">How to Register</a>
-            <br>
-            <a href="###registration-package###">Registration Package</a>
-          </div><br>
-          <span class="text-muted">Conference</span>
-          <div id="conference-links">
-            <a href="{{site.baseurl}}/keynote/">Keynote</a>
-            <br>
-            <a href="{{site.baseurl}}/panel/">Panels</a>
-            <br>
-            <a href="{{ site.baseurl }}/plenaries/">Plenaries</a>
-            <br>
-            <a href="###schedule-links">Schedule</a>
+    <div class="too-small">
+    <a class="navbar-brand WAC" href="{{ site.baseurl }}/">WAC</a>
+      <ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-nav-text" aria-controls="collapsed-nav-text" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-sort-desc" aria-hidden="true"></i>
+        </button>
+        <div class="collapse" id="collapsed-nav-text">
+          <div class="p-a-1">
+            <span class="text-muted">Info</span>
+            <div id="info-links">
+              <a href="{{site.baseurl}}/about/">About</a>
+              <br>
+              <a href="{{site.baseurl}}/faq/">FAQ</a>
+              <br>
+              <a href="{{site.baseurl}}/staff/">Meet the Team</a>
+              <br>
+              <a href="{{site.baseurl}}/contact/">Contact Us</a>
+            </div><br>
+            <span class="text-muted">Registration</span>
+            <div id="registration-links">
+              <a href="{{site.baseurl}}/howtoregister/">How to Register</a>
+              <br>
+              <a href="###registration-package###">Registration Package</a>
+            </div><br>
+            <span class="text-muted">Conference</span>
+            <div id="conference-links">
+              <a href="{{site.baseurl}}/keynote/">Keynote</a>
+              <br>
+              <a href="{{site.baseurl}}/panel/">Panels</a>
+              <br>
+              <a href="{{ site.baseurl }}/plenaries/">Plenaries</a>
+              <br>
+              <a href="###schedule-links">Schedule</a>
+            </div><br>
+            <div id="registration">
+              <a href="{{site.baseurl}}/reg/">Register</a>
+            </div>
           </div>
         </div>
-      </div>
-    </ul>     
+      </ul>     
+    </div>
   </div>
 </nav>
