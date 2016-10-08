@@ -6,7 +6,7 @@ permalink : /panel/
 <div class="container">
 	<div class="card card-block">
 		<h1>Opening Panel</h1>
-		<br><div class="container"><center><img height="75%" width="75%" style="border-radius: 4px;" src="{{site.baseurl}}/img/plenaries/drone.jpg" alt="{{item[1].name}}"></center></div><br>
+		<br><div class="container"><center><img class="panel-img img-curved" src="{{site.baseurl}}/img/plenaries/drone.jpg" alt="{{item[1].name}}"></center></div><br>
 		<h2>{{ site.data.panel.opening.title}}</h2>
 		<p>{{ site.data.panel.opening.blurb}}</p>
 
@@ -20,14 +20,14 @@ permalink : /panel/
 							<p>{{ item[1].blurb }}</p>
 						</div>
 						<div class="col-md-4">
-							<img height="75%" width="75%" src="{{site.baseurl}}{{item[1].href}}" alt="{{item[1].name}}">
+							<img class="panel-img" src="{{site.baseurl}}{{item[1].href}}" alt="{{item[1].name}}">
 						</div>	
 					</div>
 				</div>
 			
 			{% endfor %}
 		
-		<h1 style="padding-top: 5vh;">Closing Panel</h1>
+		<h1 class="panel-closing-padding-top">Closing Panel</h1>
 		<h2>{{ site.data.panel.closing.title}}</h2>
 		<p>{{ site.data.panel.closing.paragraph}}</p>
 			
@@ -40,7 +40,7 @@ permalink : /panel/
 							<p>{{ item[1].blurb }}</p>
 						</div>
 						<div class="col-md-4">
-							<img height="75%" width="75%" src="{{site.baseurl}}{{item[1].href}}" alt="{{item[1].name}}">
+							<img class="panel-img" src="{{site.baseurl}}{{item[1].href}}" alt="{{item[1].name}}">
 						</div>	
 					</div>
 				</div>

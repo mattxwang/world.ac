@@ -7,9 +7,9 @@ permalink: /staff/
     {% for item in site.data.staff %}
     {% cycle 'group1': '<div class="card-deck-wrapper">
       <div class="card-deck">', '', '', '' %}
-        <div class="card card-outline-primary text-xs-center" style="background-color:white;">
+        <div class="card card-outline-primary text-xs-center staff-background">
           <div class="card-block">
-            <img class="img-fluid img-circle" src="{{site.baseurl}}/img/staff/{{item[1].image}}" style="margin-left:auto;margin-right:auto;" />
+            <img class="img-fluid img-circle staff-img-member" src="{{site.baseurl}}/img/staff/{{item[1].image}}"/>
             <h4 class="card-title">{{ item[1].name }}</h4>
             <h5>{{item[1].primary}}</h5>
             {% if item[1].secondary%}<h6>and {{item[1].secondary}}</h6>{% endif %}

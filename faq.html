@@ -8,9 +8,9 @@ permalink: /faq/
 <div class="row">
   <div class="col-md-3">    
     <div class="card card-block sidebar ">
-      <ul style="list-style-type:none;">
+      <ul class="faq-list">
         {% for item in site.data.faq %}
-        <li><a href="#{{item[1].id}}" style="padding-right:15px;">{{ item[1].question }}</a></li>
+        <li><a href="#{{item[1].id}}" class="faq-list-item">{{ item[1].question }}</a></li>
       {% endfor%}
     </ul>
   </div>
