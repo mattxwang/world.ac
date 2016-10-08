@@ -1,16 +1,18 @@
-# image is not full url just file name
+# image is not full url just file name. It must be in the /img/how-to-register directory though
 # if there is no image for that text dont you worry it will work!
 how-to:
+  # the name here (ht*) doesnt actually matter and I (Nick O'Brien) forgot what it means. It sounds technical though
   ht1: 
-    text : what is this
-    
+    header : ¿Pregunta Uno?
+    text : Lorem ipsum dolor palmam ferat qui meriut, si señor. Yo no hablo español. Just click the button dude. Ja ja ja, Canadian web developement at it's finest, ja ja ja. I'm glad this works with multiple lines and stuff.
     image : button.png
   
   ht2: 
-    text : what is this
-    
+    header : ¿Pregunta Dos?
+    text : Lorem ipsum dolor palmam ferat qui meriut, si señor. Yo no hablo español. Just click the button dude. Ja ja ja, Canadian web developement at it's finest, ja ja ja. I'm glad this works with multiple lines and stuff.
     image : button.png
+  
   ht3: 
-    text : what is this
+    header : ¿Pregunta Tres?
+    text : Lorem ipsum dolor palmam ferat qui meriut, si señor. Yo no hablo español. Just click the button dude. Ja ja ja, Canadian web developement at it's finest, ja ja ja. I'm glad this works with multiple lines and stuff.
     image : button.png
-

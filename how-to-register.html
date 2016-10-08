@@ -7,11 +7,17 @@ permalink: /howtoregister/
 <div class="container">
 	<div class="card card-block">
 		<h1>How to Register</h1><br>
-			<ol style="font-size: 1.3em">
+			<ol class="how-to-reg-list">
 				{% for item in site.data.register.how-to %}			
-					<li>{{ item[1].text }}</li> {% if item[1].image %} 
-					<br>
-					<img style="border-radius: 4px;" height="50%" width="50%" src="{{site.baseurl}}/img/how-to-register/{{item[1].image}}" alt="{{item[1].image}}"><br> {% endif %}
+					<li>
+						<h3>{{item[1].header}}</h3>
+						<p>{{ item[1].text }}</p>
+					</li> 
+					{% if item[1].image %} 
+						<br>
+						<img class="how-to-reg-img" src="{{site.baseurl}}/img/how-to-register/{{item[1].image}}" alt="{{item[1].image}}">
+						<br> 
+					{% endif %}
 					<br>
 				{% endfor %}			
 			</ol>	
