@@ -286,7 +286,6 @@ h4, h5, h6 {
 .panel-img {
 	height: 75%;
 	width: 75%;
-
 }
 
 .panel-closing-padding-top {
@@ -312,4 +311,26 @@ h4, h5, h6 {
 }
 a.contact-color:hover{
 	color: #FFF;
+}
+a.contact-color:visited {
+	color: #FFF;
+}
+.contact-mobile { font-size: 66%;}
+.contact-desktop {display: none;}
+
+@media (min-width: 767px) {
+	.contact-desktop { 
+		display: block;
+	}
+	.contact-mobile {
+		display: none;
+	}
+}
+@media (max-width: 767px;) {
+	.contact-mobile {
+		display: block;
+	}
+	.contact-desktop {
+		display: none;
+	}
 }
