@@ -164,6 +164,10 @@ body{
 	color:#FFF;
 }
 
+.card{
+	color: #2a262a;
+}
+
 /* | Sets default fonts for headers. | */
 h1, h2, h3 {
 	font-family:Nexa Heavy;
@@ -173,9 +177,13 @@ h4, h5, h6 {
 	font-family:Nexa;
 }
 
+/* | Some Basic Utility Classes | */
+
 .img-curved {
 	border-radius: 4px;
 }
+
+/* | Responsive Utility Classes | */
 
 .too-small { display: none; }
 
@@ -210,10 +218,6 @@ h4, h5, h6 {
   	height: 60px;
   	text-align:center;
   	line-height: 60px;
-}
-
-.card{
-	color: #2a262a;
 }
 
 /* | Found from Stack Overflow, this snippet makes linked-to div tags link to a target 100px above it's actual position, to account for the navbar. | */
