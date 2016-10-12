@@ -156,7 +156,7 @@ html{
 /* | Sets default font to Nexa, pads content so the navbar doesn't overlap, and sets a default background and text colour. | */
 body{
 	min-width: 100%;
-  	min-height: 100%;
+  min-height: 100%;
 	font-family:Nexa;
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -190,7 +190,7 @@ h4, h5, h6 {
 .too-big {display: none;}
 
 @media (min-width: 730px) {
-	.too-small { 
+	.too-small {
 		display: none;
 	}
 	.too-big {
@@ -205,9 +205,6 @@ h4, h5, h6 {
 		display: block;
 	}
 }
-
-
-
 
 /* | Special css we use for footer stuff. | */
 
@@ -323,7 +320,7 @@ a.contact-color:visited {
 .contact-desktop {display: none;}
 
 @media (min-width: 767px) {
-	.contact-desktop { 
+	.contact-desktop {
 		display: block;
 	}
 	.contact-mobile {

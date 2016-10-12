@@ -4,9 +4,9 @@ title: WAC Staff
 permalink: /staff/
 ---
 <div class="container">
+  <div class="card-deck-wrapper">
+    <div class="card-deck">
     {% for item in site.data.staff %}
-    {% cycle 'group1': '<div class="card-deck-wrapper">
-      <div class="card-deck">', '', '', '' %}
         <div class="card card-outline-primary text-xs-center staff-background">
           <div class="card-block">
             <img class="img-fluid img-circle staff-img-member" src="{{site.baseurl}}/img/staff/{{item[1].image}}"/>
@@ -16,6 +16,8 @@ permalink: /staff/
             <p>{{item[1].bio}}</p>
           </div>
         </div>
-        {% cycle 'group2': '', '', '', '</div></div>' %}
+        {% cycle 'group1': '', '', '', '</div></div><div class="card-deck-wrapper">
+          <div class="card-deck">' %}
     {% endfor %}
+    </div></div>
 </div>
