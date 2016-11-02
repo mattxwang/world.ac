@@ -8,12 +8,10 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link href="{{ "/favicon.ico" | prepend: site.baseurl }}" rel="icon" />
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <style>
 		body{
 			background-image:url("{{ "/img/earth.png" | prepend: site.baseurl }}"),url("{{ "/img/stars.png" | prepend: site.baseurl }}");
