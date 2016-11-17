@@ -1,6 +1,5 @@
 # Site settings
 title: World Affairs Conference
-email: wac@ucc.on.ca
 description: The WAC website!
 baseurl: "/wactest"
 url: "world.ac"

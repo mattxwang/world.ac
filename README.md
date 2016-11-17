@@ -1,13 +1,37 @@
 # [world.ac](http://world.ac)
 [![Build Status](https://travis-ci.org/malsf21/world.ac.svg?branch=master)](https://travis-ci.org/malsf21/world.ac)
-## Welcome Back!
-If you have the time and know how, please help out
+
+## The World Affairs Conference Website
+
+Hello there! Welcome to the repository for the World Affairs Conference (WAC).
+
+## What's WAC?
+
+According to our website,
+
+> The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference.
+
+WAC is an annual event where thousands of students in Ontario gather to hear some of the brightest minds in Canada (and in the world) discuss important current affairs topics, such as technology, politics, and ethics.
+
+## What Does This Website Do?
+
+Good question! This website displays information about WAC for delegates, advisors, and speakers. Hopefully, we make it easy for all of you to learn about what exactly WAC is, what it's about, when it is, and all those other useful tidbits of information.
+
+In addition, we also do registration through the website (though that source code will be closed-source, for now). It makes it easier for advisors to register for WAC, and also means we cut down less trees. Awesome!
+
+## Development Notes
+
+So you want to contribute to WAC? Great! We're aiming to have a full documentation set on how to edit this website, but in the meanwhile, we have a little guide for you.
 
 ### Quick Pointers
 
 * Our production-ready version of the website is stored in `stable`, which is available for viewing at [world.ac](http://world.ac).
 * Our testing-but-stable version of the website is stored in `master`. It's viewable on our webserver, but for development purposes only.
 * All other branches are not officially available on the web. Instead, you'll have to build and run them yourself. Refer to our setup section for more information.
+
+### Setup
+
+
 
 ### Notes for the Media Department/Website Sub-Department
 

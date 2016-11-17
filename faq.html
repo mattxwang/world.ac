@@ -6,15 +6,15 @@ permalink: /faq/
 
 <div class="container">
 <div class="row">
-  <div class="col-md-3">    
+  <div class="col-md-3">
     <div class="card card-block sidebar ">
-      <ul class="faq-list">
+      <ul class="list-unstyled">
         {% for item in site.data.faq %}
-        <li><a href="#{{item[1].id}}" class="faq-list-item">{{ item[1].question }}</a></li>
+        <li><a href="#{{item[1].id}}">{{ item[1].question }}</a></li>
       {% endfor%}
     </ul>
   </div>
-</div>  
+</div>
 <div class="col-md-9">
     <div class="card card-block">
       {% for item in site.data.faq %}
@@ -25,8 +25,8 @@ permalink: /faq/
             <br>
           </div>
         </div>
-      {% endfor %}  
+      {% endfor %}
       </div>
     </div>
   </div>
-</div>  
+</div>
