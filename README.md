@@ -31,7 +31,7 @@ So you want to contribute to WAC? Great! We're aiming to have a full documentati
 
 ### Setup
 
-
+Coming soon.
 
 ### Notes for the Media Department/Website Sub-Department
 
