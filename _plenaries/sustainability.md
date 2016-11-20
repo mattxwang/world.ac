@@ -1,10 +1,10 @@
 ---
 layout: plenary
-title: Sustainability
-pic: drone.jpg
+title: Innovation as the Key to Sustainability
+pic: sustainability.png
 speaker1: Jane Doe
 speaker2: tszaky
-shortbio: "This plenary is about Sustainability."
+shortbio: "This panel explores sustainable development and practically innovative solutions that have been put forth to help aid sustainable development."
 ---
 
-Drones are scary dawg. They're like terminator, but they life and stuff. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The importance of achieving a model for sustainable development and energy production stems from the rapid growth of human population coupled by a culture focused too heavily on excessive goods, sourced though unsustainable means. Our actions are expediting natural processes, leading the future of our planet as we know it, down an ever dark path. As citizens of this world, it is our responsibility to find a sustainable process that can be maintained, or as the Brutland Report famously says, “meets the needs and aspirations of the present without compromising the ability of future generations to meet their own needs”. This panel explores the several implications of this problem and practically innovative solutions that have been put forth to help combat this cause.

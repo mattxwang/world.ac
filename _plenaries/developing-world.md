@@ -3,7 +3,7 @@ layout: plenary
 title: Technology in the Developing World
 pic: drone.jpg
 speaker1: Jane Doe
-speaker2: sbreznitz
+speaker2: jwong
 shortbio: "This plenary is about Technology in the Developing World"
 ---
 

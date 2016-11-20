@@ -1,9 +1,9 @@
 ---
 layout: plenary
-title: Cyber Warfare
-pic: drone.jpg
+title: Future of Warfare
+pic: "cyber-warfare.png"
 speaker1: Jane Doe
-speaker2: John Smith
+speaker2: rboisvert
 shortbio: "This plenary is about Cyber Warfare."
 ---
 

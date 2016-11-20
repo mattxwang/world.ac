@@ -5,28 +5,32 @@ permalink: /faq/
 ---
 
 <div class="container">
-<div class="row">
-  <div class="col-md-3">
-    <div class="card card-block sidebar ">
-      <ul class="list-unstyled">
-        {% for item in site.data.faq %}
-        <li><a href="#{{item[1].id}}">{{ item[1].question }}</a></li>
-      {% endfor%}
-    </ul>
+  <div class="card card-block">
+    <h1 class="text-xs-center">Frequently Asked Questions</h1>
+    <h2 class="text-xs-center">Click on a question to expand the answer.</h2>
+    <p class="lead">
+      Is your question not answered? <a href="{{site.baseurl}}/contact/">Contact us</a> for more information, we're happy to help!
+    </p>
   </div>
-</div>
-<div class="col-md-9">
-    <div class="card card-block">
-      {% for item in site.data.faq %}
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h4 id="{{ item[1].id }}">{{ item[1].question}}</h4>
-            <p>{{item[1].answer}}</p>
-            <br>
+  {% for category in site.data.faq %}
+    <h2 class="text-xs-center">{{ category[0] || capitalize }}</h2>
+    <div id="accordion-{{category[0]}}" role="tablist" aria-multiselectable="true">
+      {% for question in category[1] %}
+      <div class="card">
+        <div class="card-header" role="tab" id="heading-{{question[0]}}">
+          <h5 class="mb-0">
+            <a data-toggle="collapse" data-parent="#accordion-{{category[0]}}" href="#collapse-{{question[0]}}" aria-expanded="true" aria-controls="collapse-{{question[0]}}">
+              {{question[1].question}}
+            </a>
+          </h5>
+        </div>
+        <div id="collapse-{{question[0]}}" class="collapse" role="tabpanel" aria-labelledby="heading-{{question[0]}}">
+          <div class="card-block">
+            {{question[1].answer}}
           </div>
         </div>
-      {% endfor %}
       </div>
+      {% endfor %}
     </div>
-  </div>
+  {% endfor %}
 </div>

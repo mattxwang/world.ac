@@ -1,9 +1,8 @@
-whatiswac:
-  question: What is WAC?
-  answer: The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.
-  id: whatiswac
+general:
+  whatiswac:
+    question: What is WAC?
+    answer: The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.
 
-whocanattend:
-  question: Who can attend WAC?
-  answer: The Keynote Address is open to the Toronto public; anybody can attend. The Conference Day, in contrast, can only be attended by registered delegates and faculty advisors.
-  id: whocanattend
+  whocanattend:
+    question: Who can attend WAC?
+    answer: The Keynote Address is open to the Toronto public; anybody can attend. The Conference Day, in contrast, can only be attended by registered delegates and faculty advisors.

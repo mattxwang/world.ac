@@ -1,48 +1,68 @@
-MattJagdeo:
+kcheema:
+  name: Karman Cheema
+  primary: Conference Chair
+  image: avatar.jpg
+mjagdeo:
   name: Matthew Jagdeo
   primary: Head of Plenaries
   bio: Watch me whip...
   image: mattjagdeo.jpg
-MatthewWang:
+pnicoletti:
+  name: Phillip Nicoletti
+  primary: Head of Operations
+  image: philnicoletti.jpg
+sandrade:
+  name: Scotty Andrade
+  primary: Head of Security
+  image: scottyandrade.jpg
+kparamaanantham:
+  name: Komahan Paramaanantham
+  primary: Secretary Treasurer
+  image: avatar.jpg
+mwang:
   name: Matthew Wang
   primary: Head of Registration and Media
   secondary: Head of Technology
   bio: How do Web Developers mark their work? They Graphic De-sign it.
   image: mattwang.png
+  github: malsf21
 
-JackSarick:
+jsarick:
   name: Jack Sarick
   primary: Website Developer
   secondary: A/V Consultant
   bio: Miseducated like Lauryn Hill.
   image: jacksarick.jpg
+  github: jacksarick
 
-JohnMace:
+jmace:
   name: John Mace
   primary: Head of Audio/Visual Technology
   secondary: Assistant Web Developer
   bio: There are some who call me John Mace. That is my name.
   image: johnmace.png
+  github: j0hnmace
 
-NickOBrien:
+nobrien:
   name: Nicholas O'Brien
   primary: Assistant Web Developer
   bio: I heard I got to work with cookies.
   image: nickobrien.jpg
+  github: obrien66
 
-DavidNiddamDent:
+dnd:
   name: David Niddam-Dent
   primary: Head of Registration and Media
   bio: Dropped out of school now I'm dumb rich.
   image: dnd.jpg
 
-AlexanderQuinn:
+aquinn:
   name: Alexander Quinn
   primary: Head of Registration and Media
   bio: About a week ago...
   image: alexquinn.jpg
 
-SimonOsak:
+sosak:
   name: Simon Osak
   primary: Head of Registration and Media
   bio: I need a One Dance...
