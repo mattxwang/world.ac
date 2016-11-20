@@ -47,7 +47,7 @@ gem install jekyll
 
 After Jekyll completes its setup, clone the git repository:
 ```
-git clone https://github.com/malsf21/world.ac.git
+git clone --depth=1 https://github.com/malsf21/world.ac.git
 ```
 
 Then, cd into the repository:
