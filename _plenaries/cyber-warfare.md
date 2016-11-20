@@ -2,7 +2,7 @@
 layout: plenary
 title: Future of Warfare
 pic: "cyber-warfare.png"
-speaker1: Jane Doe
+speaker1: csoon
 speaker2: rboisvert
 shortbio: "This plenary is about Cyber Warfare."
 ---

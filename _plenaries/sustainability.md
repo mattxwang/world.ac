@@ -2,7 +2,7 @@
 layout: plenary
 title: Revolutionizing Sustainability
 pic: sustainability.png
-speaker1: Jane Doe
+speaker1: csoon
 speaker2: tszaky
 shortbio: "This panel explores sustainable development and practically innovative solutions that have been put forth to help aid sustainable development."
 ---

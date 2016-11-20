@@ -5,22 +5,19 @@ opening:
 
   speakers:
     speaker1:
-      name: Zac Manchester
-      blurb: |
-        Ron Deibert, (OOnt, PhD, University of British Columbia) is Professor of Political Science, and Director of the Citizen Lab at the Munk School of Global Affairs, University of Toronto. The Citizen Lab is an interdisciplinary research and development laboratory working at the intersection of the digital technologies, global security, and human rights.
-      href: /img/snowden.png
+      name: Coming Soon
+      pic: avatar.png
+      bio: This speaker's information is coming soon!
 
     speaker2:
-      name: Ron Deibert
-      blurb: |
-        Ron Deibert, (OOnt, PhD, University of British Columbia) is Professor of Political Science, and Director of the Citizen Lab at the Munk School of Global Affairs, University of Toronto. The Citizen Lab is an interdisciplinary research and development laboratory working at the intersection of the digital technologies, global security, and human rights.
-      href: /img/snowden.png
+      name: Coming Soon
+      pic: avatar.png
+      bio: This speaker's information is coming soon!
 
     speaker3:
-      name: Ron Deibert
-      blurb: |
-        Ron Deibert, (OOnt, PhD, University of British Columbia) is Professor of Political Science, and Director of the Citizen Lab at the Munk School of Global Affairs, University of Toronto. The Citizen Lab is an interdisciplinary research and development laboratory working at the intersection of the digital technologies, global security, and human rights.
-      href: /img/snowden.png
+      name: Coming Soon
+      pic: avatar.png
+      bio: This speaker's information is coming soon!
 
 
 closing:
@@ -32,10 +29,7 @@ closing:
 
 
   speakers:
-
     speaker1:
-      name: Ron Deibert
-      blurb: |
-        Ron Deibert, (OOnt, PhD, University of British Columbia) is Professor of Political Science, and Director of the Citizen Lab at the Munk School of Global Affairs, University of Toronto. The Citizen Lab is an interdisciplinary research and development laboratory working at the intersection of the digital technologies, global security, and human rights. He was a co­founder and a principal investigator of theOpenNet Initiative (2003­2014) and Information Warfare Monitor (2003­2012) projects.
-
-      href: /img/snowden.png
+      name: Coming Soon
+      pic: avatar.png
+      bio: This speaker's information is coming soon!
