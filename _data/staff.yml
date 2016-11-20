@@ -27,14 +27,39 @@ treeve:
 
 kparamaanantham:
   name: Komahan Paramaanantham
-  primary: Secretary Treasurer and Plenary Head
+  primary: Secretary Treasurer
   image: avatar.jpg
+
+mwang:
+  name: Matthew Wang
+  primary: Head of Registration and Media
+  secondary: Head of Technology
+  bio: How do Web Developers mark their work? They Graphic De-sign it.
+  image: mattwang.png
+  github: malsf21
+dnd:
+  name: David Niddam-Dent
+  primary: Head of Registration and Media
+  bio: Dropped out of school now I'm dumb rich.
+  image: dnd.jpg
+
+aquinn:
+  name: Alexander Quinn
+  primary: Head of Registration and Media
+  bio: About a week ago...
+  image: alexquinn.jpg
+
+sosak:
+  name: Simon Osak
+  primary: Head of Registration and Media
+  bio: I need a One Dance...
+  image: simonosak.jpg
 
 hgoldhar:
   name: Hili Goldhar
   primary: Plenary Head
   bio: i am  Hili Goldhar
-  image: avatar.jpg
+  image: hgoldhar.jpg
 
 apaliwal:
   name: Aryan Paliwal
@@ -48,6 +73,12 @@ arothman:
   bio: i am Adam Rothman
   image: avatar.jpg
 
+kparamaanantham2:
+  name: Kohilan Paramaanantham
+  primary: Plenary Head
+  bio: Sample
+  image: avatar.jpg
+
 cmahony:
   name: Conrad Mahony
   primary: Plenary Head
@@ -55,7 +86,7 @@ cmahony:
   image: avatar.jpg
 
 jsamek:
-  name: Julien Samek
+  name: Julian Samek
   primary: Plenary Head
   bio: i am Julien Samek
   image: jsamek.jpg
@@ -64,21 +95,13 @@ ebraithwaite:
   name: Emerson Braithwaite
   primary: Morning Panel
   bio: i am Emerson Braithwaite
-  image: ebraithwaite.jpg
+  image: avatar.jpg
 
 mhoaken:
   name: Miles Hoaken
   primary: Closing Panel
   bio: i am Miles Hoaken
-  image: ebraithwaite.jpg 
-
-mwang:
-  name: Matthew Wang
-  primary: Head of Registration and Media
-  secondary: Head of Technology
-  bio: How do Web Developers mark their work? They Graphic De-sign it.
-  image: mattwang.png
-  github: malsf21
+  image: mhoaken.jpg
 
 jsarick:
   name: Jack Sarick
@@ -105,14 +128,16 @@ nobrien:
 
 sguo:
   name: Simon Zirui Guo
-  primary: Assistant Web Developer and Registration
+  primary: Assistant Web Developer
+  secondary: Registration Assistant
   bio: I like making (!safe) hardware hacks
-  image: sguo.jpg
+  image: avatar.jpg
   github: simonguozirui
 
 mmcgovern:
   name: Michael Mcgovern
-  primary: Assistant Web Developer and Registration
+  primary: Assistant Web Developer
+  secondary: Registration Assistant
   bio: I am michael mcgovern
   image: mmcgovern.jpg
 
@@ -132,13 +157,13 @@ akazakov:
   name: Alexander Kazakov
   primary: Assistant Graphic Designer
   bio: I am Alexander Kazakov
-  image: akazakov.jpg
+  image: avatar.jpg
 
 gkung:
   name: Gorden Kung
   primary: Assistant Graphic Designer
   bio: I am Gorden Kung
-  image: gkung.jpg
+  image: avatar.jpg
 
 ttran:
   name: Trung Tran
@@ -152,50 +177,32 @@ rbaird:
   bio: I am Rahim Baird
   image: avatar.jpg
 
-dnd:
-  name: David Niddam-Dent
-  primary: Head of Registration and Media
-  bio: Dropped out of school now I'm dumb rich.
-  image: dnd.jpg
-
-aquinn:
-  name: Alexander Quinn
-  primary: Head of Registration and Media
-  bio: About a week ago...
-  image: alexquinn.jpg
-
-sosak:
-  name: Simon Osak
-  primary: Head of Registration and Media
-  bio: I need a One Dance...
-  image: simonosak.jpg
-
 vchindea:
   name: Vladimir Chindea
-  primary: Video Team Lead
+  primary: Video Crew Lead
   bio: I like making videos
   image: vchindea.jpg
 
 ahwang:
   name: Alexander Hwang
-  primary: Assistant Video Editor
+  primary: Video Crew Member
   bio: I like making videos
   image: avatar.jpg
 
 tkemp:
   name: Takoda Kemp
-  primary: Assistant Video Editor
+  primary: Video Crew Member
   bio: I like making videos
   image: tkemp.jpg
 
-rwang:
-  name: Robert Hwang
-  primary: Assistant Video Editor
+rwong:
+  name: Robert Wong
+  primary: Video Crew Member
   bio: I like making videos
   image: avatar.jpg
 
 rdean:
-  name: Robbie Dean
+  name: Rob Dean
   primary: Registration Team Lead
   bio: I am Robbie Dean
   image: rdean.jpg
