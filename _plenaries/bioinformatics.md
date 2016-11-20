@@ -1,7 +1,7 @@
 ---
 layout: plenary
-title: Bioinformatics
-pic: drone.jpg
+title: The Global Implications of Bioinformatics
+pic: bioinformatics.png
 speaker1: jwzheng
 speaker2: athorogood
 shortbio: "This plenary is about bioinformatics."

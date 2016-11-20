@@ -1,6 +1,6 @@
 ---
 layout: plenary
-title: Innovation as the Key to Sustainability
+title: Revolutionizing Sustainability
 pic: sustainability.png
 speaker1: Jane Doe
 speaker2: tszaky

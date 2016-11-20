@@ -1,6 +1,6 @@
 ---
 layout: plenary
-title: "Canada 150: Canada's Global Presence"
+title: "Maintaining Canada’s Global Presence"
 pic: "canada-150.png"
 speaker1: jcunningham
 speaker2: John Smith

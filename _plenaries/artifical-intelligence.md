@@ -1,6 +1,6 @@
 ---
 layout: plenary
-title: The Future of Artificial Intelligence
+title: Artificial Intelligence and the New World
 pic: ai.png
 speaker1: Jane Doe
 speaker2: John Smith
