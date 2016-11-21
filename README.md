@@ -37,7 +37,7 @@ Setup is dead simple. If you can cut and paste commands, you can have it up with
 
 First thing you need is the repository. Clone it with this command:
 
-```
+```bash
 git clone --depth=1 https://github.com/malsf21/world.ac.git && cd world.ac
 ``` 
 
@@ -54,6 +54,15 @@ Ruby and Git come default with your computer, so you're already halfway there. T
 Next step is to setup the server. Just run `./setup.sh`. Boom. Done. 
 
 To actually see the website, run `start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
+
+**TL;DR:** copypaste this into Terminal.app: 
+
+```bash
+git clone --depth=1 https://github.com/malsf21/world.ac.git &&
+cd world.ac &&
+./setup.sh &&
+./start.sh
+```
 
 *Note: On `dev`/`master` branches, it might be be `127.0.0.1:4000/wactest/` or `127.0.0.1:4000/wac/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
 
