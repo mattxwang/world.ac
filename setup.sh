@@ -8,15 +8,14 @@ FAVER=font-awesome-4.7.0 #Sorry, FA is not good at sticking to unix dev guidelin
 FONTAWSOME=http://fontawesome.io/assets/$FAVER.zip
 
 # Make curl if it doesn't exist
-curl https://google.com > /dev/null 2>&1 && alias curl="curl -s" || curl() {
-	wget -q -O - $1
-}
-
+hash curl 2>/dev/null || { echo >&2 "curl not installed, building it from wget"; alias curl="wget -q -O - $1"; }
 
 # Helper functions
 uncurl() {
-	curl $1 > $2.zip
-	unzip -d $2 $2.zip
+	echo " . Downloading $2"
+	curl -s $1 > $2.zip
+	echo " . Unpacking $2"
+	unzip -q $2.zip
 	rm $2.zip
 }
 
@@ -32,21 +31,22 @@ echo "   Starting install"
 # All independent Javascript
 echo " - Starting Javascript"
 cd js
-curl $JQUERY > jquery.min.js
-curl $TETHER > tether.min.js
+curl -s $JQUERY > jquery.min.js
+curl -s $TETHER > tether.min.js
 cd ..
 echo " √ Javascript done!"
 
 # FontAwesome
 echo " - Starting FontAwesome"
 uncurl $FONTAWSOME fa-archive
+mv $FAVER fa-archive/
 mv fa-archive/fonts .
-mv fa-archive/css css/font-awesome.min.css
-rm fa-archive
+mv fa-archive/css/font-awesome.min.css css/
+rm -r fa-archive
 echo " √ FontAwesome done!"
 
-# Bootstrap
-echo " - Starting Bootstrap"
-uncurl $BOOTSTRAP bs-archive
-mv bs-archive/scss css/bootstrap
-mv bs-archive/dist/js/bootstrap.min.js js/
+# # Bootstrap
+# echo " - Starting Bootstrap"
+# uncurl $BOOTSTRAP bs-archive
+# mv bs-archive/scss css/bootstrap
+# mv bs-archive/dist/js/bootstrap.min.js js/
