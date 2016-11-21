@@ -4,15 +4,19 @@
 # DON'T RUN THIS UNLESS YOU HAVE A RELATIVELY INTIMATE
 # KNOWLEDGE OF HOW BASH WORKS.
 
-rm js/jquery.min.js
-rm js/tether.min.js
+bye(){
+	rm -r $1 &> /dev/null
+}
 
-rm fa-archive
-rm fa-archive.zip
-rm css/font-awesome.min.css
-rm -r fonts
+bye js/jquery.min.js
+bye js/tether.min.js
 
-rm bs-archive
-rm bs-archive.zip
-rm css/bootstrap
-rm js/bootstrap.min.js
+bye fa-archive
+bye fa-archive.zip
+bye css/font-awesome.min.css
+bye fonts
+
+bye bs-archive
+bye bs-archive.zip
+bye css/bootstrap
+bye js/bootstrap.min.js
