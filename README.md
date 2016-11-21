@@ -31,14 +31,54 @@ So you want to contribute to WAC? Great! We're aiming to have a full documentati
 
 ### Setup
 
-Coming soon.
+Want to help us out with the WAC website? No problem! Here's what you need:
 
-### Notes for the Media Department/Website Sub-Department
+* [Ruby](https://www.ruby-lang.org/en/), to install [Jekyll](https://jekyllrb.com)
+* [Jekyll](https://jekyllrb.com), to build and run the website
+* [Git](https://git-scm.com/), to clone this repository
+* A Browser, to view the website of course!
 
-It's been a good year, but we're going to have to go at it again. Next year's WAC is going to happen, and unlike this year, we want to be ahead of the game. A few key things:
-* Layout is almost done, and should be done by the time general conference vision is completed (**early September**)
-* We will be using **Bootstrap 4** as our CSS framework.
-* We are using [Jekyll](https://jekyllrb.com/) to generate static site pages.
-* Online Registration is **confirmed**. This would be our #1 priority after the structure/layout of the site is finished.
-* The account system this year will only concern **faculty advisers** and **independent students**.
-* A majority of Media's job in the upcoming year is creating a strong media foundation, especially artistically. The artistic theme of the website is **not finalized yet**, and will be decided in conjunction with media.
+First things first, we need to install Jekyll. We assume that you have Git and Ruby installed. If you don't, please visit the links above to install them. We also assume you're using a [Unix-based system](https://en.wikipedia.org/wiki/Unix); if you aren't, follow jekyll's alternatives instruction page.
+
+Type in your command line:
+```
+gem install jekyll
+```
+
+After Jekyll completes its setup, clone the git repository:
+```
+git clone --depth=1 https://github.com/malsf21/world.ac.git
+```
+
+Then, cd into the repository:
+```
+cd world.ac
+```
+
+Inside the repository, all you'll need to do is "serve" the site. Type the following into your command line:
+```
+jekyll serve
+```
+
+After that, you should get a response that looks something like this:
+
+```
+jekyll serve
+Configuration file: /Users/matthew.wang/github/world.ac/_config.yml
+            Source: /Users/matthew.wang/github/world.ac
+       Destination: /Users/matthew.wang/github/world.ac/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 0.605 seconds.
+ Auto-regeneration: enabled for '/Users/matthew.wang/github/world.ac'
+Configuration file: /Users/matthew.wang/github/world.ac/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+
+```
+
+Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
+
+*Note: On `dev`/`master` branches, it might be be `127.0.0.1:4000/wactest/` or `127.0.0.1:4000/wac/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
+
+And voila! Everything should work for you. If something isn't, please let me know on our [issues tracker](https://github.com/malsf21/world.ac/issues).
