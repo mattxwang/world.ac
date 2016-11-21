@@ -1,12 +1,10 @@
 ---
 layout: plenary
-title: The Global Implications of Bioinformatics
+title: "The New Age of Medicine: Bioinformatics"
 pic: bioinformatics.png
 speaker1: jwzheng
 speaker2: athorogood
-shortbio: "This plenary is about bioinformatics."
+shortbio: "In the future, your eye could be scanned when you walk into work, your genetic makeup could be the passcode that lets you into your computer, or a hair from your head could let doctors know exactly what illnesses you get. But having access to this information is controversial. Should we be able to have access to this information?"
 ---
 
-Drones are scary dawg. They're like terminator, but they life and stuff. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Dr. Jim W. Zheng
-Adrian Thorogood
+In the world today, jobs have become increasingly run by technology. This could mean that you having your eye scanned when you walk into work, or that your genetic makeup is the passcode that lets you into your computer. It could even mean that doctors will know exactly what illnesses you'll get, thanks to just a hair from your head. But having access to this information is controversial. Should we be able to have access to this information? Should we be using this data in our everyday lives, let alone the job market? Should this topic even be ethically explored? And, who else will get access to our information? There are many benefits to having this information, including being able to save lives with genetics, but the drawbacks include an intrusion of privacy and many more. It’s up to you to decide where you stand on the line.

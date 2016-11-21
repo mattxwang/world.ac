@@ -24,12 +24,6 @@ sandrade:
   primary: Head of Security
   image: scottyandrade.jpg
 
-treeve:
-  name: Tom Reeve
-  primary: Assistant Director of Security
-  bio: i am Tom Reeve
-  image: treeve.jpg
-
 kparamaanantham:
   name: Komahan Paramaanantham
   primary: Secretary Treasurer
@@ -170,17 +164,17 @@ gkung:
   bio: I am Gorden Kung
   image: avatar.jpg
 
-ttran:
-  name: Trung Tran
-  primary: Assistant Graphic Designer
-  bio: I am Trung Tran
-  image: ttran.jpg
-
-rbaird:
-  name: Rahim Baird
-  primary: Assistant Graphic Designer
-  bio: I am Rahim Baird
-  image: avatar.jpg
+# ttran:
+#   name: Trung Tran
+#   primary: Assistant Graphic Designer
+#   bio: I am Trung Tran
+#   image: ttran.jpg
+#
+# rbaird:
+#   name: Rahim Baird
+#   primary: Assistant Graphic Designer
+#   bio: I am Rahim Baird
+#   image: avatar.jpg
 
 vchindea:
   name: Vladimir Chindea
