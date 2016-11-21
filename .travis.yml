@@ -4,8 +4,10 @@ rvm:
 
 install:
   - gem install jekyll
+  - gem install sass
 script:
-  - jekyll build
+  - ./setup.sh
+  - ./build.sh
 
 branches:
   only:
