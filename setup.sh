@@ -16,7 +16,7 @@ curl https://google.com > /dev/null 2>&1 || curl() {
 uncurl() {
 	curl $1 > $2.zip
 	unzip $2.zip
-	rm $2
+	rm $2.zip
 }
 
 mkcd() {
