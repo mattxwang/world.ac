@@ -1,13 +1,12 @@
 opening:
-  title: The one about the internet
-  blurb: |
-   The Internet has radically revolutionized the entire world. Everything from how we shop to how we vote has been affected by the Internet. As a result, the Internet continues to proliferate in every facet. This exponential growth will have huge ramifications on both governments and individuals. Governments have both had an increased security due to the internet, with an increasingly pervasive method of gathering information on one's citizens, increasing security. Oppressive regimes have abused the internet in order to exert control, while advocates for terrorism have begun utilizing the internet as a powerful tool to propagate their cause.
+  title: The Democratization of Space
+  blurb: So far, the final frontier has been dominated by large government agencies and corporations. As the technology continues to advance, what role will consumers play in investigating the unknown, and how will the companies in charge be forced to adapt to space technology becoming a market good?
 
   speakers:
     speaker1:
-      name: Coming Soon
-      pic: avatar.png
-      bio: This speaker's information is coming soon!
+      name: Zachary Manchester
+      pic: zmanchester.jpg
+      bio: Zachary Manchester is a Ph.D. graduate and researcher in aerospace engineering. He is the founder of “Kicksat”, a service that aims to allow any civilian to put a small satellite into orbit on the scale of a few hundred dollars. The purpose of this is to put space exploration in the hands of anyone who is interested as opposed to being exclusively owned by scientists, engineers, and astronauts. Currently, he develops optimization-based algorithms for robust control and system identification with applications to agile flight of small wing-morphing aircrafts at Harvard University.
 
     speaker2:
       name: Coming Soon
