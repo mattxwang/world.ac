@@ -4,18 +4,19 @@
 BOOTSTRAP=https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.5.zip
 JQUERY=https://code.jquery.com/jquery-3.1.1.min.js
 TETHER=https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js
-FONTAWSOME=http://fontawesome.io/assets/font-awesome-4.7.0.zip
+FAVER=font-awesome-4.7.0 #Sorry, FA is not good at sticking to unix dev guidelines
+FONTAWSOME=http://fontawesome.io/assets/$FAVER.zip
 
 # Make curl if it doesn't exist
-curl https://google.com > /dev/null 2>&1 || curl() {
-	wget -O - $1
+curl https://google.com > /dev/null 2>&1 && alias curl="curl -s" || curl() {
+	wget -q -O - $1
 }
 
 
 # Helper functions
 uncurl() {
 	curl $1 > $2.zip
-	unzip $2.zip
+	unzip -d $2 $2.zip
 	rm $2.zip
 }
 
