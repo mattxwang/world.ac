@@ -20,3 +20,7 @@ bye bs-archive
 bye bs-archive.zip
 bye css/bootstrap
 bye js/bootstrap.min.js
+
+bye temp.zip
+bye font-awesome-4.7.0
+bye bootstrap-4.0.0-alpha.5
