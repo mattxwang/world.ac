@@ -61,3 +61,9 @@ mv bs-archive/scss css/bootstrap
 mv bs-archive/dist/js/bootstrap.min.js js/
 rm -r bs-archive
 echo " √ Bootstrap done!"
+
+# Build the resulting website
+echo " - Building site"
+sass css/bootstrap/bootstrap.scss --style compressed > css/bootstrap.min.css # Sass -> CSS
+jekyll build
+echo " √ Build complete!"
