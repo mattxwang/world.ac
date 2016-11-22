@@ -5,45 +5,24 @@ permalink : /panels/
 ---
 <div class="container">
 	<div class="card card-block">
-		<div class="row">
-			<div class="col-md-6">
-				<img class="img-fluid rounded" src="{{site.baseurl}}/img/plenaries/drone.jpg" />
-				<h1>Opening Panel</h1>
-				<h2>{{ site.data.panel.opening.title}}</h2>
-				<p>{{ site.data.panel.opening.blurb}}</p>
-				{% for item in site.data.panel.opening.speakers %}
-					<div class="row">
-						<div class="container">
-							<div class="col-md-8">
-								<h4>{{ item[1].name }}</h4>
-								<p>{{ item[1].bio }}</p>
-							</div>
-							<div class="col-md-4">
-								<img class="img-fluid" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
-							</div>
-						</div>
-					</div>
-				{% endfor %}
+		<h1 class="text-xs-center">Opening Panel: {{ site.data.panel.opening.title}}</h1>
+		<p>{{ site.data.panel.opening.blurb}}</p>
+		{% for item in site.data.panel.opening.speakers %}
+			<div class="row pb-2">
+				<div class="col-md-4">
+					<img class="img-fluid rounded-circle" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
+				</div>
+				<div class="col-md-8">
+					<h4>{{ item[1].name }}</h4>
+					<p>{{ item[1].bio }}</p>
+				</div>
 			</div>
-			<div class="col-md-6">
-				<img class="img-fluid rounded" src="{{site.baseurl}}/img/plenaries/drone.jpg" />
-				<h1>Closing Panel</h1>
-				<h2>{{ site.data.panel.closing.title}}</h2>
-				<p>{{ site.data.panel.closing.blurb}}</p>
-				{% for item in site.data.panel.closing.speakers %}
-					<div class="row">
-						<div class="container">
-							<div class="col-md-8">
-								<h4>{{ item[1].name }}</h4>
-								<p>{{ item[1].bio }}</p>
-							</div>
-							<div class="col-md-4">
-								<img class="img-fluid" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
-							</div>
-						</div>
-					</div>
-				{% endfor %}
-			</div>
-		</div>
+		{% endfor %}
+		<h1 class="text-xs-center">Closing Panel: {{ site.data.panel.closing.title}}</h1>
+		{% for item in site.data.panel.closing.speakers %}
+			<img class="img-fluid rounded-circle mx-auto d-block" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
+			<h2 class="text-xs-center">{{ item[1].name }}</h2>
+			<p>{{ item[1].bio }}</p>
+		{% endfor %}
 	</div>
 </div>

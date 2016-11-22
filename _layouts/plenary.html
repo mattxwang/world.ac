@@ -10,7 +10,7 @@
 		{% include navbar.html %}
 
 		<div class="container">
-			<center>
+			<div class="text-xs-center">
 				<h1>{{ page.title }}</h1>
 				<div class="card">
 					<img class="card-img-top img-fluid" src="{{ site.baseurl}}/img/plenaries/{{ page.pic }}" alt="Plenary picture" >
@@ -20,38 +20,27 @@
 						</p>
 					</div>
 				</div>
-			</center>
-			<div class="card-deck-wrapper">
-  			<div class="card-deck">
-					<div class="card">
-						<div class="card-block">
-							<div style="text-align:center;">
-								<img class="img-thumbnail" src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" alt="Plenary Speaker 1">
-								</br>
-								</br>
-								<h3 class="card-title">{{ speaker1.name }}</h3>
-							</div>
-							<p class="card-text">
-								{{ speaker1.bio }}
-							</p>
-						</div>
+			</div>
+			<div class="card card-block pb-3">
+				<div class="row pb-2">
+					<div class="col-sm-4">
+						<img class="img-fluid rounded-circle mx-auto d-block" src="{{site.baseurl}}/img/speakers/{{ speaker1.pic }}" alt="{{speaker1.name}}">
 					</div>
-					<div class="card">
-						<div class="card-block">
-							<div style="text-align:center;">
-								<img class="img-thumbnail" src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" alt="Plenary Speaker 2">
-								</br>
-								</br>
-								<h3 class="card-title">{{ speaker2.name }}</h3>
-							</div>
-							<p class="card-text">
-								{{ speaker2.bio }}
-							</p>
-						</div>
+					<div class="col-sm-8">
+						<h2>{{ speaker1.name }}</h2>
+						{{ speaker1.bio }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-fluid rounded-circle mx-auto d-block" src="{{site.baseurl}}/img/speakers/{{ speaker2.pic }}" alt="{{speaker2.name}}">
+					</div>
+					<div class="col-sm-8">
+						<h2>{{ speaker2.name }}</h2>
+						{{ speaker2.bio }}
 					</div>
 				</div>
 			</div>
-			</br>
 			<div class="card card-block" style="text-align:center;">
 				<p class="card-text"><a class="card-link" href="{{site.baseurl}}/plenaries"><span class="fa fa-arrow-left"></span> View the other plenaries.</a></p>
 			</div>
