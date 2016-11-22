@@ -1,8 +1,66 @@
 general:
   whatiswac:
-    question: What is WAC?
-    answer: The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference.
+    question: "What is WAC?"
+    answer: "The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference."
+
+  wheniswac:
+    question: "When is WAC?"
+    answer: "WAC spans two days: the Keynote Address, featuring a prominent member of the community, is held on the night of February 6th and open to the public; and the Conference Day, which is held on February 7th and is attended by delegates and faculty supervisors only."
 
   whocanattend:
-    question: Who can attend WAC?
-    answer: The Keynote Address is open to the Toronto public; anybody can attend. The Conference Day, in contrast, can only be attended by registered delegates and faculty advisors.
+    question: "Who can attend WAC?"
+    answer: "The Keynote Address is open to the Toronto public; anybody can attend. The Conference Day, in contrast, can only be attended by registered delegates and faculty advisors."
+
+  whodowecontactformediainforation:
+    question: "Who do we contact for media information?"
+    answer: "For any information regarding media coverage please contact the Head of the Department of Registration and Media: [Matthew Wang](mailto:matthew.wang@ucc.on.ca)."
+
+registration:
+  howcaniregistermyschool:
+    question: "How can I register my school?"
+    answer: "This year, we are using an online registration system! You can visit it [here](/reg/) to get started."
+  whenisregistrationdue:
+    question: "When is registration due?"
+    answer: "Online registration will be due around January the 16th; we'll update you as we get closer to the deadline on the exact date."
+
+  caniregisterasanindividualstudent:
+    question: "Can I register as an individual student?"
+    answer: "Students cannot register individually. We suggest students contact their principal, head of school, or itnerested teacher(s), and have them contact WAC."
+
+  caniinformwacofspecialfoodaccomodations:
+    question: "Can I inform WAC of special food accomodations?"
+    answer: "Delegates can notify WAC of their food (or otherwise) accomodations through the account system. We can guarantee that there will be vegetarian food that is available during the conference lunch. Unfortunately, we are not certain that we can accomodate every dietary concern. We suggest delegates with dietary concerns either bring a pack lunch, or go to a nearby restaurant."
+
+keynote address:
+  whathappensduringthekeynoteaddress:
+    question: "What happens during the Keynote Address?"
+    answer: "During the Keynote Address, a prominent member of the community will give an address on current affairs at Laidlaw Hall. The Keynote Address is open to the public, and will also feature a Q&A session. Coat Check will also be provided."
+
+  whendoesthekeynoteaddressstart:
+    question: "When does the Keynote Address start?"
+    answer: "We will update delegates on this closer to the conference date."
+
+  whocanattendthekeynoteaddress:
+    question: "Who can attend the Keynote Address?"
+    answer: "Anybody can attend the Keynote Address. We recommend that all delegates that attend the Conference Day also attend the Keynote Address."
+
+  whoisspeakingatthekeynoteaddress:
+    question: "Who is speaking at the Keynote Address?"
+    answer: "We will be updating this information as we release our keynote speaker."
+
+conference day:
+  whathappensduringtheconferenceday:
+    question: "What happens during the Conference Day?"
+    answer: "During the Conference Day, delegates will attend the Opening Panel. Then, they will then proceed to attend three out of the six plenaries that they have been assigned to, with a lunch break in between. Finally, delegates will attend the Closing Panel. A full schedule will be given to the delegates closer to the conference date."
+
+  isthereacheckinprocess:
+    question: "Is there a check in process?"
+    answer: "School supervisors and their students are encouraged to arrive at or before 8AM for the registration check in process. Each student will receive their personal delegate package with their nametag and plenary assignments."
+
+  whattimesdoalloftheseeventshappen:
+    question: "What times do all of these events happen?"
+    answer: "Our schedule will be updated on our website, and given out in delegate/faculty packages, as we get closer to the conference date."
+
+  willstudentsbeprovidedlunch:
+    question: "Will students be provided lunch?"
+    answer: "Lunch is provided to both student and faculty delegates free of charge on the day of the conference. A vegetarian option will be provided. Delegates are also free to bring a pack lunch or go to a restaurant to fit their dietary concerns."

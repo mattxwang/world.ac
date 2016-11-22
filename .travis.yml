@@ -5,11 +5,12 @@ rvm:
 install:
   - gem install jekyll
 script:
-  - jekyll build
+  - ./setup.sh
 
 branches:
   only:
   - master
   - /dev-(.*)/
+  - scripting
 
 sudo: false

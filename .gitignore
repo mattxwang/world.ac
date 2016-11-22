@@ -5,3 +5,12 @@ _site/
 .sass-cache/
 .jekyll-metadata
 reg/
+
+# installed items
+jquery.min.js
+tether.min.js
+font-awesome.min.css
+fonts
+bootstrap
+bootstrap.min.css
+bootstrap.min.js
