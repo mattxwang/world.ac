@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Our dependancies
+# Getting the optional bootstrap compile variable
+BOOTSTRAP=${1:-bootstrap}
+
+# Our dependencies
 JQUERY=https://code.jquery.com/jquery-3.1.1.min.js
 TETHER=https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js
 
@@ -64,6 +67,6 @@ echo " √ Bootstrap done!"
 
 # Build the resulting website
 echo " - Building site"
-sass css/bootstrap/bootstrap.scss --style compressed > css/bootstrap.min.css # Sass -> CSS
+sass css/bootstrap/$BOOTSTRAP.scss --style compressed > css/bootstrap.min.css # Sass -> CSS
 jekyll build
 echo " √ Build complete!"

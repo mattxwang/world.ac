@@ -194,10 +194,18 @@ h1, h2, h3 {
 .padding-bottom-1x{
 	padding-bottom: $spacing-unit;
 }
-
-// Flex Rows and Cards
-
+/* This is broken, unused code. Keeping for posterity.
 @supports (display:flex){
+	.container-flex{
+		display: -webkit-box;
+    display: -mox-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+		height: 100%;
+		flex-direction: column;
+	}
+	// Flex Rows and Cards
   .row-flex {
     display: -webkit-box;
     display: -mox-box;
@@ -215,14 +223,22 @@ h1, h2, h3 {
     flex:1;
     flex-direction: column;
   }
+	// Flex Paragraphs and Sticky Footer Bottoms
+	.block-main{
+		margin-bottom: auto;
+	}
+	.block-under{
+		margin-top: auto;
+	}
 }
 
 .card-full{
   height: 100%;
 }
+*/
 
 // Footer CSS
-/*
+/* Unused and broken.
 .footer {
 	position: absolute;
 	bottom: 0;
@@ -254,18 +270,6 @@ h1, h2, h3 {
 	padding-bottom:2%;
 }
 
-
-// Keynote Page
-
-.keynote-avatar-top  {
-	max-width:20%;
-	height:auto;
-}
-
-.keynote-avatar-standard {
-	max-width:100%;
-	height:auto
-}
 
 // Staff Page
 

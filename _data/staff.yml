@@ -39,68 +39,102 @@ mwang:
 dnd:
   name: David Niddam-Dent
   primary: Head of Registration and Media
-  bio: Dropped out of school now I'm dumb rich.
   image: dnd.jpg
 
 aquinn:
   name: Alexander Quinn
   primary: Head of Registration and Media
-  bio: About a week ago...
   image: alexquinn.jpg
 
 sosak:
   name: Simon Osak
   primary: Head of Registration and Media
-  bio: I need a One Dance...
   image: simonosak.jpg
+
+kkim:
+  name: Kathy Kim
+  primary: Communications Director
+  image: avatar.jpg
 
 hgoldhar:
   name: Hili Goldhar
   primary: Plenary Head
-  bio: i am  Hili Goldhar
   image: hgoldhar.jpg
+
+ecavanagh:
+  name: Eve Cavanagh
+  primary: Plenary Head
+  image: avatar.jpg
 
 apaliwal:
   name: Aryan Paliwal
   primary: Plenary Head
-  bio: i am  Aryan Paliwal
   image: apaliwal.jpg
+
+jamaranto:
+  name: Jacqueline Amaranto
+  primary: Plenary Head
+  image: avatar.jpg
 
 arothman:
   name: Adam Rothman
   primary: Plenary Head
-  bio: i am Adam Rothman
+  image: avatar.jpg
+
+kchan:
+  name: Katie Chan
+  primary: Plenary Head
   image: avatar.jpg
 
 kparamaanantham2:
   name: Kohilan Paramaanantham
   primary: Plenary Head
-  bio: Sample
+  image: avatar.jpg
+
+azakaria:
+  name: Ahed Zakaria
+  primary: Plenary Head
   image: avatar.jpg
 
 cmahony:
   name: Conrad Mahony
   primary: Plenary Head
-  bio: i am Conrad Mahony
+  image: avatar.jpg
+
+nmelchoir:
+  name: Nicole Melchoir
+  primary: Plenary Head
   image: avatar.jpg
 
 jsamek:
   name: Julian Samek
   primary: Plenary Head
-  bio: i am Julien Samek
   image: jsamek.jpg
+
+cwaldie:
+  name: Claire Waldie
+  primary: Plenary Head
+  image: avatar.jpg
 
 ebraithwaite:
   name: Emerson Braithwaite
-  primary: Morning Panel
-  bio: i am Emerson Braithwaite
+  primary: Opening Panel Head
+  image: avatar.jpg
+
+hkedwell:
+  name: Hayley Kedwell
+  primary: Opening Panel Head
   image: avatar.jpg
 
 mhoaken:
   name: Miles Hoaken
-  primary: Closing Panel
-  bio: i am Miles Hoaken
+  primary: Closing Panel Head
   image: mhoaken.jpg
+
+areeves:
+  name: Alex Phillip-Reeves
+  primary: Closing Panel Head
+  image: avatar.jpg
 
 jsarick:
   name: Jack Sarick
@@ -129,7 +163,6 @@ sguo:
   name: Simon Zirui Guo
   primary: Assistant Web Developer
   secondary: Registration Assistant
-  bio: I like making (!safe) hardware hacks
   image: avatar.jpg
   github: simonguozirui
 
@@ -137,13 +170,11 @@ mmcgovern:
   name: Michael Mcgovern
   primary: Assistant Web Developer
   secondary: Registration Assistant
-  bio: I am michael mcgovern
   image: mmcgovern.jpg
 
 aharradence:
   name: Aidan Harradence
   primary: Lead Graphic Designer
-  bio: I am Aidan Harradence
   image: aharradence.jpg
 
 alizzola:
@@ -155,59 +186,49 @@ alizzola:
 akazakov:
   name: Alexander Kazakov
   primary: Assistant Graphic Designer
-  bio: I am Alexander Kazakov
   image: avatar.jpg
 
 gkung:
   name: Gorden Kung
   primary: Assistant Graphic Designer
-  bio: I am Gorden Kung
   image: avatar.jpg
 
-# ttran:
-#   name: Trung Tran
-#   primary: Assistant Graphic Designer
-#   bio: I am Trung Tran
-#   image: ttran.jpg
-#
-# rbaird:
-#   name: Rahim Baird
-#   primary: Assistant Graphic Designer
-#   bio: I am Rahim Baird
-#   image: avatar.jpg
+ttran:
+  name: Trung Tran
+  primary: Assistant Graphic Designer
+  image: ttran.jpg
+
+rbaird:
+  name: Rahim Baird
+  primary: Assistant Graphic Designer
+  image: avatar.jpg
 
 vchindea:
   name: Vladimir Chindea
   primary: Video Crew Lead
-  bio: I like making videos
   image: vchindea.jpg
 
 ahwang:
   name: Alexander Hwang
   primary: Video Crew Member
-  bio: I like making videos
   image: avatar.jpg
 
 tkemp:
   name: Takoda Kemp
   primary: Video Crew Member
-  bio: I like making videos
   image: tkemp.jpg
 
 rwong:
   name: Robert Wong
   primary: Video Crew Member
-  bio: I like making videos
   image: avatar.jpg
 
 rdean:
   name: Rob Dean
-  primary: Registration Team Lead
-  bio: I am Robbie Dean
+  primary: Registration Team Assistant
   image: rdean.jpg
 
 bleung:
   name: Brent Leung
   primary: Registration Assistant
-  bio: I am Brent Leung
   image: bleung.jpg

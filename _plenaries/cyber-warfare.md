@@ -2,9 +2,9 @@
 layout: plenary
 title: Future of Warfare
 pic: "cyber-warfare.png"
-speaker1: csoon
-speaker2: rboisvert
-shortbio: "This plenary is about Cyber Warfare."
+speaker1: rboisvert
+speaker2: mwalma
+shortbio: "Technology has always been the main factor in the changing of warfare, however as governments and industries increasingly occupy cyber space, a new, international war front is introduced."
 ---
 
-Drones are scary dawg. They're like terminator, but they life and stuff. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Technology has always been the main factor in the changing of warfare, however as governments and industries increasingly occupy cyber space, a new, international war front is introduced.

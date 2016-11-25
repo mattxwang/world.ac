@@ -20,3 +20,9 @@ collections:
   plenaries:
     output: true
     layout: plenary
+
+# Excludes
+exclude:
+  - ".travis.yml"
+  - README.md
+  - "*.sh"
