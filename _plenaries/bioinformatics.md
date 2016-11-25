@@ -2,8 +2,8 @@
 layout: plenary
 title: "The New Age of Medicine: Bioinformatics"
 pic: bioinformatics.png
-speaker1: jwzheng
-speaker2: athorogood
+speaker1: athorogood
+speaker2: jwzheng
 shortbio: "In the future, your eye could be scanned when you walk into work, your genetic makeup could be the passcode that lets you into your computer, or a hair from your head could let doctors know exactly what illnesses you get. Should we be able to have access to this information?"
 ---
 
