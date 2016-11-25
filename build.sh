@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # A small script to "compile" all the work for the website. This is the production build.
 
 # Getting the optional bootstrap compile variable
