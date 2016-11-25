@@ -26,20 +26,21 @@ So you want to contribute to WAC? Great! We're aiming to have a full documentati
 ### Quick Pointers
 
 * Our production-ready version of the website is stored in `stable`, which is available for viewing at [world.ac](http://world.ac).
-* Our testing-but-stable version of the website is stored in `master`. It's viewable on our webserver, but for development purposes only.
+* Our testing-but-stable version of the website is stored in `master`. It's viewable on our webserver, but for development purposes only (so no sneak peeks).
 * All other branches are not officially available on the web. Instead, you'll have to build and run them yourself. Refer to our setup section for more information.
 
 ### Setup
 
-**WINDOWS IS CURRENTLY UNSUPPORTED**
+*Note: This guide assumes you're using a unix system. If you aren't (e.g. Windows), this setup method is currently unsupported, but we'll come up with one soon*.
 
 Setup is dead simple. If you can cut and paste commands, you can have it up within minutes.
 
 First thing you need is the repository. Clone it with this command:
 
 ```bash
-git clone --depth=1 https://github.com/malsf21/world.ac.git && cd world.ac
-``` 
+git clone --depth=1 https://github.com/malsf21/world.ac.git &&
+cd world.ac
+```
 
 To setup your machine to run the server, you'll need the tools of the trade. The tools we use are:
 
@@ -49,13 +50,19 @@ To setup your machine to run the server, you'll need the tools of the trade. The
 * [Git](https://git-scm.com/), to clone this repository
 * A Browser, to view the website of course!
 
-Ruby and Git come default with your computer, so you're already halfway there. To install jekyll and sass run: `sudo gem install jekyll sass`. Enter your password and wait for it to do it's thing. Congrats, you now have all our tools.
+If you're using a UCC computer, Ruby comes pre-installed. That makes installing our dependencies pretty easy! (If you don't have ruby installed, you can find instructions [on their website](https://www.ruby-lang.org/en/)). To install `jekyll` and `sass`, our two ruby dependencies, simply type:
 
-Next step is to setup the server. Just run `./setup.sh`. Boom. Done. 
+```bash
+sudo gem install jekyll sass
+```
+
+It will ask you for your password, just so it can install things properly. Once it's done, you're ready to build!
+
+Next step is to setup the server. Just run `./setup.sh`. Boom. Done.
 
 To actually see the website, run `start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
 
-**TL;DR:** copypaste this into Terminal.app: 
+**TL;DR:** copypaste this into Terminal:
 
 ```bash
 git clone --depth=1 https://github.com/malsf21/world.ac.git &&
