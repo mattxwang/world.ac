@@ -1,0 +1,24 @@
+---
+layout: default
+title: Plenaries
+permalink: /plenaries/
+---
+
+<div class="container">
+  {% for plenary in site.plenaries %}
+  {% cycle 'group1': '<div class="card-deck-wrapper">
+    <div class="card-deck">', '' %}
+      <div class="card card-block">
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="img-fluid" src="{{site.baseurl}}/img/wac_logo.svg"/>
+          </div>
+          <div class="col-sm-8">
+            <a href="{{ plenary.url | prepend: site.baseurl }}"><h4 class="card-title">{{ plenary.title }}</h4></a>
+            <p class="card-text">{{ plenary.shortbio }}</p>
+          </div>
+        </div>
+      </div>
+  {% cycle 'group2': '', '</div></div>' %}
+  {% endfor %}
+</div>

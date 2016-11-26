@@ -1,4 +1,16 @@
 .DS_Store
 world.ac
-img/bio/headshots/headshot.psd
-img/bio/speakers/speakers.psd
+*.psd
+_site/
+.sass-cache/
+.jekyll-metadata
+reg/
+
+# installed items
+jquery.min.js
+tether.min.js
+font-awesome.min.css
+fonts
+bootstrap
+bootstrap.min.css
+bootstrap.min.js

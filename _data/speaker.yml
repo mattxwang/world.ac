@@ -1,0 +1,34 @@
+csoon:
+  name: Coming Soon
+  pic: avatar.png
+  bio: This speaker's information is coming soon!
+
+jwzheng:
+  name: "Dr. Jim W. Zheng"
+  pic: avatar.png
+  bio: Dr. Zheng is a professor from the University of Texas (Houston), and the associate director of the Centre for Computational Biomedicine. He has done much research into genomics and computer ethics, and he specializes in biomedical informatics. He also developed Genome3D, the first model-view framework to integrate and visualise 3D genomes.
+athorogood:
+  name: Adrian Thorogood
+  pic: athorogood.jpg
+  bio: Adrian Thorogood is a coordinator for the Global Alliance for Genomics and Health where he works with the Regulatory and Ethics Working Group, an academic associate at the Centre of Genomics and Policy at McGill University, as a well as a member of the Ontario Bar. His work focuses largely on health care professional responsibility in genetics, the privacy of health information, and the promotion of data sharing in genomic research. In addition to his professional responsibilities, Adrian is a jurist on the research ethics board of Montreal's Jewish General Hospital.
+
+tszaky:
+  name: Tom Szaky
+  pic: tszaky.jpg
+  bio: Tom Szaky is the founder and CEO of TerraCycle, a company that creates consumer products through a process referred to as "upcycling". Since it was first founded in 2001, the company has raised over 15 million dollars for charity, and recycled over 3.5 billion units of waste. His devotion to redefining what we understand as recyclable and waste material, has led his company from humble beginnings at Princeton University to recognition globally. In 2006, he was named "#1 CEO under 30" by Inc. Magazine, and he along with TerraCycle have went on to receive over 100 social, environmental and business awards from respected organizations like the United Nations, World Economic Forum and the Environmental Protection Agency.
+jwong:
+  name: Joseph Wong
+  pic: avatar.png
+  bio: Joseph Wong is the Ralph and Roz Halbert Professor of Innovation at the Munk School of Global Affairs, Professor of Political Science, and Canada Research Chair in Health, Democracy and Development. He has written many academic articles and books about global innovation, and his current research focuses on poverty and innovation. He has also worked with the World Bank, the United Nations, and advising governments on public policy globally. Starting in 2017, he will also be the Associate Vice President and Vice Provost of International at the Munk School.
+jcunningham:
+  name: Jack Cunningham
+  pic: jcunningham.jpg
+  bio: Jack Cunningham holds a BA in English and an MA in History from the University of Calgary and a PhD in History from the University of Toronto. His dissertation dealt with Anglo-American nuclear relations in the late 1950s and early 1960s. Jack’s research and teaching interests include nuclear strategy, counterinsurgency warfare, and American, British, and Canadian foreign policy. He has been Program Coordinator of The Bill Graham Centre since 2011, and has contributed numerous book reviews to the International Journal. His current projects include a collection of conference papers comparing the Australian and Canadian experiences in Afghanistan.
+rboisvert:
+  name: Ray Boisvert
+  pic: rboisvert.jpg
+  bio: "After five years with the RCMP, primarily in drug enforcement, Ray joined the Canadian Security Intelligence Service (CSIS) in 1984 and retired as Assistant Director, Intelligence in 2012. During his tenure, Ray was involved in broad facets of security intelligence operations - from leadership of the Counter Terrorism domain, to Operational Risk Management, Data Exploitation programs, Human Source management, Foreign Collection and Special Operations."
+mwalma:
+  name: Michael Walma
+  pic: mwalma.jpg
+  bio: "Michael Walma is the Cyber Foreign Policy Coordinator at the Global Affairs Canada. His previous assignments include positions as Director of the Foreign Policy Planning Division, of the International Crime and Terrorism Division, of the Defence and Security Relations Division, and of the Canada-US Defence Relations Division at Global Affairs. He has served abroad in Romania, South Africa and at the United Nations in New York. He is Canada’s expert at the United Nations Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security."

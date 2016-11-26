@@ -1,0 +1,38 @@
+---
+layout: default
+title: Frequenty Asked Questions
+permalink: /faq/
+---
+
+<div class="container">
+  <div class="card card-block">
+    <h1 class="text-xs-center">Frequently Asked Questions</h1>
+    <h2 class="text-xs-center">Click on a question to expand the answer.</h2>
+    <p class="lead">
+      Is your question not answered? <a href="{{site.baseurl}}/contact/">Contact us</a> for more information, we're happy to help!
+    </p>
+  </div>
+  {% for category in site.data.faq %}
+    <div class="card card-block">
+      <h2 class="text-xs-center">{{ category[0] | capitalize }}</h2>
+      <div id="accordion-{{category[0]}}" role="tablist" aria-multiselectable="true">
+        {% for question in category[1] %}
+        <div class="card">
+          <div class="card-header" role="tab" id="heading-{{question[0]}}">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion-{{category[0]}}" href="#collapse-{{question[0]}}" aria-expanded="true" aria-controls="collapse-{{question[0]}}">
+                {{question[1].question}}
+              </a>
+            </h5>
+          </div>
+          <div id="collapse-{{question[0]}}" class="collapse" role="tabpanel" aria-labelledby="heading-{{question[0]}}">
+            <div class="card-block">
+              {{question[1].answer | markdownify}}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,26 @@
+---
+layout: default
+title: WAC Staff
+permalink: /staff/
+---
+<div class="container">
+  <div class="card card-block">
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+      {% for item in site.data.staff %}
+          <div class="card text-xs-center">
+            <div class="card-block">
+              <img class="img-fluid rounded-circle pb-1" src="{{site.baseurl}}/img/staff/{{item[1].image}}"/>
+              <h4 class="card-title">{{ item[1].name }}</h4>
+              <h5>{{item[1].primary}}</h5>
+              {% if item[1].secondary%}<h6>and {{item[1].secondary}}</h6>{% endif %}
+              {% if item[1].github%}<a class="black-icon" href="https://github.com/{{item[1].github}}"><span class="fa fa-2x fa-github"></span></a>{% endif %}
+            </div>
+          </div>
+          {% cycle 'group1': '', '', '', '</div></div><div class="card-deck-wrapper">
+            <div class="card-deck">' %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

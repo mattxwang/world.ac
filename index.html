@@ -1,31 +1,60 @@
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="description" content="World Affairs Conference">
-		<title>Thanks for coming!</title>
-		<link rel="icon" href="css/favicon.ico" />
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css" />
-		<script src="js/google_analytics.js"></script>
-		<style>
-			body{
-				background-image:url("img/earth.png"),url("img/stars.png");
-				background-repeat:no-repeat;
-			}
-		</style>
-	</head>
+---
+layout: default
+---
+<div class="container">
+  <div class="alert alert-info" role="alert">
+    Welcome to the World Affairs Conference's website! Information about our keynote, plenaries, and panels is currently open.
+  </div>
+</div>
+<div class="index-welcome">
+  <div class="container">
+    <h2>Welcome to the 2017</h2>
+    <h1>World Affairs Conference</h1>
+    <div class="text-xs-center">
+      This Year's Theme:
+      <h1 class="display-4">The Innovation Game</h1>
+    </div>
+    <div class="text-sm-right">
+      <h4>The Conference is in only</h4>
+      <h3><span id="countdown">loading...</span> away</h3>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row pt-1">
+    <div class="card card-block">
+      <div class="col-sm-4">
+        <img class="img-fluid" src="{{site.baseurl}}/img/wac_logo.svg"/>
+      </div>
+      <div class="col-sm-8">
+        <h4>What's WAC?</h4>
+        <p>The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2017 conference.</p>
+        <a href="{{site.baseurl}}/about/" class="card-link">Learn More About WAC</a>
+        <a href="{{site.baseurl}}/keynote/" class="card-link">Keynote</a>
+        <a href="{{site.baseurl}}/panels/" class="card-link">Panels</a>
+        <a href="{{site.baseurl}}/plenaries/" class="card-link">Plenaries</a>
+        <a href="{{site.baseurl}}/faq/" class="card-link">FAQ</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  var wacdate = "2/7/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  function getTimeRemaining(endtime){
+  	var t = Date.parse(endtime) - Date.parse(new Date());
+  	var seconds = Math.floor( (t/1000) % 60 );
+  	var minutes = Math.floor( (t/1000/60) % 60 );
+  	var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  	var days = Math.floor( t/(1000*60*60*24) );
 
-	<body>
-    <div class="container" style="text-align:center; color:#111">
-			<div class="well well-lg">
-		    <h1>Thanks for coming to WAC 2016!</h1>
-				<h6>So long, and thanks for all the fish!</h6>
-		    <h2>We're remaking the site to be awesome next year.</h2>
-		    <h4>You can <a href="2016" style="font-weight:bold;">visit our old site here</a> in the meantime.</h4>
-		    <h3>Stay tuned for more announcements!</h3>
-				<h5>Thanks, <a href="2016/about_us.php">the WAC Team!</a></h5>
-	    </div>
-		</div>
-  </body>
-</html>
+  	if (t > 0){
+  		return days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds";
+  	}
+  	else {
+  		return "Oops!";
+  	}
+  }
+  window.setInterval(function(){
+    $("#countdown").html(getTimeRemaining(wacdate));
+  }, 1000);
+</script>
