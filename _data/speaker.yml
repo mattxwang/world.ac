@@ -32,3 +32,7 @@ mwalma:
   name: Michael Walma
   pic: mwalma.jpg
   bio: "Michael Walma is the Cyber Foreign Policy Coordinator at the Global Affairs Canada. His previous assignments include positions as Director of the Foreign Policy Planning Division, of the International Crime and Terrorism Division, of the Defence and Security Relations Division, and of the Canada-US Defence Relations Division at Global Affairs. He has served abroad in Romania, South Africa and at the United Nations in New York. He is Canada’s expert at the United Nations Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security."
+mzeiler:
+  name: Matthew Zeiler
+  pic: mzeiler.jpg
+  bio: "Matthew Zeiler is an expert well versed in the artificial intelligence field. In 2013 he founded Clarifai (a startup with over 40 million dollars in funding), shortly after completing his PhD in machine learning at NYU. Before that he gained invaluable experience working alongside renowned machine learning pioneers Geoff Hinton, Rob Fergus and Jeff Dean."
