@@ -3,7 +3,7 @@ layout: plenary
 title: Artificial Intelligence and the New World
 pic: ai.png
 speaker1: mzeiler
-speaker2: csoon
+speaker2: ijurisica
 shortbio: "Artificial Intelligence has been called the defining revolution of our generation, but with every breakthrough there emerges concerns that must be addressed and analyzed through every lens."
 ---
 
