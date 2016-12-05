@@ -3,7 +3,7 @@ layout: plenary
 title: Roadmap to a Sustainable Future
 pic: sustainability.png
 speaker1: tszaky
-speaker2: csoon
+speaker2: rkarkara
 shortbio: "This plenary explores sustainable development and practically innovative solutions that have been put forth to help aid sustainable development."
 ---
 
