@@ -21,7 +21,13 @@ registration:
     answer: "This year, we are using an online registration system! You can visit it [here](/reg/) to get started."
   whenisregistrationdue:
     question: "When is registration due?"
-    answer: "Online registration will be due around January the 16th; we'll update you as we get closer to the deadline on the exact date."
+    answer: "Online registration will close by January 31st, 23:59. We cannot handle late registration. We suggest you plan to register at least a week in advance of the deadline, to account for any errors or last-minute accomodations."
+  howmuchdoesregcost:
+    question: "How much does registration cost?"
+    answer: "Registration costs $50 per student. If price is an issue, please let us know: we can arrange special accomodations."
+  howtopay:
+    question: "How is registration paid for?"
+    answer: "Please send a cheque for the total amount of students times $50 CAD payable to Upper Canada College. Our address is 200 Lonsdale Rd, Toronto, ON M4V 1W6. We will send an invoice to your registered email once we receive payment. If there are special accomodations, we will notify you in advance."
 
   caniregisterasanindividualstudent:
     question: "Can I register as an individual student?"
@@ -46,7 +52,7 @@ keynote address:
 
   whoisspeakingatthekeynoteaddress:
     question: "Who is speaking at the Keynote Address?"
-    answer: "We will be updating this information as we release our keynote speaker."
+    answer: "Dr. Aubrey de Grey will be our Keynote Speaker: his talk will discuss radical life extension, with both medical and political implications."
 
 conference day:
   whathappensduringtheconferenceday:
