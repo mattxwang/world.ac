@@ -31,7 +31,7 @@ registration:
 
   caniregisterasanindividualstudent:
     question: "Can I register as an individual student?"
-    answer: "Students cannot register individually. We suggest students contact their principal, head of school, or itnerested teacher(s), and have them contact WAC."
+    answer: "We suggest that students attempt to register through their school, as that makes payment, supervision, and liability simply. In addition, if there are barriers preventing students from attending, such as money or administration issues, WAC is willing to help however we can. Ultimately, if none of this is successful, we ask delegates to contact us for more information: we can help independents on a case-by-case basis."
 
   caniinformwacofspecialfoodaccomodations:
     question: "Can I inform WAC of special food accomodations?"
