@@ -8,23 +8,10 @@ opening:
       pic: zmanchester.jpg
       bio: Zachary Manchester is a Ph.D. graduate and researcher in aerospace engineering. He is the founder of “Kicksat”, a service that aims to allow any civilian to put a small satellite into orbit on the scale of a few hundred dollars. The purpose of this is to put space exploration in the hands of anyone who is interested as opposed to being exclusively owned by scientists, engineers, and astronauts. Currently, he develops optimization-based algorithms for robust control and system identification with applications to agile flight of small wing-morphing aircrafts at Harvard University.
 
-    speaker2:
-      name: Coming Soon
-      pic: avatar.png
-      bio: This speaker's information is coming soon!
-
-    speaker3:
-      name: Coming Soon
-      pic: avatar.png
-      bio: This speaker's information is coming soon!
-
 
 closing:
   title: The Media of Tomorrow
-  blurb: Why are media sources such as Vice and Buzzfeed taking over our newsfeeds? What does that say about our generation and the future of media? What is next for these new forms of media? Closing panel will address the future of the media and how we will consume news tomorrow, next year, and next decade.
-
-  href: /img/snowden.png
-
+  blurb: Why are media sources such as Vice and Buzzfeed taking over our newsfeeds? What does that say about our generation and the future of media? What is next for these new forms of media? The closing speaker will address the future of the media and how we will consume news tomorrow, next year, and next decade.
 
   speakers:
     speaker1:

@@ -1,11 +1,11 @@
 ---
 layout : default
-title : "Panels"
-permalink : /panels/
+title : "Addresses"
+permalink : /addresses/
 ---
 <div class="container">
 	<div class="card card-block">
-		<h1 class="text-xs-center">Opening Panel: {{ site.data.panel.opening.title}}</h1>
+		<h1 class="text-xs-center">Opening Address: {{ site.data.panel.opening.title}}</h1>
 		<p>{{ site.data.panel.opening.blurb}}</p>
 		{% for item in site.data.panel.opening.speakers %}
 			<div class="row pb-2">
@@ -13,16 +13,23 @@ permalink : /panels/
 					<img class="img-fluid rounded-circle" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
 				</div>
 				<div class="col-md-8">
-					<h4>{{ item[1].name }}</h4>
+					<h2>{{ item[1].name }}</h2>
 					<p>{{ item[1].bio }}</p>
 				</div>
 			</div>
 		{% endfor %}
-		<h1 class="text-xs-center">Closing Panel: {{ site.data.panel.closing.title}}</h1>
+		<h1 class="text-xs-center">Closing Address: {{ site.data.panel.closing.title}}</h1>
+		<p>{{ site.data.panel.closing.blurb}}</p>
 		{% for item in site.data.panel.closing.speakers %}
-			<img class="img-fluid rounded-circle mx-auto d-block" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
-			<h2 class="text-xs-center">{{ item[1].name }}</h2>
-			<p>{{ item[1].bio }}</p>
+			<div class="row pb-2">
+				<div class="col-md-4">
+					<img class="img-fluid rounded-circle mx-auto d-block" src="{{site.baseurl}}/img/speakers/{{item[1].pic}}" alt="{{item[1].name}}">
+				</div>
+				<div class="col-md-8">
+					<h2>{{ item[1].name }}</h2>
+					<p>{{ item[1].bio }}</p>
+				</div>
+			</div>
 		{% endfor %}
 	</div>
 </div>
