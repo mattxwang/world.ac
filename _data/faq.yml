@@ -18,7 +18,7 @@ general:
 registration:
   howcaniregistermyschool:
     question: "How can I register my school?"
-    answer: "This year, we are using an online registration system! You can visit it [here](/reg/) to get started."
+    answer: "This year, we are using an online registration system! Visit the link in the navbar to get started."
   whenisregistrationdue:
     question: "When is registration due?"
     answer: "Online registration will close by January 31st, 23:59. We cannot handle late registration. We suggest you plan to register at least a week in advance of the deadline, to account for any errors or last-minute accomodations."

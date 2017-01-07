@@ -5,6 +5,7 @@ rvm:
 
 script:
   - ./setup.sh
+  - htmlproofer ./_site
 
 branches:
   only:
