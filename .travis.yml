@@ -5,6 +5,7 @@ rvm:
 
 script:
   - ./setup.sh
+  - rake
 
 branches:
   only:
