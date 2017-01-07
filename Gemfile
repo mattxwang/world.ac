@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 gem 'sass'
 gem 'jekyll'
-gem 'rake'
-gem 'html-proofer'
+
+group :test do
+  gem 'rake'
+  gem 'html-proofer'
+end
