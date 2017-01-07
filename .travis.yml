@@ -5,7 +5,7 @@ rvm:
 
 script:
   - ./setup.sh
-  - rake
+  - bundle exec rake test
 
 branches:
   only:
