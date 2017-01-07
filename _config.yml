@@ -17,7 +17,8 @@ twitter: https://twitter.com/WorldAffairsCon
 
 # Build Settings
 markdown: kramdown
-exclude: [vendor]
+exclude:
+- vendor/bundle
 
 # Rendered Collections
 collections:
