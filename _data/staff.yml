@@ -11,23 +11,7 @@ kpollock:
 mjagdeo:
   name: Matthew Jagdeo
   primary: Head of Plenaries
-  bio: Watch me whip...
   image: mattjagdeo.jpg
-
-pnicoletti:
-  name: Phillip Nicoletti
-  primary: Head of Operations
-  image: philnicoletti.jpg
-
-sandrade:
-  name: Scotty Andrade
-  primary: Head of Security
-  image: scottyandrade.jpg
-
-kparamaanantham:
-  name: Komahan Paramaanantham
-  primary: Secretary Treasurer
-  image: avatar.jpg
 
 mwang:
   name: Matthew Wang
@@ -36,6 +20,32 @@ mwang:
   bio: How do Web Developers mark their work? They Graphic De-sign it.
   image: mattwang.png
   github: malsf21
+
+akhemani:
+  name: Anika Khemani
+  primary: Head of Plenaries
+  image: avatar.jpg
+
+pnicoletti:
+  name: Philip Nicoletti
+  primary: Head of Operations
+  image: philnicoletti.jpg
+
+sandrade:
+  name: Scotty Andrade
+  primary: Head of Security
+  image: scottyandrade.jpg
+
+kliu:
+  name: Kathy Liu
+  primary: Head of Security
+  image: avatar.jpg
+
+kparamaanantham:
+  name: Komahan Paramaanantham
+  primary: Secretary Treasurer
+  image: avatar.jpg
+
 dnd:
   name: David Niddam-Dent
   primary: Head of Registration and Media
@@ -56,6 +66,11 @@ kkim:
   primary: Communications Director
   image: avatar.jpg
 
+elozhkin:
+  name: Emma Lozhkin
+  primary: Communications Director
+  image: avatar.jpg
+
 hgoldhar:
   name: Hili Goldhar
   primary: Plenary Head
@@ -64,17 +79,17 @@ hgoldhar:
 ecavanagh:
   name: Eve Cavanagh
   primary: Plenary Head
-  image: avatar.jpg
+  image: ecavanagh.jpg
 
 apaliwal:
   name: Aryan Paliwal
   primary: Plenary Head
   image: apaliwal.jpg
 
-jamaranto:
-  name: Jacqueline Amaranto
+jamoranto:
+  name: Jacqueline Amoranto
   primary: Plenary Head
-  image: avatar.jpg
+  image: jamoranto.jpg
 
 arothman:
   name: Adam Rothman
@@ -104,7 +119,7 @@ cmahony:
 nmelchoir:
   name: Nicole Melchoir
   primary: Plenary Head
-  image: avatar.jpg
+  image: nmelchoir.jpg
 
 jsamek:
   name: Julian Samek
@@ -114,7 +129,7 @@ jsamek:
 cwaldie:
   name: Claire Waldie
   primary: Plenary Head
-  image: avatar.jpg
+  image: cwaldie.jpg
 
 ebraithwaite:
   name: Emerson Braithwaite
@@ -232,3 +247,8 @@ bleung:
   name: Brent Leung
   primary: Registration Assistant
   image: bleung.jpg
+
+rmonga:
+  name: Rohan Monga
+  primary: Registration Assistant
+  image: avatar.jpg

@@ -1,11 +1,11 @@
 # world.ac Jekyll Config File.
 # Careful messing with this if you don't know what it means! Find out more at jekyllrb.com
-# Last Major Release: 2.0.0-alpha.3
+# Last Major Release: 2.0.0
 
 # General Site Build Settings
 title: World Affairs Conference
 description: The WAC website!
-baseurl: "/wactest"
+baseurl: ""
 url: "world.ac"
 github: "https://github.com/malsf21/world.ac"
 

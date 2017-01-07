@@ -4,7 +4,7 @@
 
 /*
 WAC Website Stylesheet
-Version: 2.0.0-alpha.3 (Last Major Release Edited)
+Version: 2.0.0 (Last Major Release Edited)
 Written by @malsf21, @jacksarick, @obrien66
 */
 
@@ -52,6 +52,7 @@ Nexa Bold Italic
 Nexa Light
 Nexa Light Italic
 */
+/*
 @font-face {
 	font-family: 'Nexa Light';
 	src: url('webfonts/3018A5_A_0.eot');
@@ -63,18 +64,22 @@ Nexa Light Italic
 	src: url('webfonts/3018A5_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_9_0.woff2') format('woff2'),url('webfonts/3018A5_9_0.woff') format('woff'),url('webfonts/3018A5_9_0.ttf') format('truetype');
 	font-style:italic;
 }
+*/
 
 /* | NEXA THIN | */
+/*
 @font-face {
 	font-family: 'Nexa Thin';
 	src: url('webfonts/3018A5_0_0.eot');
 	src: url('webfonts/3018A5_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_0_0.woff2') format('woff2'),url('webfonts/3018A5_0_0.woff') format('woff'),url('webfonts/3018A5_0_0.ttf') format('truetype');
 }
+*/
 
 /* | NEXA BLACK |
 Nexa Black
 Nexa Black Italic
 */
+/*
 @font-face {
 	font-family: 'Nexa Black';
 	src: url('webfonts/3018A5_2_0.eot');
@@ -86,11 +91,13 @@ Nexa Black Italic
 	src: url('webfonts/3018A5_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_1_0.woff2') format('woff2'),url('webfonts/3018A5_1_0.woff') format('woff'),url('webfonts/3018A5_1_0.ttf') format('truetype');
 	font-style:italic;
 }
+*/
 
 /* | NEXA BOOK |
 Nexa Book
 Nexa Book Italic
 */
+/*
 @font-face {
 	font-family: 'Nexa Book';
 	src: url('webfonts/3018A5_6_0.eot');
@@ -102,6 +109,7 @@ Nexa Book Italic
 	src: url('webfonts/3018A5_5_0.eot');
 	src: url('webfonts/3018A5_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_5_0.woff2') format('woff2'),url('webfonts/3018A5_5_0.woff') format('woff'),url('webfonts/3018A5_5_0.ttf') format('truetype');
 }
+*/
 
 
 /* | NEXA HEAVY |
@@ -124,6 +132,8 @@ Nexa Heavy Italic
 NexaXBold
 NexaXBoldItalic
 */
+
+/*
 @font-face {
 	font-family: 'Nexa XBold';
 	src: url('webfonts/3018A5_F_0.eot');
@@ -135,7 +145,7 @@ NexaXBoldItalic
 	src: url('webfonts/3018A5_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3018A5_E_0.woff2') format('woff2'),url('webfonts/3018A5_E_0.woff') format('woff'),url('webfonts/3018A5_E_0.ttf') format('truetype');
 	font-style:italic;
 }
-
+*/
 
 /* |FREE LICENSED FONTS|
 
@@ -180,73 +190,6 @@ h1, h2, h3 {
 	font-family:Nexa Heavy;
 }
 
-// Some Basic Utility Classes
-
-.padding-1x{
-	padding-top: $spacing-unit;
-	padding-bottom: $spacing-unit;
-}
-
-.padding-top-1x{
-	padding-top: $spacing-unit;
-}
-
-.padding-bottom-1x{
-	padding-bottom: $spacing-unit;
-}
-/* This is broken, unused code. Keeping for posterity.
-@supports (display:flex){
-	.container-flex{
-		display: -webkit-box;
-    display: -mox-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-		height: 100%;
-		flex-direction: column;
-	}
-	// Flex Rows and Cards
-  .row-flex {
-    display: -webkit-box;
-    display: -mox-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .row-flex > [class*='col-'] {
-    display: flex;
-    -webkit-box-flex:1;
-    -moz-box-flex:1;
-    -webkit-flex:1;
-    -ms-flex:1;
-    flex:1;
-    flex-direction: column;
-  }
-	// Flex Paragraphs and Sticky Footer Bottoms
-	.block-main{
-		margin-bottom: auto;
-	}
-	.block-under{
-		margin-top: auto;
-	}
-}
-
-.card-full{
-  height: 100%;
-}
-*/
-
-// Footer CSS
-/* Unused and broken.
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	line-height: 60px;
-}
-*/
 // Navbar CSS
 
 .mobile-nav{
@@ -268,6 +211,19 @@ h1, h2, h3 {
 	background-color:rgba(0,0,0,0.4);
 	padding-top:2%;
 	padding-bottom:2%;
+}
+
+// Plenary Classes
+.plenary-img{
+	max-width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width:768px) {
+  .plenary-img {
+    max-width: 100%;
+  }
 }
 
 

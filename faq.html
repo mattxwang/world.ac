@@ -8,12 +8,12 @@ permalink: /faq/
   <div class="card card-block">
     <h1 class="text-xs-center">Frequently Asked Questions</h1>
     <h2 class="text-xs-center">Click on a question to expand the answer.</h2>
-    <p class="lead">
+    <p class="lead text-xs-center">
       Is your question not answered? <a href="{{site.baseurl}}/contact/">Contact us</a> for more information, we're happy to help!
     </p>
   </div>
   {% for category in site.data.faq %}
-    <div class="card card-block">
+    <div class="card card-block mt-2">
       <h2 class="text-xs-center">{{ category[0] | capitalize }}</h2>
       <div id="accordion-{{category[0]}}" role="tablist" aria-multiselectable="true">
         {% for question in category[1] %}

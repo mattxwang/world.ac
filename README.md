@@ -26,7 +26,6 @@ So you want to contribute to WAC? Great! We're aiming to have a full documentati
 ### Quick Pointers
 
 * Our production-ready version of the website is stored in `stable`, which is available for viewing at [world.ac](http://world.ac).
-* Our testing-but-stable version of the website is stored in `master`. It's viewable on our webserver, but for development purposes only (so no sneak peeks).
 * All other branches are not officially available on the web. Instead, you'll have to build and run them yourself. Refer to our setup section for more information.
 
 ### Setup

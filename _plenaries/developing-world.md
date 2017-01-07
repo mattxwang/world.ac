@@ -3,7 +3,7 @@ layout: plenary
 title: Technology in the Developing World
 pic: developing-world.png
 speaker1: jwong
-speaker2: csoon
+speaker2: dmann
 shortbio: "This plenary will look at how technology can help developing countries and how it can hinder more developed nations."
 ---
 

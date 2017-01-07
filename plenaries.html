@@ -6,12 +6,12 @@ permalink: /plenaries/
 
 <div class="container">
   {% for plenary in site.plenaries %}
-  {% cycle 'group1': '<div class="card-deck-wrapper">
-    <div class="card-deck">', '' %}
+  {% cycle 'group1': '
+    <div class="card-deck mt-2">', '' %}
       <div class="card card-block">
         <div class="row">
           <div class="col-sm-4">
-            <img class="img-fluid" src="{{site.baseurl}}/img/wac_logo.svg"/>
+            <img class="img-fluid" src="{{site.baseurl}}/img/plen/{{plenary.pic}}"/>
           </div>
           <div class="col-sm-8">
             <a href="{{ plenary.url | prepend: site.baseurl }}"><h4 class="card-title">{{ plenary.title }}</h4></a>
@@ -19,6 +19,6 @@ permalink: /plenaries/
           </div>
         </div>
       </div>
-  {% cycle 'group2': '', '</div></div>' %}
+  {% cycle 'group2': '', '</div>' %}
   {% endfor %}
 </div>
