@@ -51,7 +51,8 @@ To setup your machine to run the server, you'll need the tools of the trade. The
 Bundler installs these Ruby Dependencies:
 * [Jekyll](https://jekyllrb.com), to build and run the website
 * [Sass](http://sass-lang.com/), to write CSS better
-* [HTML Proofer](https://github.com/gjtorikian/html-proofer), to help us check our code
+* [Rake](https://github.com/ruby/rake), to help us check our code
+* [HTML Proofer](https://github.com/gjtorikian/html-proofer), to help us check our HTML
 
 If you're using a UCC computer, Ruby comes pre-installed. That makes installing our dependencies pretty easy! (If you don't have ruby installed, you can find instructions [on their website](https://www.ruby-lang.org/en/)).
 

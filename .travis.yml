@@ -5,7 +5,7 @@ rvm:
 
 script:
   - ./setup.sh
-  - htmlproofer ./_site
+  - rake test
 
 branches:
   only:
