@@ -11,8 +11,7 @@ BS_VER=4.0.0-alpha.6
 BOOTSTRAP=https://codeload.github.com/twbs/bootstrap/zip/v$BS_VER
 
 # Check to see if the user has all the tools
-hash jekyll 2>/dev/null || { echo >&2 "Jekyll not installed please install with \`sudo gem install jekyll\`"; }
-hash sass 2>/dev/null || { echo >&2 "Sass not installed please install with \`sudo gem install sass\`"; }
+hash bundle 2>/dev/null || { echo >&2 "Bundler not installed please install with \` gem install bundler\`"; }
 
 # Make curl if it doesn't exist
 hash curl 2>/dev/null || { echo >&2 "curl not installed, building it from wget"; alias curl="wget -q -O - $1"; }
@@ -35,6 +34,11 @@ mkcd() {
 # Actual installation
 cd ${0%/*} # Go to this directory
 echo "   Starting install"
+
+# RubyGems
+echo " - Starting RubyGems"
+bundle install
+echo " √ Javascript done!"
 
 # All independent Javascript
 echo " - Starting Javascript"

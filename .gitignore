@@ -5,6 +5,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 reg/
+Gemfile.lock
 
 # installed items
 jquery.min.js
