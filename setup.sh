@@ -7,7 +7,7 @@ TETHER=https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.mi
 FA_VER=font-awesome-4.7.0
 FONTAWSOME=http://fontawesome.io/assets/$FA_VER.zip
 
-BS_VER=4.0.0-alpha.5
+BS_VER=4.0.0-alpha.6
 BOOTSTRAP=https://codeload.github.com/twbs/bootstrap/zip/v$BS_VER
 
 # Check to see if the user has all the tools

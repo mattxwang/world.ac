@@ -13,7 +13,7 @@ permalink: /faq/
     </p>
   </div>
   {% for category in site.data.faq %}
-    <div class="card card-block">
+    <div class="card card-block mt-2">
       <h2 class="text-xs-center">{{ category[0] | capitalize }}</h2>
       <div id="accordion-{{category[0]}}" role="tablist" aria-multiselectable="true">
         {% for question in category[1] %}

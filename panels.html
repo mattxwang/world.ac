@@ -5,7 +5,7 @@ permalink : /addresses/
 ---
 <div class="container">
 	<div class="card card-block">
-		<h1 class="text-xs-center">Opening Address: {{ site.data.panel.opening.title}}</h1>
+		<h1 class="text-center">Opening Address: {{ site.data.panel.opening.title}}</h1>
 		<p>{{ site.data.panel.opening.blurb}}</p>
 		{% for item in site.data.panel.opening.speakers %}
 			<div class="row pb-2">
@@ -18,7 +18,7 @@ permalink : /addresses/
 				</div>
 			</div>
 		{% endfor %}
-		<h1 class="text-xs-center">Closing Address: {{ site.data.panel.closing.title}}</h1>
+		<h1 class="text-center">Closing Address: {{ site.data.panel.closing.title}}</h1>
 		<p>{{ site.data.panel.closing.blurb}}</p>
 		{% for item in site.data.panel.closing.speakers %}
 			<div class="row pb-2">
