@@ -17,8 +17,6 @@ twitter: https://twitter.com/WorldAffairsCon
 
 # Build Settings
 markdown: kramdown
-exclude:
-- vendor/bundle
 
 # Rendered Collections
 collections:
@@ -28,6 +26,10 @@ collections:
 
 # Excludes
 exclude:
+  - vendor/bundle
   - ".travis.yml"
   - README.md
   - "*.sh"
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
