@@ -1,7 +1,7 @@
 kcheema:
   name: Karman Cheema
   primary: Conference Chair
-  image: avatar.jpg
+  image: kcheema.jpg
 
 kpollock:
   name: Katya Pollock
@@ -69,7 +69,7 @@ kkim:
 elozhkin:
   name: Emma Lozhkin
   primary: Communications Director
-  image: avatar.jpg
+  image: elozhkin.jpg
 
 hgoldhar:
   name: Hili Goldhar
@@ -99,7 +99,7 @@ arothman:
 kchan:
   name: Katie Chan
   primary: Plenary Head
-  image: avatar.jpg
+  image: kchan.jpg
 
 kparamaanantham2:
   name: Kohilan Paramaanantham
@@ -109,12 +109,12 @@ kparamaanantham2:
 azakaria:
   name: Ahed Zakaria
   primary: Plenary Head
-  image: avatar.jpg
+  image: azakaria.jpg
 
 cmahony:
   name: Conrad Mahony
   primary: Plenary Head
-  image: avatar.jpg
+  image: cmahony.jpg
 
 nmelchoir:
   name: Nicole Melchoir
@@ -134,7 +134,7 @@ cwaldie:
 ebraithwaite:
   name: Emerson Braithwaite
   primary: Opening Panel Head
-  image: avatar.jpg
+  image: ebraithwaite.jpg
 
 hkedwell:
   name: Hayley Kedwell
@@ -149,7 +149,7 @@ mhoaken:
 areeves:
   name: Alex Phillip-Reeves
   primary: Closing Panel Head
-  image: avatar.jpg
+  image: areeves.jpg
 
 jsarick:
   name: Jack Sarick
@@ -178,7 +178,7 @@ sguo:
   name: Simon Zirui Guo
   primary: Assistant Web Developer
   secondary: Registration Assistant
-  image: avatar.jpg
+  image: sguo.jpg
   github: simonguozirui
 
 mmcgovern:
@@ -201,12 +201,12 @@ alizzola:
 akazakov:
   name: Alexander Kazakov
   primary: Assistant Graphic Designer
-  image: avatar.jpg
+  image: akazakov.jpg
 
 gkung:
   name: Gorden Kung
   primary: Assistant Graphic Designer
-  image: avatar.jpg
+  image: gkung.jpg
 
 ttran:
   name: Trung Tran
@@ -226,7 +226,7 @@ vchindea:
 ahwang:
   name: Alexander Hwang
   primary: Video Crew Member
-  image: avatar.jpg
+  image: ahwang.png
 
 tkemp:
   name: Takoda Kemp
@@ -236,7 +236,7 @@ tkemp:
 rwong:
   name: Robert Wong
   primary: Video Crew Member
-  image: avatar.jpg
+  image: rwong.jpg
 
 rdean:
   name: Rob Dean
@@ -251,4 +251,4 @@ bleung:
 rmonga:
   name: Rohan Monga
   primary: Registration Assistant
-  image: avatar.jpg
+  image: rmonga.jpg
