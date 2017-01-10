@@ -252,3 +252,23 @@ rmonga:
   name: Rohan Monga
   primary: Registration Assistant
   image: rmonga.jpg
+
+shooey:
+  name: Shaan Hooey
+  primary: Assistant Web Designer
+  image: avatar.jpg
+
+achan:
+  name: Ambrose Chan
+  primary: Package Designer
+  image: avatar.jpg
+
+ttam:
+  name: Tyler Tam
+  primary: Package Designer
+  image: avatar.jpg
+
+clau:
+  name: Carson Lau
+  primary: Package Designer
+  image: avatar.jpg
