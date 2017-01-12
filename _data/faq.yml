@@ -28,6 +28,9 @@ registration:
   howtopay:
     question: "How is registration paid for?"
     answer: "Please send a cheque for the total amount of students times $50 CAD payable to Upper Canada College. Our address is 200 Lonsdale Rd, Toronto, ON M4V 1W6. We will send an invoice to your registered email once we receive payment. If there are special accomodations, we will notify you in advance."
+  whenisdue:
+    question: "When are registration fees due?"
+    answer: "The WAC team recommends that advisors send their registration in by January 31st, to ensure that it arrives on a timely matter; the hard deadline for registration fees is the day of the conference (February 7th), and we will not let delegates inside the conference if fees are not paid by then."
 
   caniregisterasanindividualstudent:
     question: "Can I register as an individual student?"
