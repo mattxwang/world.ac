@@ -63,12 +63,12 @@ sosak:
 
 kkim:
   name: Kathy Kim
-  primary: Communications Director
+  primary: Head of Registration and Media
   image: avatar.jpg
 
 elozhkin:
   name: Emma Lozhkin
-  primary: Communications Director
+  primary: Head of Registration and Media
   image: elozhkin.jpg
 
 hgoldhar:
@@ -151,112 +151,80 @@ areeves:
   primary: Closing Panel Head
   image: areeves.jpg
 
-jsarick:
-  name: Jack Sarick
-  primary: Website Developer
-  secondary: A/V Consultant
-  bio: Miseducated like Lauryn Hill.
-  image: jacksarick.jpg
-  github: jacksarick
-
 jmace:
   name: John Mace
-  primary: Head of Audio/Visual Technology
-  secondary: Assistant Web Developer
+  primary: Head of Audio/Visual Team
+  secondary: Web Developer
   bio: There are some who call me John Mace. That is my name.
   image: johnmace.png
   github: j0hnmace
 
+clau:
+  name: Carson Lau
+  primary: Audio/Visual Team
+  image: avatar.jpg
+
+ssobie:
+  name: Sloan Sobie
+  primary: Audio/Visual Team
+  image: avatar.jpg
+
 nobrien:
   name: Nicholas O'Brien
-  primary: Assistant Web Developer
+  primary: Web Developer
+  secondary: Audio/Visual Team
   bio: I heard I got to work with cookies.
   image: nickobrien.jpg
   github: obrien66
 
 sguo:
   name: Simon Zirui Guo
-  primary: Assistant Web Developer
-  secondary: Registration Assistant
+  primary: Web Developer
+  secondary: Registration Team
   image: sguo.jpg
   github: simonguozirui
 
 mmcgovern:
   name: Michael Mcgovern
-  primary: Assistant Web Developer
-  secondary: Registration Assistant
+  primary: Web Developer
+  secondary: Registration Team
   image: mmcgovern.jpg
+
+shooey:
+  name: Shaan Hooey
+  primary: Web Developer
+  image: shooey.png
 
 aharradence:
   name: Aidan Harradence
   primary: Lead Graphic Designer
   image: aharradence.jpg
 
+gkung:
+  name: Gorden Kung
+  primary: Lead Package Designer
+  image: gkung.jpg
+
 alizzola:
   name: Aidan Lizzola
-  primary: Assistant Graphic Designer
+  primary: Graphic Designer
   bio: I am Aidan Lizzola
   image: alizzola.jpg
 
 akazakov:
   name: Alexander Kazakov
-  primary: Assistant Graphic Designer
+  primary: Graphic Designer
   image: akazakov.jpg
 
-gkung:
-  name: Gorden Kung
-  primary: Assistant Graphic Designer
-  image: gkung.jpg
-
-ttran:
-  name: Trung Tran
-  primary: Assistant Graphic Designer
-  image: ttran.jpg
-
-rbaird:
-  name: Rahim Baird
-  primary: Assistant Graphic Designer
-  image: avatar.jpg
-
-vchindea:
-  name: Vladimir Chindea
-  primary: Video Crew Lead
-  image: vchindea.jpg
-
-ahwang:
-  name: Alexander Hwang
-  primary: Video Crew Member
-  image: ahwang.png
-
-tkemp:
-  name: Takoda Kemp
-  primary: Video Crew Member
-  image: tkemp.jpg
-
-rwong:
-  name: Robert Wong
-  primary: Video Crew Member
-  image: rwong.jpg
-
-rdean:
-  name: Rob Dean
-  primary: Registration Team Assistant
-  image: rdean.jpg
-
-bleung:
-  name: Brent Leung
-  primary: Registration Assistant
-  image: bleung.jpg
-
-rmonga:
-  name: Rohan Monga
-  primary: Registration Assistant
-  image: rmonga.jpg
-
-shooey:
-  name: Shaan Hooey
-  primary: Assistant Web Designer
-  image: shooey.png
+# ttran:
+#   name: Trung Tran
+#   primary: Graphic Designer
+#   image: ttran.jpg
+#
+# rbaird:
+#   name: Rahim Baird
+#   primary: Graphic Designer
+#   image: avatar.jpg
 
 achan:
   name: Ambrose Chan
@@ -271,4 +239,49 @@ ttam:
 clau:
   name: Carson Lau
   primary: Package Designer
+  image: avatar.jpg
+
+vchindea:
+  name: Vladimir Chindea
+  primary: Video Crew Lead
+  image: vchindea.jpg
+
+ahwang:
+  name: Alexander Hwang
+  primary: Video Crew Lead
+  image: ahwang.png
+
+tkemp:
+  name: Takoda Kemp
+  primary: Video Crew
+  image: tkemp.jpg
+
+rwong:
+  name: Robert Wong
+  primary: Video Crew
+  image: rwong.jpg
+
+rdean:
+  name: Rob Dean
+  primary: Registration Team
+  image: rdean.jpg
+
+bleung:
+  name: Brent Leung
+  primary: Registration Team
+  image: bleung.jpg
+
+rmonga:
+  name: Rohan Monga
+  primary: Registration Team
+  image: rmonga.jpg
+
+gjiang:
+  name: Geoffery Jiang
+  primary: Registration Team
+  image: avatar.jpg
+
+cpryde:
+  name: Cooper Pryde
+  primary: Registration Team
   image: avatar.jpg
