@@ -30,9 +30,9 @@ So you want to contribute to WAC? Great! We're aiming to have a full documentati
 
 ### Setup
 
-*Note: This guide assumes you're using a unix system. If you aren't (e.g. Windows), this setup method is currently unsupported, but we'll come up with one soon*.
+*Note: This guide assumes you're using a unix system. If you aren't (e.g. Windows), this setup method is currently unsupported.*
 
-Setup is dead simple. If you can cut and paste commands, you can have it up within minutes.
+Setting up the WAC website on a local machine is simple. All you need to do is copy-paste a few commands into your command line.
 
 First thing you need is the repository. Clone it with this command:
 
@@ -43,33 +43,27 @@ cd world.ac
 
 To setup your machine to run the server, you'll need the tools of the trade. The tools we use are:
 
-* [Ruby](https://www.ruby-lang.org/en/), to run [Jekyll](https://jekyllrb.com)
-* [Jekyll](https://jekyllrb.com), to build and run the website
-* [Sass](http://sass-lang.com/), to write CSS better
+* [Ruby](https://www.ruby-lang.org/en/), to build our site
+* [Bundler](https://bundler.io/), to install our ruby dependencies
 * [Git](https://git-scm.com/), to clone this repository
 * A Browser, to view the website of course!
 
-If you're using a UCC computer, Ruby comes pre-installed. That makes installing our dependencies pretty easy! (If you don't have ruby installed, you can find instructions [on their website](https://www.ruby-lang.org/en/)). To install `jekyll` and `sass`, our two ruby dependencies, simply type:
+Bundler installs these Ruby Dependencies:
+* [Jekyll](https://jekyllrb.com), to build and run the website
+* [Sass](http://sass-lang.com/), to write CSS better
+* [Rake](https://github.com/ruby/rake), to help us check our code
+* [HTML Proofer](https://github.com/gjtorikian/html-proofer), to help us check our HTML
 
-```bash
-sudo gem install jekyll sass
+If you're using a mac, Ruby comes pre-installed. That makes installing our dependencies pretty easy! (If you don't have ruby installed, you can find instructions [on their website](https://www.ruby-lang.org/en/)).
+
+To install our ruby dependencies, you need [Bundler](https://bundler.io/). You can install it with:
+
+```
+gem install bundler
 ```
 
-It will ask you for your password, just so it can install things properly. Once it's done, you're ready to build!
-
-Next step is to setup the server. Just run `./setup.sh`. Boom. Done.
+Next step is to setup our dependencies. Just run `./setup.sh`. Boom. Done. `setup.sh` runs `bundle`, which is why it's required for installation, as well as pulling a few libraries from the internet.
 
 To actually see the website, run `start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
 
-**TL;DR:** copypaste this into Terminal:
-
-```bash
-git clone --depth=1 https://github.com/malsf21/world.ac.git &&
-cd world.ac &&
-./setup.sh &&
-./start.sh
-```
-
-*Note: On `dev`/`master` branches, it might be be `127.0.0.1:4000/wactest/` or `127.0.0.1:4000/wac/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
-
-And voila! Everything should work for you. If something isn't, please let one of us on our [issues tracker](https://github.com/malsf21/world.ac/issues).
+And voila! Everything should work for you. If something isn't, please let one of us know on our [issues tracker](https://github.com/malsf21/world.ac/issues).

@@ -1,17 +1,15 @@
 language: ruby
+cache: bundler
 rvm:
-- 2.1
+- 2.4.0
 
-install:
-  - gem install jekyll
-  - gem install sass
 script:
   - ./setup.sh
+  - bundle exec rake test
 
 branches:
   only:
   - master
   - /dev-(.*)/
-  - scripting
 
 sudo: false

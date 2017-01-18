@@ -9,7 +9,7 @@ permalink: /staff/
     {% for item in site.data.staff %}
         <div class="card text-center">
           <div class="card-block">
-            <img class="img-fluid rounded-circle pb-1" src="{{site.baseurl}}/img/staff/{{item[1].image}}"/>
+            <img class="img-fluid rounded-circle pb-1" src="{{site.baseurl}}/img/staff/{{item[1].image}}" alt="picture of {{item[1].name}}"/>
             <h4 class="card-title">{{ item[1].name }}</h4>
             <h5>{{item[1].primary}}</h5>
             {% if item[1].secondary%}<h6>{{item[1].secondary}}</h6>{% endif %}
