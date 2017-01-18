@@ -159,11 +159,6 @@ jmace:
   image: johnmace.png
   github: j0hnmace
 
-clau:
-  name: Carson Lau
-  primary: Audio/Visual Team
-  image: avatar.jpg
-
 ssobie:
   name: Sloan Sobie
   primary: Audio/Visual Team
@@ -239,6 +234,7 @@ ttam:
 clau:
   name: Carson Lau
   primary: Package Designer
+  secondary: Audio/Visual Team
   image: avatar.jpg
 
 vchindea:
