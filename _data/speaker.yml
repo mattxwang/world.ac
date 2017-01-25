@@ -4,7 +4,7 @@ csoon:
   bio: This speaker's information is coming soon!
 
 jwzheng:
-  name: "Dr. Jim W. Zheng"
+  name: "Dr. W. Jim Zheng"
   pic: jimwzheng.jpg
   bio: Dr. Zheng is a professor from the University of Texas (Houston), and the associate director of the Centre for Computational Biomedicine. He has done research into genomics and computer ethics, and specializes in biomedical informatics. He also developed Genome3D, the first model-view framework to integrate and visualise 3D genomes.
 athorogood:
@@ -18,7 +18,7 @@ tszaky:
 jwong:
   name: Joseph Wong
   pic: jwong.png
-  bio: Joseph Wong is the Ralph and Roz Halbert Professor of Innovation at the Munk School of Global Affairs, Professor of Political Science, and Canada Research Chair in Health, Democracy, and Development. He has written many academic articles and books about global innovation, and his current research focuses on poverty and innovation. He has also worked with the World Bank, the United Nations, and advising governments on global public policy. 
+  bio: Joseph Wong is the Ralph and Roz Halbert Professor of Innovation at the Munk School of Global Affairs, Professor of Political Science, and Canada Research Chair in Health, Democracy, and Development. He has written many academic articles and books about global innovation, and his current research focuses on poverty and innovation. He has also worked with the World Bank, the United Nations, and advising governments on global public policy.
 jcunningham:
   name: Jack Cunningham
   pic: jcunningham.jpg
@@ -36,7 +36,7 @@ mzeiler:
   pic: mzeiler.jpg
   bio: "Matthew Zeiler is an expert well versed in the artificial intelligence field. In 2013 he founded Clarifai (a startup with over 40 million dollars in funding), shortly after completing his PhD in machine learning at NYU. Before that he gained invaluable experience working alongside renowned machine learning pioneers Geoff Hinton, Rob Fergus and Jeff Dean."
 nmcdonald:
-  name: Nancy McDonald
+  name: Nancy MacDonald
   pic: avatar.png
   bio: "Nancy Macdonald is a writer for the national section of Maclean’s. She is from Winnipeg, but has relocated to Vancouver. She has written on a variety of topics such as the government’s relationship with indigenous communities, the Fort McMurray Fire, and the RCMP."
 ijurisica:
