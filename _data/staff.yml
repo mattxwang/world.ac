@@ -10,7 +10,7 @@ kpollock:
 
 mjagdeo:
   name: Matthew Jagdeo
-  primary: Head of Plenaries
+  primary: Head of Programs
   image: mattjagdeo.jpg
 
 mwang:
@@ -23,7 +23,7 @@ mwang:
 
 akhemani:
   name: Anika Khemani
-  primary: Head of Plenaries
+  primary: Head of Programs
   image: avatar.jpg
 
 pnicoletti:
@@ -257,6 +257,21 @@ rwong:
   primary: Video Crew
   image: rwong.jpg
 
+bthorburn:
+  name: Blake Thorburn
+  primary: Video Crew
+  image: avatar.jpg
+
+eelia:
+  name: Emilio Elia
+  primary: Video Crew
+  image: avatar.jpg
+
+dreid:
+  name: Daniel Reid
+  primary: Video Crew
+  image: avatar.jpg
+
 rdean:
   name: Rob Dean
   primary: Registration Team
@@ -279,5 +294,10 @@ gjiang:
 
 cpryde:
   name: Cooper Pryde
+  primary: Registration Team
+  image: avatar.jpg
+
+apasricha:
+  name: Aryan Pasricha
   primary: Registration Team
   image: avatar.jpg
