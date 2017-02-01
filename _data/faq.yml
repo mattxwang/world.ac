@@ -54,6 +54,10 @@ keynote address:
     question: "Who is speaking at the Keynote Address?"
     answer: "Dr. Aubrey de Grey will be our Keynote Speaker: his talk will discuss radical life extension, with both medical and political implications."
 
+  whattimetogetseatsforthekeynoteaddress:
+    question: "When does the Keynote Address start?"
+    answer: "The Keynote Address starts at 7:00 PM, but we recommend delegates come at 6:30 PM to register and get seats."
+
 conference day:
   whathappensduringtheconferenceday:
     question: "What happens during the Conference Day?"
@@ -70,3 +74,12 @@ conference day:
   willstudentsbeprovidedlunch:
     question: "Will students be provided lunch?"
     answer: "Lunch is provided to both student and faculty delegates free of charge on the day of the conference. A vegetarian option will be provided. Delegates are also free to bring a pack lunch or go to a restaurant to fit their dietary concerns."
+
+  wheretogetdroppedoffonconferenceday:
+    question: "Where should delegations park or drop off students?"
+    answer: "Delegations can drop off students in the North parking lot, but cannot park inside the campus. We discourage delegates from parking, as parking spots are very hard to find. UCC is very close to the Davisville and St. Clair subway stations, and is recommended for smaller delegations."
+
+  mobilityaccessonconferenceday:
+    question: "How are mobility accessibility issues dealt with?"
+    answer: "Mobility accessibility issues can be dealt with on a case-by-case basis. Contact WAC organizers on the day of for more information."
+
