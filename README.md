@@ -54,7 +54,7 @@ Bundler installs these Ruby Dependencies:
 * [Rake](https://github.com/ruby/rake), to help us check our code
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer), to help us check our HTML
 
-If you're using a UCC computer, Ruby comes pre-installed. That makes installing our dependencies pretty easy! (If you don't have ruby installed, you can find instructions [on their website](https://www.ruby-lang.org/en/)).
+If you're using a mac, Ruby comes pre-installed. That makes installing our dependencies pretty easy! (If you don't have ruby installed, you can find instructions [on their website](https://www.ruby-lang.org/en/)).
 
 To install our ruby dependencies, you need [Bundler](https://bundler.io/). You can install it with:
 
@@ -62,16 +62,10 @@ To install our ruby dependencies, you need [Bundler](https://bundler.io/). You c
 gem install bundler
 ```
 
-Then, we'll use Bundler to install our other dependencies. Just type in:
+Next step is to setup our dependencies. Just run `./setup.sh`. Boom. Done. `./setup.sh` runs `bundle`, which is why it's required for installation, as well as pulling a few libraries from the internet.
 
-```
-bundle install
-```
+*Note: You might have troubles running `.sh` files if you don't make it an executable. An easy way to do that is to type in `chmod +x ./setup.sh`, and then run `./setup.sh`!*
 
-Next step is to setup our dependencies. Just run `./setup.sh`. Boom. Done.
+To actually see the website, run `./start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
 
-To actually see the website, run `start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
-
-*Note: On `dev`/`master` branches, it might be be `127.0.0.1:4000/wactest/` or `127.0.0.1:4000/wac/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
-
-And voila! Everything should work for you. If something isn't, please let one of us on our [issues tracker](https://github.com/malsf21/world.ac/issues).
+And voila! Everything should work for you. If something isn't, please let one of us know on our [issues tracker](https://github.com/malsf21/world.ac/issues).
