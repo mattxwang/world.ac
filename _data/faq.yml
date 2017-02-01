@@ -47,7 +47,7 @@ keynote address:
 
   whendoesthekeynoteaddressstart:
     question: "When does the Keynote Address start?"
-    answer: "We will update delegates on this closer to the conference date."
+    answer: "The Keynote Address starts at 7:00 PM, but we recommend delegates come at 6:30 PM to register and get seats."
 
   whocanattendthekeynoteaddress:
     question: "Who can attend the Keynote Address?"
@@ -56,10 +56,6 @@ keynote address:
   whoisspeakingatthekeynoteaddress:
     question: "Who is speaking at the Keynote Address?"
     answer: "Dr. Aubrey de Grey will be our Keynote Speaker: his talk will discuss radical life extension, with both medical and political implications."
-
-  whattimetogetseatsforthekeynoteaddress:
-    question: "When does the Keynote Address start?"
-    answer: "The Keynote Address starts at 7:00 PM, but we recommend delegates come at 6:30 PM to register and get seats."
 
 conference day:
   whathappensduringtheconferenceday:
@@ -85,4 +81,3 @@ conference day:
   mobilityaccessonconferenceday:
     question: "How are mobility accessibility issues dealt with?"
     answer: "Mobility accessibility issues can be dealt with on a case-by-case basis. Contact WAC organizers on the day of for more information."
-
