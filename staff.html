@@ -16,8 +16,7 @@ permalink: /staff/
             {% if item[1].github%}<a class="black-icon" href="https://github.com/{{item[1].github}}"><span class="fa fa-2x fa-github"></span></a>{% endif %}
           </div>
         </div>
-        {% cycle 'group1': '', '', '', '</div>
-          <div class="card-deck mt-2">' %}
+        {% cycle 'group1': '', '', '', '</div><div class="card-deck mt-2">' %}
     {% endfor %}
     </div>
   </div>
