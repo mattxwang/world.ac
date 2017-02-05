@@ -6,28 +6,31 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="nav navbar-nav mr-auto">
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+      </li>
+      <li class="nav-item{% if page.url == '/keynote/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/keynote/">Keynote</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/addresses/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/addresses/">Addresses</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/plenaries/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/plenaries/">Plenaries</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/faq/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/faq/">FAQ</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/staff/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/staff/">Staff</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/schedule/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/schedule/">Schedule</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ site.baseurl }}/files/del_2017.pdf">Delegate Package</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item{% if page.url == '/contact/' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a>
       </li>
     </ul>
