@@ -15,12 +15,12 @@ permalink: /faq/
   {% for category in site.data.faq %}
     <div class="card card-block mt-2">
       <h2 class="text-xs-center">{{ category[0] | capitalize }}</h2>
-      <div id="accordion-{{category[0]}}" role="tablist" aria-multiselectable="true">
+      <div id="accordion-{{category[0] | replace: ' ',''}}" role="tablist" aria-multiselectable="true">
         {% for question in category[1] %}
         <div class="card">
           <div class="card-header" role="tab" id="heading-{{question[0]}}">
             <h5 class="mb-0">
-              <a data-toggle="collapse" data-parent="#accordion-{{category[0]}}" href="#collapse-{{question[0]}}" aria-expanded="true" aria-controls="collapse-{{question[0]}}">
+              <a data-toggle="collapse" data-parent="#accordion-{{category[0] | replace: ' ',''}}" href="#collapse-{{question[0]}}" aria-expanded="true" aria-controls="collapse-{{question[0]}}">
                 {{question[1].question}}
               </a>
             </h5>
