@@ -10,7 +10,7 @@ kpollock:
 
 mjagdeo:
   name: Matthew Jagdeo
-  primary: Head of Plenaries
+  primary: Head of Programs
   image: mattjagdeo.jpg
 
 mwang:
@@ -23,7 +23,7 @@ mwang:
 
 akhemani:
   name: Anika Khemani
-  primary: Head of Plenaries
+  primary: Head of Programs
   image: avatar.jpg
 
 pnicoletti:
@@ -72,7 +72,7 @@ elozhkin:
   image: elozhkin.jpg
 
 hgoldhar:
-  name: Hili Goldhar
+  name: Hilli Goldhar
   primary: Plenary Head
   image: hgoldhar.jpg
 
@@ -133,22 +133,22 @@ cwaldie:
 
 ebraithwaite:
   name: Emerson Braithwaite
-  primary: Opening Panel Head
+  primary: Opening Addresses Head
   image: ebraithwaite.jpg
 
 hkedwell:
   name: Hayley Kedwell
-  primary: Opening Panel Head
+  primary: Opening Addresses Head
   image: avatar.jpg
 
 mhoaken:
   name: Miles Hoaken
-  primary: Closing Panel Head
+  primary: Closing Addresses Head
   image: mhoaken.jpg
 
 areeves:
   name: Alex Phillip-Reeves
-  primary: Closing Panel Head
+  primary: Closing Addresses Head
   image: areeves.jpg
 
 jmace:
@@ -224,18 +224,18 @@ akazakov:
 achan:
   name: Ambrose Chan
   primary: Package Designer
-  image: avatar.jpg
+  image: achan.jpg
 
 ttam:
   name: Tyler Tam
   primary: Package Designer
-  image: avatar.jpg
+  image: ttam.jpg
 
 clau:
   name: Carson Lau
   primary: Package Designer
   secondary: Audio/Visual Team
-  image: avatar.jpg
+  image: clau.jpg
 
 vchindea:
   name: Vladimir Chindea
@@ -257,6 +257,21 @@ rwong:
   primary: Video Crew
   image: rwong.jpg
 
+bthorburn:
+  name: Blake Thorburn
+  primary: Video Crew
+  image: avatar.jpg
+
+eelia:
+  name: Emilio Elia
+  primary: Video Crew
+  image: avatar.jpg
+
+dreid:
+  name: Daniel Reid
+  primary: Video Crew
+  image: dreid.jpg
+
 rdean:
   name: Rob Dean
   primary: Registration Team
@@ -275,9 +290,14 @@ rmonga:
 gjiang:
   name: Geoffrey Jiang
   primary: Registration Team
-  image: avatar.jpg
+  image: gjiang.jpg
 
 cpryde:
   name: Cooper Pryde
+  primary: Registration Team
+  image: avatar.jpg
+
+apasricha:
+  name: Aryan Pasricha
   primary: Registration Team
   image: avatar.jpg

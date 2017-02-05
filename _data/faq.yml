@@ -21,7 +21,7 @@ registration:
     answer: "This year, we are using an online registration system! Visit the link in the navbar to get started."
   whenisregistrationdue:
     question: "When is registration due?"
-    answer: "Online registration will close by January 31st, 23:59. We cannot handle late registration. We suggest you plan to register at least a week in advance of the deadline, to account for any errors or last-minute accomodations."
+    answer: "Registration is now closed. Online registration will close by January 30th, 23:59. We cannot handle late registration. We suggest you plan to register at least a week in advance of the deadline, to account for any errors or last-minute accomodations."
   howmuchdoesregcost:
     question: "How much does registration cost?"
     answer: "Registration costs $50 per student. If price is an issue, please let us know: we can arrange special accomodations."
@@ -30,7 +30,7 @@ registration:
     answer: "Please send a cheque for the total amount of students times $50 CAD payable to Upper Canada College. Our address is 200 Lonsdale Rd, Toronto, ON M4V 1W6. We will send an invoice to your registered email once we receive payment. If there are special accomodations, we will notify you in advance."
   whenisdue:
     question: "When are registration fees due?"
-    answer: "The WAC team recommends that advisors send their registration in by January 31st, to ensure that it arrives on a timely matter; the hard deadline for registration fees is the day of the conference (February 7th), and we will not let delegates inside the conference if fees are not paid by then."
+    answer: "The WAC team recommends that advisors send their registration in by January 30th, to ensure that it arrives on a timely matter; the hard deadline for registration fees is the day of the conference (February 7th), and we will not let delegates inside the conference if fees are not paid by then."
 
   caniregisterasanindividualstudent:
     question: "Can I register as an individual student?"
@@ -47,7 +47,7 @@ keynote address:
 
   whendoesthekeynoteaddressstart:
     question: "When does the Keynote Address start?"
-    answer: "We will update delegates on this closer to the conference date."
+    answer: "The Keynote Address starts at 7:00 PM, but we recommend delegates come at 6:30 PM to register and get seats."
 
   whocanattendthekeynoteaddress:
     question: "Who can attend the Keynote Address?"
@@ -73,3 +73,11 @@ conference day:
   willstudentsbeprovidedlunch:
     question: "Will students be provided lunch?"
     answer: "Lunch is provided to both student and faculty delegates free of charge on the day of the conference. A vegetarian option will be provided. Delegates are also free to bring a pack lunch or go to a restaurant to fit their dietary concerns."
+
+  wheretogetdroppedoffonconferenceday:
+    question: "Where should delegations park or drop off students?"
+    answer: "Delegations can drop off students in the North parking lot, but cannot park inside the campus. We discourage delegates from parking, as parking spots are very hard to find. UCC is very close to the Davisville and St. Clair subway stations, and is recommended for smaller delegations."
+
+  mobilityaccessonconferenceday:
+    question: "How are mobility accessibility issues dealt with?"
+    answer: "Mobility accessibility issues can be dealt with on a case-by-case basis. Contact WAC organizers on the day of for more information."
