@@ -60,7 +60,7 @@ keynote address:
 conference day:
   whathappensduringtheconferenceday:
     question: "What happens during the Conference Day?"
-    answer: "During the Conference Day, delegates will attend the Opening Address. Then, they will then proceed to attend three out of the six plenaries that they have been assigned to, with a lunch break in between. Finally, delegates will attend the Closing Address. A full schedule will be given to the delegates closer to the conference date."
+    answer: "During the Conference Day, delegates will attend the Opening Address. Then, they will then proceed to attend three out of the six plenaries that they have been assigned to, with a lunch break in between. Finally, delegates will attend the Closing Address. A full schedule can be found on the schedule page."
 
   isthereacheckinprocess:
     question: "Is there a check in process?"
@@ -68,7 +68,7 @@ conference day:
 
   whattimesdoalloftheseeventshappen:
     question: "What times do all of these events happen?"
-    answer: "Our schedule will be updated on our website, and given out in delegate/faculty packages, as we get closer to the conference date."
+    answer: "Our schedule is available on the schedule page of our website, as well as the delegate package available online."
 
   willstudentsbeprovidedlunch:
     question: "Will students be provided lunch?"
