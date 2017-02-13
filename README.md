@@ -62,8 +62,10 @@ To install our ruby dependencies, you need [Bundler](https://bundler.io/). You c
 gem install bundler
 ```
 
-Next step is to setup our dependencies. Just run `./setup.sh`. Boom. Done. `setup.sh` runs `bundle`, which is why it's required for installation, as well as pulling a few libraries from the internet.
+Next step is to setup our dependencies. Just run `./setup.sh`. Boom. Done. `./setup.sh` runs `bundle`, which is why it's required for installation, as well as pulling a few libraries from the internet.
 
-To actually see the website, run `start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
+*Note: You might have troubles running `.sh` files if you don't make it an executable. An easy way to do that is to type in `chmod +x ./setup.sh`, and then run `./setup.sh`!*
+
+To actually see the website, run `./start.sh`. Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/](http://127.0.0.1:4000/), but that might change soon)!
 
 And voila! Everything should work for you. If something isn't, please let one of us know on our [issues tracker](https://github.com/malsf21/world.ac/issues).
