@@ -1,5 +1,6 @@
 # [world.ac](http://world.ac)
 [![Build Status](https://travis-ci.org/malsf21/world.ac.svg?branch=master)](https://travis-ci.org/malsf21/world.ac)
+[![GitHub Release](https://img.shields.io/github/release/malsf21/world.ac.svg)](https://github.com/malsf21/world.ac/releases)
 
 ## The World Affairs Conference Website
 
