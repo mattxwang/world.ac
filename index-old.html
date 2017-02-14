@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="alert alert-info" role="alert">
+    Thanks for coming to WAC 2017! If you have some time, please fill out our <a class="alert-link" href="https://goo.gl/forms/4OpHxG8vUMVsQkEa2">feedback form</a> to make WAC more awesome next year!
+  </div>
+</div>
+<div class="index-welcome">
+  <div class="container">
+    <div class="text-center text-md-left">
+      <h2>Welcome to the 2017</h2>
+      <h1>World Affairs Conference</h1>
+    </div>
+    <div class="text-center">
+      This Year's Theme:
+      <h1 class="display-4">The Innovation Game</h1>
+    </div>
+    <div class="text-center text-md-right">
+      <h4>The Conference is</h4>
+      <h3><span id="countdown">loading...</span></h3>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card card-block mt-3">
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-fluid" src="{{site.baseurl}}/img/wac_logo.svg" alt="WAC Logo"/>
+      </div>
+      <div class="col-sm-8">
+        <h4>What's WAC?</h4>
+        <p>The World Affairs Conference (WAC) is Canada's oldest annual student-run current affairs conference. Annually held at Upper Canada College in Toronto, Canada, the World Affairs Conference connects over 1000 students, with a common interest in current affairs, from across North America. A dedicated team of about 100 high school students from Upper Canada College, in coordination with Branksome Hall, voluntarily contribute their time for many months leading up to the day of WAC to ensure the success and positive experience for each delegate that attends the conference. We look forward to welcoming you to the 2017 conference.</p>
+        <a class="card-link" href="{{site.baseurl}}/keynote/">Keynote</a>
+        <a class="card-link" href="{{site.baseurl}}/addresses/">Addresses</a>
+        <a class="card-link" href="{{site.baseurl}}/plenaries/">Plenaries</a>
+        <a class="card-link" href="{{site.baseurl}}/faq/">FAQ</a>
+        <a class="card-link" href="{{site.baseurl}}/contact/">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container py-2">
+  <div class="card card-block">
+    <div class="row">
+      <div class="col-md-4">
+        <iframe class="img-fluid d-block" src="https://www.youtube.com/embed/mal4ijVNtOw" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-8">
+        <h2>"Our Time"</h2>
+        <p>
+          "Our Time" demonstrates the urgency of the problems existing in the status quo, and why the youth, as a generation have to rise to the challenge to ensure the security of the future.
+        </p>
+        <p>
+          WAC 2017 is coming up soon! The Lionel Gelber Keynote Address is open to the Toronto public on February 6th, as part of the World Affairs Conference. This year, in "A Prognosis for a Post-Aging Planet", Aubrey De Grey discusses the implications of radical life extension. Learn more on <a class="card-link" href="{{site.baseurl}}/keynote/">Keynote</a> page.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  var wacdate = "2/7/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  function getTimeRemaining(endtime){
+  	var t = Date.parse(endtime) - Date.parse(new Date());
+  	var seconds = Math.floor( (t/1000) % 60 );
+  	var minutes = Math.floor( (t/1000/60) % 60 );
+  	var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  	var days = Math.floor( t/(1000*60*60*24) );
+
+  	if (t > 0){
+  		return "in " + days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds";
+  	}
+    else if (t < 0) {
+      return "in progress!"
+    }
+  	else {
+  		return "Oops!";
+  	}
+  }
+  window.setInterval(function(){
+    $("#countdown").html(getTimeRemaining(wacdate));
+  }, 1000);
+</script>
