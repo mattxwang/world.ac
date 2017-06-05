@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# Our dependencies
+# Dependency locations and variables
 JQUERY=https://code.jquery.com/jquery-3.1.1.min.js
 TETHER=https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js
-
 FA_VER=font-awesome-4.7.0
-FONTAWSOME=http://fontawesome.io/assets/$FA_VER.zip
-
+FONTAWESOME=http://fontawesome.io/assets/$FA_VER.zip
 BS_VER=4.0.0-alpha.6
 BOOTSTRAP=https://codeload.github.com/twbs/bootstrap/zip/v$BS_VER
 
@@ -17,6 +15,7 @@ hash bundle 2>/dev/null || { echo >&2 "Bundler not installed please install with
 hash curl 2>/dev/null || { echo >&2 "curl not installed, building it from wget"; alias curl="wget -q -O - $1"; }
 
 # Helper functions
+# This just curls and unzips the file
 uncurl() {
 	echo " . Downloading $2"
 	curl -s $1 > temp.zip
@@ -24,12 +23,11 @@ uncurl() {
 	unzip -q temp.zip
 	rm temp.zip
 }
-
+# This makes a folder and cd's into it
 mkcd() {
 	mkdir $1
 	cd $1
 }
-
 
 # Actual installation
 cd ${0%/*} # Go to this directory
@@ -38,7 +36,7 @@ echo "   Starting install"
 # RubyGems
 echo " - Starting RubyGems"
 bundle install
-echo " √ Javascript done!"
+echo " √ RubyGems done!"
 
 # All independent Javascript
 echo " - Starting Javascript"
@@ -50,7 +48,7 @@ echo " √ Javascript done!"
 
 # FontAwesome
 echo " - Starting FontAwesome"
-uncurl $FONTAWSOME FontAwesome
+uncurl $FONTAWESOME FontAwesome
 mv $FA_VER fa-archive
 mv fa-archive/fonts .
 mv fa-archive/css/font-awesome.min.css css/
@@ -66,7 +64,7 @@ mv bs-archive/dist/js/bootstrap.min.js js/
 rm -r bs-archive
 echo " √ Bootstrap done!"
 
-# Build the resulting website
+# Build the resulting website (this is redundant but is useful for time efficiency)
 echo " - Building site"
 sass css/bootstrap/bootstrap.scss --style compressed > css/bootstrap.min.css # Sass -> CSS
 jekyll build
