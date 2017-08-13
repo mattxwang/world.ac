@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/malsf21/world.ac.svg?branch=master)](https://travis-ci.org/malsf21/world.ac)
 [![GitHub Release](https://img.shields.io/github/release/malsf21/world.ac.svg)](https://github.com/malsf21/world.ac/releases)
 
+*Attention:* this is an older version of our repo. We have a [new, more awesome version](https://github.com/worldaffairsconference/world.ac) at the [WAC Organization](https://github.com/worldaffairsconference/world.ac). This one will no longer be updated.
+
 ## The World Affairs Conference Website
 
 Hello there! Welcome to the repository for the World Affairs Conference (WAC).
